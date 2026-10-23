@@ -6,7 +6,7 @@ $p = new PDO('sqlite:' . $D . '/dar.sqlite'); $out = [];
 try { $out['code_hist'] = $p->query("SELECT id, path, action, bak, at, uid, size_before, size_after FROM code_hist ORDER BY id DESC LIMIT 12")->fetchAll(PDO::FETCH_ASSOC); } catch (Throwable $e) { $out['code_hist_err'] = $e->getMessage(); }
 $cur = (string)@file_get_contents($W . '/assets/i18n.js'); $out['i18n'] = ['size' => strlen($cur), 'mtime' => gmdate('c', (int)@filemtime($W . '/assets/i18n.js'))];
 $bak = '';
-foreach ($out['code_hist'] ?? [] as $h) if (($h['path'] ?? '') === 'assets/i18n.js' && ($h['bak'] ?? '') !== '') { $b = (string)$h['bak']; foreach ([$b, $D . '/' . $b, $D . '/code/' . $b, $D . '/code-bak/' . $b] as $f) if (is_file($f)) { $bak = $f; break 2; } }
+foreach ($out['code_hist'] ?? [] as $h) if (($h['path'] ?? '') === 'assets/i18n.js' && ($h['bak'] ?? '') !== '') { $b = (string)$h['bak']; foreach ([$D . '/code-history/' . $b, $b, $D . '/' . $b] as $f) if (is_file($f)) { $bak = $f; break 2; } }
 $out['bak_found'] = $bak !== '' ? basename($bak) : '';
 if ($bak !== '') {
     $a = explode("\n", (string)file_get_contents($bak)); $c = explode("\n", $cur); $diff = [];
