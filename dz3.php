@@ -11,7 +11,7 @@ if (function_exists('whop_cfg')) { $w = whop_cfg(); $o['whop'] = ['on' => $w['on
 if (function_exists('pay_cfg')) { $d = pay_cfg(); $o['dodo'] = ['on' => $d['on'] ?? null, 'key' => ($d['key'] ?? '') !== '', 'secret' => ($d['secret'] ?? '') !== '', 'ready' => pay_ready($d)]; }
 foreach (['pay.transfer', 'pay.online', 'pay.card'] as $f) $o['feat'][$f] = function_exists('feat_own') ? feat_own($P, $f) : null;
 $o['feat_auto'] = function_exists('feat_auto') ? array_intersect_key(feat_auto(), array_flip(['pay.transfer', 'pay.online', 'pay.card', 'partners.payouts'])) : null;
-$o['tenants'] = $tq("SELECT json_extract(data, '$.status') st, json_extract(data, '$.app') app, COUNT(*) n FROM tenants GROUP BY st, app");
+$o['tenants'] = $tq("SELECT status st, app, COUNT(*) n FROM tenants GROUP BY status, app");
 $o['payments'] = $tq("SELECT kind, status, COUNT(*) n, MAX(at) last FROM payments GROUP BY kind, status");
 $o['tm_script'] = array_map(fn($r) => [$r['lang'], mb_substr((string)$r['src'], 0, 70)], $tq("SELECT lang, src FROM tm_q WHERE tries >= 3 AND err = 'script' ORDER BY RANDOM() LIMIT 30"));
 $o['tm_untr'] = array_map(fn($r) => [$r['lang'], mb_substr((string)$r['src'], 0, 70)], $tq("SELECT lang, src FROM tm_q WHERE tries >= 3 AND err IN ('untranslated', 'marks') LIMIT 12"));
