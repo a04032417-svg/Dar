@@ -7,6 +7,7 @@
 S=/home/u791571885/ds33331r; R=/home/u791571885/domains/dar.ink/public_html; P=/opt/alt/php83/usr/bin/php
 SRC=https://raw.githubusercontent.com/a04032417-svg/Dar/4587baf98ca8e353b6eb70d506d20d7c3d1d32f9
 HI=1858e1142005ac3ae0fa8c1fa95075e0359b87021765ef4d46ab35058e465fa8
+ZH=5be978bedbcaef6daafc52aacf1bd83f93c191c026bf7e24e1637c478ff47ae3
 ENC=b5a15b8cf0823ea189fe4367d63b13181d884ab0419bdd959ad411628eabf671
 ck() { $P -r 'exit(hash_file("sha256", $argv[1]) === $argv[2] ? 0 : 1);' "$1" "$2" || { echo "hash mismatch: $1"; return 1; }; }
 get() { curl -fsSL --retry 3 --connect-timeout 20 --max-time "$3" -o "$1" "$SRC/$1" && ck "$1" "$2"; }
@@ -20,7 +21,7 @@ if [ -e "$out" ]; then cat "$out"; exit 0; fi
   if [ "$step" = check ]; then
     get host-install.php "$HI" 120 && $P host-install.php audit "$R"
   else
-    get host-install.php "$HI" 120 && get dar.zip.enc "$ENC" 900 && $P host-install.php install "$R" "$2" "$3" && $P "$R/dar-sync.php" cron
+    get host-install.php "$HI" 120 && get dar.zip.enc "$ENC" 900 && $P host-install.php install "$R" "$2" "${3:-$ZH}" && $P "$R/dar-sync.php" cron
   fi
   echo "exit $?"
 } > "$out" 2>&1
