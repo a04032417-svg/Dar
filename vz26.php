@@ -1,0 +1,11 @@
+<?php
+// Dar — read-only look #2 at the map sources from the live host (2026-10-29): which public Overpass servers answer the site's own queries, and how fast.
+$R = '/home/u791571885/domains/dar.ink/public_html'; chdir($R); require $R . '/dar-sync.php'; if (!function_exists('pl_cfg') && is_file($R . '/dar-places.php')) require_once $R . '/dar-places.php';
+$mirrors = ['https://overpass-api.de/api/interpreter', 'https://z.overpass-api.de/api/interpreter', 'https://lz4.overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter', 'https://overpass.private.coffee/api/interpreter', 'https://overpass.openstreetmap.fr/api/interpreter', 'https://maps.mail.ru/osm/tools/overpass/api/interpreter', 'https://overpass.nchc.org.tw/api/interpreter', 'https://overpass.openstreetmap.ru/api/interpreter', 'https://overpass.osm.jp/api/interpreter'];
+$qs = ['nearby' => pl_query('nearby', 24.7136, 46.6753, 1500), 'districts' => pl_query('districts', 24.7136, 46.6753, 10000), 'tiny' => '[out:json][timeout:10];node(1);out;'];
+$mh = curl_multi_init(); $hs = [];
+foreach ($qs as $qn => $ql) foreach ($mirrors as $i => $u) { $ch = curl_init($u); curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => 1, CURLOPT_TIMEOUT => 40, CURLOPT_CONNECTTIMEOUT => 10, CURLOPT_POST => 1, CURLOPT_POSTFIELDS => 'data=' . rawurlencode($ql), CURLOPT_USERAGENT => pl_ua(), CURLOPT_HTTPHEADER => ['Content-Type: application/x-www-form-urlencoded', 'Accept: text/csv,text/plain,*/*']]); curl_multi_add_handle($mh, $ch); $hs[$qn . '|' . parse_url($u, PHP_URL_HOST)] = $ch; }
+$t0 = microtime(true); do { curl_multi_exec($mh, $run); if ($run) curl_multi_select($mh, 0.3); } while ($run && microtime(true) - $t0 < 45);
+$o = ['v' => SYNC_VERSION, 'secs' => round(microtime(true) - $t0, 1)];
+foreach ($hs as $k => $ch) { $b = (string)curl_multi_getcontent($ch); [$qn] = explode('|', $k); $o[$k] = [(int)curl_getinfo($ch, CURLINFO_RESPONSE_CODE), (int)(curl_getinfo($ch, CURLINFO_TOTAL_TIME) * 1000), strlen($b), $qn === 'tiny' ? (strpos($b, '"elements"') !== false) : pl_good($b, 'csv'), curl_error($ch) ?: substr(preg_replace('/\s+/', ' ', strip_tags($b)), 0, 50)]; curl_multi_remove_handle($mh, $ch); curl_close($ch); }
+echo json_encode($o, JSON_UNESCAPED_UNICODE | JSON_PARTIAL_OUTPUT_ON_ERROR | JSON_INVALID_UTF8_SUBSTITUTE), "\n";
