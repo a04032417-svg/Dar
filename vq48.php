@@ -1,0 +1,7 @@
+<?php
+$R = '/home/u791571885/domains/dar.ink/public_html'; chdir($R); require $R . '/dar-sync.php'; require_once $R . '/dar-mailcheck.php';
+$c = mail_cfg(); $o = ['v' => SYNC_VERSION, 'ev_mode' => ev_mode(), 'cfg' => ['enabled' => $c['enabled'], 'smtp_host' => $c['smtp_host'], 'smtp_port' => $c['smtp_port'] ?? null, 'smtp_user_set' => $c['smtp_user'] !== '', 'from_set' => $c['from_email'] !== '', 'pass_set' => vault_get('smtp_password') !== null]];
+try { ev_db(); foreach (q("SELECT app, ok, via, err, sent_at, sends, tries, retry FROM email_checks ORDER BY sent_at DESC LIMIT 6")->fetchAll() as $r) { $r['sent_at'] = gmdate('c', (int)($r['sent_at'] / 1000)); $o['checks'][] = $r; } } catch (Throwable $e) { $o['checks_err'] = $e->getMessage(); }
+try { foreach (q("SELECT at, kind, ok, via, err FROM mail_log ORDER BY at DESC LIMIT 10")->fetchAll() as $r) { $r['at'] = gmdate('c', (int)($r['at'] / 1000)); $o['log'][] = $r; } } catch (Throwable $e) { $o['log_err'] = $e->getMessage(); }
+try { foreach (q("SELECT id, app, role, created, rec FROM users WHERE email LIKE 'qysb819%' ")->fetchAll() as $r) { $rec = o2a(jdec((string)$r['rec'])) ?: []; $o['user'][] = ['app' => $r['app'], 'role' => $r['role'], 'created' => gmdate('c', (int)($r['created'] / 1000)), 'email_ok_at' => $rec['email_ok_at'] ?? null, 'by' => $rec['email_ok_by'] ?? null, 'state' => ev_state($r)]; } } catch (Throwable $e) { $o['user_err'] = $e->getMessage(); }
+echo json_encode($o, JSON_UNESCAPED_UNICODE);
