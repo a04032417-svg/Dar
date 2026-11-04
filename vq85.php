@@ -6,6 +6,7 @@ echo json_encode(['sodium' => extension_loaded('sodium'), 'php' => PHP_VERSION])
 // is served at /.well-known/mcp-registry-auth (the private half stays in the site's database). Prints statuses only, never a key.
 $R = '/home/u791571885/domains/dar.ink/public_html'; chdir($R); require $R . '/dar-sync.php';
 $o = ['ver' => SYNC_VERSION]; $H = 'https://dar.ink';
+$se = log_tail(data_dir() . '/server-errors.log', 7200); $o['server_errors_2h'] = array_map(fn($g) => mb_substr((string)$g['msg'], 0, 160) . ' @' . ($g['where'] ?? '') . ' x' . ($g['n'] ?? ''), $se['groups'] ?? []);
 $post = function (string $u, $body, array $h = []): array { $c = curl_init($u); curl_setopt_array($c, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 40, CURLOPT_POST => true, CURLOPT_POSTFIELDS => is_string($body) ? $body : json_encode($body, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE), CURLOPT_HTTPHEADER => array_merge(['Content-Type: application/json', 'Accept: application/json, text/event-stream'], $h)]); $b = (string)curl_exec($c); $s = curl_getinfo($c, CURLINFO_HTTP_CODE); curl_close($c); return [$s, $b]; };
 // (1) the server, as an agent sees it
 [$s, $b] = $post($H . '/mcp', ['jsonrpc' => '2.0', 'id' => 1, 'method' => 'initialize', 'params' => ['protocolVersion' => '2025-06-18', 'capabilities' => new stdClass(), 'clientInfo' => ['name' => 'dar-check', 'version' => '1']]]); $j = json_decode($b, true); $o['mcp_init'] = [$s, $j['result']['serverInfo']['name'] ?? substr($b, 0, 120)];
