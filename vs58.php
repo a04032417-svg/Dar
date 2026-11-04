@@ -45,6 +45,7 @@ foreach ($L as $i => $l) { [$lg, $kd, $n, $d] = explode('|', $l); if ($res['ok']
   $to = $ems[0]; if (isset($sent[$to]) || isset($prev[$to])) { $res['skip']++; continue; }
   $who = $what[$kd][$lg] ?? ''; [$s, $b] = dar_tpl($lg, $kd, $n, $who, $stopEn, $stopFr, $stopAr);
   $ok = send_mail($to, $s, $b, 'campaign', 'platform', false, ['reply' => 'service@dar.ink', 'name' => 'Dar | دار']);
+  if ($ok && ($GLOBALS['dar_mail_via'] ?? '') !== 'smtp') { $sent[$to] = [$kd, gmdate('c'), 'plain']; file_put_contents($keep, json_encode($sent)); $res['stopped'] = 'the mailbox refused (daily limit): the rest waits'; break; }
   if ($ok) { $res['ok']++; $res['by'][$kd . $lg] = ($res['by'][$kd . $lg] ?? 0) + 1; $sent[$to] = [$kd, gmdate('c')]; } else { $res['fail'][] = [$d, (string)($GLOBALS['dar_mail_err'] ?? '')]; if (count($res['fail']) >= 3) break; }
   file_put_contents($keep, json_encode($sent)); usleep(2500000);
 }
