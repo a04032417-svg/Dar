@@ -1,14 +1,14 @@
 #!/bin/sh
-# Dar 3.33.59 — the host's one-time steps, run by a temporary cron job (each step runs once; later runs show its saved output).
+# Dar 3.33.58 (back) — the host's one-time steps, run by a temporary cron job (each step runs once; later runs show its saved output).
 #   sh run.sh check                    — reads the live site (nothing changed)
 #   sh run.sh install <key> <sha256>   — the install by the site's own code (backup first; undone by itself if anything fails), then
 #                                        the site's duties once
 # The package's key is given on the command line only; it is never in this repository.
-S=/home/u791571885/ds33359r; R=/home/u791571885/domains/dar.ink/public_html; P=/opt/alt/php83/usr/bin/php
-SRC=https://raw.githubusercontent.com/a04032417-svg/Dar/d6d02c13f7c250339497a1d8c00d1471a80e77b6
+S=/home/u791571885/ds33358b; R=/home/u791571885/domains/dar.ink/public_html; P=/opt/alt/php83/usr/bin/php
+SRC=https://raw.githubusercontent.com/a04032417-svg/Dar/e8866b6df62150e0127bc8daac3143680a190fe8
 HI=1858e1142005ac3ae0fa8c1fa95075e0359b87021765ef4d46ab35058e465fa8
-ZH=2cfcb76f9d5022dcbad02550c69cfa2a37a9870247b2953afb86228425c04bad
-ENC=6f286b576e0695ed3bf206799efcc783ba96e707d02f292e11804a38f47fae37
+ZH=aaa616f2043e8d0d87b2e34c99ed20795d1bc3d33895fbf1d96ab792afdfa35b
+ENC=8a75b70d187d495891e25ce9af7b1d85417d6ebbaba08822df29353a195d49a4
 ck() { $P -r 'exit(hash_file("sha256", $argv[1]) === $argv[2] ? 0 : 1);' "$1" "$2" || { echo "hash mismatch: $1"; return 1; }; }
 get() { curl -fsSL --retry 3 --connect-timeout 20 --max-time "$3" -o "$1" "$SRC/$1" && ck "$1" "$2"; }
 mkdir -p $S && cd $S || exit 1
