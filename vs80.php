@@ -4,7 +4,7 @@
 // pages a day; (3) checks of the new pages. Counts only, no personal data.
 $R = '/home/u791571885/domains/dar.ink/public_html'; chdir($R); require $R . '/dar-sync.php'; grow_db();
 $B = 'https://calendly.com/service-dar/dar-setup-15-min'; $o = ['ver' => SYNC_VERSION];
-tx(function () use ($B): void { $P = platform_rec(); foreach (['landing', 'grow'] as $k) if (!isset($P->$k) || !is_object($P->$k)) $P->$k = new stdClass(); if (!isset($P->landing->company) || !is_object($P->landing->company)) $P->landing->company = new stdClass(); $P->landing->company->book = $B; $P->grow->ai_daily = 8; kv_put('platform', 'platform', jenc($P), 'growth'); });
+tx(function () use ($B): void { $P = platform_rec(); foreach (['landing', 'grow'] as $k) if (!isset($P->$k) || !is_object($P->$k)) $P->$k = new stdClass(); if (!isset($P->landing->company) || !is_object($P->landing->company)) $P->landing->company = new stdClass(); $P->landing->company->book = $B; $P->grow->ai_daily = 12; $P->grow->langs = ['ar', 'en', 'fr', 'es', 'pt', 'de', 'it', 'ru', 'tr', 'fa', 'ur', 'hi', 'bn', 'id', 'zh-Hans']; /* the owner: every language, none preferred — the languages the site ships a pack for; the others join as their packs arrive */ kv_put('platform', 'platform', jenc($P), 'growth'); });
 $T = [ // [query, priority (the hub writes the highest first; drawn from Ubersuggest’s Saudi volumes where it gave one — e.g. «تسويق عقاري» 1,000 — otherwise ranked by hand), audience, kind]
   ['اسم مكتب عقاري مميز: أفكار وقواعد لاختيار الاسم', 600, 'office', 'guide'], ['تصميم اعلان عقاري يجذب المشترين: العناصر والأخطاء', 480, 'office', 'guide'],
   ['شعار مكتب عقاري: كيف تختاره وما الذي يجب أن يقوله', 300, 'office', 'guide'], ['من يدفع عمولة الوسيط العقاري: البائع أم المشتري؟', 300, 'office', 'question'],
@@ -14,7 +14,7 @@ $T = [ // [query, priority (the hub writes the highest first; drawn from Ubersug
 ];
 $n = 0; $now = now_ms();
 foreach ($T as [$t, $d, $a, $k]) { if (one('SELECT 1 x FROM grow_topics WHERE title = ?', [$t])) continue; q('INSERT INTO grow_topics (id, lang, kind, aud, title, intent, src, demand, created, upd) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', ['tp' . bin2hex(random_bytes(5)), 'ar', $k, $a, $t, $t, 'seo', $d, $now, $now]); $n++; }
-$o['topics_added'] = $n; $o['topics_open'] = (int)(one("SELECT COUNT(*) n FROM grow_topics WHERE status = 'open'")['n'] ?? 0); $o['ai_daily'] = grow_cfg()['ai_daily'];
+$o['topics_added'] = $n; $o['topics_open'] = (int)(one("SELECT COUNT(*) n FROM grow_topics WHERE status = 'open'")['n'] ?? 0); $o['ai_daily'] = grow_cfg()['ai_daily']; $o['langs'] = grow_cfg()['langs']; $o['ai_providers'] = function_exists('ai_ready') ? array_values(array_map(fn($x) => is_array($x) ? ($x['id'] ?? '') : (string)$x, ai_ready(ai_cfg()))) : null;
 $o['book'] = (string)(platform_rec()->landing->company->book ?? '');
 $get = function (string $u): array { $c = curl_init($u); curl_setopt_array($c, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 25, CURLOPT_HEADER => true]); $r = (string)curl_exec($c); $s = curl_getinfo($c, CURLINFO_HTTP_CODE); curl_close($c); return [$s, $r]; };
 foreach (['/free/lease/', '/free/fal/', '/free/commission/?embed=1'] as $p) { [$s, $r] = $get('https://dar.ink' . $p); $o['page'][$p] = [$s, preg_match('~<title>([^<]*)</title>~u', $r, $m) ? $m[1] : '', stripos($r, 'x-frame-options') !== false ? 'xfo' : 'framable']; }
