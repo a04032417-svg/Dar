@@ -1,0 +1,70 @@
+en|o|Ontario Real Estate Association|orea.com
+en|o|The Canadian Real Estate Association|crea.ca
+en|o|BC Real Estate Association|bcrea.bc.ca
+en|o|Alberta Real Estate Association|albertarealtor.ca
+en|o|Victoria Real Estate Board|vreb.org
+en|o|PEI Real Estate Association|peirea.com
+en|o|Real Estate Institute of Victoria|reiv.com.au
+en|o|Real Estate Institute of Tasmania|reit.com.au
+en|o|Real Estate Institute of New South Wales|reinsw.com.au
+en|o|Real Estate Institute of New Zealand|reinz.co.nz
+en|o|Real Estate Institute of Canada|reic.ca
+en|o|Real Estate Institute of British Columbia|reibc.org
+en|o|Chicago Association of REALTORS|chicagorealtor.com
+en|o|Greensboro Regional REALTORS Association|grra.org
+en|o|National Association of REALTORS|nar.realtor
+en|o|IREM|irem.org
+en|o|Hyderabad Realtors Association|hraindia.org
+en|o|Chennai Real Estate Agents Association|creaa.in
+en|o|National Association of Realtors India|narindia.org
+en|o|Goa Association of Realtors|gargoa.com
+en|o|IREADA|ireada.net
+en|o|NAREA|narea.al
+en|o|NVM|nvm.nl
+en|o|Makelaarsvereniging Amsterdam|mva.nl
+en|o|IVD|ivd.net
+en|o|IVD Berlin-Brandenburg|ivd.berlin
+en|o|FIAIP|fiaip.it
+en|o|APEMIP|apemip.pt
+en|o|FIABCI Spain|fiabcispain.com
+en|o|FIABCI Nederland|fiabci.nl
+en|o|LPA Spain|lpaspain.com
+en|o|AMPI Guadalajara|ampiguadalajara.com
+en|o|APMLS|apmls.org
+en|o|Digital Real Estate Association|drea.at
+en|o|Real Estate:UK|realestateuk.org
+en|o|Circulo Inmobiliario|circuloinmobiliario.org
+fr|o|FNAIM|fnaim.fr
+en|b|ZIA German Property Federation|zia-deutschland.de
+en|b|ABRAINC|abrainc.org.br
+en|b|GYODER|gyoder.org.tr
+en|b|APPII|appii.pt
+en|b|REDAS|redas.com
+en|b|REHDA Selangor|rehdaselangor.com
+en|b|CREDAI Pune|credaipune.org
+en|b|CREDAI Kolkata|credaikolkata.org
+en|b|CREDAI Surat|credai-surat.com
+en|b|BFW Nord|bfw-nord.de
+en|b|APREA|aprea.asia
+ar|b|REDAL|redal.org.lb
+en|t|Real Estate Training Academy|realestatetrainingacademy.com.au
+en|t|Chicago Real Estate Institute|chicagorealestateinstitute.com
+en|t|New York Real Estate Institute|nyrei.com
+en|t|SPRYG Real Estate Academy|spryg.com
+en|t|Real Estate Academy|rea.be
+en|t|Live It Up Real Estate Training Academy|olgasiliveitup.com
+en|t|CRE Analyst|creanalyst.com
+en|t|Real Estate Institute at Stony Brook|reisb.org
+ar|t|معهد دبي العقاري|drei.gov.ae
+ar|t|معهد خبراء الابتكار العقاري|ierei.ae
+ar|t|المعهد العقاري السعودي|srei.sa
+ar|t|هاديلا للتدريب والاستشارات العقارية|hadila-academy.com
+ar|t|ريكاب|recapeg.com
+fr|m|Business Immo|businessimmo.com
+en|m|Osservatorio Immobiliare Digitale|osservatorioimmobiliaredigitale.it
+en|m|Inman|inman.com
+en|m|HousingWire|housingwire.com
+en|m|Propmodo|propmodo.com
+en|m|The Close|theclose.com
+en|m|Estate Agent Today|estateagenttoday.co.uk
+en|m|Property Industry Eye|propertyindustryeye.com
