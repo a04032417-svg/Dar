@@ -19,9 +19,9 @@ $keep = __DIR__ . '/sent.json'; $sent = is_file($keep) ? (json_decode((string)fi
 $prev = [];
 foreach (['/home/u791571885/dgs53/sent.json', '/home/u791571885/dgs57/sent.json'] as $pf) if (is_file($pf)) foreach ((json_decode((string)file_get_contents($pf), true) ?: []) as $e => $_) $prev[$e] = 1;
 $pref = ['partnerships', 'partners', 'membership', 'members', 'info', 'contact', 'hello', 'office', 'admin', 'marketing', 'news', 'editor', 'editorial', 'tips', 'press', 'contact-fnaim'];
-$stopEn = "\nIf this is not for you, reply \"stop\" and we will not write again.\n\nDar team\nservice@dar.ink\n";
-$stopFr = "\nSi cela ne vous concerne pas, répondez « stop » et nous ne vous écrirons plus.\n\nL’équipe Dar\nservice@dar.ink\n";
-$stopAr = "\nإن لم يناسبكم هذا ردّوا بكلمة «إيقاف» ولن نراسلكم مرة أخرى.\n\nفريق دار\nservice@dar.ink\n";
+$stopEn = "\nOr get one free template and one client-winning idea a week: https://darrealestatesoftware.wordpress.com/subscribe/\n\nIf this is not for you, reply \"stop\" and we will not write again.\n\nDar team\nservice@dar.ink\n";
+$stopFr = "\nOu recevez chaque semaine un modèle gratuit et une idée pour gagner des clients : https://darrealestatesoftware.wordpress.com/subscribe/\n\nSi cela ne vous concerne pas, répondez « stop » et nous ne vous écrirons plus.\n\nL’équipe Dar\nservice@dar.ink\n";
+$stopAr = "\nأو اشتركوا مجانًا في نشرة أسبوعية فيها نموذج جاهز وفكرة لجلب العملاء: https://darrealestatesoftware.wordpress.com/subscribe/\n\nإن لم يناسبكم هذا ردّوا بكلمة «إيقاف» ولن نراسلكم مرة أخرى.\n\nفريق دار\nservice@dar.ink\n";
 $what = ['o' => ['en' => 'members', 'fr' => 'adhérents', 'ar' => 'أعضائكم'], 't' => ['en' => 'trainees and graduates', 'fr' => 'stagiaires', 'ar' => 'متدربيكم وخريجيكم'], 'b' => ['en' => 'member developers', 'fr' => 'promoteurs adhérents', 'ar' => 'مطوريكم الأعضاء']];
 function dar_tpl($lg, $kd, $n, $who, $stopEn, $stopFr, $stopAr) {
   $demo = $kd === 'b' ? 'https://dar.ink/builders/?example=1' : 'https://dar.ink/app/?example=1';
