@@ -1,5 +1,5 @@
 #!/bin/sh
-D=/home/u791571885/dgs58; mkdir -p $D; cd $D || exit 1
+D=/home/u791571885/dgs58b; mkdir -p $D; cd $D || exit 1
 [ -f out.txt ] && { cat out.txt; exit 0; }
 [ -f started ] && { echo running; exit 0; }
 : > started
