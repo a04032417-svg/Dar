@@ -5,7 +5,7 @@
 $R = '/home/u791571885/domains/dar.ink/public_html'; chdir($R); require $R . '/dar-sync.php'; grow_db();
 $B = 'https://calendly.com/service-dar/dar-setup-15-min'; $o = ['ver' => SYNC_VERSION];
 tx(function () use ($B): void { $P = platform_rec(); foreach (['landing', 'grow'] as $k) if (!isset($P->$k) || !is_object($P->$k)) $P->$k = new stdClass(); if (!isset($P->landing->company) || !is_object($P->landing->company)) $P->landing->company = new stdClass(); $P->landing->company->book = $B; $P->grow->ai_daily = 8; kv_put('platform', 'platform', jenc($P), 'growth'); });
-$T = [ // [query, monthly searches in Saudi Arabia (Ubersuggest), audience, kind]
+$T = [ // [query, priority (the hub writes the highest first; drawn from Ubersuggest’s Saudi volumes where it gave one — e.g. «تسويق عقاري» 1,000 — otherwise ranked by hand), audience, kind]
   ['اسم مكتب عقاري مميز: أفكار وقواعد لاختيار الاسم', 600, 'office', 'guide'], ['تصميم اعلان عقاري يجذب المشترين: العناصر والأخطاء', 480, 'office', 'guide'],
   ['شعار مكتب عقاري: كيف تختاره وما الذي يجب أن يقوله', 300, 'office', 'guide'], ['من يدفع عمولة الوسيط العقاري: البائع أم المشتري؟', 300, 'office', 'question'],
   ['دراسة جدوى مكتب عقاري: التكاليف والإيرادات وكيف تحسبها', 400, 'office', 'guide'], ['فتح مكتب عقاري إلكتروني: ما تحتاجه للبدء', 350, 'office', 'guide'],
