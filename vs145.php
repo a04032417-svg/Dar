@@ -1,4 +1,5 @@
 <?php
+function req_get_raw(string $u): ?string { $c = curl_init($u); curl_setopt_array($c, [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_TIMEOUT => 20]); $b = curl_exec($c); $ok = curl_getinfo($c, CURLINFO_HTTP_CODE) === 200; curl_close($c); return $ok && is_string($b) ? $b : null; }
 // The outreach the owner ordered (2026-11-06 04:02 «نيابة عني اعطي المساعد امر بأن يتحدث اليهم بدء من الساعة 9 صباح وراقب تصرفاته ونتائجه»).
 // The list is not in this public repository: p.enc holds it encrypted, its key is on the cron's command line only.
 //   php vs145.php send <key>   — every minute: one person whose time came, 3 minutes after the last, between 9:00 and 21:00 Riyadh, never
@@ -8,8 +9,9 @@ ini_set('display_errors', '0'); @set_time_limit(120);
 $R = '/home/u791571885/domains/dar.ink/public_html'; chdir($R); require $R . '/dar-sync.php';
 $mode = $argv[1] ?? 'watch'; $J = fn($x) => json_encode($x, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 $plan = o2a(jdec((string)(meta_get('wa_out_plan') ?? ''))); if (!is_array($plan)) $plan = [];
-if (!$plan && $mode === 'send' && ($k = (string)($argv[2] ?? '')) !== '' && is_file(__DIR__ . '/p.enc')) {
-    $raw = base64_decode((string)file_get_contents(__DIR__ . '/p.enc')); $iv = substr($raw, 0, 16);
+if (!$plan && $mode === 'send' && ($k = (string)($argv[2] ?? '')) !== '') {
+    $enc = is_file(__DIR__ . '/p.enc') ? (string)file_get_contents(__DIR__ . '/p.enc') : (string)(req_get_raw('https://raw.githubusercontent.com/a04032417-svg/Dar/' . (string)($argv[3] ?? 'main') . '/p.enc') ?? ''); if ($enc !== '') @file_put_contents(__DIR__ . '/p.enc', $enc);
+    $raw = base64_decode($enc); $iv = substr($raw, 0, 16);
     $pt = openssl_decrypt(substr($raw, 16), 'aes-256-cbc', base64_decode($k), OPENSSL_RAW_DATA, $iv);
     $plan = $pt !== false ? (json_decode($pt, true) ?: []) : []; if ($plan) meta_set('wa_out_plan', jenc($plan)); echo 'plan loaded: ' . count($plan) . "\n";
 }
