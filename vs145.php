@@ -34,6 +34,8 @@ if ($mode === 'send') {
     foreach ($plan as $i => &$p) {
         if (!empty($p['sent']) || (int)$p['at'] > time() || ($closed !== '' && empty($p['anytime']))) continue;
         $num = (string)$p['num'];
+        $th0 = wa_agent_thread($num); $mine = array_filter(is_array($th0['m'] ?? null) ? $th0['m'] : [], fn($x) => ($x['r'] ?? '') === 'user' && (int)($x['at'] ?? 0) > now_ms() - 7 * 86400000);
+        if ($mine) { $p['sent'] = now_ms(); $p['result'] = 'skipped: already talking with Dar'; if (function_exists('wa_agent_goal')) wa_agent_goal($num, (string)$p['goal']); echo $p['name'] . ": already talking — no opener, the goal is set\n"; break; } // (an opener in the middle of his own conversation reads like a machine)
         if (function_exists('waa_quiet') && waa_quiet($num)) { $p['sent'] = now_ms(); $p['result'] = 'skipped: asked to be left alone'; break; }
         $chk = wag_call('POST', '/v1/sessions/platform/check', ['numbers' => [$num]], 20); $ex = $chk['json']['results'][0]['exists'] ?? null;
         $p['check'] = $ex === null ? 'unknown' : ($ex ? 'on WhatsApp' : 'not on WhatsApp');
