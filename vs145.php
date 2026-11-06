@@ -15,15 +15,24 @@ if (!$plan && $mode === 'send' && ($k = (string)($argv[2] ?? '')) !== '') {
     $pt = openssl_decrypt(substr($raw, 16), 'aes-256-cbc', base64_decode($k), OPENSSL_RAW_DATA, $iv);
     $plan = $pt !== false ? (json_decode($pt, true) ?: []) : []; if ($plan) meta_set('wa_out_plan', jenc($plan)); echo 'plan loaded: ' . count($plan) . "\n";
 }
+if ($mode === 'send' && ($k = (string)($argv[2] ?? '')) !== '' && ($cm = (string)($argv[3] ?? '')) !== '' && (string)(meta_get('wa_out_p2') ?? '') !== $cm) {
+    $e2 = (string)(req_get_raw('https://raw.githubusercontent.com/a04032417-svg/Dar/' . $cm . '/p2.enc') ?? ''); $n2 = 0;
+    if ($e2 !== '') { $r2 = base64_decode($e2); $t2 = openssl_decrypt(substr($r2, 16), 'aes-256-cbc', base64_decode($k), OPENSSL_RAW_DATA, substr($r2, 0, 16)); $l2 = $t2 !== false ? (json_decode($t2, true) ?: []) : [];
+        $have = array_map(fn($x) => (string)$x['num'], $plan); foreach (array_reverse($l2) as $x) if (is_array($x) && !in_array((string)($x['num'] ?? ''), $have, true)) { array_unshift($plan, $x); $n2++; }
+        if ($n2) meta_set('wa_out_plan', jenc($plan)); }
+    meta_set('wa_out_p2', $cm); echo 'added: ' . $n2 . "\n"; // (the owner's later numbers go first)
+}
 $riy = new DateTime('now', new DateTimeZone('Asia/Riyadh')); $h = (int)$riy->format('G') * 60 + (int)$riy->format('i');
 $open = function_exists('wag_platform_open') && wag_platform_open();
 if ($mode === 'send') {
     $sent = count(array_filter($plan, fn($x) => !empty($x['sent']))); echo $riy->format('H:i') . " Riyadh · linked " . ($open ? 'yes' : 'NO') . " · sent $sent/" . count($plan) . "\n";
-    if (!$open) exit; if ($h < 9 * 60 || $h >= 21 * 60) { echo "outside 9:00–21:00\n"; exit; }
-    if ($riy->format('N') === '5' && $h >= 11 * 60 + 15 && $h < 13 * 60 + 15) { echo "Friday prayer: waiting\n"; exit; }
+    if (!$open) exit; $closed = '';
+    if ($h < 9 * 60 || $h >= 21 * 60) $closed = 'outside 9:00–21:00';
+    elseif ($riy->format('N') === '5' && $h >= 11 * 60 + 15 && $h < 13 * 60 + 15) $closed = 'Friday prayer: waiting';
+    if ($closed !== '' && !array_filter($plan, fn($x) => empty($x['sent']) && !empty($x['anytime']) && (int)$x['at'] <= time())) { echo $closed . "\n"; exit; } // (a number the owner asked to be written to now is not held to the hours)
     $last = (int)(meta_get('wa_out_last') ?? 0); if (time() - $last < 170) { echo "waiting (3 minutes between people)\n"; exit; }
     foreach ($plan as $i => &$p) {
-        if (!empty($p['sent']) || (int)$p['at'] > time()) continue;
+        if (!empty($p['sent']) || (int)$p['at'] > time() || ($closed !== '' && empty($p['anytime']))) continue;
         $num = (string)$p['num'];
         if (function_exists('waa_quiet') && waa_quiet($num)) { $p['sent'] = now_ms(); $p['result'] = 'skipped: asked to be left alone'; break; }
         $chk = wag_call('POST', '/v1/sessions/platform/check', ['numbers' => [$num]], 20); $ex = $chk['json']['results'][0]['exists'] ?? null;
