@@ -1,0 +1,5 @@
+<?php
+// A read-only look after the gateway's update (1.1.0): its health, the developer's WhatsApp session, the Telegram bot. Nothing changed.
+ini_set('display_errors', '0'); $R = '/home/u791571885/domains/dar.ink/public_html'; chdir($R); require $R . '/dar-sync.php';
+$h = function_exists('wag_health') ? wag_health() : null; $s = function_exists('wag_call') ? wag_call('GET', '/v1/sessions/platform') : null; $tgu = function_exists('wag_call') ? wag_call('GET', '/v1/tg/platform') : null;
+echo json_encode(['site' => SYNC_VERSION, 'gateway' => ['v' => $h['v'] ?? null, 'ok' => $h['ok'] ?? null, 'runner' => $h['runner'] ?? null, 'sessions' => $h['sessions'] ?? null, 'tg' => $h['tg'] ?? null], 'wa_platform' => ['code' => $s['code'] ?? null, 'status' => $s['json']['status'] ?? null], 'tg_account' => ['code' => $tgu['code'] ?? null, 'status' => $tgu['json']['status'] ?? null], 'bot' => function_exists('tg_status') ? array_intersect_key(tg_status(), array_flip(['bot', 'webhook', 'groups', 'how'])) : null], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES), "\n";
