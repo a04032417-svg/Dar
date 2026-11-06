@@ -39,7 +39,7 @@ if ($mode === 'send') {
         $p['check'] = $ex === null ? 'unknown' : ($ex ? 'on WhatsApp' : 'not on WhatsApp');
         if ($ex === false) { $p['sent'] = now_ms(); $p['result'] = 'skipped: not on WhatsApp'; echo $p['name'] . ": not on WhatsApp\n"; break; }
         if (function_exists('waa_typing')) { waa_typing($num); usleep(min(6000, 1200 + 22 * mb_strlen((string)$p['text'])) * 1000); }
-        $r = chan_send('whatsapp', $num, (string)$p['text'], '', ['country' => '', 'real' => true]);
+        $r = function_exists('wag_send') ? wag_send('platform', $num, (string)$p['text']) : chan_send('whatsapp', $num, (string)$p['text'], '', ['country' => '', 'real' => true]); // (through the linked number itself: the site's channel setting would send it to Meta's API, which has no token)
         $res = trim((string)($r['status'] ?? '?') . ' ' . (string)($r['error'] ?? '')); meta_set('wa_out_last', (string)time());
         if (($r['status'] ?? '') !== 'sent') { $p['tries'] = (int)($p['tries'] ?? 0) + 1; $p['result'] = 'try ' . $p['tries'] . ': ' . $res; if ($p['tries'] >= 3) $p['sent'] = now_ms(); echo $p['name'] . ': ' . $p['result'] . "\n"; break; } // (a failed send is tried again 3 minutes later, three times at most)
         $p['sent'] = now_ms(); $p['result'] = $res;
