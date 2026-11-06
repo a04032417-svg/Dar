@@ -27,10 +27,13 @@ if ($mode === 'send') {
         $num = (string)$p['num'];
         if (function_exists('waa_quiet') && waa_quiet($num)) { $p['sent'] = now_ms(); $p['result'] = 'skipped: asked to be left alone'; break; }
         $chk = wag_call('POST', '/v1/sessions/platform/check', ['numbers' => [$num]], 20); $ex = $chk['json']['results'][0]['exists'] ?? null;
+        $p['check'] = $ex === null ? 'unknown' : ($ex ? 'on WhatsApp' : 'not on WhatsApp');
         if ($ex === false) { $p['sent'] = now_ms(); $p['result'] = 'skipped: not on WhatsApp'; echo $p['name'] . ": not on WhatsApp\n"; break; }
         if (function_exists('waa_typing')) { waa_typing($num); usleep(min(6000, 1200 + 22 * mb_strlen((string)$p['text'])) * 1000); }
         $r = chan_send('whatsapp', $num, (string)$p['text'], '', ['country' => '', 'real' => true]);
-        $p['sent'] = now_ms(); $p['result'] = trim((string)($r['status'] ?? '?') . ' ' . (string)($r['error'] ?? ''));
+        $res = trim((string)($r['status'] ?? '?') . ' ' . (string)($r['error'] ?? '')); meta_set('wa_out_last', (string)time());
+        if (($r['status'] ?? '') !== 'sent') { $p['tries'] = (int)($p['tries'] ?? 0) + 1; $p['result'] = 'try ' . $p['tries'] . ': ' . $res; if ($p['tries'] >= 3) $p['sent'] = now_ms(); echo $p['name'] . ': ' . $p['result'] . "\n"; break; } // (a failed send is tried again 3 minutes later, three times at most)
+        $p['sent'] = now_ms(); $p['result'] = $res;
         if (($r['status'] ?? '') === 'sent') { wa_agent_note($num, 'assistant', (string)$p['text'], 'owner_assistant'); if (function_exists('wa_agent_goal')) wa_agent_goal($num, (string)$p['goal']); meta_set('wa_out_last', (string)time()); }
         echo $p['name'] . ': ' . $p['result'] . "\n"; break; // (one person a minute at most)
     }
