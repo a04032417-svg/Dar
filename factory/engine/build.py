@@ -1099,6 +1099,8 @@ class Book:
             else:
                 title = self.L(obj['n']); desc = self.L(obj.get('d', ''))
             ws, name = real_add(title, kind, desc)
+            if isinstance(obj, dict) and obj.get('id'):
+                self.pages[-1]['id'] = obj['id']
             return ws, name
         sheets = []
         for kind, obj in plan:
