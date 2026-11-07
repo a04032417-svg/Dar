@@ -557,7 +557,7 @@ class Book:
             ch.add_series(ser)
             if ctype == 'doughnut':
                 ch.set_hole_size(58)
-            self.style_chart(ch, '%s %s' % (t['by'], self.L(f['n'])), legend=(ctype == 'doughnut'))
+            self.style_chart(ch, '%s %s' % (t['by'], self.L(f['n'])), legend=(ctype == 'doughnut'), bar=(ctype == 'bar'))
             ch.set_size({'width': 700, 'height': max(260, 26 * len(items) + 90)})
             ws.insert_chart(r, 7, ch, {'x_offset': 5, 'y_offset': 5})
             r += max(n + 4, 16 if ctype == 'doughnut' else int((26 * len(items) + 90) / 20) + 3)
@@ -593,7 +593,7 @@ class Book:
         ws.set_landscape(); ws.fit_to_pages(1, 0 if not self.preview else 1)
         ws.protect('', {'autofilter': True, 'sort': True, 'format_columns': True, 'select_locked_cells': True})
 
-    def style_chart(self, ch, title, legend=False):
+    def style_chart(self, ch, title, legend=False, bar=False):
         self.stats['charts'] += 1
         ch.set_title({'name': title, 'name_font': {'size': 11, 'bold': True, 'color': '#2C3E50', 'name': self.font}})
         ch.set_chartarea({'border': {'none': True}, 'fill': {'color': '#FFFFFF'}})
@@ -603,9 +603,13 @@ class Book:
         else:
             ch.set_legend({'none': True})
         try:
-            ch.set_x_axis({'num_font': {'size': 8, 'name': self.font}, 'line': {'color': '#D5D8DC'}, 'major_gridlines': {'visible': False}})
-            ch.set_y_axis({'num_font': {'size': 8, 'name': self.font}, 'line': {'none': True},
-                           'major_gridlines': {'visible': True, 'line': {'color': '#EEF0F2'}}, 'num_format': '#,##0'})
+            cat = {'num_font': {'size': 8, 'name': self.font}, 'line': {'color': '#D5D8DC'}, 'major_gridlines': {'visible': False}}
+            vax = {'num_font': {'size': 8, 'name': self.font}, 'line': {'none': True},
+                   'major_gridlines': {'visible': True, 'line': {'color': '#EEF0F2'}}, 'num_format': '#,##0'}
+            if bar:
+                ch.set_x_axis(vax); ch.set_y_axis(cat)
+            else:
+                ch.set_x_axis(cat); ch.set_y_axis(vax)
         except Exception:
             pass
 
@@ -627,7 +631,6 @@ class Book:
         sinp = self.F(bg_color='#FFFFFF', font_color=self.P, bold=True, align='center', border=1, border_color=self.A, locked=False)
         for r in range(0, 70):
             ws.write_blank(r, 0, None, sb); ws.write_blank(r, 1, None, sb)
-        ws.set_row(1, 34)
         self.fml(ws, 1, 1, self.SET['biz_name'], sbt)
         ws.write(2, 1, self.L(self.s['title']), self.F(bg_color=self.P, font_color=tint(self.P, .7), font_size=9, text_wrap=True))
         ws.write(4, 1, t['filters'], sbl)
@@ -652,7 +655,7 @@ class Book:
         S, E = "%s!$B$2" % qs(self.calc_name), "%s!$B$3" % qs(self.calc_name)
         # header strip
         ws.merge_range(1, 3, 1, 18, self.L(self.s['title']), self.F(bold=True, font_size=16, font_color='#2C3E50', bg_color='#F2F4F7'))
-        ws.set_row(1, 30)
+        ws.set_row(1, 34, bg)
         self.fml(ws, 2, 3, '%s&"  |  "&IF(%s=%s,%s,%s&" "&%s)&"  |  "&%s' % (lit(t['period'] + ':'), Mr, lit(t['all']), Yr, Mr, Yr,
                                                                        self.SET['currency']),
                  self.F(font_color='#7F8C8D', bg_color='#F2F4F7'))
@@ -671,7 +674,7 @@ class Book:
             self.fml(ws, row + 1, col, self.kpi(m, k, S, E), fmt)
             ws.merge_range(row + 2, col, row + 2, col + 2, self.L(m['n']), self.F(font_size=8, font_color=tint(self.P, .3), bg_color=card, indent=1,
                                                                                 bottom=1, left=1, right=1, border_color='#E3E7EB'))
-            ws.set_row(row + 1, 34)
+            ws.set_row(row + 1, 34, bg)
         rows_used = r0 + ((len(kpis) + 3) // 4) * 4
         # charts 2 per row, helper data on hidden sheet
         hr = 5
@@ -723,7 +726,7 @@ class Book:
             ch.add_series(ser)
             if ctype == 'doughnut':
                 ch.set_hole_size(60)
-            self.style_chart(ch, self.L(chs.get('n', m['n'])), legend=ctype in ('doughnut', 'pie'))
+            self.style_chart(ch, self.L(chs.get('n', m['n'])), legend=ctype in ('doughnut', 'pie'), bar=(ctype == 'bar'))
             ch.set_size({'width': 545, 'height': 290})
             row = rows_used + (i // 2) * 15; col = 3 + (i % 2) * 8
             ws.insert_chart(row, col, ch, {'x_offset': 2, 'y_offset': 4})
@@ -740,9 +743,10 @@ class Book:
         t = self.t
         title = self.L(c['n'])
         ws, name = self.add(title, 'calculator', self.L(c.get('d', '')), '#2E86AB')
-        self.banner(ws, title, self.L(c.get('d', '')), 12, '#1F618D')
+        wide = bool(c.get('table'))
+        self.banner(ws, title, self.L(c.get('d', '')), 12 if wide else 2, '#1F618D')
         self.navlinks(ws, 2, 1, 2)
-        ws.write(2, 4, t['tip_calc'], self.F(italic=True, font_color='#7F8C8D'))
+        ws.write(3, 1, t['tip_calc'], self.F(italic=True, font_color='#7F8C8D', font_size=8))
         ws.set_column(1, 1, 34); ws.set_column(2, 2, 18); ws.set_column(3, 3, 3); ws.set_column(4, 12, 14)
         h = self.F(bold=True, font_color='#FFFFFF', bg_color='#1F618D', border=1, border_color='#1F618D')
         lab = self.F(border=1, border_color='#E1E5EA', bg_color='#F8F9FA')
@@ -1056,6 +1060,9 @@ class Book:
         s = self.s
         self.prepare_modules()
         self.deferred()
+        if self.preview:
+            for w_ in self.wb.worksheets():
+                w_.fit_to_pages(1, 1)
         self.wb.close()
         man = {'id': s['id'], 'lang': self.lang, 'title': self.L(s['title']), 'file': os.path.basename(self.path),
                'pages': self.pages, 'n_pages': len(self.pages), **self.stats,
