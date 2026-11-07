@@ -1,0 +1,4681 @@
+{
+"id": "re-landlord",
+"theme": {
+"primary": "#1B3A5C",
+"accent": "#E9A23B",
+"palette": [
+"#1B3A5C",
+"#E9A23B",
+"#3C8DBC",
+"#C0392B",
+"#27AE60",
+"#8E44AD",
+"#16A085",
+"#D35400"
+]
+},
+"title": {
+"en": "Landlord & Property Manager Pro",
+"ar": "المؤجر ومدير الأملاك الاحترافي"
+},
+"subtitle": {
+"en": "Units, tenants, leases, rent collection, deposits, maintenance, vendors, utilities, inspections, vacancies, compliance and owner statements",
+"ar": "الوحدات والمستأجرون والعقود وتحصيل الإيجار والتأمينات والصيانة والمقاولون والخدمات والمعاينات والشواغر والامتثال وكشوف الملاك"
+},
+"groups": {
+"units": {
+"en": "Portfolio & tenants",
+"ar": "المحفظة والمستأجرون"
+},
+"rent": {
+"en": "Leases & rent collection",
+"ar": "العقود وتحصيل الإيجار"
+},
+"ops": {
+"en": "Maintenance & operations",
+"ar": "الصيانة والتشغيل"
+},
+"fin": {
+"en": "Finance & owners",
+"ar": "المالية والملاك"
+}
+},
+"lists": {
+"ptype": {
+"n": {
+"en": "Property type",
+"ar": "نوع العقار"
+},
+"items": {
+"en": [
+"Apartment",
+"Villa",
+"Townhouse",
+"Office",
+"Retail shop",
+"Land",
+"Warehouse",
+"Building"
+],
+"ar": [
+"شقة",
+"فيلا",
+"تاون هاوس",
+"مكتب",
+"محل تجاري",
+"أرض",
+"مستودع",
+"عمارة"
+]
+}
+},
+"district": {
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"items": {
+"en": [
+"North District",
+"South District",
+"East District",
+"West District",
+"Downtown",
+"Waterfront",
+"Business Bay",
+"Garden City"
+],
+"ar": [
+"حي الشمال",
+"حي الجنوب",
+"حي الشرق",
+"حي الغرب",
+"وسط المدينة",
+"الواجهة البحرية",
+"حي الأعمال",
+"حي الحدائق"
+]
+}
+},
+"payst": {
+"n": {
+"en": "Payment status",
+"ar": "حالة الدفع"
+},
+"items": {
+"en": [
+"Paid",
+"Partly paid",
+"Unpaid",
+"Overdue"
+],
+"ar": [
+"مدفوع",
+"مدفوع جزئياً",
+"غير مدفوع",
+"متأخر"
+]
+},
+"colors": [
+"#27AE60",
+"#F39C12",
+"#7F8C8D",
+"#C0392B"
+]
+},
+"paym": {
+"n": {
+"en": "Payment method",
+"ar": "طريقة الدفع"
+},
+"items": {
+"en": [
+"Bank transfer",
+"Card",
+"Cash",
+"Cheque",
+"Online"
+],
+"ar": [
+"تحويل بنكي",
+"بطاقة",
+"نقداً",
+"شيك",
+"دفع إلكتروني"
+]
+}
+},
+"priority": {
+"n": {
+"en": "Priority",
+"ar": "الأولوية"
+},
+"items": {
+"en": [
+"Urgent",
+"High",
+"Normal",
+"Low"
+],
+"ar": [
+"عاجل",
+"عالي",
+"عادي",
+"منخفض"
+]
+},
+"colors": [
+"#C0392B",
+"#E67E22",
+"#2E86AB",
+"#7F8C8D"
+]
+},
+"yn": {
+"n": {
+"en": "Yes / No",
+"ar": "نعم / لا"
+},
+"items": {
+"en": [
+"Yes",
+"No"
+],
+"ar": [
+"نعم",
+"لا"
+]
+}
+},
+"mcat": {
+"n": {
+"en": "Maintenance category",
+"ar": "فئة الصيانة"
+},
+"items": {
+"en": [
+"Plumbing",
+"Electrical",
+"AC / HVAC",
+"Painting",
+"Carpentry",
+"Appliances",
+"Cleaning",
+"Pest control",
+"Elevator",
+"Other"
+],
+"ar": [
+"سباكة",
+"كهرباء",
+"تكييف",
+"دهان",
+"نجارة",
+"أجهزة",
+"نظافة",
+"مكافحة حشرات",
+"مصاعد",
+"أخرى"
+]
+}
+},
+"cond": {
+"n": {
+"en": "Condition",
+"ar": "الحالة الفنية"
+},
+"items": {
+"en": [
+"Excellent",
+"Good",
+"Fair",
+"Poor"
+],
+"ar": [
+"ممتازة",
+"جيدة",
+"مقبولة",
+"سيئة"
+]
+},
+"colors": [
+"#27AE60",
+"#2E86AB",
+"#F39C12",
+"#C0392B"
+]
+},
+"ustatus": {
+"n": {
+"en": "Unit status",
+"ar": "حالة الوحدة"
+},
+"items": {
+"en": [
+"Occupied",
+"Vacant",
+"Under maintenance",
+"Reserved"
+],
+"ar": [
+"مؤجرة",
+"شاغرة",
+"تحت الصيانة",
+"محجوزة"
+]
+},
+"colors": [
+"#27AE60",
+"#C0392B",
+"#F39C12",
+"#3C8DBC"
+]
+},
+"ttype": {
+"n": {
+"en": "Tenant type",
+"ar": "نوع المستأجر"
+},
+"items": {
+"en": [
+"Individual",
+"Family",
+"Company",
+"Student"
+],
+"ar": [
+"فرد",
+"عائلة",
+"شركة",
+"طالب"
+]
+}
+},
+"lstat": {
+"n": {
+"en": "Lease status",
+"ar": "حالة العقد"
+},
+"items": {
+"en": [
+"Active",
+"Expiring soon",
+"Ended",
+"Renewed"
+],
+"ar": [
+"ساري",
+"قارب على الانتهاء",
+"منتهي",
+"مجدد"
+]
+},
+"colors": [
+"#27AE60",
+"#F39C12",
+"#7F8C8D",
+"#3C8DBC"
+]
+},
+"freq": {
+"n": {
+"en": "Payment frequency",
+"ar": "دورية الدفع"
+},
+"items": {
+"en": [
+"Monthly",
+"Quarterly",
+"Semi-annual",
+"Annual"
+],
+"ar": [
+"شهري",
+"ربع سنوي",
+"نصف سنوي",
+"سنوي"
+]
+}
+},
+"mstat": {
+"n": {
+"en": "Request status",
+"ar": "حالة الطلب"
+},
+"items": {
+"en": [
+"Open",
+"Assigned",
+"In progress",
+"Completed",
+"Cancelled"
+],
+"ar": [
+"مفتوح",
+"مسند",
+"قيد التنفيذ",
+"مكتمل",
+"ملغى"
+]
+},
+"colors": [
+"#C0392B",
+"#8E44AD",
+"#F39C12",
+"#27AE60",
+"#95A5A6"
+]
+},
+"lcat": {
+"n": {
+"en": "Expense category",
+"ar": "بند المصروف"
+},
+"items": {
+"en": [
+"Maintenance",
+"Utilities",
+"Insurance",
+"Property tax",
+"Management fee",
+"Cleaning",
+"Security",
+"Marketing",
+"Legal",
+"Other"
+],
+"ar": [
+"صيانة",
+"خدمات",
+"تأمين",
+"ضرائب ورسوم",
+"أتعاب إدارة",
+"نظافة",
+"حراسة",
+"تسويق",
+"قانونية",
+"أخرى"
+]
+}
+},
+"itype": {
+"n": {
+"en": "Inspection type",
+"ar": "نوع المعاينة"
+},
+"items": {
+"en": [
+"Move-in",
+"Move-out",
+"Routine",
+"Safety"
+],
+"ar": [
+"استلام",
+"تسليم",
+"دورية",
+"سلامة"
+]
+}
+},
+"dstat": {
+"n": {
+"en": "Deposit status",
+"ar": "حالة التأمين"
+},
+"items": {
+"en": [
+"Held",
+"Refunded",
+"Partly refunded",
+"Forfeited"
+],
+"ar": [
+"محتجز",
+"مسترد",
+"مسترد جزئياً",
+"مصادر"
+]
+},
+"colors": [
+"#3C8DBC",
+"#27AE60",
+"#F39C12",
+"#C0392B"
+]
+},
+"held": {
+"n": {
+"en": "Held in",
+"ar": "محفوظ في"
+},
+"items": {
+"en": [
+"Bank account",
+"Escrow",
+"Cash"
+],
+"ar": [
+"حساب بنكي",
+"حساب ضمان",
+"نقداً"
+]
+}
+},
+"util": {
+"n": {
+"en": "Utility",
+"ar": "الخدمة"
+},
+"items": {
+"en": [
+"Electricity",
+"Water",
+"Gas",
+"Internet",
+"District cooling"
+],
+"ar": [
+"كهرباء",
+"مياه",
+"غاز",
+"إنترنت",
+"تبريد مركزي"
+]
+}
+},
+"payer": {
+"n": {
+"en": "Paid by",
+"ar": "يدفعها"
+},
+"items": {
+"en": [
+"Owner",
+"Tenant"
+],
+"ar": [
+"المالك",
+"المستأجر"
+]
+}
+},
+"vstat": {
+"n": {
+"en": "Vacancy status",
+"ar": "حالة الشاغر"
+},
+"items": {
+"en": [
+"Marketing",
+"Application received",
+"Let",
+"Off market"
+],
+"ar": [
+"قيد التسويق",
+"وصل طلب",
+"تم التأجير",
+"خارج السوق"
+]
+},
+"colors": [
+"#F39C12",
+"#3C8DBC",
+"#27AE60",
+"#95A5A6"
+]
+},
+"portal": {
+"n": {
+"en": "Advertised on",
+"ar": "مُعلن في"
+},
+"items": {
+"en": [
+"Property portal",
+"Website",
+"Agent",
+"Signboard",
+"Social media"
+],
+"ar": [
+"منصة عقارية",
+"الموقع",
+"وسيط",
+"لوحة",
+"شبكات اجتماعية"
+]
+}
+},
+"doc": {
+"n": {
+"en": "Document",
+"ar": "المستند"
+},
+"items": {
+"en": [
+"Building insurance",
+"Fire safety certificate",
+"Elevator inspection",
+"Municipality license",
+"Lease registration",
+"Civil defense permit"
+],
+"ar": [
+"تأمين المبنى",
+"شهادة السلامة من الحريق",
+"فحص المصاعد",
+"رخصة البلدية",
+"توثيق العقود",
+"تصريح الدفاع المدني"
+]
+}
+},
+"trade": {
+"n": {
+"en": "Trade",
+"ar": "التخصص"
+},
+"items": {
+"en": [
+"Plumbing",
+"Electrical",
+"AC / HVAC",
+"Painting",
+"Carpentry",
+"General maintenance",
+"Cleaning",
+"Pest control"
+],
+"ar": [
+"سباكة",
+"كهرباء",
+"تكييف",
+"دهان",
+"نجارة",
+"صيانة عامة",
+"نظافة",
+"مكافحة حشرات"
+]
+}
+}
+},
+"modules": [
+{
+"id": "units",
+"g": "units",
+"n": {
+"en": "Units",
+"ar": "الوحدات"
+},
+"d": {
+"en": "Every unit: type, size, market rent, value, owner and live status - occupancy is counted from here.",
+"ar": "كل وحدة بنوعها ومساحتها وإيجارها السوقي وقيمتها ومالكها وحالتها - ومنها تُحسب نسبة الإشغال."
+},
+"prefix": "U",
+"rows": 36,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Unit ID",
+"ar": "رقم الوحدة"
+},
+"t": "id"
+},
+{
+"k": "bldg",
+"n": {
+"en": "Building",
+"ar": "المبنى"
+},
+"t": "text",
+"s": {
+"en": [
+"Palm Residence",
+"Cedar Court",
+"Harbor Towers",
+"Olive Gardens",
+"Sunrise Plaza"
+],
+"ar": [
+"سكن النخيل",
+"مجمع الأرز",
+"أبراج الميناء",
+"حدائق الزيتون",
+"بلازا الشروق"
+]
+},
+"w": 18
+},
+{
+"k": "unit",
+"n": {
+"en": "Unit no.",
+"ar": "رقم الشقة"
+},
+"t": "text",
+"s": "code"
+},
+{
+"k": "type",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ptype",
+"wts": [
+8,
+3,
+2,
+3,
+2,
+0,
+1,
+0
+]
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "area",
+"n": {
+"en": "Area m²",
+"ar": "المساحة م²"
+},
+"t": "int",
+"min": 45,
+"max": 420
+},
+{
+"k": "beds",
+"n": {
+"en": "Bedrooms",
+"ar": "الغرف"
+},
+"t": "int",
+"min": 0,
+"max": 5
+},
+{
+"k": "value",
+"n": {
+"en": "Unit value",
+"ar": "قيمة الوحدة"
+},
+"t": "money",
+"min": 250000,
+"max": 2400000,
+"step": 5000,
+"per": [
+"area",
+"4200",
+"9000"
+]
+},
+{
+"k": "mrent",
+"n": {
+"en": "Market rent / year",
+"ar": "الإيجار السوقي سنوياً"
+},
+"t": "money",
+"min": 18000,
+"max": 160000,
+"step": 1000,
+"cf": "databar",
+"per": [
+"value",
+"0.055",
+"0.085"
+]
+},
+{
+"k": "gyield",
+"n": {
+"en": "Gross yield",
+"ar": "العائد الإجمالي"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({mrent}/{value},0)",
+"cf": "scale"
+},
+{
+"k": "owner",
+"n": {
+"en": "Owner",
+"ar": "المالك"
+},
+"t": "text",
+"s": "person"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "ustatus",
+"wts": [
+8,
+2,
+1,
+1
+]
+},
+{
+"k": "rent_now",
+"n": {
+"en": "Current lease rent",
+"ar": "إيجار العقد الحالي"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=SUMIFS({#leases.rent},{#leases.unit},{id},{#leases.status},{L:lstat:0})+SUMIFS({#leases.rent},{#leases.unit},{id},{#leases.status},{L:lstat:1})"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Units",
+"ar": "الوحدات"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Occupancy",
+"ar": "نسبة الإشغال"
+},
+"a": "pct",
+"w": [
+[
+"status",
+0
+]
+],
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Vacant units",
+"ar": "وحدات شاغرة"
+},
+"a": "count",
+"w": [
+[
+"status",
+1
+]
+]
+},
+{
+"n": {
+"en": "Portfolio value",
+"ar": "قيمة المحفظة"
+},
+"a": "sum",
+"f": "value",
+"fmt": "money"
+}
+],
+"rep": {
+"val": "mrent",
+"agg": "sum",
+"by": [
+"status",
+"type",
+"district"
+]
+}
+},
+{
+"id": "tenants",
+"g": "units",
+"n": {
+"en": "Tenants",
+"ar": "المستأجرون"
+},
+"d": {
+"en": "Tenant files: contacts, ID, employer, emergency contact, rating and their lease count.",
+"ar": "ملفات المستأجرين: التواصل والهوية وجهة العمل وجهة الطوارئ والتقييم وعدد عقودهم."
+},
+"prefix": "TN",
+"rows": 34,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Tenant ID",
+"ar": "رقم المستأجر"
+},
+"t": "id"
+},
+{
+"k": "name",
+"n": {
+"en": "Tenant name",
+"ar": "اسم المستأجر"
+},
+"t": "text",
+"s": "person"
+},
+{
+"k": "ttype",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ttype"
+},
+{
+"k": "phone",
+"n": {
+"en": "Phone",
+"ar": "الجوال"
+},
+"t": "text",
+"s": "phone"
+},
+{
+"k": "email",
+"n": {
+"en": "Email",
+"ar": "البريد"
+},
+"t": "text",
+"s": "email"
+},
+{
+"k": "idno",
+"n": {
+"en": "ID / passport no.",
+"ar": "رقم الهوية / الجواز"
+},
+"t": "text",
+"s": "code"
+},
+{
+"k": "employer",
+"n": {
+"en": "Employer",
+"ar": "جهة العمل"
+},
+"t": "text",
+"s": "company"
+},
+{
+"k": "emerg",
+"n": {
+"en": "Emergency contact",
+"ar": "جوال الطوارئ"
+},
+"t": "text",
+"s": "phone"
+},
+{
+"k": "since",
+"n": {
+"en": "Tenant since",
+"ar": "مستأجر منذ"
+},
+"t": "date",
+"past": 900,
+"future": 0
+},
+{
+"k": "rating",
+"n": {
+"en": "Rating 1-5",
+"ar": "التقييم"
+},
+"t": "int",
+"min": 2,
+"max": 5,
+"cf": "scale"
+},
+{
+"k": "leases",
+"n": {
+"en": "Leases",
+"ar": "العقود"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=COUNTIF({#leases.tenant},{id})"
+},
+{
+"k": "owed",
+"n": {
+"en": "Balance owed",
+"ar": "المستحق عليه"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=SUMIFS({#payments.balance},{#payments.tname},{name})",
+"cf": "databar"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Tenants",
+"ar": "المستأجرون"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Average rating",
+"ar": "متوسط التقييم"
+},
+"a": "avg",
+"f": "rating",
+"fmt": "num"
+},
+{
+"n": {
+"en": "Companies",
+"ar": "شركات"
+},
+"a": "count",
+"w": [
+[
+"ttype",
+2
+]
+]
+},
+{
+"n": {
+"en": "Owed by tenants",
+"ar": "مستحق على المستأجرين"
+},
+"a": "sum",
+"f": "owed",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "since",
+"by": [
+"ttype"
+]
+}
+},
+{
+"id": "leases",
+"g": "rent",
+"n": {
+"en": "Leases",
+"ar": "العقود"
+},
+"d": {
+"en": "Every lease with dates, rent, payment frequency, deposit and days to expiry - renewals never slip.",
+"ar": "كل عقد بتواريخه وإيجاره ودورية الدفع والتأمين والأيام المتبقية - فلا يفوتك تجديد."
+},
+"prefix": "LS",
+"rows": 34,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Lease ID",
+"ar": "رقم العقد"
+},
+"t": "id"
+},
+{
+"k": "start",
+"n": {
+"en": "Start",
+"ar": "البداية"
+},
+"t": "date"
+},
+{
+"k": "unit",
+"n": {
+"en": "Unit ID",
+"ar": "رقم الوحدة"
+},
+"t": "ref",
+"m": "units"
+},
+{
+"k": "bldg",
+"n": {
+"en": "Building",
+"ar": "المبنى"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@units.bldg|unit}"
+},
+{
+"k": "tenant",
+"n": {
+"en": "Tenant ID",
+"ar": "رقم المستأجر"
+},
+"t": "ref",
+"m": "tenants"
+},
+{
+"k": "tname",
+"n": {
+"en": "Tenant",
+"ar": "المستأجر"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@tenants.name|tenant}"
+},
+{
+"k": "end",
+"n": {
+"en": "End",
+"ar": "النهاية"
+},
+"t": "date",
+"rel": "start",
+"min": 360,
+"max": 370,
+"cf": "soon"
+},
+{
+"k": "rent",
+"n": {
+"en": "Annual rent",
+"ar": "الإيجار السنوي"
+},
+"t": "money",
+"min": 18000,
+"max": 160000,
+"step": 1000,
+"cf": "databar"
+},
+{
+"k": "freq",
+"n": {
+"en": "Paid",
+"ar": "الدفع"
+},
+"t": "list",
+"l": "freq",
+"wts": [
+3,
+3,
+2,
+2
+]
+},
+{
+"k": "deposit",
+"n": {
+"en": "Deposit",
+"ar": "التأمين"
+},
+"t": "money",
+"min": 1000,
+"max": 15000,
+"step": 500
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "lstat",
+"wts": [
+6,
+2,
+1,
+2
+]
+},
+{
+"k": "left",
+"n": {
+"en": "Days left",
+"ar": "الأيام المتبقية"
+},
+"t": "calc",
+"fmt": "int",
+"f": "={end}-TODAY()",
+"cf": "scale"
+},
+{
+"k": "monthly",
+"n": {
+"en": "Monthly equivalent",
+"ar": "المعادل الشهري"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={rent}/12"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Active leases",
+"ar": "العقود السارية"
+},
+"a": "count",
+"w": [
+[
+"status",
+0
+]
+]
+},
+{
+"n": {
+"en": "Rent roll (active)",
+"ar": "الإيجارات السارية"
+},
+"a": "sum",
+"f": "rent",
+"w": [
+[
+"status",
+0
+]
+],
+"fmt": "money"
+},
+{
+"n": {
+"en": "Expiring soon",
+"ar": "قاربت على الانتهاء"
+},
+"a": "count",
+"w": [
+[
+"status",
+1
+]
+]
+},
+{
+"n": {
+"en": "Average rent",
+"ar": "متوسط الإيجار"
+},
+"a": "avg",
+"f": "rent",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "start",
+"val": "rent",
+"agg": "sum",
+"by": [
+"status",
+"freq"
+]
+}
+},
+{
+"id": "payments",
+"g": "rent",
+"n": {
+"en": "Rent collection",
+"ar": "تحصيل الإيجار"
+},
+"d": {
+"en": "Each rent installment: due, paid, method, balance and days late.",
+"ar": "كل دفعة إيجار: المستحق والمدفوع والطريقة والمتبقي وأيام التأخير."
+},
+"prefix": "RC",
+"rows": 60,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Receipt ID",
+"ar": "رقم القيد"
+},
+"t": "id"
+},
+{
+"k": "due",
+"n": {
+"en": "Due date",
+"ar": "تاريخ الاستحقاق"
+},
+"t": "date"
+},
+{
+"k": "lease",
+"n": {
+"en": "Lease ID",
+"ar": "رقم العقد"
+},
+"t": "ref",
+"m": "leases"
+},
+{
+"k": "tname",
+"n": {
+"en": "Tenant",
+"ar": "المستأجر"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@leases.tname|lease}"
+},
+{
+"k": "amount",
+"n": {
+"en": "Amount due",
+"ar": "المبلغ المستحق"
+},
+"t": "money",
+"min": 1500,
+"max": 40000,
+"step": 100
+},
+{
+"k": "paid",
+"n": {
+"en": "Amount paid",
+"ar": "المبلغ المدفوع"
+},
+"t": "money",
+"min": 0,
+"max": 40000,
+"step": 100,
+"eq": "amount"
+},
+{
+"k": "pdate",
+"n": {
+"en": "Paid on",
+"ar": "تاريخ الدفع"
+},
+"t": "date",
+"rel": "due",
+"min": 0,
+"max": 25
+},
+{
+"k": "method",
+"n": {
+"en": "Method",
+"ar": "الطريقة"
+},
+"t": "list",
+"l": "paym"
+},
+{
+"k": "balance",
+"n": {
+"en": "Balance",
+"ar": "المتبقي"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=MAX(0,{amount}-{paid})",
+"cf": "databar"
+},
+{
+"k": "late",
+"n": {
+"en": "Days late",
+"ar": "أيام التأخير"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=IF({balance}=0,MAX(0,{pdate}-{due}),MAX(0,TODAY()-{due}))",
+"cf": "scale_r"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "calc",
+"fmt": "text",
+"f": "=IF({balance}=0,{L:payst:0},IF({paid}>0,{L:payst:1},IF({due}<TODAY(),{L:payst:3},{L:payst:2})))"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Collected",
+"ar": "المحصّل"
+},
+"a": "sum",
+"f": "paid",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Outstanding",
+"ar": "المتأخرات"
+},
+"a": "sum",
+"f": "balance",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Collection rate",
+"ar": "نسبة التحصيل"
+},
+"a": "ratio",
+"f": "paid",
+"f2": "amount",
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Avg days late",
+"ar": "متوسط أيام التأخير"
+},
+"a": "avg",
+"f": "late",
+"fmt": "num"
+}
+],
+"rep": {
+"date": "due",
+"val": "paid",
+"agg": "sum",
+"by": [
+"method"
+]
+}
+},
+{
+"id": "deposits",
+"g": "rent",
+"n": {
+"en": "Security deposits",
+"ar": "مبالغ التأمين"
+},
+"d": {
+"en": "Deposits received, where they are held, deductions and refunds.",
+"ar": "مبالغ التأمين المستلمة ومكان حفظها والخصومات والمبالغ المستردة."
+},
+"prefix": "DP",
+"rows": 24,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Deposit ID",
+"ar": "رقم التأمين"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Received",
+"ar": "تاريخ الاستلام"
+},
+"t": "date"
+},
+{
+"k": "lease",
+"n": {
+"en": "Lease ID",
+"ar": "رقم العقد"
+},
+"t": "ref",
+"m": "leases"
+},
+{
+"k": "tname",
+"n": {
+"en": "Tenant",
+"ar": "المستأجر"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@leases.tname|lease}"
+},
+{
+"k": "amount",
+"n": {
+"en": "Amount",
+"ar": "المبلغ"
+},
+"t": "money",
+"min": 1000,
+"max": 15000,
+"step": 500
+},
+{
+"k": "held",
+"n": {
+"en": "Held in",
+"ar": "محفوظ في"
+},
+"t": "list",
+"l": "held"
+},
+{
+"k": "deduct",
+"n": {
+"en": "Deductions",
+"ar": "الخصومات"
+},
+"t": "money",
+"min": 0,
+"max": 2500,
+"step": 100
+},
+{
+"k": "refund",
+"n": {
+"en": "Refund due",
+"ar": "المسترد المستحق"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=MAX(0,{amount}-{deduct})"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "dstat",
+"wts": [
+6,
+3,
+2,
+1
+]
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Deposits held",
+"ar": "التأمينات المحتجزة"
+},
+"a": "sum",
+"f": "amount",
+"w": [
+[
+"status",
+0
+]
+],
+"fmt": "money"
+},
+{
+"n": {
+"en": "Refunds due",
+"ar": "المستردات المستحقة"
+},
+"a": "sum",
+"f": "refund",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Deductions",
+"ar": "الخصومات"
+},
+"a": "sum",
+"f": "deduct",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Deposits",
+"ar": "عدد التأمينات"
+},
+"a": "count"
+}
+],
+"rep": {
+"date": "date",
+"val": "amount",
+"agg": "sum",
+"by": [
+"status",
+"held"
+]
+}
+},
+{
+"id": "vacancies",
+"g": "rent",
+"n": {
+"en": "Vacancies & letting",
+"ar": "الشواغر والتأجير"
+},
+"d": {
+"en": "Empty units, where they are advertised, interest received and the rent you lose each day.",
+"ar": "الوحدات الشاغرة وأماكن الإعلان عنها والاهتمام الوارد والإيجار الضائع يومياً."
+},
+"prefix": "VC",
+"rows": 16,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Vacancy ID",
+"ar": "رقم الشاغر"
+},
+"t": "id"
+},
+{
+"k": "since",
+"n": {
+"en": "Vacant since",
+"ar": "شاغرة منذ"
+},
+"t": "date",
+"past": 120,
+"future": 0
+},
+{
+"k": "unit",
+"n": {
+"en": "Unit ID",
+"ar": "رقم الوحدة"
+},
+"t": "ref",
+"m": "units"
+},
+{
+"k": "bldg",
+"n": {
+"en": "Building",
+"ar": "المبنى"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@units.bldg|unit}"
+},
+{
+"k": "ask",
+"n": {
+"en": "Asking rent / year",
+"ar": "الإيجار المطلوب سنوياً"
+},
+"t": "money",
+"min": 18000,
+"max": 150000,
+"step": 1000
+},
+{
+"k": "portal",
+"n": {
+"en": "Advertised on",
+"ar": "مُعلن في"
+},
+"t": "list",
+"l": "portal"
+},
+{
+"k": "views",
+"n": {
+"en": "Viewings",
+"ar": "المعاينات"
+},
+"t": "int",
+"min": 0,
+"max": 14
+},
+{
+"k": "apps",
+"n": {
+"en": "Applications",
+"ar": "الطلبات"
+},
+"t": "int",
+"min": 0,
+"max": 4
+},
+{
+"k": "days",
+"n": {
+"en": "Days vacant",
+"ar": "أيام الشغور"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=TODAY()-{since}",
+"cf": "scale_r"
+},
+{
+"k": "lost",
+"n": {
+"en": "Rent lost",
+"ar": "الإيجار الضائع"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={ask}/365*{days}",
+"cf": "databar"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "vstat"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Vacancies",
+"ar": "الشواغر"
+},
+"a": "count",
+"w": [
+[
+"status",
+0
+]
+]
+},
+{
+"n": {
+"en": "Rent lost so far",
+"ar": "الإيجار الضائع"
+},
+"a": "sum",
+"f": "lost",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Avg days vacant",
+"ar": "متوسط أيام الشغور"
+},
+"a": "avg",
+"f": "days",
+"fmt": "num"
+},
+{
+"n": {
+"en": "Viewings",
+"ar": "المعاينات"
+},
+"a": "sum",
+"f": "views"
+}
+],
+"rep": {
+"date": "since",
+"val": "lost",
+"agg": "sum",
+"by": [
+"status",
+"portal"
+]
+}
+},
+{
+"id": "maint",
+"g": "ops",
+"n": {
+"en": "Maintenance requests",
+"ar": "طلبات الصيانة"
+},
+"d": {
+"en": "Requests from report to completion: category, priority, vendor, cost, days to close and whether the tenant pays.",
+"ar": "الطلبات من البلاغ حتى الإغلاق: الفئة والأولوية والمقاول والتكلفة وأيام الإنجاز وهل يتحملها المستأجر."
+},
+"prefix": "MR",
+"rows": 50,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Request ID",
+"ar": "رقم الطلب"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Reported",
+"ar": "تاريخ البلاغ"
+},
+"t": "date"
+},
+{
+"k": "unit",
+"n": {
+"en": "Unit ID",
+"ar": "رقم الوحدة"
+},
+"t": "ref",
+"m": "units"
+},
+{
+"k": "cat",
+"n": {
+"en": "Category",
+"ar": "الفئة"
+},
+"t": "list",
+"l": "mcat"
+},
+{
+"k": "desc",
+"n": {
+"en": "Description",
+"ar": "الوصف"
+},
+"t": "text",
+"s": {
+"en": [
+"Leaking kitchen tap",
+"AC not cooling",
+"Power socket sparks",
+"Door lock broken",
+"Water heater fault",
+"Cracked tiles",
+"Elevator stuck",
+"Insects in kitchen"
+],
+"ar": [
+"تسريب صنبور المطبخ",
+"المكيف لا يبرد",
+"شرارة في مقبس الكهرباء",
+"قفل الباب معطل",
+"عطل في السخان",
+"بلاط متشقق",
+"المصعد متوقف",
+"حشرات في المطبخ"
+]
+},
+"w": 26
+},
+{
+"k": "prio",
+"n": {
+"en": "Priority",
+"ar": "الأولوية"
+},
+"t": "list",
+"l": "priority",
+"wts": [
+1,
+2,
+4,
+2
+]
+},
+{
+"k": "vendor",
+"n": {
+"en": "Vendor ID",
+"ar": "رقم المقاول"
+},
+"t": "ref",
+"m": "vendors"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "mstat",
+"wts": [
+2,
+1,
+2,
+6,
+1
+]
+},
+{
+"k": "cost",
+"n": {
+"en": "Cost",
+"ar": "التكلفة"
+},
+"t": "money",
+"min": 50,
+"max": 3500,
+"step": 10
+},
+{
+"k": "done",
+"n": {
+"en": "Completed on",
+"ar": "تاريخ الإنجاز"
+},
+"t": "date",
+"rel": "date",
+"min": 0,
+"max": 12
+},
+{
+"k": "dtc",
+"n": {
+"en": "Days to close",
+"ar": "أيام الإنجاز"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=IF({done}=\"\",\"\",{done}-{date})",
+"cf": "scale_r"
+},
+{
+"k": "charge",
+"n": {
+"en": "Charge tenant?",
+"ar": "على المستأجر؟"
+},
+"t": "list",
+"l": "yn",
+"wts": [
+1,
+4
+]
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Open requests",
+"ar": "طلبات مفتوحة"
+},
+"a": "count",
+"w": [
+[
+"status",
+0
+]
+]
+},
+{
+"n": {
+"en": "Urgent",
+"ar": "عاجلة"
+},
+"a": "count",
+"w": [
+[
+"prio",
+0
+]
+]
+},
+{
+"n": {
+"en": "Maintenance cost",
+"ar": "تكلفة الصيانة"
+},
+"a": "sum",
+"f": "cost",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Avg days to close",
+"ar": "متوسط أيام الإنجاز"
+},
+"a": "avg",
+"f": "dtc",
+"fmt": "num"
+}
+],
+"rep": {
+"date": "date",
+"val": "cost",
+"agg": "sum",
+"by": [
+"cat",
+"prio",
+"status"
+]
+}
+},
+{
+"id": "vendors",
+"g": "ops",
+"n": {
+"en": "Vendors & contractors",
+"ar": "المقاولون والموردون"
+},
+"d": {
+"en": "Your trusted trades with rating, jobs done and money spent - computed from the requests.",
+"ar": "المقاولون الموثوقون بتقييمهم والأعمال المنجزة والمبالغ المصروفة - محسوبة من الطلبات."
+},
+"prefix": "VD",
+"rows": 12,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Vendor ID",
+"ar": "رقم المقاول"
+},
+"t": "id"
+},
+{
+"k": "name",
+"n": {
+"en": "Company",
+"ar": "الشركة"
+},
+"t": "text",
+"s": "company"
+},
+{
+"k": "trade",
+"n": {
+"en": "Trade",
+"ar": "التخصص"
+},
+"t": "list",
+"l": "trade"
+},
+{
+"k": "contact",
+"n": {
+"en": "Contact",
+"ar": "المسؤول"
+},
+"t": "text",
+"s": "person"
+},
+{
+"k": "phone",
+"n": {
+"en": "Phone",
+"ar": "الجوال"
+},
+"t": "text",
+"s": "phone"
+},
+{
+"k": "rating",
+"n": {
+"en": "Rating 1-5",
+"ar": "التقييم"
+},
+"t": "int",
+"min": 2,
+"max": 5,
+"cf": "scale"
+},
+{
+"k": "jobs",
+"n": {
+"en": "Jobs",
+"ar": "الأعمال"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=COUNTIF({#maint.vendor},{id})"
+},
+{
+"k": "spend",
+"n": {
+"en": "Spend",
+"ar": "المصروف"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=SUMIFS({#maint.cost},{#maint.vendor},{id})",
+"cf": "databar"
+},
+{
+"k": "avgd",
+"n": {
+"en": "Avg days to close",
+"ar": "متوسط أيام الإنجاز"
+},
+"t": "calc",
+"fmt": "num",
+"f": "=IFERROR(AVERAGEIFS({#maint.dtc},{#maint.vendor},{id}),0)",
+"cf": "scale_r"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Vendors",
+"ar": "المقاولون"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Total spend",
+"ar": "إجمالي المصروف"
+},
+"a": "sum",
+"f": "spend",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Avg rating",
+"ar": "متوسط التقييم"
+},
+"a": "avg",
+"f": "rating",
+"fmt": "num"
+}
+],
+"rep": {
+"val": "spend",
+"agg": "sum",
+"by": [
+"trade"
+]
+}
+},
+{
+"id": "inspections",
+"g": "ops",
+"n": {
+"en": "Inspections",
+"ar": "المعاينات الدورية"
+},
+"d": {
+"en": "Move-in, move-out, routine and safety inspections with condition, issues and next date.",
+"ar": "معاينات الاستلام والتسليم والدورية والسلامة بالحالة والملاحظات والموعد القادم."
+},
+"prefix": "IN",
+"rows": 28,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Inspection ID",
+"ar": "رقم المعاينة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "unit",
+"n": {
+"en": "Unit ID",
+"ar": "رقم الوحدة"
+},
+"t": "ref",
+"m": "units"
+},
+{
+"k": "itype",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "itype"
+},
+{
+"k": "by",
+"n": {
+"en": "Inspector",
+"ar": "المعاين"
+},
+"t": "text",
+"s": "person"
+},
+{
+"k": "cond",
+"n": {
+"en": "Condition",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "cond",
+"wts": [
+2,
+5,
+2,
+1
+]
+},
+{
+"k": "issues",
+"n": {
+"en": "Issues found",
+"ar": "ملاحظات"
+},
+"t": "int",
+"min": 0,
+"max": 6,
+"cf": "scale_r"
+},
+{
+"k": "follow",
+"n": {
+"en": "Follow-up needed",
+"ar": "يحتاج متابعة"
+},
+"t": "list",
+"l": "yn"
+},
+{
+"k": "next",
+"n": {
+"en": "Next inspection",
+"ar": "المعاينة القادمة"
+},
+"t": "date",
+"rel": "date",
+"min": 90,
+"max": 180,
+"cf": "soon"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Inspections",
+"ar": "المعاينات"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Poor condition",
+"ar": "حالة سيئة"
+},
+"a": "count",
+"w": [
+[
+"cond",
+3
+]
+]
+},
+{
+"n": {
+"en": "Issues found",
+"ar": "الملاحظات"
+},
+"a": "sum",
+"f": "issues"
+},
+{
+"n": {
+"en": "Need follow-up",
+"ar": "تحتاج متابعة"
+},
+"a": "count",
+"w": [
+[
+"follow",
+0
+]
+]
+}
+],
+"rep": {
+"date": "date",
+"val": "issues",
+"agg": "sum",
+"by": [
+"itype",
+"cond"
+]
+}
+},
+{
+"id": "utilities",
+"g": "ops",
+"n": {
+"en": "Utilities & meters",
+"ar": "الخدمات والعدادات"
+},
+"d": {
+"en": "Meter readings, consumption, bills and who pays.",
+"ar": "قراءات العدادات والاستهلاك والفواتير ومن يدفعها."
+},
+"prefix": "UT",
+"rows": 48,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Bill ID",
+"ar": "رقم الفاتورة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Bill month",
+"ar": "شهر الفاتورة"
+},
+"t": "date"
+},
+{
+"k": "unit",
+"n": {
+"en": "Unit ID",
+"ar": "رقم الوحدة"
+},
+"t": "ref",
+"m": "units"
+},
+{
+"k": "util",
+"n": {
+"en": "Utility",
+"ar": "الخدمة"
+},
+"t": "list",
+"l": "util",
+"wts": [
+4,
+3,
+1,
+1,
+2
+]
+},
+{
+"k": "r1",
+"n": {
+"en": "Reading start",
+"ar": "القراءة السابقة"
+},
+"t": "int",
+"min": 1000,
+"max": 9000
+},
+{
+"k": "use",
+"n": {
+"en": "Consumption",
+"ar": "الاستهلاك"
+},
+"t": "int",
+"min": 80,
+"max": 1400
+},
+{
+"k": "r2",
+"n": {
+"en": "Reading end",
+"ar": "القراءة الحالية"
+},
+"t": "calc",
+"fmt": "int",
+"f": "={r1}+{use}"
+},
+{
+"k": "amount",
+"n": {
+"en": "Amount",
+"ar": "المبلغ"
+},
+"t": "money",
+"min": 40,
+"max": 1600,
+"step": 5,
+"cf": "databar"
+},
+{
+"k": "payer",
+"n": {
+"en": "Paid by",
+"ar": "يدفعها"
+},
+"t": "list",
+"l": "payer"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "payst",
+"wts": [
+6,
+1,
+2,
+1
+]
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Utility bills",
+"ar": "فواتير الخدمات"
+},
+"a": "sum",
+"f": "amount",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Owner-paid",
+"ar": "على المالك"
+},
+"a": "sum",
+"f": "amount",
+"w": [
+[
+"payer",
+0
+]
+],
+"fmt": "money"
+},
+{
+"n": {
+"en": "Unpaid",
+"ar": "غير مدفوعة"
+},
+"a": "count",
+"w": [
+[
+"status",
+2
+]
+]
+}
+],
+"rep": {
+"date": "date",
+"val": "amount",
+"agg": "sum",
+"by": [
+"util",
+"payer"
+]
+}
+},
+{
+"id": "compliance",
+"g": "ops",
+"n": {
+"en": "Compliance & certificates",
+"ar": "الامتثال والشهادات"
+},
+"d": {
+"en": "Insurance, safety certificates and licenses with expiry alerts.",
+"ar": "التأمين وشهادات السلامة والرخص مع تنبيهات الانتهاء."
+},
+"prefix": "CP",
+"rows": 6,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Ref",
+"ar": "المرجع"
+},
+"t": "id"
+},
+{
+"k": "doc",
+"n": {
+"en": "Document",
+"ar": "المستند"
+},
+"t": "list",
+"l": "doc",
+"seq": true
+},
+{
+"k": "bldg",
+"n": {
+"en": "Building",
+"ar": "المبنى"
+},
+"t": "text",
+"s": {
+"en": [
+"Palm Residence",
+"Cedar Court",
+"Harbor Towers"
+],
+"ar": [
+"سكن النخيل",
+"مجمع الأرز",
+"أبراج الميناء"
+]
+}
+},
+{
+"k": "number",
+"n": {
+"en": "Number",
+"ar": "الرقم"
+},
+"t": "text",
+"s": "code"
+},
+{
+"k": "issue",
+"n": {
+"en": "Issued",
+"ar": "تاريخ الإصدار"
+},
+"t": "date",
+"past": 500,
+"future": 0
+},
+{
+"k": "expiry",
+"n": {
+"en": "Expires",
+"ar": "تاريخ الانتهاء"
+},
+"t": "date",
+"rel": "issue",
+"min": 200,
+"max": 700,
+"cf": "soon"
+},
+{
+"k": "cost",
+"n": {
+"en": "Renewal cost",
+"ar": "تكلفة التجديد"
+},
+"t": "money",
+"min": 300,
+"max": 9000,
+"step": 50
+},
+{
+"k": "state",
+"n": {
+"en": "State",
+"ar": "الوضع"
+},
+"t": "calc",
+"fmt": "text",
+"f": "=IF({expiry}<TODAY(),{tx:Expired/منتهي},IF({expiry}<=TODAY()+30,{tx:Renew now/جدّد الآن},{tx:Valid/ساري}))"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Certificates",
+"ar": "الشهادات"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Renewal budget",
+"ar": "ميزانية التجديد"
+},
+"a": "sum",
+"f": "cost",
+"fmt": "money"
+}
+]
+},
+{
+"id": "expenses",
+"g": "fin",
+"n": {
+"en": "Property expenses",
+"ar": "مصروفات العقارات"
+},
+"d": {
+"en": "All property costs by unit and category, with tax.",
+"ar": "كل تكاليف العقارات حسب الوحدة والبند مع الضريبة."
+},
+"prefix": "EX",
+"rows": 50,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Expense ID",
+"ar": "رقم المصروف"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "unit",
+"n": {
+"en": "Unit ID",
+"ar": "رقم الوحدة"
+},
+"t": "ref",
+"m": "units"
+},
+{
+"k": "cat",
+"n": {
+"en": "Category",
+"ar": "البند"
+},
+"t": "list",
+"l": "lcat"
+},
+{
+"k": "desc",
+"n": {
+"en": "Description",
+"ar": "الوصف"
+},
+"t": "text",
+"s": "note"
+},
+{
+"k": "amount",
+"n": {
+"en": "Amount",
+"ar": "المبلغ"
+},
+"t": "money",
+"min": 50,
+"max": 12000,
+"step": 10
+},
+{
+"k": "vat",
+"n": {
+"en": "Tax %",
+"ar": "الضريبة %"
+},
+"t": "pct",
+"min": 0.0,
+"max": 0.15
+},
+{
+"k": "total",
+"n": {
+"en": "Total",
+"ar": "الإجمالي"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={amount}*(1+{vat})",
+"cf": "databar"
+},
+{
+"k": "method",
+"n": {
+"en": "Paid by",
+"ar": "طريقة الدفع"
+},
+"t": "list",
+"l": "paym"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Total expenses",
+"ar": "إجمالي المصروفات"
+},
+"a": "sum",
+"f": "total",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Maintenance",
+"ar": "الصيانة"
+},
+"a": "sum",
+"f": "total",
+"w": [
+[
+"cat",
+0
+]
+],
+"fmt": "money"
+},
+{
+"n": {
+"en": "Entries",
+"ar": "القيود"
+},
+"a": "count"
+}
+],
+"rep": {
+"date": "date",
+"val": "total",
+"agg": "sum",
+"by": [
+"cat"
+]
+}
+},
+{
+"id": "statements",
+"g": "fin",
+"n": {
+"en": "Owner statements",
+"ar": "كشوف حساب الملاك"
+},
+"d": {
+"en": "For managers: each owner's monthly rent collected, management fee, expenses and net payout.",
+"ar": "لمديري الأملاك: الإيجار المحصل شهرياً لكل مالك وأتعاب الإدارة والمصروفات وصافي المستحق."
+},
+"prefix": "ST",
+"rows": 24,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Statement ID",
+"ar": "رقم الكشف"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Month",
+"ar": "الشهر"
+},
+"t": "date"
+},
+{
+"k": "owner",
+"n": {
+"en": "Owner",
+"ar": "المالك"
+},
+"t": "text",
+"s": "person"
+},
+{
+"k": "rent",
+"n": {
+"en": "Rent collected",
+"ar": "الإيجار المحصل"
+},
+"t": "money",
+"min": 4000,
+"max": 60000,
+"step": 100
+},
+{
+"k": "feep",
+"n": {
+"en": "Management fee %",
+"ar": "أتعاب الإدارة %"
+},
+"t": "pct",
+"min": 0.05,
+"max": 0.1
+},
+{
+"k": "fee",
+"n": {
+"en": "Management fee",
+"ar": "أتعاب الإدارة"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={rent}*{feep}"
+},
+{
+"k": "exp",
+"n": {
+"en": "Expenses paid",
+"ar": "المصروفات"
+},
+"t": "money",
+"min": 0,
+"max": 6000,
+"step": 50
+},
+{
+"k": "net",
+"n": {
+"en": "Net payout",
+"ar": "صافي المستحق للمالك"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={rent}-{fee}-{exp}",
+"cf": "databar"
+},
+{
+"k": "status",
+"n": {
+"en": "Paid to owner",
+"ar": "الدفع للمالك"
+},
+"t": "list",
+"l": "payst",
+"wts": [
+6,
+1,
+2,
+1
+]
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Rent collected",
+"ar": "الإيجار المحصل"
+},
+"a": "sum",
+"f": "rent",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Management fees",
+"ar": "أتعاب الإدارة"
+},
+"a": "sum",
+"f": "fee",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Paid to owners",
+"ar": "المدفوع للملاك"
+},
+"a": "sum",
+"f": "net",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "date",
+"val": "fee",
+"agg": "sum",
+"by": [
+"status"
+]
+}
+}
+],
+"calculators": [
+{
+"id": "yield",
+"g": "fin",
+"n": {
+"en": "Yield & cap rate",
+"ar": "العائد ومعدل الرسملة"
+},
+"d": {
+"en": "Is the property paying? Gross and net yield, cap rate and payback.",
+"ar": "هل العقار مجدٍ؟ العائد الإجمالي والصافي ومعدل الرسملة وسنوات الاسترداد."
+},
+"inputs": [
+{
+"k": "price",
+"n": {
+"en": "Property value",
+"ar": "قيمة العقار"
+},
+"fmt": "money",
+"v": 1500000
+},
+{
+"k": "rent",
+"n": {
+"en": "Annual rent",
+"ar": "الإيجار السنوي"
+},
+"fmt": "money",
+"v": 105000
+},
+{
+"k": "vac",
+"n": {
+"en": "Vacancy %",
+"ar": "نسبة الشغور %"
+},
+"fmt": "pct",
+"v": 0.06
+},
+{
+"k": "opex",
+"n": {
+"en": "Operating costs / year",
+"ar": "التكاليف التشغيلية سنوياً"
+},
+"fmt": "money",
+"v": 14000
+},
+{
+"k": "fees",
+"n": {
+"en": "Purchase costs %",
+"ar": "تكاليف الشراء %"
+},
+"fmt": "pct",
+"v": 0.05
+}
+],
+"outputs": [
+{
+"k": "gross",
+"n": {
+"en": "Gross yield",
+"ar": "العائد الإجمالي"
+},
+"fmt": "pct",
+"f": "{rent}/{price}"
+},
+{
+"k": "noi",
+"n": {
+"en": "Net operating income",
+"ar": "صافي الدخل التشغيلي"
+},
+"fmt": "money",
+"f": "{rent}*(1-{vac})-{opex}"
+},
+{
+"k": "net",
+"n": {
+"en": "Net yield on cost",
+"ar": "العائد الصافي على التكلفة"
+},
+"fmt": "pct",
+"f": "{noi}/({price}*(1+{fees}))",
+"hl": true
+},
+{
+"k": "cap",
+"n": {
+"en": "Cap rate",
+"ar": "معدل الرسملة"
+},
+"fmt": "pct",
+"f": "{noi}/{price}"
+},
+{
+"k": "pay",
+"n": {
+"en": "Payback (years)",
+"ar": "سنوات الاسترداد"
+},
+"fmt": "years",
+"f": "({price}*(1+{fees}))/{noi}"
+}
+]
+},
+{
+"id": "increase",
+"g": "rent",
+"n": {
+"en": "Rent increase & renewal",
+"ar": "زيادة الإيجار والتجديد"
+},
+"d": {
+"en": "New rent at renewal, the monthly difference and how it compares to market.",
+"ar": "الإيجار الجديد عند التجديد والفرق الشهري ومقارنته بالسوق."
+},
+"inputs": [
+{
+"k": "cur",
+"n": {
+"en": "Current annual rent",
+"ar": "الإيجار الحالي سنوياً"
+},
+"fmt": "money",
+"v": 60000
+},
+{
+"k": "inc",
+"n": {
+"en": "Proposed increase %",
+"ar": "الزيادة المقترحة %"
+},
+"fmt": "pct",
+"v": 0.05
+},
+{
+"k": "cap",
+"n": {
+"en": "Legal / policy cap %",
+"ar": "الحد الأعلى المسموح %"
+},
+"fmt": "pct",
+"v": 0.1
+},
+{
+"k": "mkt",
+"n": {
+"en": "Market rent for similar units",
+"ar": "إيجار السوق للوحدات المماثلة"
+},
+"fmt": "money",
+"v": 66000
+}
+],
+"outputs": [
+{
+"k": "eff",
+"n": {
+"en": "Applied increase",
+"ar": "الزيادة المطبقة"
+},
+"fmt": "pct",
+"f": "MIN({inc},{cap})"
+},
+{
+"k": "new",
+"n": {
+"en": "New annual rent",
+"ar": "الإيجار الجديد سنوياً"
+},
+"fmt": "money",
+"f": "ROUND({cur}*(1+{eff}),-2)",
+"hl": true
+},
+{
+"k": "mon",
+"n": {
+"en": "Extra per month",
+"ar": "الزيادة الشهرية"
+},
+"fmt": "money",
+"f": "({new}-{cur})/12"
+},
+{
+"k": "gap",
+"n": {
+"en": "Still below market by",
+"ar": "أقل من السوق بـ"
+},
+"fmt": "pct",
+"f": "IFERROR(1-{new}/{mkt},0)"
+}
+]
+},
+{
+"id": "latefee",
+"g": "rent",
+"n": {
+"en": "Late payment & arrears",
+"ar": "التأخير والمتأخرات"
+},
+"d": {
+"en": "Arrears and late fees for any installment.",
+"ar": "المتأخرات وغرامات التأخير لأي دفعة."
+},
+"inputs": [
+{
+"k": "amt",
+"n": {
+"en": "Installment amount",
+"ar": "مبلغ الدفعة"
+},
+"fmt": "money",
+"v": 15000
+},
+{
+"k": "paid",
+"n": {
+"en": "Paid so far",
+"ar": "المدفوع حتى الآن"
+},
+"fmt": "money",
+"v": 5000
+},
+{
+"k": "due",
+"n": {
+"en": "Due date",
+"ar": "تاريخ الاستحقاق"
+},
+"fmt": "date",
+"v": "today"
+},
+{
+"k": "grace",
+"n": {
+"en": "Grace days",
+"ar": "أيام السماح"
+},
+"fmt": "int",
+"v": 5
+},
+{
+"k": "daily",
+"n": {
+"en": "Daily late fee % (if in lease)",
+"ar": "غرامة يومية % (إن نص عليها العقد)"
+},
+"fmt": "pct",
+"v": 0.001
+},
+{
+"k": "maxf",
+"n": {
+"en": "Max fee %",
+"ar": "أقصى غرامة %"
+},
+"fmt": "pct",
+"v": 0.05
+}
+],
+"outputs": [
+{
+"k": "bal",
+"n": {
+"en": "Arrears",
+"ar": "المتأخرات"
+},
+"fmt": "money",
+"f": "MAX(0,{amt}-{paid})"
+},
+{
+"k": "days",
+"n": {
+"en": "Days late after grace",
+"ar": "أيام التأخير بعد السماح"
+},
+"fmt": "int",
+"f": "MAX(0,TODAY()-{due}-{grace})"
+},
+{
+"k": "fee",
+"n": {
+"en": "Late fee",
+"ar": "الغرامة"
+},
+"fmt": "money",
+"f": "MIN({bal}*{daily}*{days},{bal}*{maxf})"
+},
+{
+"k": "tot",
+"n": {
+"en": "Total to collect",
+"ar": "الإجمالي للتحصيل"
+},
+"fmt": "money",
+"f": "{bal}+{fee}",
+"hl": true
+}
+]
+},
+{
+"id": "service",
+"g": "fin",
+"n": {
+"en": "Service charge allocation",
+"ar": "توزيع رسوم الخدمات"
+},
+"d": {
+"en": "Split a building's shared costs fairly by unit area.",
+"ar": "وزّع تكاليف المبنى المشتركة بعدالة حسب مساحة الوحدة."
+},
+"inputs": [
+{
+"k": "total",
+"n": {
+"en": "Building shared costs / year",
+"ar": "التكاليف المشتركة للمبنى سنوياً"
+},
+"fmt": "money",
+"v": 180000
+},
+{
+"k": "barea",
+"n": {
+"en": "Total leasable area m²",
+"ar": "إجمالي المساحة المؤجرة م²"
+},
+"fmt": "int",
+"v": 6000
+},
+{
+"k": "uarea",
+"n": {
+"en": "This unit area m²",
+"ar": "مساحة هذه الوحدة م²"
+},
+"fmt": "int",
+"v": 140
+},
+{
+"k": "admin",
+"n": {
+"en": "Admin fee %",
+"ar": "رسوم إدارية %"
+},
+"fmt": "pct",
+"v": 0.1
+}
+],
+"outputs": [
+{
+"k": "rate",
+"n": {
+"en": "Cost per m²",
+"ar": "التكلفة لكل متر"
+},
+"fmt": "money",
+"f": "{total}*(1+{admin})/{barea}"
+},
+{
+"k": "year",
+"n": {
+"en": "Unit share / year",
+"ar": "نصيب الوحدة سنوياً"
+},
+"fmt": "money",
+"f": "{rate}*{uarea}",
+"hl": true
+},
+{
+"k": "month",
+"n": {
+"en": "Unit share / month",
+"ar": "نصيب الوحدة شهرياً"
+},
+"fmt": "money",
+"f": "{year}/12"
+},
+{
+"k": "share",
+"n": {
+"en": "Share of building",
+"ar": "النسبة من المبنى"
+},
+"fmt": "pct",
+"f": "{uarea}/{barea}"
+}
+]
+},
+{
+"id": "breakeven",
+"g": "fin",
+"n": {
+"en": "Break-even occupancy",
+"ar": "إشغال التعادل"
+},
+"d": {
+"en": "The occupancy you need just to cover costs and debt.",
+"ar": "نسبة الإشغال اللازمة لتغطية التكاليف والتمويل."
+},
+"inputs": [
+{
+"k": "units",
+"n": {
+"en": "Units",
+"ar": "عدد الوحدات"
+},
+"fmt": "int",
+"v": 24
+},
+{
+"k": "rent",
+"n": {
+"en": "Average rent / unit / year",
+"ar": "متوسط إيجار الوحدة سنوياً"
+},
+"fmt": "money",
+"v": 55000
+},
+{
+"k": "opex",
+"n": {
+"en": "Operating costs / year",
+"ar": "التكاليف التشغيلية سنوياً"
+},
+"fmt": "money",
+"v": 190000
+},
+{
+"k": "debt",
+"n": {
+"en": "Debt payments / year",
+"ar": "أقساط التمويل سنوياً"
+},
+"fmt": "money",
+"v": 420000
+},
+{
+"k": "occ",
+"n": {
+"en": "Current occupancy",
+"ar": "الإشغال الحالي"
+},
+"fmt": "pct",
+"v": 0.88
+}
+],
+"outputs": [
+{
+"k": "pot",
+"n": {
+"en": "Potential rent",
+"ar": "الإيجار الممكن"
+},
+"fmt": "money",
+"f": "{units}*{rent}"
+},
+{
+"k": "be",
+"n": {
+"en": "Break-even occupancy",
+"ar": "إشغال التعادل"
+},
+"fmt": "pct",
+"f": "({opex}+{debt})/{pot}",
+"hl": true
+},
+{
+"k": "beu",
+"n": {
+"en": "Units that must be let",
+"ar": "وحدات يجب تأجيرها"
+},
+"fmt": "num",
+"f": "{be}*{units}"
+},
+{
+"k": "cf",
+"n": {
+"en": "Cash flow at current occupancy",
+"ar": "التدفق بالإشغال الحالي"
+},
+"fmt": "money",
+"f": "{pot}*{occ}-{opex}-{debt}"
+},
+{
+"k": "cushion",
+"n": {
+"en": "Safety margin",
+"ar": "هامش الأمان"
+},
+"fmt": "pct",
+"f": "{occ}-{be}"
+}
+]
+},
+{
+"id": "cashflow",
+"g": "fin",
+"n": {
+"en": "10-year cash flow",
+"ar": "التدفق النقدي 10 سنوات"
+},
+"d": {
+"en": "Year-by-year rent, costs, debt, cash flow and property value.",
+"ar": "الإيجار والتكاليف والتمويل والتدفق النقدي وقيمة العقار سنة بسنة."
+},
+"inputs": [
+{
+"k": "rent",
+"n": {
+"en": "Year-1 rent",
+"ar": "إيجار السنة الأولى"
+},
+"fmt": "money",
+"v": 120000
+},
+{
+"k": "rg",
+"n": {
+"en": "Rent growth / year",
+"ar": "نمو الإيجار سنوياً"
+},
+"fmt": "pct",
+"v": 0.03
+},
+{
+"k": "vac",
+"n": {
+"en": "Vacancy %",
+"ar": "الشغور %"
+},
+"fmt": "pct",
+"v": 0.05
+},
+{
+"k": "opex",
+"n": {
+"en": "Year-1 operating costs",
+"ar": "التكاليف التشغيلية للسنة الأولى"
+},
+"fmt": "money",
+"v": 20000
+},
+{
+"k": "og",
+"n": {
+"en": "Cost growth / year",
+"ar": "نمو التكاليف سنوياً"
+},
+"fmt": "pct",
+"v": 0.03
+},
+{
+"k": "debt",
+"n": {
+"en": "Debt payments / year",
+"ar": "أقساط التمويل سنوياً"
+},
+"fmt": "money",
+"v": 60000
+},
+{
+"k": "val",
+"n": {
+"en": "Property value today",
+"ar": "قيمة العقار اليوم"
+},
+"fmt": "money",
+"v": 1800000
+},
+{
+"k": "ap",
+"n": {
+"en": "Appreciation / year",
+"ar": "ارتفاع القيمة سنوياً"
+},
+"fmt": "pct",
+"v": 0.025
+}
+],
+"outputs": [
+{
+"k": "total",
+"n": {
+"en": "10-year cash flow",
+"ar": "التدفق التراكمي 10 سنوات"
+},
+"fmt": "money",
+"f": "SUMPRODUCT(({rent}*(1+{rg})^(ROW($A$1:$A$10)-1))*(1-{vac})-{opex}*(1+{og})^(ROW($A$1:$A$10)-1)-{debt})",
+"hl": true
+},
+{
+"k": "v10",
+"n": {
+"en": "Value in year 10",
+"ar": "القيمة في السنة العاشرة"
+},
+"fmt": "money",
+"f": "{val}*(1+{ap})^10"
+}
+],
+"table": {
+"title": {
+"en": "Year by year",
+"ar": "سنة بسنة"
+},
+"rows": 10,
+"cols": [
+{
+"k": "inc",
+"n": {
+"en": "Rent collected",
+"ar": "الإيجار المحصل"
+},
+"fmt": "money",
+"f": "{p:inc}*(1+{rg})",
+"f0": "{rent}*(1-{vac})"
+},
+{
+"k": "cost",
+"n": {
+"en": "Operating costs",
+"ar": "التكاليف"
+},
+"fmt": "money",
+"f": "{p:cost}*(1+{og})",
+"f0": "{opex}"
+},
+{
+"k": "debt",
+"n": {
+"en": "Debt",
+"ar": "التمويل"
+},
+"fmt": "money",
+"f": "{debt}",
+"f0": "{debt}"
+},
+{
+"k": "cf",
+"n": {
+"en": "Cash flow",
+"ar": "التدفق النقدي"
+},
+"fmt": "money",
+"f": "{c:inc}-{c:cost}-{c:debt}",
+"f0": "{c:inc}-{c:cost}-{c:debt}"
+},
+{
+"k": "value",
+"n": {
+"en": "Property value",
+"ar": "قيمة العقار"
+},
+"fmt": "money",
+"f": "{p:value}*(1+{ap})",
+"f0": "{val}*(1+{ap})"
+}
+],
+"chart": {
+"t": "column",
+"cols": [
+"cf"
+]
+}
+}
+},
+{
+"id": "reno",
+"g": "ops",
+"n": {
+"en": "Renovation payback",
+"ar": "استرداد تكلفة التجديد"
+},
+"d": {
+"en": "Will a renovation pay for itself through higher rent?",
+"ar": "هل يسترد التجديد تكلفته من زيادة الإيجار؟"
+},
+"inputs": [
+{
+"k": "cost",
+"n": {
+"en": "Renovation cost",
+"ar": "تكلفة التجديد"
+},
+"fmt": "money",
+"v": 45000
+},
+{
+"k": "old",
+"n": {
+"en": "Rent before / year",
+"ar": "الإيجار قبل سنوياً"
+},
+"fmt": "money",
+"v": 60000
+},
+{
+"k": "new",
+"n": {
+"en": "Expected rent after / year",
+"ar": "الإيجار المتوقع بعد سنوياً"
+},
+"fmt": "money",
+"v": 72000
+},
+{
+"k": "down",
+"n": {
+"en": "Months vacant during works",
+"ar": "أشهر الشغور أثناء العمل"
+},
+"fmt": "int",
+"v": 2
+}
+],
+"outputs": [
+{
+"k": "lost",
+"n": {
+"en": "Rent lost during works",
+"ar": "الإيجار الضائع أثناء العمل"
+},
+"fmt": "money",
+"f": "{old}/12*{down}"
+},
+{
+"k": "gain",
+"n": {
+"en": "Extra rent / year",
+"ar": "الزيادة السنوية"
+},
+"fmt": "money",
+"f": "{new}-{old}"
+},
+{
+"k": "pay",
+"n": {
+"en": "Payback (years)",
+"ar": "سنوات الاسترداد"
+},
+"fmt": "years",
+"f": "IFERROR(({cost}+{lost})/{gain},0)",
+"hl": true
+},
+{
+"k": "roi",
+"n": {
+"en": "Return on renovation",
+"ar": "عائد التجديد"
+},
+"fmt": "pct",
+"f": "IFERROR({gain}/({cost}+{lost}),0)"
+}
+]
+}
+],
+"checklists": [
+{
+"id": "c_in",
+"g": "rent",
+"n": {
+"en": "Tenant move-in",
+"ar": "استلام المستأجر للوحدة"
+},
+"d": {
+"en": "Everything before handing over the keys.",
+"ar": "كل شيء قبل تسليم المفاتيح."
+},
+"steps": [
+{
+"n": {
+"en": "Signed lease and tenant ID copies on file",
+"ar": "العقد الموقع ونسخ الهوية في الملف"
+},
+"d": 0,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "First rent and deposit received",
+"ar": "استلام أول دفعة والتأمين"
+},
+"d": 0,
+"o": {
+"en": "Accounts",
+"ar": "الحسابات"
+}
+},
+{
+"n": {
+"en": "Lease registered where required",
+"ar": "توثيق العقد عند الاشتراط"
+},
+"d": 1,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Deep cleaning done",
+"ar": "تنظيف شامل"
+},
+"d": 1,
+"o": {
+"en": "Vendor",
+"ar": "المقاول"
+}
+},
+{
+"n": {
+"en": "All appliances and AC tested",
+"ar": "اختبار كل الأجهزة والتكييف"
+},
+"d": 1,
+"o": {
+"en": "Technician",
+"ar": "الفني"
+}
+},
+{
+"n": {
+"en": "Meter readings recorded (Utilities sheet)",
+"ar": "تسجيل قراءات العدادات (صفحة الخدمات)"
+},
+"d": 2,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Move-in inspection with dated photos",
+"ar": "معاينة الاستلام بصور مؤرخة"
+},
+"d": 2,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Utilities transferred to tenant if agreed",
+"ar": "نقل الخدمات للمستأجر إن اتُفق"
+},
+"d": 2,
+"o": {
+"en": "Tenant",
+"ar": "المستأجر"
+}
+},
+{
+"n": {
+"en": "Keys, cards and remotes counted and signed",
+"ar": "عدّ المفاتيح والبطاقات وتوقيع الاستلام"
+},
+"d": 2,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "House rules and emergency numbers given",
+"ar": "تسليم التعليمات وأرقام الطوارئ"
+},
+"d": 2,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Rent reminders scheduled",
+"ar": "جدولة تذكيرات الإيجار"
+},
+"d": 3,
+"o": {
+"en": "Accounts",
+"ar": "الحسابات"
+}
+},
+{
+"n": {
+"en": "Welcome call after one week",
+"ar": "اتصال ترحيبي بعد أسبوع"
+},
+"d": 9,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+}
+]
+},
+{
+"id": "c_out",
+"g": "rent",
+"n": {
+"en": "Tenant move-out",
+"ar": "إخلاء المستأجر"
+},
+"d": {
+"en": "Close a lease cleanly and settle the deposit fairly.",
+"ar": "أنهِ العقد بشكل صحيح وسوِّ التأمين بعدالة."
+},
+"steps": [
+{
+"n": {
+"en": "Written notice received and date confirmed",
+"ar": "استلام الإشعار الكتابي وتأكيد الموعد"
+},
+"d": 0,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Pre-move-out inspection",
+"ar": "معاينة قبل الإخلاء"
+},
+"d": 7,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Final utility readings and bills settled",
+"ar": "القراءات النهائية وسداد الفواتير"
+},
+"d": 28,
+"o": {
+"en": "Tenant",
+"ar": "المستأجر"
+}
+},
+{
+"n": {
+"en": "Move-out inspection vs move-in photos",
+"ar": "معاينة الإخلاء مقارنة بصور الاستلام"
+},
+"d": 30,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Keys and cards returned",
+"ar": "إعادة المفاتيح والبطاقات"
+},
+"d": 30,
+"o": {
+"en": "Tenant",
+"ar": "المستأجر"
+}
+},
+{
+"n": {
+"en": "Calculate deductions (Deposits sheet)",
+"ar": "احتساب الخصومات (صفحة التأمينات)"
+},
+"d": 31,
+"o": {
+"en": "Accounts",
+"ar": "الحسابات"
+}
+},
+{
+"n": {
+"en": "Refund the deposit balance",
+"ar": "رد باقي التأمين"
+},
+"d": 35,
+"o": {
+"en": "Accounts",
+"ar": "الحسابات"
+}
+},
+{
+"n": {
+"en": "Repairs and cleaning ordered",
+"ar": "طلب الإصلاحات والتنظيف"
+},
+"d": 31,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Unit added to Vacancies and advertised",
+"ar": "إضافة الوحدة للشواغر والإعلان عنها"
+},
+"d": 32,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Close lease status as Ended",
+"ar": "تغيير حالة العقد إلى منتهي"
+},
+"d": 35,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+}
+]
+},
+{
+"id": "c_insp",
+"g": "ops",
+"n": {
+"en": "Annual building inspection",
+"ar": "الفحص السنوي للمبنى"
+},
+"d": {
+"en": "Catch problems before they become expensive.",
+"ar": "اكتشف المشاكل قبل أن تصبح مكلفة."
+},
+"steps": [
+{
+"n": {
+"en": "Roof and waterproofing",
+"ar": "السطح والعزل المائي"
+},
+"d": 0,
+"o": {
+"en": "Technician",
+"ar": "الفني"
+}
+},
+{
+"n": {
+"en": "Fire alarms, extinguishers and exits",
+"ar": "إنذار الحريق والطفايات والمخارج"
+},
+"d": 0,
+"o": {
+"en": "Safety",
+"ar": "السلامة"
+}
+},
+{
+"n": {
+"en": "Elevator certificate valid",
+"ar": "شهادة المصعد سارية"
+},
+"d": 0,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Water tanks cleaned and tested",
+"ar": "تنظيف خزانات المياه وفحصها"
+},
+"d": 3,
+"o": {
+"en": "Vendor",
+"ar": "المقاول"
+}
+},
+{
+"n": {
+"en": "Electrical panels and earthing",
+"ar": "اللوحات الكهربائية والتأريض"
+},
+"d": 3,
+"o": {
+"en": "Technician",
+"ar": "الفني"
+}
+},
+{
+"n": {
+"en": "AC servicing all units",
+"ar": "صيانة مكيفات كل الوحدات"
+},
+"d": 7,
+"o": {
+"en": "Vendor",
+"ar": "المقاول"
+}
+},
+{
+"n": {
+"en": "Plumbing leaks and drains",
+"ar": "تسريبات السباكة والصرف"
+},
+"d": 7,
+"o": {
+"en": "Technician",
+"ar": "الفني"
+}
+},
+{
+"n": {
+"en": "Pest control round",
+"ar": "جولة مكافحة الحشرات"
+},
+"d": 10,
+"o": {
+"en": "Vendor",
+"ar": "المقاول"
+}
+},
+{
+"n": {
+"en": "Common areas paint and lighting",
+"ar": "دهان وإنارة المناطق المشتركة"
+},
+"d": 14,
+"o": {
+"en": "Vendor",
+"ar": "المقاول"
+}
+},
+{
+"n": {
+"en": "Update Compliance sheet with new dates",
+"ar": "تحديث صفحة الامتثال بالتواريخ الجديدة"
+},
+"d": 14,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+}
+]
+},
+{
+"id": "c_ready",
+"g": "units",
+"n": {
+"en": "Make a unit ready to let",
+"ar": "تجهيز وحدة للتأجير"
+},
+"d": {
+"en": "From empty to advertised in one week.",
+"ar": "من شاغرة إلى معلن عنها خلال أسبوع."
+},
+"steps": [
+{
+"n": {
+"en": "Inspect and list all repairs",
+"ar": "المعاينة وحصر الإصلاحات"
+},
+"d": 0,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Repairs and touch-up paint",
+"ar": "الإصلاحات والدهان"
+},
+"d": 3,
+"o": {
+"en": "Vendor",
+"ar": "المقاول"
+}
+},
+{
+"n": {
+"en": "Deep cleaning",
+"ar": "تنظيف شامل"
+},
+"d": 4,
+"o": {
+"en": "Vendor",
+"ar": "المقاول"
+}
+},
+{
+"n": {
+"en": "Check market rent (Market Radar workbook)",
+"ar": "مراجعة إيجار السوق (ملف رادار السوق)"
+},
+"d": 4,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Photos and video",
+"ar": "تصوير وفيديو"
+},
+"d": 5,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Advertise on portals and with agents",
+"ar": "الإعلان في المنصات ولدى الوسطاء"
+},
+"d": 6,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Schedule viewings",
+"ar": "جدولة المعاينات"
+},
+"d": 7,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Screen applicants",
+"ar": "فحص المتقدمين"
+},
+"d": 10,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+}
+]
+},
+{
+"id": "c_renew",
+"g": "rent",
+"n": {
+"en": "Lease renewal",
+"ar": "تجديد العقد"
+},
+"d": {
+"en": "Start 90 days early and keep good tenants.",
+"ar": "ابدأ قبل 90 يوماً واحتفظ بالمستأجر الجيد."
+},
+"steps": [
+{
+"n": {
+"en": "Review payment history and tenant rating",
+"ar": "مراجعة سجل الدفع وتقييم المستأجر"
+},
+"d": 0,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Check market rent and decide the increase",
+"ar": "مراجعة إيجار السوق وتحديد الزيادة"
+},
+"d": 7,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Send the renewal offer (form)",
+"ar": "إرسال عرض التجديد (النموذج)"
+},
+"d": 10,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Negotiate and agree terms",
+"ar": "التفاوض والاتفاق"
+},
+"d": 30,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Sign the renewed lease",
+"ar": "توقيع العقد المجدد"
+},
+"d": 45,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Register renewal and update Leases sheet",
+"ar": "توثيق التجديد وتحديث صفحة العقود"
+},
+"d": 50,
+"o": {
+"en": "Manager",
+"ar": "المدير"
+}
+},
+{
+"n": {
+"en": "Collect first payment of the new term",
+"ar": "تحصيل أول دفعة للمدة الجديدة"
+},
+"d": 90,
+"o": {
+"en": "Accounts",
+"ar": "الحسابات"
+}
+}
+]
+}
+],
+"forms": [
+{
+"id": "f_lease",
+"g": "rent",
+"n": {
+"en": "Lease agreement",
+"ar": "عقد إيجار"
+},
+"m": "leases",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "RESIDENTIAL LEASE AGREEMENT",
+"ar": "عقد إيجار"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"tname",
+"unit",
+"bldg",
+"start",
+"end",
+"rent",
+"freq",
+"deposit"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "The landlord {S:biz_name} leases unit {unit} in {bldg} to {tname} from {start} to {end} for an annual rent of {rent}, payable {freq}. A deposit of {deposit} is held against damage beyond normal wear. The tenant will use the unit for residence only, keep it in good condition, report faults promptly and not sublet without written consent.",
+"ar": "يؤجر المؤجر {S:biz_name} الوحدة {unit} في {bldg} للمستأجر {tname} من {start} حتى {end} بإيجار سنوي قدره {rent} يُدفع بشكل {freq}. ويُحتجز تأمين قدره {deposit} مقابل الأضرار التي تتجاوز الاستهلاك المعتاد. يلتزم المستأجر باستخدام الوحدة للسكن فقط والمحافظة عليها والإبلاغ عن الأعطال فوراً وعدم التأجير من الباطن إلا بموافقة كتابية."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Landlord",
+"ar": "المؤجر"
+},
+{
+"en": "Tenant",
+"ar": "المستأجر"
+}
+]
+}
+]
+},
+{
+"id": "f_receipt",
+"g": "rent",
+"n": {
+"en": "Rent receipt",
+"ar": "إيصال استلام إيجار"
+},
+"m": "payments",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "RENT RECEIPT",
+"ar": "إيصال استلام إيجار"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"tname",
+"lease",
+"due",
+"amount",
+"paid",
+"pdate",
+"method",
+"balance"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Received from {tname} the sum of {paid} for lease {lease}, installment due {due}. Remaining balance: {balance}.",
+"ar": "استلمنا من {tname} مبلغ {paid} عن العقد رقم {lease} للدفعة المستحقة في {due}. المتبقي: {balance}."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Received by",
+"ar": "المستلم"
+}
+]
+}
+]
+},
+{
+"id": "f_remind",
+"g": "rent",
+"n": {
+"en": "Payment reminder notice",
+"ar": "إشعار تذكير بالسداد"
+},
+"m": "payments",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "PAYMENT REMINDER",
+"ar": "إشعار تذكير بالسداد"
+}
+},
+{
+"t": "kv",
+"f": [
+"tname",
+"lease",
+"due",
+"amount",
+"balance",
+"late"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Dear {tname}, our records show {balance} outstanding on lease {lease}, due on {due} ({late} days ago). Please settle it within 7 days or contact us on {S:biz_phone} to agree a payment date.",
+"ar": "عزيزنا {tname}، تشير سجلاتنا إلى مبلغ متأخر قدره {balance} على العقد رقم {lease} استحق في {due} (منذ {late} يوماً). نرجو السداد خلال 7 أيام أو التواصل على {S:biz_phone} للاتفاق على موعد."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Property management",
+"ar": "إدارة الأملاك"
+}
+]
+}
+]
+},
+{
+"id": "f_wo",
+"g": "ops",
+"n": {
+"en": "Maintenance work order",
+"ar": "أمر عمل صيانة"
+},
+"m": "maint",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "WORK ORDER",
+"ar": "أمر عمل صيانة"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"date",
+"unit",
+"cat",
+"desc",
+"prio",
+"vendor",
+"cost"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Please attend unit {unit} for: {desc}. Priority: {prio}. Contact the tenant before arriving and send photos when done.",
+"ar": "نرجو التوجه للوحدة {unit} لمعالجة: {desc}. الأولوية: {prio}. يرجى التواصل مع المستأجر قبل الحضور وإرسال الصور بعد الإنجاز."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Issued by",
+"ar": "أصدره"
+},
+{
+"en": "Vendor",
+"ar": "المقاول"
+},
+{
+"en": "Tenant sign-off",
+"ar": "توقيع المستأجر"
+}
+]
+}
+]
+},
+{
+"id": "f_insp",
+"g": "ops",
+"n": {
+"en": "Inspection report",
+"ar": "تقرير معاينة"
+},
+"m": "inspections",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "INSPECTION REPORT",
+"ar": "تقرير معاينة"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"date",
+"unit",
+"itype",
+"by",
+"cond",
+"issues",
+"follow",
+"next"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Inspection of unit {unit} found the condition {cond} with {issues} issue(s). Photos are kept on file.",
+"ar": "أظهرت معاينة الوحدة {unit} أن حالتها {cond} مع {issues} ملاحظة. الصور محفوظة في الملف."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Inspector",
+"ar": "المعاين"
+},
+{
+"en": "Tenant",
+"ar": "المستأجر"
+}
+]
+}
+]
+},
+{
+"id": "f_renew",
+"g": "rent",
+"n": {
+"en": "Renewal offer",
+"ar": "عرض تجديد العقد"
+},
+"m": "leases",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "LEASE RENEWAL OFFER",
+"ar": "عرض تجديد عقد الإيجار"
+}
+},
+{
+"t": "kv",
+"f": [
+"tname",
+"id",
+"unit",
+"end",
+"rent"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Dear {tname}, your lease {id} for unit {unit} ends on {end}. We would be glad to renew it. Please contact us on {S:biz_phone} within 14 days to confirm the new term.",
+"ar": "عزيزنا {tname}، ينتهي عقدك رقم {id} للوحدة {unit} في {end}، ويسعدنا تجديده. نرجو التواصل على {S:biz_phone} خلال 14 يوماً لتأكيد المدة الجديدة."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Landlord",
+"ar": "المؤجر"
+},
+{
+"en": "Tenant",
+"ar": "المستأجر"
+}
+]
+}
+]
+},
+{
+"id": "f_stmt",
+"g": "fin",
+"n": {
+"en": "Owner statement",
+"ar": "كشف حساب المالك"
+},
+"m": "statements",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "OWNER STATEMENT",
+"ar": "كشف حساب المالك"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"date",
+"owner",
+"rent",
+"fee",
+"exp",
+"net",
+"status"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Statement for {owner}: rent collected {rent}, management fee {fee}, expenses {exp}. Net payable to the owner: {net}.",
+"ar": "كشف حساب {owner}: الإيجار المحصل {rent}، أتعاب الإدارة {fee}، المصروفات {exp}. صافي المستحق للمالك: {net}."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Property manager",
+"ar": "مدير الأملاك"
+}
+]
+}
+]
+},
+{
+"id": "f_dep",
+"g": "rent",
+"n": {
+"en": "Deposit settlement",
+"ar": "تسوية التأمين"
+},
+"m": "deposits",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "DEPOSIT SETTLEMENT",
+"ar": "تسوية مبلغ التأمين"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"tname",
+"lease",
+"amount",
+"deduct",
+"refund"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Deposit of {amount} for lease {lease}: deductions {deduct}, refund to {tname}: {refund}.",
+"ar": "تأمين بمبلغ {amount} للعقد {lease}: الخصومات {deduct}، المسترد لـ {tname}: {refund}."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Landlord",
+"ar": "المؤجر"
+},
+{
+"en": "Tenant",
+"ar": "المستأجر"
+}
+]
+}
+]
+}
+],
+"dashboard": {
+"kpis": [
+[
+"units",
+0
+],
+[
+"units",
+1
+],
+[
+"leases",
+1
+],
+[
+"payments",
+0
+],
+[
+"payments",
+1
+],
+[
+"payments",
+2
+],
+[
+"maint",
+0
+],
+[
+"vacancies",
+1
+]
+],
+"charts": [
+{
+"m": "payments",
+"by": "month",
+"n": {
+"en": "Rent collected by month",
+"ar": "الإيجار المحصل شهرياً"
+}
+},
+{
+"m": "units",
+"by": "status",
+"a": "count",
+"n": {
+"en": "Units by status",
+"ar": "الوحدات حسب الحالة"
+}
+},
+{
+"m": "maint",
+"by": "cat",
+"t": "bar",
+"n": {
+"en": "Maintenance cost by category",
+"ar": "تكلفة الصيانة حسب الفئة"
+}
+},
+{
+"m": "expenses",
+"by": "cat",
+"n": {
+"en": "Expenses by category",
+"ar": "المصروفات حسب البند"
+}
+},
+{
+"m": "leases",
+"by": "month",
+"t": "line",
+"a": "count",
+"n": {
+"en": "New leases per month",
+"ar": "العقود الجديدة شهرياً"
+}
+},
+{
+"m": "utilities",
+"by": "util",
+"t": "bar",
+"n": {
+"en": "Utilities by type",
+"ar": "الخدمات حسب النوع"
+}
+}
+]
+}
+}

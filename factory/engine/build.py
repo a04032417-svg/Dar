@@ -176,10 +176,20 @@ class Book:
             return TODAY + dt.timedelta(days=rnd.randint(-past, fut))
         if t in ('money', 'num', 'int'):
             lo, hi = f.get('min', 0), f.get('max', 1000)
-            step = f.get('step', 1 if t != 'money' else max(1, (hi - lo) // 200))
+            if t == 'num' and (hi - lo <= 20 or lo != int(lo) or hi != int(hi)):
+                return round(rnd.uniform(lo, hi), 2)
+            lo, hi = int(lo), int(hi)
+            step = int(f.get('step', 1 if t != 'money' else max(1, (hi - lo) // 200)))
             return lo + step * rnd.randint(0, max(0, (hi - lo) // step))
         if t == 'pct':
             return round(rnd.uniform(f.get('min', 0), f.get('max', 1)), 3)
+        if f.get('per') and isinstance(row.get(f['per'][0]), (int, float)):
+            k_, lo_, hi_ = f['per']
+            v = row[k_] * rnd.uniform(float(lo_), float(hi_))
+            if t == 'pct':
+                return round(v, 4)
+            st = int(f.get('step', 1)) or 1
+            return int(round(v / st) * st)
         if f.get('eq') and isinstance(row.get(f['eq']), (int, float)):
             base = row[f['eq']]
             v = base * rnd.choice([1, 1, 1, 1, 1, 1, .5, 0])

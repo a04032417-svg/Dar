@@ -1,0 +1,3009 @@
+{
+"id": "re-tenant",
+"theme": {
+"primary": "#5B3E8C",
+"accent": "#2EC4B6",
+"palette": [
+"#5B3E8C",
+"#2EC4B6",
+"#FF9F1C",
+"#E71D36",
+"#3A86FF",
+"#8AC926",
+"#6A4C93",
+"#FFCA3A"
+]
+},
+"title": {
+"en": "Smart Tenant Home Manager",
+"ar": "مدير السكن الذكي للمستأجر"
+},
+"subtitle": {
+"en": "Find the right home with a scoring system, then run it: rent, bills, repairs, budget, deposit, documents, inventory and shared costs",
+"ar": "اختر السكن المناسب بنظام تقييم ثم أدِره: الإيجار والفواتير والإصلاحات والميزانية والتأمين والمستندات والمقتنيات والمصاريف المشتركة"
+},
+"groups": {
+"search": {
+"en": "Find your home",
+"ar": "ابحث عن سكنك"
+},
+"live": {
+"en": "Rent, bills & repairs",
+"ar": "الإيجار والفواتير والإصلاحات"
+},
+"money": {
+"en": "Budget & shared costs",
+"ar": "الميزانية والمصاريف المشتركة"
+},
+"files": {
+"en": "Documents & belongings",
+"ar": "المستندات والمقتنيات"
+}
+},
+"lists": {
+"ptype": {
+"n": {
+"en": "Property type",
+"ar": "نوع العقار"
+},
+"items": {
+"en": [
+"Apartment",
+"Villa",
+"Townhouse",
+"Office",
+"Retail shop",
+"Land",
+"Warehouse",
+"Building"
+],
+"ar": [
+"شقة",
+"فيلا",
+"تاون هاوس",
+"مكتب",
+"محل تجاري",
+"أرض",
+"مستودع",
+"عمارة"
+]
+}
+},
+"district": {
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"items": {
+"en": [
+"North District",
+"South District",
+"East District",
+"West District",
+"Downtown",
+"Waterfront",
+"Business Bay",
+"Garden City"
+],
+"ar": [
+"حي الشمال",
+"حي الجنوب",
+"حي الشرق",
+"حي الغرب",
+"وسط المدينة",
+"الواجهة البحرية",
+"حي الأعمال",
+"حي الحدائق"
+]
+}
+},
+"payst": {
+"n": {
+"en": "Payment status",
+"ar": "حالة الدفع"
+},
+"items": {
+"en": [
+"Paid",
+"Partly paid",
+"Unpaid",
+"Overdue"
+],
+"ar": [
+"مدفوع",
+"مدفوع جزئياً",
+"غير مدفوع",
+"متأخر"
+]
+},
+"colors": [
+"#27AE60",
+"#F39C12",
+"#7F8C8D",
+"#C0392B"
+]
+},
+"paym": {
+"n": {
+"en": "Payment method",
+"ar": "طريقة الدفع"
+},
+"items": {
+"en": [
+"Bank transfer",
+"Card",
+"Cash",
+"Cheque",
+"Online"
+],
+"ar": [
+"تحويل بنكي",
+"بطاقة",
+"نقداً",
+"شيك",
+"دفع إلكتروني"
+]
+}
+},
+"yn": {
+"n": {
+"en": "Yes / No",
+"ar": "نعم / لا"
+},
+"items": {
+"en": [
+"Yes",
+"No"
+],
+"ar": [
+"نعم",
+"لا"
+]
+}
+},
+"mcat": {
+"n": {
+"en": "Maintenance category",
+"ar": "فئة الصيانة"
+},
+"items": {
+"en": [
+"Plumbing",
+"Electrical",
+"AC / HVAC",
+"Painting",
+"Carpentry",
+"Appliances",
+"Cleaning",
+"Pest control",
+"Elevator",
+"Other"
+],
+"ar": [
+"سباكة",
+"كهرباء",
+"تكييف",
+"دهان",
+"نجارة",
+"أجهزة",
+"نظافة",
+"مكافحة حشرات",
+"مصاعد",
+"أخرى"
+]
+}
+},
+"prio": {
+"n": {
+"en": "Priority",
+"ar": "الأولوية"
+},
+"items": {
+"en": [
+"Urgent",
+"High",
+"Normal",
+"Low"
+],
+"ar": [
+"عاجل",
+"عالي",
+"عادي",
+"منخفض"
+]
+},
+"colors": [
+"#C0392B",
+"#E67E22",
+"#2E86AB",
+"#7F8C8D"
+]
+},
+"cond": {
+"n": {
+"en": "Condition",
+"ar": "الحالة الفنية"
+},
+"items": {
+"en": [
+"Excellent",
+"Good",
+"Fair",
+"Poor"
+],
+"ar": [
+"ممتازة",
+"جيدة",
+"مقبولة",
+"سيئة"
+]
+},
+"colors": [
+"#27AE60",
+"#2E86AB",
+"#F39C12",
+"#C0392B"
+]
+},
+"verdict": {
+"n": {
+"en": "Verdict",
+"ar": "القرار"
+},
+"items": {
+"en": [
+"Shortlist",
+"Maybe",
+"Rejected"
+],
+"ar": [
+"القائمة المختصرة",
+"ربما",
+"مستبعد"
+]
+},
+"colors": [
+"#27AE60",
+"#F39C12",
+"#C0392B"
+]
+},
+"rstat": {
+"n": {
+"en": "Repair status",
+"ar": "حالة الإصلاح"
+},
+"items": {
+"en": [
+"Reported",
+"Acknowledged",
+"Fixed",
+"No response"
+],
+"ar": [
+"تم الإبلاغ",
+"تم الاستلام",
+"تم الإصلاح",
+"بلا رد"
+]
+},
+"colors": [
+"#3A86FF",
+"#F39C12",
+"#27AE60",
+"#C0392B"
+]
+},
+"bill": {
+"n": {
+"en": "Bill type",
+"ar": "نوع الفاتورة"
+},
+"items": {
+"en": [
+"Electricity",
+"Water",
+"Gas",
+"Internet",
+"Mobile",
+"District cooling",
+"Parking",
+"Service charge"
+],
+"ar": [
+"كهرباء",
+"مياه",
+"غاز",
+"إنترنت",
+"جوال",
+"تبريد مركزي",
+"موقف",
+"رسوم خدمات"
+]
+}
+},
+"bcat": {
+"n": {
+"en": "Budget category",
+"ar": "بند الميزانية"
+},
+"items": {
+"en": [
+"Rent",
+"Utilities",
+"Groceries",
+"Transport",
+"Internet & phone",
+"Insurance",
+"Health",
+"Entertainment",
+"Savings",
+"Other"
+],
+"ar": [
+"الإيجار",
+"الخدمات",
+"البقالة",
+"المواصلات",
+"الإنترنت والجوال",
+"التأمين",
+"الصحة",
+"الترفيه",
+"الادخار",
+"أخرى"
+]
+}
+},
+"room": {
+"n": {
+"en": "Room",
+"ar": "الغرفة"
+},
+"items": {
+"en": [
+"Living room",
+"Bedroom",
+"Kitchen",
+"Bathroom",
+"Balcony",
+"Storage"
+],
+"ar": [
+"المعيشة",
+"غرفة النوم",
+"المطبخ",
+"دورة المياه",
+"الشرفة",
+"المخزن"
+]
+}
+},
+"doc": {
+"n": {
+"en": "Document",
+"ar": "المستند"
+},
+"items": {
+"en": [
+"Lease contract",
+"Rent receipts",
+"Deposit receipt",
+"ID copy",
+"Move-in photos",
+"Inventory list",
+"Utility contracts",
+"Insurance policy"
+],
+"ar": [
+"عقد الإيجار",
+"إيصالات الإيجار",
+"إيصال التأمين",
+"صورة الهوية",
+"صور الاستلام",
+"قائمة المقتنيات",
+"عقود الخدمات",
+"وثيقة التأمين"
+]
+}
+},
+"mate": {
+"n": {
+"en": "Roommate",
+"ar": "الشريك"
+},
+"items": {
+"en": [
+"Me",
+"Roommate A",
+"Roommate B",
+"Roommate C"
+],
+"ar": [
+"أنا",
+"الشريك أ",
+"الشريك ب",
+"الشريك ج"
+]
+}
+}
+},
+"modules": [
+{
+"id": "homes",
+"g": "search",
+"n": {
+"en": "Homes I viewed",
+"ar": "المساكن التي عاينتها"
+},
+"d": {
+"en": "Score every home you see: rent, size, commute, condition, amenities, safety and light - the best rises to the top.",
+"ar": "قيّم كل سكن تعاينه: الإيجار والمساحة والمشوار والحالة والمرافق والأمان والإضاءة - فيظهر الأفضل في الأعلى."
+},
+"prefix": "HM",
+"rows": 18,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Home ID",
+"ar": "رقم السكن"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Viewed on",
+"ar": "تاريخ المعاينة"
+},
+"t": "date",
+"past": 90,
+"future": 0
+},
+{
+"k": "title",
+"n": {
+"en": "Address / title",
+"ar": "العنوان"
+},
+"t": "text",
+"s": {
+"en": [
+"Bright 2-bed near metro",
+"Quiet studio",
+"Family flat with balcony",
+"Renovated villa floor",
+"Compact 1-bed downtown"
+],
+"ar": [
+"شقة غرفتين قرب المترو",
+"استوديو هادئ",
+"شقة عائلية بشرفة",
+"دور فيلا مجدد",
+"غرفة وصالة وسط المدينة"
+]
+},
+"w": 24
+},
+{
+"k": "type",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ptype",
+"wts": [
+8,
+2,
+2,
+0,
+0,
+0,
+0,
+0
+]
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "rent",
+"n": {
+"en": "Rent / year",
+"ar": "الإيجار السنوي"
+},
+"t": "money",
+"min": 18000,
+"max": 90000,
+"step": 500
+},
+{
+"k": "area",
+"n": {
+"en": "Area m²",
+"ar": "المساحة م²"
+},
+"t": "int",
+"min": 35,
+"max": 180
+},
+{
+"k": "commute",
+"n": {
+"en": "Commute (min)",
+"ar": "المشوار (دقيقة)"
+},
+"t": "int",
+"min": 5,
+"max": 70,
+"cf": "scale_r"
+},
+{
+"k": "cond",
+"n": {
+"en": "Condition 1-5",
+"ar": "الحالة"
+},
+"t": "int",
+"min": 1,
+"max": 5
+},
+{
+"k": "amen",
+"n": {
+"en": "Amenities 1-5",
+"ar": "المرافق"
+},
+"t": "int",
+"min": 1,
+"max": 5
+},
+{
+"k": "safe",
+"n": {
+"en": "Safety 1-5",
+"ar": "الأمان"
+},
+"t": "int",
+"min": 2,
+"max": 5
+},
+{
+"k": "light",
+"n": {
+"en": "Light & noise 1-5",
+"ar": "الإضاءة والهدوء"
+},
+"t": "int",
+"min": 1,
+"max": 5
+},
+{
+"k": "contact",
+"n": {
+"en": "Landlord / agent",
+"ar": "المؤجر / الوسيط"
+},
+"t": "text",
+"s": "phone"
+},
+{
+"k": "score",
+"n": {
+"en": "Home score / 100",
+"ar": "تقييم السكن من 100"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=ROUND(({cond}+{amen}+{safe}+{light})/20*55+MAX(0,1-{commute}/90)*25+MIN(1,{area}/({rent}/1000))*20,0)",
+"cf": "scale"
+},
+{
+"k": "rsqm",
+"n": {
+"en": "Rent per m²",
+"ar": "الإيجار للمتر"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR({rent}/{area},0)",
+"cf": "scale_r"
+},
+{
+"k": "verdict",
+"n": {
+"en": "Verdict",
+"ar": "القرار"
+},
+"t": "list",
+"l": "verdict"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Homes viewed",
+"ar": "المساكن المعاينة"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Shortlisted",
+"ar": "في القائمة المختصرة"
+},
+"a": "count",
+"w": [
+[
+"verdict",
+0
+]
+]
+},
+{
+"n": {
+"en": "Best score",
+"ar": "أعلى تقييم"
+},
+"a": "max",
+"f": "score"
+},
+{
+"n": {
+"en": "Avg rent",
+"ar": "متوسط الإيجار"
+},
+"a": "avg",
+"f": "rent",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "date",
+"val": "rent",
+"agg": "avg",
+"by": [
+"district",
+"verdict"
+]
+}
+},
+{
+"id": "rent",
+"g": "live",
+"n": {
+"en": "Rent payments",
+"ar": "دفعات الإيجار"
+},
+"d": {
+"en": "Proof of every rent payment: due, paid, method, receipt - never argue about a payment again.",
+"ar": "إثبات كل دفعة إيجار: المستحق والمدفوع والطريقة والإيصال - فلا خلاف على دفعة بعد اليوم."
+},
+"prefix": "RP",
+"rows": 12,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Payment ID",
+"ar": "رقم الدفعة"
+},
+"t": "id"
+},
+{
+"k": "due",
+"n": {
+"en": "Due date",
+"ar": "تاريخ الاستحقاق"
+},
+"t": "date",
+"past": 330,
+"future": 30
+},
+{
+"k": "amount",
+"n": {
+"en": "Amount",
+"ar": "المبلغ"
+},
+"t": "money",
+"min": 3000,
+"max": 15000,
+"step": 100
+},
+{
+"k": "paid",
+"n": {
+"en": "Paid",
+"ar": "المدفوع"
+},
+"t": "money",
+"min": 0,
+"max": 15000,
+"step": 100,
+"eq": "amount"
+},
+{
+"k": "pdate",
+"n": {
+"en": "Paid on",
+"ar": "تاريخ الدفع"
+},
+"t": "date",
+"rel": "due",
+"min": 0,
+"max": 6
+},
+{
+"k": "method",
+"n": {
+"en": "Method",
+"ar": "الطريقة"
+},
+"t": "list",
+"l": "paym"
+},
+{
+"k": "receipt",
+"n": {
+"en": "Receipt no.",
+"ar": "رقم الإيصال"
+},
+"t": "text",
+"s": "code"
+},
+{
+"k": "balance",
+"n": {
+"en": "Balance",
+"ar": "المتبقي"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=MAX(0,{amount}-{paid})",
+"cf": "databar"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "calc",
+"fmt": "text",
+"f": "=IF({balance}=0,{L:payst:0},IF({paid}>0,{L:payst:1},IF({due}<TODAY(),{L:payst:3},{L:payst:2})))"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Rent paid",
+"ar": "الإيجار المدفوع"
+},
+"a": "sum",
+"f": "paid",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Still due",
+"ar": "المتبقي"
+},
+"a": "sum",
+"f": "balance",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Payments",
+"ar": "الدفعات"
+},
+"a": "count"
+}
+],
+"rep": {
+"date": "due",
+"val": "paid",
+"agg": "sum",
+"by": [
+"method"
+]
+}
+},
+{
+"id": "repairs",
+"g": "live",
+"n": {
+"en": "Repair requests",
+"ar": "طلبات الإصلاح"
+},
+"d": {
+"en": "Every fault you reported to the landlord, when, follow-ups and how long it took.",
+"ar": "كل عطل أبلغت عنه المؤجر ومتى والمتابعات والمدة التي استغرقها."
+},
+"prefix": "RQ",
+"rows": 16,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Request ID",
+"ar": "رقم الطلب"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Reported",
+"ar": "تاريخ البلاغ"
+},
+"t": "date"
+},
+{
+"k": "cat",
+"n": {
+"en": "Category",
+"ar": "الفئة"
+},
+"t": "list",
+"l": "mcat"
+},
+{
+"k": "desc",
+"n": {
+"en": "What is wrong",
+"ar": "المشكلة"
+},
+"t": "text",
+"s": {
+"en": [
+"AC leaking water",
+"No hot water",
+"Kitchen drain blocked",
+"Window does not close",
+"Socket not working",
+"Damp on wall"
+],
+"ar": [
+"تسرب ماء من المكيف",
+"لا يوجد ماء ساخن",
+"انسداد صرف المطبخ",
+"النافذة لا تُغلق",
+"المقبس لا يعمل",
+"رطوبة في الجدار"
+]
+},
+"w": 24
+},
+{
+"k": "urg",
+"n": {
+"en": "Urgency",
+"ar": "الإلحاح"
+},
+"t": "list",
+"l": "prio"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "rstat",
+"wts": [
+1,
+1,
+4,
+1
+]
+},
+{
+"k": "fixed",
+"n": {
+"en": "Fixed on",
+"ar": "تاريخ الإصلاح"
+},
+"t": "date",
+"rel": "date",
+"min": 1,
+"max": 20
+},
+{
+"k": "chase",
+"n": {
+"en": "Follow-ups",
+"ar": "مرات المتابعة"
+},
+"t": "int",
+"min": 0,
+"max": 4
+},
+{
+"k": "days",
+"n": {
+"en": "Days to fix",
+"ar": "أيام الإصلاح"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=IF({status}={L:rstat:2},{fixed}-{date},TODAY()-{date})",
+"cf": "scale_r"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Requests",
+"ar": "الطلبات"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Fixed",
+"ar": "تم إصلاحها"
+},
+"a": "count",
+"w": [
+[
+"status",
+2
+]
+]
+},
+{
+"n": {
+"en": "Unresolved",
+"ar": "غير المحلولة"
+},
+"a": "count",
+"w": [
+[
+"status",
+3
+]
+]
+},
+{
+"n": {
+"en": "Avg days to fix",
+"ar": "متوسط أيام الإصلاح"
+},
+"a": "avg",
+"f": "days",
+"fmt": "num"
+}
+],
+"rep": {
+"date": "date",
+"by": [
+"cat",
+"status"
+]
+}
+},
+{
+"id": "bills",
+"g": "live",
+"n": {
+"en": "Bills & utilities",
+"ar": "الفواتير والخدمات"
+},
+"d": {
+"en": "Electricity, water, internet and more: amount, due date and status, month by month.",
+"ar": "الكهرباء والمياه والإنترنت وغيرها: المبلغ والاستحقاق والحالة شهراً بشهر."
+},
+"prefix": "BL",
+"rows": 40,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Bill ID",
+"ar": "رقم الفاتورة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Bill date",
+"ar": "تاريخ الفاتورة"
+},
+"t": "date"
+},
+{
+"k": "bill",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "bill",
+"wts": [
+4,
+3,
+1,
+3,
+3,
+1,
+1,
+1
+]
+},
+{
+"k": "provider",
+"n": {
+"en": "Provider",
+"ar": "المزود"
+},
+"t": "text",
+"s": "company"
+},
+{
+"k": "amount",
+"n": {
+"en": "Amount",
+"ar": "المبلغ"
+},
+"t": "money",
+"min": 30,
+"max": 900,
+"step": 5,
+"cf": "databar"
+},
+{
+"k": "due",
+"n": {
+"en": "Due",
+"ar": "الاستحقاق"
+},
+"t": "date",
+"rel": "date",
+"min": 10,
+"max": 25,
+"cf": "overdue"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "payst",
+"wts": [
+8,
+1,
+2,
+1
+]
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Bills total",
+"ar": "إجمالي الفواتير"
+},
+"a": "sum",
+"f": "amount",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Average bill",
+"ar": "متوسط الفاتورة"
+},
+"a": "avg",
+"f": "amount",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Unpaid",
+"ar": "غير المدفوعة"
+},
+"a": "count",
+"w": [
+[
+"status",
+2
+]
+]
+}
+],
+"rep": {
+"date": "date",
+"val": "amount",
+"agg": "sum",
+"by": [
+"bill",
+"status"
+]
+}
+},
+{
+"id": "budget",
+"g": "money",
+"n": {
+"en": "Monthly budget",
+"ar": "الميزانية الشهرية"
+},
+"d": {
+"en": "Planned vs. actual spending by category, every month - see where the money goes.",
+"ar": "المخطط مقابل الفعلي لكل بند شهرياً - واعرف أين يذهب المال."
+},
+"prefix": "BG",
+"rows": 60,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Line ID",
+"ar": "رقم البند"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Month",
+"ar": "الشهر"
+},
+"t": "date"
+},
+{
+"k": "cat",
+"n": {
+"en": "Category",
+"ar": "البند"
+},
+"t": "list",
+"l": "bcat"
+},
+{
+"k": "plan",
+"n": {
+"en": "Planned",
+"ar": "المخطط"
+},
+"t": "money",
+"min": 100,
+"max": 6000,
+"step": 50
+},
+{
+"k": "actual",
+"n": {
+"en": "Actual",
+"ar": "الفعلي"
+},
+"t": "money",
+"min": 80,
+"max": 6500,
+"step": 10
+},
+{
+"k": "var",
+"n": {
+"en": "Over / under",
+"ar": "الفرق"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={plan}-{actual}",
+"cf": "scale"
+},
+{
+"k": "note",
+"n": {
+"en": "Note",
+"ar": "ملاحظة"
+},
+"t": "text",
+"s": "note"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Planned",
+"ar": "المخطط"
+},
+"a": "sum",
+"f": "plan",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Spent",
+"ar": "المصروف"
+},
+"a": "sum",
+"f": "actual",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Spent vs plan",
+"ar": "المصروف إلى المخطط"
+},
+"a": "ratio",
+"f": "actual",
+"f2": "plan",
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Saved",
+"ar": "الوفر"
+},
+"a": "sum",
+"f": "var",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "date",
+"val": "actual",
+"agg": "sum",
+"by": [
+"cat"
+]
+}
+},
+{
+"id": "shared",
+"g": "money",
+"n": {
+"en": "Shared costs (roommates)",
+"ar": "المصاريف المشتركة (الشركاء)"
+},
+"d": {
+"en": "Who paid what and each person's share - settle up fairly.",
+"ar": "من دفع ماذا ونصيب كل شخص - تسوية عادلة."
+},
+"prefix": "SH",
+"rows": 24,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Entry ID",
+"ar": "رقم القيد"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "what",
+"n": {
+"en": "Expense",
+"ar": "المصروف"
+},
+"t": "text",
+"s": {
+"en": [
+"Groceries",
+"Internet",
+"Cleaning",
+"Electricity",
+"Water delivery",
+"Furniture"
+],
+"ar": [
+"بقالة",
+"إنترنت",
+"تنظيف",
+"كهرباء",
+"مياه شرب",
+"أثاث"
+]
+}
+},
+{
+"k": "payer",
+"n": {
+"en": "Paid by",
+"ar": "دفعه"
+},
+"t": "list",
+"l": "mate"
+},
+{
+"k": "amount",
+"n": {
+"en": "Amount",
+"ar": "المبلغ"
+},
+"t": "money",
+"min": 20,
+"max": 900,
+"step": 5
+},
+{
+"k": "split",
+"n": {
+"en": "Split between",
+"ar": "يُقسم على"
+},
+"t": "int",
+"min": 2,
+"max": 4
+},
+{
+"k": "share",
+"n": {
+"en": "Each share",
+"ar": "نصيب كل شخص"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={amount}/{split}"
+},
+{
+"k": "owed",
+"n": {
+"en": "Owed to payer",
+"ar": "مستحق للدافع"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={amount}-{share}",
+"cf": "databar"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Shared spend",
+"ar": "المصروف المشترك"
+},
+"a": "sum",
+"f": "amount",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Paid by me",
+"ar": "دفعته أنا"
+},
+"a": "sum",
+"f": "amount",
+"w": [
+[
+"payer",
+0
+]
+],
+"fmt": "money"
+},
+{
+"n": {
+"en": "Owed to me",
+"ar": "مستحق لي"
+},
+"a": "sum",
+"f": "owed",
+"w": [
+[
+"payer",
+0
+]
+],
+"fmt": "money"
+}
+],
+"rep": {
+"date": "date",
+"val": "amount",
+"agg": "sum",
+"by": [
+"payer"
+]
+}
+},
+{
+"id": "docs",
+"g": "files",
+"n": {
+"en": "Documents & deadlines",
+"ar": "المستندات والمواعيد"
+},
+"d": {
+"en": "Lease, receipts, insurance and IDs - where they are and when they expire.",
+"ar": "العقد والإيصالات والتأمين والهويات - أين هي ومتى تنتهي."
+},
+"prefix": "DC",
+"rows": 8,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Ref",
+"ar": "المرجع"
+},
+"t": "id"
+},
+{
+"k": "doc",
+"n": {
+"en": "Document",
+"ar": "المستند"
+},
+"t": "list",
+"l": "doc",
+"seq": true
+},
+{
+"k": "ref",
+"n": {
+"en": "Reference no.",
+"ar": "الرقم المرجعي"
+},
+"t": "text",
+"s": "code"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date",
+"past": 400,
+"future": 0
+},
+{
+"k": "expiry",
+"n": {
+"en": "Expires",
+"ar": "ينتهي في"
+},
+"t": "date",
+"rel": "date",
+"min": 180,
+"max": 500,
+"cf": "soon"
+},
+{
+"k": "where",
+"n": {
+"en": "Stored where",
+"ar": "مكان الحفظ"
+},
+"t": "text",
+"s": {
+"en": [
+"Cloud folder",
+"Email",
+"Drawer",
+"Phone"
+],
+"ar": [
+"مجلد سحابي",
+"البريد",
+"الدرج",
+"الجوال"
+]
+}
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Documents",
+"ar": "المستندات"
+},
+"a": "count"
+}
+]
+},
+{
+"id": "items",
+"g": "files",
+"n": {
+"en": "Inventory & belongings",
+"ar": "المقتنيات والجرد"
+},
+"d": {
+"en": "What you own and its condition at move-in - your proof for the deposit and insurance.",
+"ar": "ما تملكه وحالته عند الاستلام - دليلك لاسترداد التأمين والتأمين على المقتنيات."
+},
+"prefix": "IT",
+"rows": 24,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Item ID",
+"ar": "رقم البند"
+},
+"t": "id"
+},
+{
+"k": "item",
+"n": {
+"en": "Item",
+"ar": "البند"
+},
+"t": "text",
+"s": {
+"en": [
+"Sofa",
+"TV",
+"Fridge",
+"Washing machine",
+"Bed",
+"Wardrobe",
+"Dining table",
+"Microwave",
+"AC remote",
+"Curtains"
+],
+"ar": [
+"كنبة",
+"تلفزيون",
+"ثلاجة",
+"غسالة",
+"سرير",
+"خزانة",
+"طاولة طعام",
+"ميكروويف",
+"ريموت المكيف",
+"ستائر"
+]
+}
+},
+{
+"k": "room",
+"n": {
+"en": "Room",
+"ar": "الغرفة"
+},
+"t": "list",
+"l": "room"
+},
+{
+"k": "qty",
+"n": {
+"en": "Qty",
+"ar": "العدد"
+},
+"t": "int",
+"min": 1,
+"max": 3
+},
+{
+"k": "value",
+"n": {
+"en": "Value",
+"ar": "القيمة"
+},
+"t": "money",
+"min": 50,
+"max": 4000,
+"step": 10
+},
+{
+"k": "total",
+"n": {
+"en": "Total value",
+"ar": "إجمالي القيمة"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={qty}*{value}",
+"cf": "databar"
+},
+{
+"k": "owner",
+"n": {
+"en": "Belongs to",
+"ar": "الملكية"
+},
+"t": "text",
+"s": {
+"en": [
+"Me",
+"Landlord"
+],
+"ar": [
+"أنا",
+"المؤجر"
+]
+}
+},
+{
+"k": "cond",
+"n": {
+"en": "Condition at move-in",
+"ar": "الحالة عند الاستلام"
+},
+"t": "list",
+"l": "cond"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Items",
+"ar": "البنود"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Total value",
+"ar": "إجمالي القيمة"
+},
+"a": "sum",
+"f": "total",
+"fmt": "money"
+}
+],
+"rep": {
+"val": "total",
+"agg": "sum",
+"by": [
+"room",
+"cond"
+]
+}
+}
+],
+"calculators": [
+{
+"id": "afford",
+"g": "search",
+"n": {
+"en": "How much rent can I afford?",
+"ar": "كم إيجاراً أستطيع تحمله؟"
+},
+"d": {
+"en": "A safe rent from your income and commitments.",
+"ar": "إيجار آمن حسب دخلك والتزاماتك."
+},
+"inputs": [
+{
+"k": "inc",
+"n": {
+"en": "Monthly net income",
+"ar": "صافي الدخل الشهري"
+},
+"fmt": "money",
+"v": 12000
+},
+{
+"k": "debt",
+"n": {
+"en": "Monthly loans / commitments",
+"ar": "الأقساط والالتزامات الشهرية"
+},
+"fmt": "money",
+"v": 1500
+},
+{
+"k": "pct",
+"n": {
+"en": "Max share of income for rent",
+"ar": "أقصى نسبة للإيجار من الدخل"
+},
+"fmt": "pct",
+"v": 0.3
+},
+{
+"k": "bills",
+"n": {
+"en": "Expected monthly bills",
+"ar": "الفواتير الشهرية المتوقعة"
+},
+"fmt": "money",
+"v": 600
+}
+],
+"outputs": [
+{
+"k": "max",
+"n": {
+"en": "Max rent / month",
+"ar": "أقصى إيجار شهري"
+},
+"fmt": "money",
+"f": "MAX(0,({inc}-{debt})*{pct}-{bills})",
+"hl": true
+},
+{
+"k": "year",
+"n": {
+"en": "Max rent / year",
+"ar": "أقصى إيجار سنوي"
+},
+"fmt": "money",
+"f": "{max}*12"
+},
+{
+"k": "left",
+"n": {
+"en": "Left after rent, bills & debts",
+"ar": "المتبقي بعد الإيجار والفواتير والأقساط"
+},
+"fmt": "money",
+"f": "{inc}-{debt}-{max}-{bills}"
+}
+]
+},
+{
+"id": "rvb",
+"g": "search",
+"n": {
+"en": "Rent or buy? (10 years)",
+"ar": "الإيجار أم الشراء؟ (10 سنوات)"
+},
+"d": {
+"en": "Compare the true cost of renting with buying over ten years.",
+"ar": "قارن التكلفة الحقيقية للإيجار مقابل الشراء على عشر سنوات."
+},
+"inputs": [
+{
+"k": "rent",
+"n": {
+"en": "Rent / year now",
+"ar": "الإيجار السنوي الآن"
+},
+"fmt": "money",
+"v": 60000
+},
+{
+"k": "rg",
+"n": {
+"en": "Rent increase / year",
+"ar": "زيادة الإيجار سنوياً"
+},
+"fmt": "pct",
+"v": 0.03
+},
+{
+"k": "price",
+"n": {
+"en": "Home price",
+"ar": "سعر المسكن"
+},
+"fmt": "money",
+"v": 900000
+},
+{
+"k": "down",
+"n": {
+"en": "Down payment %",
+"ar": "الدفعة الأولى %"
+},
+"fmt": "pct",
+"v": 0.2
+},
+{
+"k": "rate",
+"n": {
+"en": "Financing rate",
+"ar": "نسبة التمويل"
+},
+"fmt": "pct",
+"v": 0.055
+},
+{
+"k": "yrs",
+"n": {
+"en": "Financing years",
+"ar": "سنوات التمويل"
+},
+"fmt": "int",
+"v": 25
+},
+{
+"k": "own",
+"n": {
+"en": "Ownership costs / year (maint., insurance)",
+"ar": "تكاليف الملكية سنوياً"
+},
+"fmt": "money",
+"v": 9000
+},
+{
+"k": "ap",
+"n": {
+"en": "Home value growth / year",
+"ar": "نمو قيمة المسكن سنوياً"
+},
+"fmt": "pct",
+"v": 0.025
+},
+{
+"k": "inv",
+"n": {
+"en": "Return if down payment invested",
+"ar": "عائد استثمار الدفعة الأولى"
+},
+"fmt": "pct",
+"v": 0.05
+}
+],
+"outputs": [
+{
+"k": "pmt",
+"n": {
+"en": "Mortgage / year",
+"ar": "القسط السنوي"
+},
+"fmt": "money",
+"f": "PMT({rate}/12,{yrs}*12,-{price}*(1-{down}))*12"
+}
+],
+"table": {
+"title": {
+"en": "Ten-year comparison",
+"ar": "المقارنة على عشر سنوات"
+},
+"rows": 10,
+"cols": [
+{
+"k": "rc",
+"n": {
+"en": "Rent paid (cumulative)",
+"ar": "الإيجار التراكمي"
+},
+"fmt": "money",
+"f": "{p:rc}+{rent}*(1+{rg})^({n}-1)",
+"f0": "{rent}"
+},
+{
+"k": "bc",
+"n": {
+"en": "Buying cash out (cumulative)",
+"ar": "مدفوعات الشراء التراكمية"
+},
+"fmt": "money",
+"f": "{p:bc}+{pmt}+{own}",
+"f0": "{price}*{down}+{pmt}+{own}"
+},
+{
+"k": "val",
+"n": {
+"en": "Home value",
+"ar": "قيمة المسكن"
+},
+"fmt": "money",
+"f": "{p:val}*(1+{ap})",
+"f0": "{price}*(1+{ap})"
+},
+{
+"k": "bal",
+"n": {
+"en": "Loan balance",
+"ar": "رصيد التمويل"
+},
+"fmt": "money",
+"f": "-PV({rate}/12,MAX(0,{yrs}-{n})*12,PMT({rate}/12,{yrs}*12,-{price}*(1-{down})))",
+"f0": "-PV({rate}/12,({yrs}-{n})*12,PMT({rate}/12,{yrs}*12,-{price}*(1-{down})))"
+},
+{
+"k": "bnet",
+"n": {
+"en": "Net cost of buying",
+"ar": "صافي تكلفة الشراء"
+},
+"fmt": "money",
+"f": "{c:bc}-({c:val}-{c:bal})",
+"f0": "{c:bc}-({c:val}-{c:bal})"
+},
+{
+"k": "rnet",
+"n": {
+"en": "Net cost of renting",
+"ar": "صافي تكلفة الإيجار"
+},
+"fmt": "money",
+"f": "{c:rc}-{price}*{down}*((1+{inv})^{n}-1)",
+"f0": "{c:rc}-{price}*{down}*((1+{inv})^{n}-1)"
+}
+],
+"chart": {
+"t": "line",
+"cols": [
+"bnet",
+"rnet"
+]
+}
+}
+},
+{
+"id": "move",
+"g": "search",
+"n": {
+"en": "Moving cost estimator",
+"ar": "تقدير تكلفة الانتقال"
+},
+"d": {
+"en": "Everything moving really costs, before you sign.",
+"ar": "كل ما يكلفه الانتقال فعلاً قبل التوقيع."
+},
+"inputs": [
+{
+"k": "rent",
+"n": {
+"en": "Monthly rent of new home",
+"ar": "الإيجار الشهري للسكن الجديد"
+},
+"fmt": "money",
+"v": 5000
+},
+{
+"k": "dep",
+"n": {
+"en": "Deposit (months)",
+"ar": "التأمين (أشهر)"
+},
+"fmt": "num",
+"v": 1
+},
+{
+"k": "agent",
+"n": {
+"en": "Agent fee % of annual rent",
+"ar": "عمولة الوسيط % من الإيجار السنوي"
+},
+"fmt": "pct",
+"v": 0.025
+},
+{
+"k": "adv",
+"n": {
+"en": "Rent paid in advance (months)",
+"ar": "إيجار مقدم (أشهر)"
+},
+"fmt": "int",
+"v": 3
+},
+{
+"k": "movers",
+"n": {
+"en": "Movers & truck",
+"ar": "نقل العفش"
+},
+"fmt": "money",
+"v": 1500
+},
+{
+"k": "conn",
+"n": {
+"en": "Connections & setup",
+"ar": "توصيل الخدمات والتجهيز"
+},
+"fmt": "money",
+"v": 600
+},
+{
+"k": "furn",
+"n": {
+"en": "New furniture / items",
+"ar": "أثاث ومستلزمات جديدة"
+},
+"fmt": "money",
+"v": 3000
+}
+],
+"outputs": [
+{
+"k": "dpa",
+"n": {
+"en": "Deposit",
+"ar": "التأمين"
+},
+"fmt": "money",
+"f": "{rent}*{dep}"
+},
+{
+"k": "fee",
+"n": {
+"en": "Agent fee",
+"ar": "عمولة الوسيط"
+},
+"fmt": "money",
+"f": "{rent}*12*{agent}"
+},
+{
+"k": "adva",
+"n": {
+"en": "Advance rent",
+"ar": "الإيجار المقدم"
+},
+"fmt": "money",
+"f": "{rent}*{adv}"
+},
+{
+"k": "tot",
+"n": {
+"en": "Cash needed to move",
+"ar": "النقد اللازم للانتقال"
+},
+"fmt": "money",
+"f": "{dpa}+{fee}+{adva}+{movers}+{conn}+{furn}",
+"hl": true
+}
+]
+},
+{
+"id": "commute",
+"g": "search",
+"n": {
+"en": "Commute cost",
+"ar": "تكلفة المشوار"
+},
+"d": {
+"en": "The hidden cost of a cheaper home far away.",
+"ar": "التكلفة الخفية لسكن أرخص وأبعد."
+},
+"inputs": [
+{
+"k": "km",
+"n": {
+"en": "Distance one way (km)",
+"ar": "المسافة ذهاباً (كم)"
+},
+"fmt": "num",
+"v": 18
+},
+{
+"k": "days",
+"n": {
+"en": "Work days / month",
+"ar": "أيام العمل شهرياً"
+},
+"fmt": "int",
+"v": 22
+},
+{
+"k": "cost",
+"n": {
+"en": "Cost per km",
+"ar": "التكلفة لكل كم"
+},
+"fmt": "money",
+"v": 0.6
+},
+{
+"k": "mins",
+"n": {
+"en": "Minutes one way",
+"ar": "الدقائق ذهاباً"
+},
+"fmt": "int",
+"v": 35
+},
+{
+"k": "hour",
+"n": {
+"en": "Value of your hour",
+"ar": "قيمة ساعتك"
+},
+"fmt": "money",
+"v": 40
+}
+],
+"outputs": [
+{
+"k": "month",
+"n": {
+"en": "Travel cost / month",
+"ar": "تكلفة التنقل شهرياً"
+},
+"fmt": "money",
+"f": "{km}*2*{days}*{cost}"
+},
+{
+"k": "time",
+"n": {
+"en": "Hours lost / month",
+"ar": "الساعات المهدرة شهرياً"
+},
+"fmt": "num",
+"f": "{mins}*2*{days}/60"
+},
+{
+"k": "true",
+"n": {
+"en": "True monthly cost",
+"ar": "التكلفة الحقيقية شهرياً"
+},
+"fmt": "money",
+"f": "{month}+{time}*{hour}",
+"hl": true
+},
+{
+"k": "year",
+"n": {
+"en": "True cost / year",
+"ar": "التكلفة الحقيقية سنوياً"
+},
+"fmt": "money",
+"f": "{true}*12"
+}
+]
+},
+{
+"id": "split",
+"g": "money",
+"n": {
+"en": "Fair rent split",
+"ar": "تقسيم الإيجار بعدالة"
+},
+"d": {
+"en": "Split rent by room size, not equally.",
+"ar": "قسّم الإيجار حسب مساحة الغرف لا بالتساوي."
+},
+"inputs": [
+{
+"k": "rent",
+"n": {
+"en": "Total rent / month",
+"ar": "إجمالي الإيجار الشهري"
+},
+"fmt": "money",
+"v": 9000
+},
+{
+"k": "common",
+"n": {
+"en": "Share paid equally %",
+"ar": "الجزء المقسوم بالتساوي %"
+},
+"fmt": "pct",
+"v": 0.4
+},
+{
+"k": "people",
+"n": {
+"en": "People",
+"ar": "عدد الأشخاص"
+},
+"fmt": "int",
+"v": 3
+},
+{
+"k": "r1",
+"n": {
+"en": "My room m²",
+"ar": "مساحة غرفتي م²"
+},
+"fmt": "num",
+"v": 18
+},
+{
+"k": "r2",
+"n": {
+"en": "Room 2 m²",
+"ar": "مساحة الغرفة 2 م²"
+},
+"fmt": "num",
+"v": 14
+},
+{
+"k": "r3",
+"n": {
+"en": "Room 3 m²",
+"ar": "مساحة الغرفة 3 م²"
+},
+"fmt": "num",
+"v": 11
+}
+],
+"outputs": [
+{
+"k": "eq",
+"n": {
+"en": "Equal part each",
+"ar": "الجزء المتساوي لكل شخص"
+},
+"fmt": "money",
+"f": "{rent}*{common}/{people}"
+},
+{
+"k": "me",
+"n": {
+"en": "My rent",
+"ar": "إيجاري"
+},
+"fmt": "money",
+"f": "{eq}+{rent}*(1-{common})*{r1}/({r1}+{r2}+{r3})",
+"hl": true
+},
+{
+"k": "p2",
+"n": {
+"en": "Room 2 rent",
+"ar": "إيجار الغرفة 2"
+},
+"fmt": "money",
+"f": "{eq}+{rent}*(1-{common})*{r2}/({r1}+{r2}+{r3})"
+},
+{
+"k": "p3",
+"n": {
+"en": "Room 3 rent",
+"ar": "إيجار الغرفة 3"
+},
+"fmt": "money",
+"f": "{eq}+{rent}*(1-{common})*{r3}/({r1}+{r2}+{r3})"
+}
+]
+},
+{
+"id": "deposit",
+"g": "files",
+"n": {
+"en": "Deposit refund check",
+"ar": "تقدير استرداد التأمين"
+},
+"d": {
+"en": "Estimate what you should get back and dispute unfair deductions.",
+"ar": "قدّر ما يجب أن تسترده واعترض على الخصومات غير العادلة."
+},
+"inputs": [
+{
+"k": "dep",
+"n": {
+"en": "Deposit paid",
+"ar": "التأمين المدفوع"
+},
+"fmt": "money",
+"v": 5000
+},
+{
+"k": "paint",
+"n": {
+"en": "Painting deduction",
+"ar": "خصم الدهان"
+},
+"fmt": "money",
+"v": 600
+},
+{
+"k": "clean",
+"n": {
+"en": "Cleaning deduction",
+"ar": "خصم التنظيف"
+},
+"fmt": "money",
+"v": 300
+},
+{
+"k": "dmg",
+"n": {
+"en": "Damage repairs",
+"ar": "إصلاح الأضرار"
+},
+"fmt": "money",
+"v": 0
+},
+{
+"k": "unpaid",
+"n": {
+"en": "Unpaid bills / rent",
+"ar": "فواتير أو إيجار غير مدفوع"
+},
+"fmt": "money",
+"v": 0
+},
+{
+"k": "wear",
+"n": {
+"en": "Share that is normal wear (not chargeable)",
+"ar": "نسبة الاستهلاك الطبيعي (غير قابلة للخصم)"
+},
+"fmt": "pct",
+"v": 0.5
+}
+],
+"outputs": [
+{
+"k": "claim",
+"n": {
+"en": "Deductions claimed",
+"ar": "الخصومات المطالب بها"
+},
+"fmt": "money",
+"f": "{paint}+{clean}+{dmg}+{unpaid}"
+},
+{
+"k": "fair",
+"n": {
+"en": "Fair deductions",
+"ar": "الخصومات العادلة"
+},
+"fmt": "money",
+"f": "({paint}+{clean})*(1-{wear})+{dmg}+{unpaid}"
+},
+{
+"k": "back",
+"n": {
+"en": "Fair refund",
+"ar": "الاسترداد العادل"
+},
+"fmt": "money",
+"f": "MAX(0,{dep}-{fair})",
+"hl": true
+},
+{
+"k": "dispute",
+"n": {
+"en": "Amount worth disputing",
+"ar": "المبلغ الذي يستحق الاعتراض"
+},
+"fmt": "money",
+"f": "{claim}-{fair}"
+}
+]
+}
+],
+"checklists": [
+{
+"id": "c_view",
+"g": "search",
+"n": {
+"en": "What to check at a viewing",
+"ar": "ما تفحصه أثناء المعاينة"
+},
+"d": {
+"en": "Twenty checks that save you from a bad home.",
+"ar": "عشرون فحصاً تحميك من سكن سيئ."
+},
+"steps": [
+{
+"n": {
+"en": "Water pressure and hot water in every tap",
+"ar": "ضغط الماء والماء الساخن في كل صنبور"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Signs of damp, mould or leaks",
+"ar": "علامات الرطوبة أو العفن أو التسربات"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "All AC units cool properly",
+"ar": "كل المكيفات تبرد جيداً"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Sockets and lights work",
+"ar": "المقابس والإنارة تعمل"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Windows and doors close and lock",
+"ar": "النوافذ والأبواب تُغلق وتُقفل"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Phone signal and internet options",
+"ar": "إشارة الجوال وخيارات الإنترنت"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Noise at the time you sleep",
+"ar": "الضوضاء في وقت نومك"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Parking and building access",
+"ar": "الموقف والدخول للمبنى"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Fire exits and alarms",
+"ar": "مخارج الطوارئ وإنذار الحريق"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Kitchen appliances included?",
+"ar": "أجهزة المطبخ مشمولة؟"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Storage space",
+"ar": "مساحات التخزين"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Ask the bills average",
+"ar": "اسأل عن متوسط الفواتير"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Ask who fixes what and how fast",
+"ar": "اسأل من يصلح ماذا وبأي سرعة"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Check the commute at rush hour",
+"ar": "جرّب المشوار وقت الذروة"
+},
+"d": 1,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Talk to a neighbour if you can",
+"ar": "تحدث مع جار إن أمكن"
+},
+"d": 1,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Verify the landlord owns the property",
+"ar": "تحقق من ملكية المؤجر"
+},
+"d": 2,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Score it in Homes I viewed",
+"ar": "قيّمه في صفحة المساكن"
+},
+"d": 2,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+}
+]
+},
+{
+"id": "c_move",
+"g": "live",
+"n": {
+"en": "Moving in",
+"ar": "الانتقال للسكن"
+},
+"d": {
+"en": "A calm move, step by step.",
+"ar": "انتقال هادئ خطوة بخطوة."
+},
+"steps": [
+{
+"n": {
+"en": "Read the whole lease before signing",
+"ar": "اقرأ العقد كاملاً قبل التوقيع"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Pay through traceable methods only",
+"ar": "ادفع بطرق موثقة فقط"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Book movers",
+"ar": "احجز النقل"
+},
+"d": 3,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Transfer or open utility accounts",
+"ar": "انقل أو افتح حسابات الخدمات"
+},
+"d": 5,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Move-in inspection with dated photos",
+"ar": "معاينة الاستلام بصور مؤرخة"
+},
+"d": 7,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Record meter readings",
+"ar": "سجّل قراءات العدادات"
+},
+"d": 7,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "List items and condition (Inventory sheet)",
+"ar": "سجّل المقتنيات وحالتها (صفحة الجرد)"
+},
+"d": 7,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Update your address everywhere",
+"ar": "حدّث عنوانك في كل الجهات"
+},
+"d": 10,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Get contents insurance",
+"ar": "اشترِ تأميناً على المقتنيات"
+},
+"d": 14,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+}
+]
+},
+{
+"id": "c_out",
+"g": "files",
+"n": {
+"en": "Moving out - get the deposit back",
+"ar": "الإخلاء واسترداد التأمين"
+},
+"d": {
+"en": "Leave clean, documented and paid.",
+"ar": "غادر بنظافة وتوثيق وسداد كامل."
+},
+"steps": [
+{
+"n": {
+"en": "Give written notice on time",
+"ar": "قدّم إشعاراً كتابياً في الموعد"
+},
+"d": 0,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Fix small damage yourself",
+"ar": "أصلح الأضرار الصغيرة بنفسك"
+},
+"d": 20,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Deep clean or book cleaners",
+"ar": "تنظيف شامل أو احجز عمال نظافة"
+},
+"d": 27,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Pay final bills and get clearance",
+"ar": "سدد الفواتير الأخيرة واحصل على براءة الذمة"
+},
+"d": 28,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Photos of every room on the last day",
+"ar": "صور لكل غرفة في اليوم الأخير"
+},
+"d": 30,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Joint inspection with the landlord",
+"ar": "معاينة مشتركة مع المؤجر"
+},
+"d": 30,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Return keys against signature",
+"ar": "سلّم المفاتيح مقابل توقيع"
+},
+"d": 30,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+},
+{
+"n": {
+"en": "Check deductions with the refund calculator",
+"ar": "راجع الخصومات بحاسبة الاسترداد"
+},
+"d": 31,
+"o": {
+"en": "Me",
+"ar": "أنا"
+}
+}
+]
+}
+],
+"forms": [
+{
+"id": "f_repair",
+"g": "live",
+"n": {
+"en": "Repair request letter",
+"ar": "خطاب طلب إصلاح"
+},
+"m": "repairs",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "REPAIR REQUEST",
+"ar": "طلب إصلاح"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"date",
+"cat",
+"desc",
+"urg"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Dear landlord, on {date} I reported the following problem: {desc} ({cat}, urgency: {urg}). Please arrange the repair as soon as possible and let me know a convenient time. Thank you.",
+"ar": "السيد المؤجر المحترم، أبلغتكم بتاريخ {date} بالمشكلة التالية: {desc} ({cat}، درجة الإلحاح: {urg}). أرجو ترتيب الإصلاح في أقرب وقت وإبلاغي بالموعد المناسب. وشكراً."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Tenant",
+"ar": "المستأجر"
+}
+]
+}
+]
+},
+{
+"id": "f_proof",
+"g": "live",
+"n": {
+"en": "Rent payment proof",
+"ar": "إثبات سداد الإيجار"
+},
+"m": "rent",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "RENT PAYMENT RECORD",
+"ar": "سجل سداد إيجار"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"due",
+"amount",
+"paid",
+"pdate",
+"method",
+"receipt"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "I paid {paid} on {pdate} by {method} (receipt {receipt}) for the rent due on {due}.",
+"ar": "سددت مبلغ {paid} بتاريخ {pdate} عبر {method} (إيصال رقم {receipt}) عن الإيجار المستحق في {due}."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Tenant",
+"ar": "المستأجر"
+},
+{
+"en": "Landlord acknowledgement",
+"ar": "إقرار المؤجر"
+}
+]
+}
+]
+},
+{
+"id": "f_notice",
+"g": "files",
+"n": {
+"en": "Notice to vacate",
+"ar": "إشعار إخلاء"
+},
+"m": "docs",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "NOTICE TO VACATE",
+"ar": "إشعار بعدم التجديد والإخلاء"
+}
+},
+{
+"t": "kv",
+"f": [
+"ref"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Dear landlord, please accept this letter as my notice that I will vacate the property at the end of the lease. I would like to arrange a joint inspection and the return of my deposit. Kind regards.",
+"ar": "السيد المؤجر المحترم، أرجو اعتبار هذا الخطاب إشعاراً بعدم رغبتي في التجديد وإخلاء العقار بنهاية مدة العقد، وأرجو ترتيب معاينة مشتركة ورد مبلغ التأمين. مع التحية."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Tenant",
+"ar": "المستأجر"
+}
+]
+}
+]
+}
+],
+"dashboard": {
+"kpis": [
+[
+"homes",
+2
+],
+[
+"rent",
+0
+],
+[
+"rent",
+1
+],
+[
+"bills",
+0
+],
+[
+"budget",
+1
+],
+[
+"budget",
+3
+],
+[
+"repairs",
+2
+],
+[
+"shared",
+2
+]
+],
+"charts": [
+{
+"m": "budget",
+"by": "month",
+"n": {
+"en": "Spending by month",
+"ar": "المصروف شهرياً"
+}
+},
+{
+"m": "budget",
+"by": "cat",
+"n": {
+"en": "Where the money goes",
+"ar": "أين يذهب المال"
+}
+},
+{
+"m": "bills",
+"by": "bill",
+"t": "bar",
+"n": {
+"en": "Bills by type",
+"ar": "الفواتير حسب النوع"
+}
+},
+{
+"m": "bills",
+"by": "month",
+"t": "line",
+"n": {
+"en": "Bills by month",
+"ar": "الفواتير شهرياً"
+}
+},
+{
+"m": "repairs",
+"by": "status",
+"a": "count",
+"n": {
+"en": "Repairs by status",
+"ar": "الإصلاحات حسب الحالة"
+}
+},
+{
+"m": "shared",
+"by": "payer",
+"t": "bar",
+"n": {
+"en": "Shared costs by payer",
+"ar": "المصاريف المشتركة حسب الدافع"
+}
+}
+]
+}
+}

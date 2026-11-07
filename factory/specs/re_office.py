@@ -42,7 +42,7 @@ SPEC = {
     'id|Listing ID|رقم العرض|id', 'listed|Listed on|تاريخ الإدراج|date',
     'title|Title|العنوان|text:Sea-view apartment;Family villa with garden;Corner office;Main-road shop;Residential land plot;Modern townhouse;Logistics warehouse;Investment building/شقة بإطلالة بحرية;فيلا عائلية بحديقة;مكتب على زاوية;محل على شارع رئيسي;أرض سكنية;تاون هاوس حديث;مستودع لوجستي;عمارة استثمارية|w=26',
     'type|Type|النوع|list:ptype|wts=6:4:3:2:2:1:1:1', 'purpose|Purpose|الغرض|list:purpose', 'district|District|الحي|list:district',
-    'area|Area m²|المساحة م²|int:80-950', 'beds|Bedrooms|الغرف|int:0-6', 'price|Price|السعر|money:120000-3200000/5000|databar',
+    'area|Area m²|المساحة م²|int:80-950', 'beds|Bedrooms|الغرف|int:0-6', 'price|Price|السعر|money:120000-3200000/5000|databar,per=area:2600:9000',
     'ppsqm|Price per m²|سعر المتر|calc:money:=IFERROR({price}/{area},0)', 'owner|Owner|المالك|ref:owners', 'agent|Agent|الوسيط|list:agent',
     'status|Status|الحالة|list:lstatus|wts=6:2:2:3:3:1', 'dom|Days on market|أيام في السوق|calc:int:=TODAY()-{listed}|scale_r',
     'comm|Commission %|نسبة العمولة|pct:0.01-0.025', 'ecomm|Expected commission|العمولة المتوقعة|calc:money:={price}*{comm}'],

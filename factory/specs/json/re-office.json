@@ -728,7 +728,12 @@
 "min": 120000,
 "max": 3200000,
 "step": 5000,
-"cf": "databar"
+"cf": "databar",
+"per": [
+"area",
+"2600",
+"9000"
+]
 },
 {
 "k": "ppsqm",

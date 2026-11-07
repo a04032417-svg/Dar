@@ -19,7 +19,7 @@ def F(s):
     k, en, ar = p[0], p[1], p[2]
     rest = p[3:] or ['text']
     extra = ''
-    if len(rest) > 1 and all(re.match(r'^((databar|scale|scale_r|soon|overdue|seq)|(w|eq|wts)=[\w:]+)(,|$)', x) for x in rest[-1].split(',') if x):
+    if len(rest) > 1 and all(re.match(r'^((databar|scale|scale_r|soon|overdue|seq)|(w|eq|wts|per)=[\w:.]+)(,|$)', x) for x in rest[-1].split(',') if x):
         extra = rest.pop()
     t = '|'.join(rest)
     f = {'k': k, 'n': B(en, ar)}
@@ -67,6 +67,8 @@ def F(s):
             f['w'] = int(e[2:])
         elif e.startswith('wts='):
             f['wts'] = [int(x) for x in e[4:].split(':')]
+        elif e.startswith('per='):
+            f['per'] = e[4:].split(':')
         elif e.startswith('eq='):
             f['eq'] = e[3:]
         elif e == 'seq':

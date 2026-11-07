@@ -1,0 +1,4518 @@
+{
+"id": "re-developer",
+"theme": {
+"primary": "#3D2C5E",
+"accent": "#D4A017",
+"palette": [
+"#3D2C5E",
+"#D4A017",
+"#2E86AB",
+"#C0392B",
+"#27AE60",
+"#E67E22",
+"#16A085",
+"#7F8C8D"
+]
+},
+"title": {
+"en": "Property Developer Pro",
+"ar": "المطور العقاري الاحترافي"
+},
+"subtitle": {
+"en": "Land bank, projects, unit inventory and pricing, reservations and sales, payment plans, construction progress, budgets, contractors, permits, brokers, handover and cash flow",
+"ar": "مخزون الأراضي والمشاريع ومخزون الوحدات وتسعيرها والحجوزات والمبيعات وخطط السداد وتقدم الإنشاء والميزانيات والمقاولون والتصاريح والوسطاء والتسليم والتدفق النقدي"
+},
+"groups": {
+"land": {
+"en": "Land & projects",
+"ar": "الأراضي والمشاريع"
+},
+"sales": {
+"en": "Units, sales & collections",
+"ar": "الوحدات والمبيعات والتحصيل"
+},
+"build": {
+"en": "Construction & cost control",
+"ar": "الإنشاء وضبط التكاليف"
+},
+"fin": {
+"en": "Partners, handover & cash flow",
+"ar": "الشركاء والتسليم والتدفق النقدي"
+}
+},
+"lists": {
+"district": {
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"items": {
+"en": [
+"North District",
+"South District",
+"East District",
+"West District",
+"Downtown",
+"Waterfront",
+"Business Bay",
+"Garden City"
+],
+"ar": [
+"حي الشمال",
+"حي الجنوب",
+"حي الشرق",
+"حي الغرب",
+"وسط المدينة",
+"الواجهة البحرية",
+"حي الأعمال",
+"حي الحدائق"
+]
+}
+},
+"payst": {
+"n": {
+"en": "Payment status",
+"ar": "حالة الدفع"
+},
+"items": {
+"en": [
+"Paid",
+"Partly paid",
+"Unpaid",
+"Overdue"
+],
+"ar": [
+"مدفوع",
+"مدفوع جزئياً",
+"غير مدفوع",
+"متأخر"
+]
+},
+"colors": [
+"#27AE60",
+"#F39C12",
+"#7F8C8D",
+"#C0392B"
+]
+},
+"paym": {
+"n": {
+"en": "Payment method",
+"ar": "طريقة الدفع"
+},
+"items": {
+"en": [
+"Bank transfer",
+"Card",
+"Cash",
+"Cheque",
+"Online"
+],
+"ar": [
+"تحويل بنكي",
+"بطاقة",
+"نقداً",
+"شيك",
+"دفع إلكتروني"
+]
+}
+},
+"yn": {
+"n": {
+"en": "Yes / No",
+"ar": "نعم / لا"
+},
+"items": {
+"en": [
+"Yes",
+"No"
+],
+"ar": [
+"نعم",
+"لا"
+]
+}
+},
+"pstat": {
+"n": {
+"en": "Project status",
+"ar": "حالة المشروع"
+},
+"items": {
+"en": [
+"Planning",
+"Permitting",
+"Under construction",
+"Selling",
+"Completed"
+],
+"ar": [
+"تخطيط",
+"تصاريح",
+"تحت الإنشاء",
+"بيع",
+"مكتمل"
+]
+},
+"colors": [
+"#7F8C8D",
+"#8E44AD",
+"#E67E22",
+"#2E86AB",
+"#27AE60"
+]
+},
+"zoning": {
+"n": {
+"en": "Zoning",
+"ar": "الاستخدام"
+},
+"items": {
+"en": [
+"Residential",
+"Commercial",
+"Mixed use",
+"Industrial"
+],
+"ar": [
+"سكني",
+"تجاري",
+"متعدد الاستخدام",
+"صناعي"
+]
+}
+},
+"lstat": {
+"n": {
+"en": "Land status",
+"ar": "حالة الأرض"
+},
+"items": {
+"en": [
+"Studying",
+"Negotiating",
+"Acquired",
+"Rejected"
+],
+"ar": [
+"قيد الدراسة",
+"تفاوض",
+"تم الشراء",
+"مرفوضة"
+]
+},
+"colors": [
+"#7F8C8D",
+"#F39C12",
+"#27AE60",
+"#C0392B"
+]
+},
+"utype": {
+"n": {
+"en": "Unit type",
+"ar": "نوع الوحدة"
+},
+"items": {
+"en": [
+"Studio",
+"1 Bedroom",
+"2 Bedrooms",
+"3 Bedrooms",
+"Penthouse",
+"Townhouse",
+"Villa",
+"Retail"
+],
+"ar": [
+"استوديو",
+"غرفة واحدة",
+"غرفتان",
+"ثلاث غرف",
+"بنتهاوس",
+"تاون هاوس",
+"فيلا",
+"محل تجاري"
+]
+}
+},
+"view": {
+"n": {
+"en": "View",
+"ar": "الإطلالة"
+},
+"items": {
+"en": [
+"Street",
+"Garden",
+"Pool",
+"City",
+"Sea"
+],
+"ar": [
+"شارع",
+"حديقة",
+"مسبح",
+"المدينة",
+"البحر"
+]
+}
+},
+"ustat": {
+"n": {
+"en": "Unit status",
+"ar": "حالة الوحدة"
+},
+"items": {
+"en": [
+"Available",
+"Reserved",
+"Sold",
+"Handed over",
+"Blocked"
+],
+"ar": [
+"متاحة",
+"محجوزة",
+"مباعة",
+"مسلّمة",
+"موقوفة"
+]
+},
+"colors": [
+"#27AE60",
+"#F39C12",
+"#2E86AB",
+"#3D2C5E",
+"#95A5A6"
+]
+},
+"plan": {
+"n": {
+"en": "Payment plan",
+"ar": "خطة السداد"
+},
+"items": {
+"en": [
+"Cash",
+"Installments 40/60",
+"Installments 60/40",
+"Post-handover",
+"Bank financing"
+],
+"ar": [
+"نقداً",
+"أقساط 40/60",
+"أقساط 60/40",
+"بعد التسليم",
+"تمويل بنكي"
+]
+}
+},
+"sstat": {
+"n": {
+"en": "Sale status",
+"ar": "حالة البيع"
+},
+"items": {
+"en": [
+"Reserved",
+"Contract signed",
+"Cancelled"
+],
+"ar": [
+"محجوزة",
+"تم توقيع العقد",
+"ملغاة"
+]
+},
+"colors": [
+"#F39C12",
+"#27AE60",
+"#C0392B"
+]
+},
+"chan": {
+"n": {
+"en": "Sales channel",
+"ar": "قناة البيع"
+},
+"items": {
+"en": [
+"Direct",
+"Broker",
+"Online",
+"Exhibition",
+"Referral"
+],
+"ar": [
+"مباشر",
+"وسيط",
+"إلكتروني",
+"معرض",
+"توصية"
+]
+}
+},
+"btype": {
+"n": {
+"en": "Buyer type",
+"ar": "نوع المشتري"
+},
+"items": {
+"en": [
+"End user",
+"Investor",
+"Company"
+],
+"ar": [
+"مستخدم نهائي",
+"مستثمر",
+"شركة"
+]
+}
+},
+"istat": {
+"n": {
+"en": "Installment status",
+"ar": "حالة القسط"
+},
+"items": {
+"en": [
+"Paid",
+"Partly paid",
+"Upcoming",
+"Overdue"
+],
+"ar": [
+"مدفوع",
+"مدفوع جزئياً",
+"قادم",
+"متأخر"
+]
+},
+"colors": [
+"#27AE60",
+"#F39C12",
+"#7F8C8D",
+"#C0392B"
+]
+},
+"phase": {
+"n": {
+"en": "Phase",
+"ar": "المرحلة"
+},
+"items": {
+"en": [
+"Design",
+"Permits",
+"Excavation",
+"Structure",
+"MEP",
+"Finishing",
+"Handover"
+],
+"ar": [
+"التصميم",
+"التصاريح",
+"الحفر",
+"الهيكل",
+"الأعمال الكهروميكانيكية",
+"التشطيب",
+"التسليم"
+]
+}
+},
+"ccat": {
+"n": {
+"en": "Cost category",
+"ar": "بند التكلفة"
+},
+"items": {
+"en": [
+"Land",
+"Design & consultants",
+"Permits & fees",
+"Substructure",
+"Superstructure",
+"MEP",
+"Finishing",
+"Infrastructure",
+"Marketing",
+"Sales commissions",
+"Financing",
+"Contingency"
+],
+"ar": [
+"الأرض",
+"التصميم والاستشاريون",
+"التصاريح والرسوم",
+"الأعمال تحت الأرض",
+"الهيكل الإنشائي",
+"الكهروميكانيك",
+"التشطيبات",
+"البنية التحتية",
+"التسويق",
+"عمولات البيع",
+"التمويل",
+"الاحتياطي"
+]
+}
+},
+"trade": {
+"n": {
+"en": "Contractor trade",
+"ar": "تخصص المقاول"
+},
+"items": {
+"en": [
+"Main contractor",
+"MEP",
+"Finishing",
+"Landscaping",
+"Consultant",
+"Supplier"
+],
+"ar": [
+"مقاول رئيسي",
+"كهروميكانيك",
+"تشطيبات",
+"تنسيق مواقع",
+"استشاري",
+"مورد"
+]
+}
+},
+"permit": {
+"n": {
+"en": "Permit status",
+"ar": "حالة التصريح"
+},
+"items": {
+"en": [
+"Not started",
+"Submitted",
+"Under review",
+"Approved",
+"Rejected"
+],
+"ar": [
+"لم يبدأ",
+"مقدم",
+"قيد المراجعة",
+"معتمد",
+"مرفوض"
+]
+},
+"colors": [
+"#95A5A6",
+"#2E86AB",
+"#F39C12",
+"#27AE60",
+"#C0392B"
+]
+},
+"mchan": {
+"n": {
+"en": "Campaign channel",
+"ar": "قناة الحملة"
+},
+"items": {
+"en": [
+"Social ads",
+"Search ads",
+"Outdoor",
+"Exhibition",
+"Broker event",
+"Property portal"
+],
+"ar": [
+"إعلانات اجتماعية",
+"إعلانات البحث",
+"لوحات خارجية",
+"معرض",
+"فعالية وسطاء",
+"منصة عقارية"
+]
+}
+},
+"snag": {
+"n": {
+"en": "Snag category",
+"ar": "فئة الملاحظة"
+},
+"items": {
+"en": [
+"Paint",
+"Tiles",
+"Doors",
+"Windows",
+"Plumbing",
+"Electrical",
+"AC",
+"Kitchen",
+"Other"
+],
+"ar": [
+"دهان",
+"بلاط",
+"أبواب",
+"نوافذ",
+"سباكة",
+"كهرباء",
+"تكييف",
+"مطبخ",
+"أخرى"
+]
+}
+},
+"snst": {
+"n": {
+"en": "Snag status",
+"ar": "حالة الملاحظة"
+},
+"items": {
+"en": [
+"Open",
+"Fixed",
+"Verified"
+],
+"ar": [
+"مفتوحة",
+"تم الإصلاح",
+"تم التحقق"
+]
+},
+"colors": [
+"#C0392B",
+"#F39C12",
+"#27AE60"
+]
+}
+},
+"modules": [
+{
+"id": "projects",
+"g": "land",
+"n": {
+"en": "Projects",
+"ar": "المشاريع"
+},
+"d": {
+"en": "Portfolio of projects with size, units, budget, sales target, dates and live sales and cost figures.",
+"ar": "محفظة المشاريع بالمساحات والوحدات والميزانية ومستهدف المبيعات والتواريخ وأرقام البيع والتكلفة الحية."
+},
+"prefix": "PJ",
+"rows": 5,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Project ID",
+"ar": "رقم المشروع"
+},
+"t": "id"
+},
+{
+"k": "name",
+"n": {
+"en": "Project",
+"ar": "المشروع"
+},
+"t": "text",
+"s": {
+"en": [
+"Azure Towers",
+"Palm Grove Villas",
+"Central Square",
+"Lakeside Residences",
+"Horizon Park"
+],
+"ar": [
+"أبراج أزور",
+"فلل بستان النخيل",
+"الساحة المركزية",
+"مساكن البحيرة",
+"منتزه الأفق"
+]
+},
+"w": 20
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "land",
+"n": {
+"en": "Land area m²",
+"ar": "مساحة الأرض م²"
+},
+"t": "int",
+"min": 4000,
+"max": 60000
+},
+{
+"k": "bua",
+"n": {
+"en": "Built-up area m²",
+"ar": "مسطح البناء م²"
+},
+"t": "int",
+"min": 15000,
+"max": 140000
+},
+{
+"k": "units",
+"n": {
+"en": "Units",
+"ar": "الوحدات"
+},
+"t": "int",
+"min": 60,
+"max": 420
+},
+{
+"k": "launch",
+"n": {
+"en": "Launch",
+"ar": "الإطلاق"
+},
+"t": "date",
+"past": 600,
+"future": 0
+},
+{
+"k": "finish",
+"n": {
+"en": "Planned completion",
+"ar": "الإنجاز المخطط"
+},
+"t": "date",
+"rel": "launch",
+"min": 600,
+"max": 1100,
+"cf": "soon"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "pstat",
+"seq": true
+},
+{
+"k": "budget",
+"n": {
+"en": "Total budget",
+"ar": "الميزانية الكلية"
+},
+"t": "money",
+"min": 40000000,
+"max": 260000000,
+"step": 1000000
+},
+{
+"k": "target",
+"n": {
+"en": "Sales target (GDV)",
+"ar": "مستهدف المبيعات"
+},
+"t": "money",
+"min": 60000000,
+"max": 380000000,
+"step": 1000000
+},
+{
+"k": "sold",
+"n": {
+"en": "Sold value",
+"ar": "قيمة المبيعات"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=SUMIFS({#sales.price},{#sales.project},{id},{#sales.status},{L:sstat:1})+SUMIFS({#sales.price},{#sales.project},{id},{#sales.status},{L:sstat:0})"
+},
+{
+"k": "spent",
+"n": {
+"en": "Cost to date",
+"ar": "التكلفة حتى الآن"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=SUMIFS({#costs.actual},{#costs.project},{id})"
+},
+{
+"k": "sp",
+"n": {
+"en": "Sales achieved",
+"ar": "نسبة المبيعات"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({sold}/{target},0)",
+"cf": "databar"
+},
+{
+"k": "cp",
+"n": {
+"en": "Budget used",
+"ar": "نسبة الصرف"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({spent}/{budget},0)",
+"cf": "databar"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Projects",
+"ar": "المشاريع"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Total GDV target",
+"ar": "إجمالي مستهدف المبيعات"
+},
+"a": "sum",
+"f": "target",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Sold value",
+"ar": "قيمة المبيعات"
+},
+"a": "sum",
+"f": "sold",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Cost to date",
+"ar": "التكلفة حتى الآن"
+},
+"a": "sum",
+"f": "spent",
+"fmt": "money"
+}
+],
+"rep": {
+"val": "target",
+"agg": "sum",
+"by": [
+"status",
+"district"
+]
+}
+},
+{
+"id": "land",
+"g": "land",
+"n": {
+"en": "Land bank",
+"ar": "مخزون الأراضي"
+},
+"d": {
+"en": "Plots under study or acquired: zoning, area, asking price, price per m² and allowed built-up area.",
+"ar": "الأراضي تحت الدراسة أو المشتراة: الاستخدام والمساحة والسعر وسعر المتر ومسطح البناء المسموح."
+},
+"prefix": "LD",
+"rows": 18,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Plot ID",
+"ar": "رقم الأرض"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date found",
+"ar": "تاريخ الرصد"
+},
+"t": "date"
+},
+{
+"k": "plot",
+"n": {
+"en": "Plot no.",
+"ar": "رقم القطعة"
+},
+"t": "text",
+"s": "code"
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "zoning",
+"n": {
+"en": "Zoning",
+"ar": "الاستخدام"
+},
+"t": "list",
+"l": "zoning"
+},
+{
+"k": "area",
+"n": {
+"en": "Area m²",
+"ar": "المساحة م²"
+},
+"t": "int",
+"min": 1500,
+"max": 40000
+},
+{
+"k": "far",
+"n": {
+"en": "Floor area ratio",
+"ar": "معامل البناء"
+},
+"t": "num",
+"min": 1.0,
+"max": 5.0
+},
+{
+"k": "gfa",
+"n": {
+"en": "Allowed built-up m²",
+"ar": "المسطح المسموح م²"
+},
+"t": "calc",
+"fmt": "int",
+"f": "={area}*{far}"
+},
+{
+"k": "ask",
+"n": {
+"en": "Asking price",
+"ar": "السعر المطلوب"
+},
+"t": "money",
+"min": 3000000,
+"max": 90000000,
+"step": 100000
+},
+{
+"k": "ppsqm",
+"n": {
+"en": "Price per m²",
+"ar": "سعر المتر"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR({ask}/{area},0)",
+"cf": "scale_r"
+},
+{
+"k": "ppgfa",
+"n": {
+"en": "Price per buildable m²",
+"ar": "سعر متر البناء"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR({ask}/{gfa},0)",
+"cf": "scale_r"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "lstat",
+"wts": [
+4,
+3,
+2,
+2
+]
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Plots",
+"ar": "الأراضي"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Acquired",
+"ar": "تم شراؤها"
+},
+"a": "count",
+"w": [
+[
+"status",
+2
+]
+]
+},
+{
+"n": {
+"en": "Avg price per m²",
+"ar": "متوسط سعر المتر"
+},
+"a": "avg",
+"f": "ppsqm",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Buildable m²",
+"ar": "المسطح المسموح"
+},
+"a": "sum",
+"f": "gfa",
+"w": [
+[
+"status",
+2
+]
+]
+}
+],
+"rep": {
+"date": "date",
+"val": "ask",
+"agg": "sum",
+"by": [
+"zoning",
+"status",
+"district"
+]
+}
+},
+{
+"id": "units",
+"g": "sales",
+"n": {
+"en": "Units inventory & pricing",
+"ar": "مخزون الوحدات والتسعير"
+},
+"d": {
+"en": "Every unit with floor, view and area, priced automatically: base price plus floor and view premiums.",
+"ar": "كل وحدة بطابقها وإطلالتها ومساحتها، تُسعّر تلقائياً: السعر الأساسي مع علاوة الطابق والإطلالة."
+},
+"prefix": "UN",
+"rows": 60,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Unit ID",
+"ar": "رقم الوحدة"
+},
+"t": "id"
+},
+{
+"k": "project",
+"n": {
+"en": "Project ID",
+"ar": "رقم المشروع"
+},
+"t": "ref",
+"m": "projects"
+},
+{
+"k": "block",
+"n": {
+"en": "Block",
+"ar": "المبنى"
+},
+"t": "text",
+"s": {
+"en": [
+"A",
+"B",
+"C",
+"D"
+],
+"ar": [
+"أ",
+"ب",
+"ج",
+"د"
+]
+}
+},
+{
+"k": "floor",
+"n": {
+"en": "Floor",
+"ar": "الطابق"
+},
+"t": "int",
+"min": 0,
+"max": 28
+},
+{
+"k": "utype",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "utype",
+"wts": [
+2,
+5,
+5,
+3,
+1,
+1,
+1,
+1
+]
+},
+{
+"k": "view",
+"n": {
+"en": "View",
+"ar": "الإطلالة"
+},
+"t": "list",
+"l": "view"
+},
+{
+"k": "area",
+"n": {
+"en": "Area m²",
+"ar": "المساحة م²"
+},
+"t": "int",
+"min": 40,
+"max": 420
+},
+{
+"k": "base",
+"n": {
+"en": "Base price per m²",
+"ar": "السعر الأساسي للمتر"
+},
+"t": "money",
+"min": 4500,
+"max": 9000,
+"step": 50
+},
+{
+"k": "fprem",
+"n": {
+"en": "Floor premium",
+"ar": "علاوة الطابق"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "={floor}*0.004"
+},
+{
+"k": "vprem",
+"n": {
+"en": "View premium",
+"ar": "علاوة الإطلالة"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IF({view}={L:view:4},0.12,IF({view}={L:view:3},0.06,IF({view}={L:view:2},0.04,IF({view}={L:view:1},0.02,0))))"
+},
+{
+"k": "price",
+"n": {
+"en": "List price",
+"ar": "سعر البيع"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=ROUND({area}*{base}*(1+{fprem}+{vprem}),-3)",
+"cf": "databar"
+},
+{
+"k": "ppsqm",
+"n": {
+"en": "Price per m²",
+"ar": "سعر المتر"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR({price}/{area},0)"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "ustat",
+"wts": [
+5,
+2,
+5,
+2,
+1
+]
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Units",
+"ar": "الوحدات"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Available",
+"ar": "المتاحة"
+},
+"a": "count",
+"w": [
+[
+"status",
+0
+]
+]
+},
+{
+"n": {
+"en": "Sold share",
+"ar": "نسبة المباع"
+},
+"a": "pct",
+"w": [
+[
+"status",
+2
+]
+],
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Inventory value (available)",
+"ar": "قيمة المتاح"
+},
+"a": "sum",
+"f": "price",
+"w": [
+[
+"status",
+0
+]
+],
+"fmt": "money"
+}
+],
+"rep": {
+"val": "price",
+"agg": "sum",
+"by": [
+"status",
+"utype",
+"view"
+]
+}
+},
+{
+"id": "buyers",
+"g": "sales",
+"n": {
+"en": "Buyers",
+"ar": "المشترون"
+},
+"d": {
+"en": "Buyer files with type, source, budget, units bought and balance still to collect.",
+"ar": "ملفات المشترين بالنوع والمصدر والميزانية والوحدات المشتراة والمتبقي للتحصيل."
+},
+"prefix": "BY",
+"rows": 34,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Buyer ID",
+"ar": "رقم المشتري"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "First contact",
+"ar": "أول تواصل"
+},
+"t": "date"
+},
+{
+"k": "name",
+"n": {
+"en": "Buyer",
+"ar": "المشتري"
+},
+"t": "text",
+"s": "person"
+},
+{
+"k": "phone",
+"n": {
+"en": "Phone",
+"ar": "الجوال"
+},
+"t": "text",
+"s": "phone"
+},
+{
+"k": "email",
+"n": {
+"en": "Email",
+"ar": "البريد"
+},
+"t": "text",
+"s": "email"
+},
+{
+"k": "country",
+"n": {
+"en": "Country",
+"ar": "الدولة"
+},
+"t": "text",
+"s": {
+"en": [
+"United Kingdom",
+"Germany",
+"India",
+"Egypt",
+"UAE",
+"Saudi Arabia",
+"Canada",
+"China"
+],
+"ar": [
+"المملكة المتحدة",
+"ألمانيا",
+"الهند",
+"مصر",
+"الإمارات",
+"السعودية",
+"كندا",
+"الصين"
+]
+}
+},
+{
+"k": "btype",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "btype"
+},
+{
+"k": "chan",
+"n": {
+"en": "Source",
+"ar": "المصدر"
+},
+"t": "list",
+"l": "chan"
+},
+{
+"k": "budget",
+"n": {
+"en": "Budget",
+"ar": "الميزانية"
+},
+"t": "money",
+"min": 300000,
+"max": 4000000,
+"step": 10000
+},
+{
+"k": "bought",
+"n": {
+"en": "Units bought",
+"ar": "الوحدات المشتراة"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=COUNTIF({#sales.buyer},{id})"
+},
+{
+"k": "owed",
+"n": {
+"en": "Balance to collect",
+"ar": "المتبقي للتحصيل"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=SUMIFS({#inst.balance},{#inst.bname},{name})",
+"cf": "databar"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Buyers",
+"ar": "المشترون"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Investors",
+"ar": "المستثمرون"
+},
+"a": "count",
+"w": [
+[
+"btype",
+1
+]
+]
+},
+{
+"n": {
+"en": "Balance to collect",
+"ar": "المتبقي للتحصيل"
+},
+"a": "sum",
+"f": "owed",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "date",
+"val": "budget",
+"agg": "sum",
+"by": [
+"btype",
+"chan"
+]
+}
+},
+{
+"id": "sales",
+"g": "sales",
+"n": {
+"en": "Reservations & sales",
+"ar": "الحجوزات والمبيعات"
+},
+"d": {
+"en": "Each reservation and sale: unit, buyer, list vs. sold price, discount, channel, broker, plan and down payment.",
+"ar": "كل حجز وبيع: الوحدة والمشتري والسعر المعلن مقابل سعر البيع والخصم والقناة والوسيط والخطة والدفعة الأولى."
+},
+"prefix": "SL",
+"rows": 40,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Sale ID",
+"ar": "رقم البيع"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "unit",
+"n": {
+"en": "Unit ID",
+"ar": "رقم الوحدة"
+},
+"t": "ref",
+"m": "units"
+},
+{
+"k": "project",
+"n": {
+"en": "Project ID",
+"ar": "رقم المشروع"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@units.project|unit}"
+},
+{
+"k": "buyer",
+"n": {
+"en": "Buyer ID",
+"ar": "رقم المشتري"
+},
+"t": "ref",
+"m": "buyers"
+},
+{
+"k": "bname",
+"n": {
+"en": "Buyer",
+"ar": "المشتري"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@buyers.name|buyer}"
+},
+{
+"k": "list",
+"n": {
+"en": "List price",
+"ar": "السعر المعلن"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={@units.price|unit}"
+},
+{
+"k": "price",
+"n": {
+"en": "Sold price",
+"ar": "سعر البيع"
+},
+"t": "money",
+"min": 300000,
+"max": 3800000,
+"step": 5000
+},
+{
+"k": "disc",
+"n": {
+"en": "Discount",
+"ar": "الخصم"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR(1-{price}/{list},0)",
+"cf": "scale_r"
+},
+{
+"k": "chan",
+"n": {
+"en": "Channel",
+"ar": "القناة"
+},
+"t": "list",
+"l": "chan"
+},
+{
+"k": "broker",
+"n": {
+"en": "Broker ID",
+"ar": "رقم الوسيط"
+},
+"t": "ref",
+"m": "brokers"
+},
+{
+"k": "plan",
+"n": {
+"en": "Payment plan",
+"ar": "خطة السداد"
+},
+"t": "list",
+"l": "plan"
+},
+{
+"k": "dp",
+"n": {
+"en": "Down payment %",
+"ar": "الدفعة الأولى %"
+},
+"t": "pct",
+"min": 0.1,
+"max": 0.3
+},
+{
+"k": "dpa",
+"n": {
+"en": "Down payment",
+"ar": "مبلغ الدفعة الأولى"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={price}*{dp}"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "sstat",
+"wts": [
+2,
+7,
+1
+]
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Units sold",
+"ar": "الوحدات المباعة"
+},
+"a": "count",
+"w": [
+[
+"status",
+1
+]
+]
+},
+{
+"n": {
+"en": "Sales value",
+"ar": "قيمة المبيعات"
+},
+"a": "sum",
+"f": "price",
+"w": [
+[
+"status",
+1
+]
+],
+"fmt": "money"
+},
+{
+"n": {
+"en": "Avg discount",
+"ar": "متوسط الخصم"
+},
+"a": "avg",
+"f": "disc",
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Cancellation rate",
+"ar": "نسبة الإلغاء"
+},
+"a": "pct",
+"w": [
+[
+"status",
+2
+]
+],
+"fmt": "pct"
+}
+],
+"rep": {
+"date": "date",
+"val": "price",
+"agg": "sum",
+"by": [
+"chan",
+"plan",
+"status"
+]
+}
+},
+{
+"id": "inst",
+"g": "sales",
+"n": {
+"en": "Installments & collections",
+"ar": "الأقساط والتحصيل"
+},
+"d": {
+"en": "Every installment of every payment plan: due, paid, balance, days overdue and status.",
+"ar": "كل قسط في كل خطة سداد: المستحق والمدفوع والمتبقي وأيام التأخير والحالة."
+},
+"prefix": "IS",
+"rows": 80,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Installment ID",
+"ar": "رقم القسط"
+},
+"t": "id"
+},
+{
+"k": "due",
+"n": {
+"en": "Due date",
+"ar": "تاريخ الاستحقاق"
+},
+"t": "date",
+"past": 300,
+"future": 120
+},
+{
+"k": "sale",
+"n": {
+"en": "Sale ID",
+"ar": "رقم البيع"
+},
+"t": "ref",
+"m": "sales"
+},
+{
+"k": "bname",
+"n": {
+"en": "Buyer",
+"ar": "المشتري"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@sales.bname|sale}"
+},
+{
+"k": "no",
+"n": {
+"en": "Installment no.",
+"ar": "رقم الدفعة"
+},
+"t": "int",
+"min": 1,
+"max": 8
+},
+{
+"k": "amount",
+"n": {
+"en": "Amount",
+"ar": "المبلغ"
+},
+"t": "money",
+"min": 20000,
+"max": 400000,
+"step": 1000
+},
+{
+"k": "paid",
+"n": {
+"en": "Paid",
+"ar": "المدفوع"
+},
+"t": "money",
+"min": 0,
+"max": 400000,
+"step": 1000,
+"eq": "amount"
+},
+{
+"k": "balance",
+"n": {
+"en": "Balance",
+"ar": "المتبقي"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=MAX(0,{amount}-{paid})",
+"cf": "databar"
+},
+{
+"k": "late",
+"n": {
+"en": "Days overdue",
+"ar": "أيام التأخير"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=IF(AND({balance}>0,{due}<TODAY()),TODAY()-{due},0)",
+"cf": "scale_r"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "calc",
+"fmt": "text",
+"f": "=IF({balance}=0,{L:istat:0},IF({due}<TODAY(),{L:istat:3},IF({paid}>0,{L:istat:1},{L:istat:2})))"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Collected",
+"ar": "المحصل"
+},
+"a": "sum",
+"f": "paid",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Outstanding",
+"ar": "المتبقي"
+},
+"a": "sum",
+"f": "balance",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Collection rate",
+"ar": "نسبة التحصيل"
+},
+"a": "ratio",
+"f": "paid",
+"f2": "amount",
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Avg days overdue",
+"ar": "متوسط أيام التأخير"
+},
+"a": "avg",
+"f": "late",
+"fmt": "num"
+}
+],
+"rep": {
+"date": "due",
+"val": "amount",
+"agg": "sum"
+}
+},
+{
+"id": "progress",
+"g": "build",
+"n": {
+"en": "Construction progress",
+"ar": "تقدم الإنشاء"
+},
+"d": {
+"en": "Planned vs. actual progress per project and phase, with the variance highlighted.",
+"ar": "التقدم المخطط مقابل الفعلي لكل مشروع ومرحلة مع إبراز الانحراف."
+},
+"prefix": "PR",
+"rows": 30,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Report ID",
+"ar": "رقم التقرير"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Report date",
+"ar": "تاريخ التقرير"
+},
+"t": "date"
+},
+{
+"k": "project",
+"n": {
+"en": "Project ID",
+"ar": "رقم المشروع"
+},
+"t": "ref",
+"m": "projects"
+},
+{
+"k": "pname",
+"n": {
+"en": "Project",
+"ar": "المشروع"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@projects.name|project}"
+},
+{
+"k": "phase",
+"n": {
+"en": "Phase",
+"ar": "المرحلة"
+},
+"t": "list",
+"l": "phase"
+},
+{
+"k": "plan",
+"n": {
+"en": "Planned %",
+"ar": "المخطط %"
+},
+"t": "pct",
+"min": 0.2,
+"max": 1.0
+},
+{
+"k": "actual",
+"n": {
+"en": "Actual %",
+"ar": "الفعلي %"
+},
+"t": "pct",
+"min": 0.15,
+"max": 1.0
+},
+{
+"k": "var",
+"n": {
+"en": "Variance",
+"ar": "الانحراف"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "={actual}-{plan}",
+"cf": "scale"
+},
+{
+"k": "contractor",
+"n": {
+"en": "Contractor ID",
+"ar": "رقم المقاول"
+},
+"t": "ref",
+"m": "contractors"
+},
+{
+"k": "notes",
+"n": {
+"en": "Notes",
+"ar": "ملاحظات"
+},
+"t": "text",
+"s": "note"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Reports",
+"ar": "التقارير"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Avg actual progress",
+"ar": "متوسط التقدم الفعلي"
+},
+"a": "avg",
+"f": "actual",
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Avg variance",
+"ar": "متوسط الانحراف"
+},
+"a": "avg",
+"f": "var",
+"fmt": "pct"
+}
+],
+"rep": {
+"date": "date",
+"val": "actual",
+"agg": "avg",
+"by": [
+"phase"
+]
+}
+},
+{
+"id": "costs",
+"g": "build",
+"n": {
+"en": "Budget vs. actual",
+"ar": "الميزانية مقابل الفعلي"
+},
+"d": {
+"en": "Cost lines per project with budget, actual, variance and invoice references.",
+"ar": "بنود التكلفة لكل مشروع بالميزانية والفعلي والانحراف ومراجع الفواتير."
+},
+"prefix": "CS",
+"rows": 60,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Line ID",
+"ar": "رقم البند"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "project",
+"n": {
+"en": "Project ID",
+"ar": "رقم المشروع"
+},
+"t": "ref",
+"m": "projects"
+},
+{
+"k": "cat",
+"n": {
+"en": "Category",
+"ar": "البند"
+},
+"t": "list",
+"l": "ccat"
+},
+{
+"k": "desc",
+"n": {
+"en": "Description",
+"ar": "الوصف"
+},
+"t": "text",
+"s": "note"
+},
+{
+"k": "budget",
+"n": {
+"en": "Budget",
+"ar": "الميزانية"
+},
+"t": "money",
+"min": 200000,
+"max": 9000000,
+"step": 10000
+},
+{
+"k": "actual",
+"n": {
+"en": "Actual",
+"ar": "الفعلي"
+},
+"t": "money",
+"min": 150000,
+"max": 10000000,
+"step": 10000
+},
+{
+"k": "var",
+"n": {
+"en": "Variance",
+"ar": "الانحراف"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={actual}-{budget}",
+"cf": "scale_r"
+},
+{
+"k": "varp",
+"n": {
+"en": "Variance %",
+"ar": "نسبة الانحراف"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({actual}/{budget}-1,0)",
+"cf": "scale_r"
+},
+{
+"k": "vendor",
+"n": {
+"en": "Vendor",
+"ar": "المورد"
+},
+"t": "text",
+"s": "company"
+},
+{
+"k": "inv",
+"n": {
+"en": "Invoice no.",
+"ar": "رقم الفاتورة"
+},
+"t": "text",
+"s": "code"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Budget",
+"ar": "الميزانية"
+},
+"a": "sum",
+"f": "budget",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Actual",
+"ar": "الفعلي"
+},
+"a": "sum",
+"f": "actual",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Spend vs budget",
+"ar": "الصرف إلى الميزانية"
+},
+"a": "ratio",
+"f": "actual",
+"f2": "budget",
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Lines over budget",
+"ar": "بنود متجاوزة"
+},
+"a": "count",
+"w": [
+[
+"var",
+">0"
+]
+]
+}
+],
+"rep": {
+"date": "date",
+"val": "actual",
+"agg": "sum",
+"by": [
+"cat"
+]
+}
+},
+{
+"id": "contractors",
+"g": "build",
+"n": {
+"en": "Contractors & contracts",
+"ar": "المقاولون والعقود"
+},
+"d": {
+"en": "Contract value, paid to date, remaining, retention and performance for each contractor.",
+"ar": "قيمة العقد والمدفوع والمتبقي والمحتجز والأداء لكل مقاول."
+},
+"prefix": "CT",
+"rows": 10,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Contractor ID",
+"ar": "رقم المقاول"
+},
+"t": "id"
+},
+{
+"k": "name",
+"n": {
+"en": "Company",
+"ar": "الشركة"
+},
+"t": "text",
+"s": "company"
+},
+{
+"k": "trade",
+"n": {
+"en": "Trade",
+"ar": "التخصص"
+},
+"t": "list",
+"l": "trade"
+},
+{
+"k": "project",
+"n": {
+"en": "Project ID",
+"ar": "رقم المشروع"
+},
+"t": "ref",
+"m": "projects"
+},
+{
+"k": "value",
+"n": {
+"en": "Contract value",
+"ar": "قيمة العقد"
+},
+"t": "money",
+"min": 2000000,
+"max": 60000000,
+"step": 100000
+},
+{
+"k": "paidp",
+"n": {
+"en": "Paid %",
+"ar": "نسبة المدفوع"
+},
+"t": "pct",
+"min": 0.1,
+"max": 0.9
+},
+{
+"k": "paid",
+"n": {
+"en": "Paid to date",
+"ar": "المدفوع"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={value}*{paidp}"
+},
+{
+"k": "remain",
+"n": {
+"en": "Remaining",
+"ar": "المتبقي"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={value}-{paid}",
+"cf": "databar"
+},
+{
+"k": "ret",
+"n": {
+"en": "Retention %",
+"ar": "نسبة الاحتجاز"
+},
+"t": "pct",
+"min": 0.05,
+"max": 0.1
+},
+{
+"k": "retain",
+"n": {
+"en": "Retention held",
+"ar": "المحتجز"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={paid}*{ret}"
+},
+{
+"k": "rating",
+"n": {
+"en": "Performance 1-5",
+"ar": "الأداء"
+},
+"t": "int",
+"min": 2,
+"max": 5,
+"cf": "scale"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Contracts",
+"ar": "العقود"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Contract value",
+"ar": "قيمة العقود"
+},
+"a": "sum",
+"f": "value",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Remaining",
+"ar": "المتبقي"
+},
+"a": "sum",
+"f": "remain",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Retention held",
+"ar": "المحتجز"
+},
+"a": "sum",
+"f": "retain",
+"fmt": "money"
+}
+],
+"rep": {
+"val": "value",
+"agg": "sum",
+"by": [
+"trade"
+]
+}
+},
+{
+"id": "permits",
+"g": "build",
+"n": {
+"en": "Permits & approvals",
+"ar": "التصاريح والموافقات"
+},
+"d": {
+"en": "Every approval a project needs, with status, expected date and fees.",
+"ar": "كل موافقة يحتاجها المشروع بحالتها وموعدها المتوقع ورسومها."
+},
+"prefix": "PM",
+"rows": 16,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Permit ID",
+"ar": "رقم التصريح"
+},
+"t": "id"
+},
+{
+"k": "project",
+"n": {
+"en": "Project ID",
+"ar": "رقم المشروع"
+},
+"t": "ref",
+"m": "projects"
+},
+{
+"k": "ptype",
+"n": {
+"en": "Permit",
+"ar": "التصريح"
+},
+"t": "text",
+"s": {
+"en": [
+"Building permit",
+"Excavation permit",
+"Civil defense approval",
+"Utility connection",
+"Occupancy certificate",
+"Environmental approval"
+],
+"ar": [
+"رخصة البناء",
+"تصريح الحفر",
+"موافقة الدفاع المدني",
+"توصيل الخدمات",
+"شهادة الإشغال",
+"الموافقة البيئية"
+]
+},
+"w": 24
+},
+{
+"k": "authority",
+"n": {
+"en": "Authority",
+"ar": "الجهة"
+},
+"t": "text",
+"s": {
+"en": [
+"Municipality",
+"Civil Defense",
+"Utility company",
+"Environment agency"
+],
+"ar": [
+"البلدية",
+"الدفاع المدني",
+"شركة الخدمات",
+"جهة البيئة"
+]
+}
+},
+{
+"k": "sub",
+"n": {
+"en": "Submitted",
+"ar": "تاريخ التقديم"
+},
+"t": "date"
+},
+{
+"k": "exp",
+"n": {
+"en": "Expected",
+"ar": "الموعد المتوقع"
+},
+"t": "date",
+"rel": "sub",
+"min": 20,
+"max": 120,
+"cf": "soon"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "permit",
+"wts": [
+1,
+2,
+3,
+5,
+1
+]
+},
+{
+"k": "fees",
+"n": {
+"en": "Fees",
+"ar": "الرسوم"
+},
+"t": "money",
+"min": 2000,
+"max": 120000,
+"step": 500
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Permits",
+"ar": "التصاريح"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Approved",
+"ar": "المعتمدة"
+},
+"a": "count",
+"w": [
+[
+"status",
+3
+]
+]
+},
+{
+"n": {
+"en": "Approval rate",
+"ar": "نسبة الاعتماد"
+},
+"a": "pct",
+"w": [
+[
+"status",
+3
+]
+],
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Fees",
+"ar": "الرسوم"
+},
+"a": "sum",
+"f": "fees",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "sub",
+"val": "fees",
+"agg": "sum",
+"by": [
+"status"
+]
+}
+},
+{
+"id": "brokers",
+"g": "fin",
+"n": {
+"en": "Brokers & channel partners",
+"ar": "الوسطاء وشركاء البيع"
+},
+"d": {
+"en": "Brokers selling your units: commission rate, units sold and commission owed - computed from sales.",
+"ar": "الوسطاء الذين يبيعون وحداتك: نسبة العمولة والوحدات المباعة والعمولة المستحقة - محسوبة من المبيعات."
+},
+"prefix": "BR",
+"rows": 10,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Broker ID",
+"ar": "رقم الوسيط"
+},
+"t": "id"
+},
+{
+"k": "name",
+"n": {
+"en": "Company",
+"ar": "الشركة"
+},
+"t": "text",
+"s": "company"
+},
+{
+"k": "contact",
+"n": {
+"en": "Contact",
+"ar": "المسؤول"
+},
+"t": "text",
+"s": "person"
+},
+{
+"k": "phone",
+"n": {
+"en": "Phone",
+"ar": "الجوال"
+},
+"t": "text",
+"s": "phone"
+},
+{
+"k": "rate",
+"n": {
+"en": "Commission %",
+"ar": "نسبة العمولة"
+},
+"t": "pct",
+"min": 0.02,
+"max": 0.05
+},
+{
+"k": "units",
+"n": {
+"en": "Units sold",
+"ar": "الوحدات المباعة"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=COUNTIFS({#sales.broker},{id},{#sales.status},{L:sstat:1})"
+},
+{
+"k": "value",
+"n": {
+"en": "Sales value",
+"ar": "قيمة المبيعات"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=SUMIFS({#sales.price},{#sales.broker},{id},{#sales.status},{L:sstat:1})"
+},
+{
+"k": "owed",
+"n": {
+"en": "Commission owed",
+"ar": "العمولة المستحقة"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={value}*{rate}",
+"cf": "databar"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Brokers",
+"ar": "الوسطاء"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Broker sales",
+"ar": "مبيعات الوسطاء"
+},
+"a": "sum",
+"f": "value",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Commission owed",
+"ar": "العمولات المستحقة"
+},
+"a": "sum",
+"f": "owed",
+"fmt": "money"
+}
+]
+},
+{
+"id": "campaigns",
+"g": "fin",
+"n": {
+"en": "Launch & marketing campaigns",
+"ar": "حملات الإطلاق والتسويق"
+},
+"d": {
+"en": "Spend, leads, reservations, cost per lead and cost per sale by channel.",
+"ar": "الإنفاق والعملاء والحجوزات وتكلفة العميل وتكلفة البيع حسب القناة."
+},
+"prefix": "MC",
+"rows": 20,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Campaign ID",
+"ar": "رقم الحملة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Start",
+"ar": "البداية"
+},
+"t": "date"
+},
+{
+"k": "project",
+"n": {
+"en": "Project ID",
+"ar": "رقم المشروع"
+},
+"t": "ref",
+"m": "projects"
+},
+{
+"k": "chan",
+"n": {
+"en": "Channel",
+"ar": "القناة"
+},
+"t": "list",
+"l": "mchan"
+},
+{
+"k": "spend",
+"n": {
+"en": "Spend",
+"ar": "الإنفاق"
+},
+"t": "money",
+"min": 5000,
+"max": 120000,
+"step": 500
+},
+{
+"k": "leads",
+"n": {
+"en": "Leads",
+"ar": "العملاء"
+},
+"t": "int",
+"min": 20,
+"max": 600
+},
+{
+"k": "res",
+"n": {
+"en": "Reservations",
+"ar": "الحجوزات"
+},
+"t": "int",
+"min": 0,
+"max": 25
+},
+{
+"k": "cpl",
+"n": {
+"en": "Cost per lead",
+"ar": "تكلفة العميل"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR({spend}/{leads},0)",
+"cf": "scale_r"
+},
+{
+"k": "cps",
+"n": {
+"en": "Cost per sale",
+"ar": "تكلفة البيعة"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR({spend}/{res},0)",
+"cf": "scale_r"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Spend",
+"ar": "الإنفاق"
+},
+"a": "sum",
+"f": "spend",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Leads",
+"ar": "العملاء"
+},
+"a": "sum",
+"f": "leads"
+},
+{
+"n": {
+"en": "Reservations",
+"ar": "الحجوزات"
+},
+"a": "sum",
+"f": "res"
+},
+{
+"n": {
+"en": "Avg cost per lead",
+"ar": "متوسط تكلفة العميل"
+},
+"a": "avg",
+"f": "cpl",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "date",
+"val": "spend",
+"agg": "sum",
+"by": [
+"chan"
+]
+}
+},
+{
+"id": "snags",
+"g": "fin",
+"n": {
+"en": "Handover & snagging",
+"ar": "التسليم والملاحظات"
+},
+"d": {
+"en": "Snags found at handover, fixed and verified - with days to fix.",
+"ar": "ملاحظات التسليم وإصلاحها والتحقق منها - مع أيام الإصلاح."
+},
+"prefix": "SN",
+"rows": 40,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Snag ID",
+"ar": "رقم الملاحظة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Found",
+"ar": "تاريخ الرصد"
+},
+"t": "date"
+},
+{
+"k": "unit",
+"n": {
+"en": "Unit ID",
+"ar": "رقم الوحدة"
+},
+"t": "ref",
+"m": "units"
+},
+{
+"k": "cat",
+"n": {
+"en": "Category",
+"ar": "الفئة"
+},
+"t": "list",
+"l": "snag"
+},
+{
+"k": "desc",
+"n": {
+"en": "Description",
+"ar": "الوصف"
+},
+"t": "text",
+"s": "note"
+},
+{
+"k": "contractor",
+"n": {
+"en": "Contractor ID",
+"ar": "رقم المقاول"
+},
+"t": "ref",
+"m": "contractors"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "snst",
+"wts": [
+2,
+2,
+5
+]
+},
+{
+"k": "fixed",
+"n": {
+"en": "Fixed on",
+"ar": "تاريخ الإصلاح"
+},
+"t": "date",
+"rel": "date",
+"min": 1,
+"max": 20
+},
+{
+"k": "days",
+"n": {
+"en": "Days to fix",
+"ar": "أيام الإصلاح"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=IF({status}={L:snst:0},TODAY()-{date},{fixed}-{date})",
+"cf": "scale_r"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Snags",
+"ar": "الملاحظات"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Open",
+"ar": "المفتوحة"
+},
+"a": "count",
+"w": [
+[
+"status",
+0
+]
+]
+},
+{
+"n": {
+"en": "Avg days to fix",
+"ar": "متوسط أيام الإصلاح"
+},
+"a": "avg",
+"f": "days",
+"fmt": "num"
+}
+],
+"rep": {
+"date": "date",
+"by": [
+"cat",
+"status"
+]
+}
+},
+{
+"id": "cash",
+"g": "fin",
+"n": {
+"en": "Cash flow",
+"ar": "التدفق النقدي"
+},
+"d": {
+"en": "Monthly inflows (collections, loans) and outflows (construction, other) with net cash flow.",
+"ar": "التدفقات الشهرية الداخلة (التحصيل والتمويل) والخارجة (الإنشاء وغيرها) وصافي التدفق."
+},
+"prefix": "CF",
+"rows": 24,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Entry ID",
+"ar": "رقم القيد"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Month",
+"ar": "الشهر"
+},
+"t": "date"
+},
+{
+"k": "project",
+"n": {
+"en": "Project ID",
+"ar": "رقم المشروع"
+},
+"t": "ref",
+"m": "projects"
+},
+{
+"k": "coll",
+"n": {
+"en": "Collections",
+"ar": "التحصيل"
+},
+"t": "money",
+"min": 500000,
+"max": 9000000,
+"step": 10000
+},
+{
+"k": "loan",
+"n": {
+"en": "Loan drawdown",
+"ar": "سحب التمويل"
+},
+"t": "money",
+"min": 0,
+"max": 6000000,
+"step": 10000
+},
+{
+"k": "build",
+"n": {
+"en": "Construction paid",
+"ar": "مدفوعات الإنشاء"
+},
+"t": "money",
+"min": 800000,
+"max": 9000000,
+"step": 10000
+},
+{
+"k": "other",
+"n": {
+"en": "Other paid",
+"ar": "مدفوعات أخرى"
+},
+"t": "money",
+"min": 50000,
+"max": 1200000,
+"step": 5000
+},
+{
+"k": "net",
+"n": {
+"en": "Net cash flow",
+"ar": "صافي التدفق"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={coll}+{loan}-{build}-{other}",
+"cf": "scale"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Inflows",
+"ar": "التدفقات الداخلة"
+},
+"a": "sum",
+"f": "coll",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Construction paid",
+"ar": "مدفوعات الإنشاء"
+},
+"a": "sum",
+"f": "build",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Net cash flow",
+"ar": "صافي التدفق"
+},
+"a": "sum",
+"f": "net",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "date",
+"val": "net",
+"agg": "sum"
+}
+}
+],
+"calculators": [
+{
+"id": "feas",
+"g": "land",
+"n": {
+"en": "Project feasibility",
+"ar": "دراسة الجدوى"
+},
+"d": {
+"en": "Land, construction, soft costs and finance against sales value: profit, margin and return on cost.",
+"ar": "الأرض والإنشاء والتكاليف غير المباشرة والتمويل مقابل قيمة المبيعات: الربح والهامش والعائد على التكلفة."
+},
+"inputs": [
+{
+"k": "land",
+"n": {
+"en": "Land price",
+"ar": "سعر الأرض"
+},
+"fmt": "money",
+"v": 25000000
+},
+{
+"k": "bua",
+"n": {
+"en": "Built-up area m²",
+"ar": "مسطح البناء م²"
+},
+"fmt": "int",
+"v": 40000
+},
+{
+"k": "cc",
+"n": {
+"en": "Construction cost per m²",
+"ar": "تكلفة الإنشاء للمتر"
+},
+"fmt": "money",
+"v": 2400
+},
+{
+"k": "soft",
+"n": {
+"en": "Soft costs % of construction",
+"ar": "التكاليف غير المباشرة %"
+},
+"fmt": "pct",
+"v": 0.12
+},
+{
+"k": "eff",
+"n": {
+"en": "Sellable / built-up ratio",
+"ar": "نسبة المساحة القابلة للبيع"
+},
+"fmt": "pct",
+"v": 0.82
+},
+{
+"k": "sp",
+"n": {
+"en": "Average sale price per m²",
+"ar": "متوسط سعر البيع للمتر"
+},
+"fmt": "money",
+"v": 6800
+},
+{
+"k": "mkt",
+"n": {
+"en": "Marketing & sales %",
+"ar": "التسويق والبيع %"
+},
+"fmt": "pct",
+"v": 0.05
+},
+{
+"k": "fin",
+"n": {
+"en": "Finance cost % of total",
+"ar": "تكلفة التمويل %"
+},
+"fmt": "pct",
+"v": 0.06
+},
+{
+"k": "cont",
+"n": {
+"en": "Contingency %",
+"ar": "الاحتياطي %"
+},
+"fmt": "pct",
+"v": 0.05
+}
+],
+"outputs": [
+{
+"k": "ccost",
+"n": {
+"en": "Construction cost",
+"ar": "تكلفة الإنشاء"
+},
+"fmt": "money",
+"f": "{bua}*{cc}"
+},
+{
+"k": "scost",
+"n": {
+"en": "Soft costs",
+"ar": "التكاليف غير المباشرة"
+},
+"fmt": "money",
+"f": "{ccost}*{soft}"
+},
+{
+"k": "gdv",
+"n": {
+"en": "Gross development value",
+"ar": "إجمالي قيمة المبيعات"
+},
+"fmt": "money",
+"f": "{bua}*{eff}*{sp}"
+},
+{
+"k": "mcost",
+"n": {
+"en": "Marketing & sales",
+"ar": "التسويق والبيع"
+},
+"fmt": "money",
+"f": "{gdv}*{mkt}"
+},
+{
+"k": "base",
+"n": {
+"en": "Cost before finance",
+"ar": "التكلفة قبل التمويل"
+},
+"fmt": "money",
+"f": "({land}+{ccost}+{scost}+{mcost})*(1+{cont})"
+},
+{
+"k": "fcost",
+"n": {
+"en": "Finance cost",
+"ar": "تكلفة التمويل"
+},
+"fmt": "money",
+"f": "{base}*{fin}"
+},
+{
+"k": "tdc",
+"n": {
+"en": "Total development cost",
+"ar": "إجمالي تكلفة التطوير"
+},
+"fmt": "money",
+"f": "{base}+{fcost}"
+},
+{
+"k": "profit",
+"n": {
+"en": "Developer profit",
+"ar": "ربح المطور"
+},
+"fmt": "money",
+"f": "{gdv}-{tdc}",
+"hl": true
+},
+{
+"k": "margin",
+"n": {
+"en": "Profit on sales",
+"ar": "الربح من المبيعات"
+},
+"fmt": "pct",
+"f": "IFERROR({profit}/{gdv},0)"
+},
+{
+"k": "poc",
+"n": {
+"en": "Profit on cost",
+"ar": "الربح على التكلفة"
+},
+"fmt": "pct",
+"f": "IFERROR({profit}/{tdc},0)"
+},
+{
+"k": "be",
+"n": {
+"en": "Break-even price per m²",
+"ar": "سعر التعادل للمتر"
+},
+"fmt": "money",
+"f": "{tdc}/({bua}*{eff})"
+}
+]
+},
+{
+"id": "residual",
+"g": "land",
+"n": {
+"en": "Residual land value",
+"ar": "القيمة المتبقية للأرض"
+},
+"d": {
+"en": "The most you should pay for land to still hit your target profit.",
+"ar": "أقصى ما تدفعه للأرض مع تحقيق ربحك المستهدف."
+},
+"inputs": [
+{
+"k": "gdv",
+"n": {
+"en": "Expected sales value",
+"ar": "قيمة المبيعات المتوقعة"
+},
+"fmt": "money",
+"v": 220000000
+},
+{
+"k": "build",
+"n": {
+"en": "Construction + soft costs",
+"ar": "الإنشاء والتكاليف غير المباشرة"
+},
+"fmt": "money",
+"v": 110000000
+},
+{
+"k": "mkt",
+"n": {
+"en": "Marketing & finance",
+"ar": "التسويق والتمويل"
+},
+"fmt": "money",
+"v": 18000000
+},
+{
+"k": "tp",
+"n": {
+"en": "Target profit on sales",
+"ar": "الربح المستهدف من المبيعات"
+},
+"fmt": "pct",
+"v": 0.2
+},
+{
+"k": "fees",
+"n": {
+"en": "Land purchase fees %",
+"ar": "رسوم شراء الأرض %"
+},
+"fmt": "pct",
+"v": 0.05
+}
+],
+"outputs": [
+{
+"k": "prof",
+"n": {
+"en": "Target profit",
+"ar": "الربح المستهدف"
+},
+"fmt": "money",
+"f": "{gdv}*{tp}"
+},
+{
+"k": "rlv",
+"n": {
+"en": "Max land price",
+"ar": "أقصى سعر للأرض"
+},
+"fmt": "money",
+"f": "({gdv}-{build}-{mkt}-{prof})/(1+{fees})",
+"hl": true
+},
+{
+"k": "share",
+"n": {
+"en": "Land as share of sales",
+"ar": "الأرض من المبيعات"
+},
+"fmt": "pct",
+"f": "IFERROR({rlv}/{gdv},0)"
+}
+]
+},
+{
+"id": "pricing",
+"g": "sales",
+"n": {
+"en": "Unit price builder",
+"ar": "بناء سعر الوحدة"
+},
+"d": {
+"en": "Base price plus floor, view, corner and early-bird adjustments.",
+"ar": "السعر الأساسي مع علاوات الطابق والإطلالة والزاوية وخصم الحجز المبكر."
+},
+"inputs": [
+{
+"k": "area",
+"n": {
+"en": "Area m²",
+"ar": "المساحة م²"
+},
+"fmt": "int",
+"v": 120
+},
+{
+"k": "base",
+"n": {
+"en": "Base price per m²",
+"ar": "السعر الأساسي للمتر"
+},
+"fmt": "money",
+"v": 6500
+},
+{
+"k": "floor",
+"n": {
+"en": "Floor",
+"ar": "الطابق"
+},
+"fmt": "int",
+"v": 12
+},
+{
+"k": "fp",
+"n": {
+"en": "Premium per floor %",
+"ar": "العلاوة لكل طابق %"
+},
+"fmt": "pct",
+"v": 0.004
+},
+{
+"k": "vp",
+"n": {
+"en": "View premium %",
+"ar": "علاوة الإطلالة %"
+},
+"fmt": "pct",
+"v": 0.06
+},
+{
+"k": "cp",
+"n": {
+"en": "Corner premium %",
+"ar": "علاوة الزاوية %"
+},
+"fmt": "pct",
+"v": 0.03
+},
+{
+"k": "eb",
+"n": {
+"en": "Early-bird discount %",
+"ar": "خصم الحجز المبكر %"
+},
+"fmt": "pct",
+"v": 0.05
+}
+],
+"outputs": [
+{
+"k": "adj",
+"n": {
+"en": "Total premium",
+"ar": "إجمالي العلاوات"
+},
+"fmt": "pct",
+"f": "{floor}*{fp}+{vp}+{cp}"
+},
+{
+"k": "list",
+"n": {
+"en": "List price",
+"ar": "سعر القائمة"
+},
+"fmt": "money",
+"f": "ROUND({area}*{base}*(1+{adj}),-3)"
+},
+{
+"k": "final",
+"n": {
+"en": "Price after discount",
+"ar": "السعر بعد الخصم"
+},
+"fmt": "money",
+"f": "ROUND({list}*(1-{eb}),-3)",
+"hl": true
+},
+{
+"k": "ppsqm",
+"n": {
+"en": "Effective price per m²",
+"ar": "سعر المتر الفعلي"
+},
+"fmt": "money",
+"f": "{final}/{area}"
+}
+]
+},
+{
+"id": "plan",
+"g": "sales",
+"n": {
+"en": "Payment plan generator",
+"ar": "مولّد خطة السداد"
+},
+"d": {
+"en": "Down payment, equal installments and handover payment - with the full schedule.",
+"ar": "الدفعة الأولى والأقساط المتساوية ودفعة التسليم - مع الجدول الكامل."
+},
+"inputs": [
+{
+"k": "price",
+"n": {
+"en": "Unit price",
+"ar": "سعر الوحدة"
+},
+"fmt": "money",
+"v": 1200000
+},
+{
+"k": "dp",
+"n": {
+"en": "Down payment %",
+"ar": "الدفعة الأولى %"
+},
+"fmt": "pct",
+"v": 0.1
+},
+{
+"k": "ho",
+"n": {
+"en": "Paid on handover %",
+"ar": "عند التسليم %"
+},
+"fmt": "pct",
+"v": 0.4
+},
+{
+"k": "cnt",
+"n": {
+"en": "Number of installments",
+"ar": "عدد الأقساط"
+},
+"fmt": "int",
+"v": 12
+},
+{
+"k": "every",
+"n": {
+"en": "Months between installments",
+"ar": "الأشهر بين الأقساط"
+},
+"fmt": "int",
+"v": 3
+},
+{
+"k": "start",
+"n": {
+"en": "First installment date",
+"ar": "تاريخ أول قسط"
+},
+"fmt": "date",
+"v": "today"
+}
+],
+"outputs": [
+{
+"k": "dpa",
+"n": {
+"en": "Down payment",
+"ar": "الدفعة الأولى"
+},
+"fmt": "money",
+"f": "{price}*{dp}"
+},
+{
+"k": "inst",
+"n": {
+"en": "Each installment",
+"ar": "كل قسط"
+},
+"fmt": "money",
+"f": "{price}*(1-{dp}-{ho})/{cnt}",
+"hl": true
+},
+{
+"k": "hoa",
+"n": {
+"en": "Handover payment",
+"ar": "دفعة التسليم"
+},
+"fmt": "money",
+"f": "{price}*{ho}"
+},
+{
+"k": "last",
+"n": {
+"en": "Last installment date",
+"ar": "تاريخ آخر قسط"
+},
+"fmt": "date",
+"f": "EDATE({start},({cnt}-1)*{every})"
+}
+],
+"table": {
+"title": {
+"en": "Payment schedule",
+"ar": "جدول السداد"
+},
+"rows": 60,
+"cols": [
+{
+"k": "due",
+"n": {
+"en": "Due date",
+"ar": "الاستحقاق"
+},
+"fmt": "date",
+"f": "EDATE({p:due},{every})",
+"f0": "{start}"
+},
+{
+"k": "amt",
+"n": {
+"en": "Amount",
+"ar": "المبلغ"
+},
+"fmt": "money",
+"f": "{inst}",
+"f0": "{inst}"
+},
+{
+"k": "cum",
+"n": {
+"en": "Paid so far %",
+"ar": "المدفوع تراكمياً %"
+},
+"fmt": "pct",
+"f": "{p:cum}+{c:amt}/{price}",
+"f0": "{dp}+{c:amt}/{price}"
+}
+],
+"while": "{n}<={cnt}",
+"chart": {
+"t": "column",
+"cols": [
+"amt"
+]
+}
+}
+},
+{
+"id": "beven",
+"g": "sales",
+"n": {
+"en": "Sales break-even",
+"ar": "نقطة تعادل المبيعات"
+},
+"d": {
+"en": "How many units you must sell to cover the project cost.",
+"ar": "كم وحدة يجب بيعها لتغطية تكلفة المشروع."
+},
+"inputs": [
+{
+"k": "cost",
+"n": {
+"en": "Total development cost",
+"ar": "إجمالي تكلفة التطوير"
+},
+"fmt": "money",
+"v": 150000000
+},
+{
+"k": "units",
+"n": {
+"en": "Units in project",
+"ar": "وحدات المشروع"
+},
+"fmt": "int",
+"v": 240
+},
+{
+"k": "avg",
+"n": {
+"en": "Average unit price",
+"ar": "متوسط سعر الوحدة"
+},
+"fmt": "money",
+"v": 900000
+},
+{
+"k": "var",
+"n": {
+"en": "Sales cost per unit %",
+"ar": "تكلفة البيع للوحدة %"
+},
+"fmt": "pct",
+"v": 0.05
+},
+{
+"k": "sold",
+"n": {
+"en": "Units sold so far",
+"ar": "الوحدات المباعة حتى الآن"
+},
+"fmt": "int",
+"v": 120
+}
+],
+"outputs": [
+{
+"k": "net",
+"n": {
+"en": "Net per unit",
+"ar": "الصافي للوحدة"
+},
+"fmt": "money",
+"f": "{avg}*(1-{var})"
+},
+{
+"k": "be",
+"n": {
+"en": "Break-even units",
+"ar": "وحدات التعادل"
+},
+"fmt": "num",
+"f": "{cost}/{net}",
+"hl": true
+},
+{
+"k": "bep",
+"n": {
+"en": "Share of project",
+"ar": "من المشروع"
+},
+"fmt": "pct",
+"f": "{be}/{units}"
+},
+{
+"k": "left",
+"n": {
+"en": "Still to sell to break even",
+"ar": "المتبقي للتعادل"
+},
+"fmt": "num",
+"f": "MAX(0,{be}-{sold})"
+},
+{
+"k": "profit",
+"n": {
+"en": "Profit if all sold",
+"ar": "الربح عند بيع الكل"
+},
+"fmt": "money",
+"f": "{units}*{net}-{cost}"
+}
+]
+},
+{
+"id": "scurve",
+"g": "build",
+"n": {
+"en": "Construction draw schedule (S-curve)",
+"ar": "جدول الصرف على الإنشاء (منحنى S)"
+},
+"d": {
+"en": "Monthly construction spending along a realistic S-curve.",
+"ar": "الصرف الشهري على الإنشاء وفق منحنى S الواقعي."
+},
+"inputs": [
+{
+"k": "budget",
+"n": {
+"en": "Construction budget",
+"ar": "ميزانية الإنشاء"
+},
+"fmt": "money",
+"v": 96000000
+},
+{
+"k": "months",
+"n": {
+"en": "Duration (months)",
+"ar": "المدة (أشهر)"
+},
+"fmt": "int",
+"v": 30
+}
+],
+"outputs": [
+{
+"k": "avg",
+"n": {
+"en": "Average per month",
+"ar": "متوسط الصرف الشهري"
+},
+"fmt": "money",
+"f": "{budget}/{months}",
+"hl": true
+},
+{
+"k": "peak",
+"n": {
+"en": "Peak month spend (approx.)",
+"ar": "ذروة الصرف الشهري (تقريباً)"
+},
+"fmt": "money",
+"f": "{budget}/{months}*1.57"
+}
+],
+"table": {
+"title": {
+"en": "Monthly draws",
+"ar": "الصرف الشهري"
+},
+"rows": 60,
+"cols": [
+{
+"k": "cumpct",
+"n": {
+"en": "Cumulative %",
+"ar": "التراكمي %"
+},
+"fmt": "pct",
+"f": "(1-COS(PI()*{n}/{months}))/2",
+"f0": "(1-COS(PI()*{n}/{months}))/2"
+},
+{
+"k": "draw",
+"n": {
+"en": "Draw this month",
+"ar": "صرف الشهر"
+},
+"fmt": "money",
+"f": "{budget}*({c:cumpct}-{p:cumpct})",
+"f0": "{budget}*{c:cumpct}"
+},
+{
+"k": "cum",
+"n": {
+"en": "Cumulative spend",
+"ar": "الصرف التراكمي"
+},
+"fmt": "money",
+"f": "{budget}*{c:cumpct}",
+"f0": "{budget}*{c:cumpct}"
+}
+],
+"while": "{n}<={months}",
+"chart": {
+"t": "column",
+"cols": [
+"draw"
+]
+}
+}
+}
+],
+"checklists": [
+{
+"id": "c_launch",
+"g": "land",
+"n": {
+"en": "Project launch",
+"ar": "إطلاق مشروع"
+},
+"d": {
+"en": "From land to first reservations.",
+"ar": "من الأرض حتى أول الحجوزات."
+},
+"steps": [
+{
+"n": {
+"en": "Feasibility approved by management",
+"ar": "اعتماد دراسة الجدوى"
+},
+"d": 0,
+"o": {
+"en": "Management",
+"ar": "الإدارة"
+}
+},
+{
+"n": {
+"en": "Land title and zoning confirmed",
+"ar": "تأكيد صك الأرض والاستخدام"
+},
+"d": 7,
+"o": {
+"en": "Legal",
+"ar": "القانونية"
+}
+},
+{
+"n": {
+"en": "Concept design and unit mix",
+"ar": "التصميم المبدئي ومزيج الوحدات"
+},
+"d": 30,
+"o": {
+"en": "Design",
+"ar": "التصميم"
+}
+},
+{
+"n": {
+"en": "Price list built (Units sheet)",
+"ar": "إعداد قائمة الأسعار (صفحة الوحدات)"
+},
+"d": 40,
+"o": {
+"en": "Sales",
+"ar": "المبيعات"
+}
+},
+{
+"n": {
+"en": "Escrow / off-plan registration where required",
+"ar": "حساب الضمان / تسجيل البيع على الخارطة عند الاشتراط"
+},
+"d": 45,
+"o": {
+"en": "Legal",
+"ar": "القانونية"
+}
+},
+{
+"n": {
+"en": "Brand, brochure and renders",
+"ar": "الهوية والكتيب والصور ثلاثية الأبعاد"
+},
+"d": 50,
+"o": {
+"en": "Marketing",
+"ar": "التسويق"
+}
+},
+{
+"n": {
+"en": "Sales gallery or online booking ready",
+"ar": "صالة العرض أو الحجز الإلكتروني جاهز"
+},
+"d": 55,
+"o": {
+"en": "Sales",
+"ar": "المبيعات"
+}
+},
+{
+"n": {
+"en": "Broker agreements signed",
+"ar": "توقيع اتفاقيات الوسطاء"
+},
+"d": 55,
+"o": {
+"en": "Sales",
+"ar": "المبيعات"
+}
+},
+{
+"n": {
+"en": "Payment plans approved",
+"ar": "اعتماد خطط السداد"
+},
+"d": 56,
+"o": {
+"en": "Finance",
+"ar": "المالية"
+}
+},
+{
+"n": {
+"en": "Launch campaign live",
+"ar": "انطلاق حملة الإطلاق"
+},
+"d": 60,
+"o": {
+"en": "Marketing",
+"ar": "التسويق"
+}
+},
+{
+"n": {
+"en": "Launch event",
+"ar": "فعالية الإطلاق"
+},
+"d": 65,
+"o": {
+"en": "Marketing",
+"ar": "التسويق"
+}
+},
+{
+"n": {
+"en": "First-week sales review",
+"ar": "مراجعة مبيعات الأسبوع الأول"
+},
+"d": 72,
+"o": {
+"en": "Management",
+"ar": "الإدارة"
+}
+}
+]
+},
+{
+"id": "c_book",
+"g": "sales",
+"n": {
+"en": "Unit booking",
+"ar": "حجز وحدة"
+},
+"d": {
+"en": "A clean booking every time.",
+"ar": "حجز سليم في كل مرة."
+},
+"steps": [
+{
+"n": {
+"en": "Unit availability confirmed",
+"ar": "تأكيد توفر الوحدة"
+},
+"d": 0,
+"o": {
+"en": "Sales",
+"ar": "المبيعات"
+}
+},
+{
+"n": {
+"en": "Buyer ID and contact details",
+"ar": "هوية المشتري وبيانات التواصل"
+},
+"d": 0,
+"o": {
+"en": "Sales",
+"ar": "المبيعات"
+}
+},
+{
+"n": {
+"en": "Price and plan agreed (price builder)",
+"ar": "الاتفاق على السعر والخطة (بناء السعر)"
+},
+"d": 0,
+"o": {
+"en": "Sales",
+"ar": "المبيعات"
+}
+},
+{
+"n": {
+"en": "Reservation form signed",
+"ar": "توقيع نموذج الحجز"
+},
+"d": 0,
+"o": {
+"en": "Sales",
+"ar": "المبيعات"
+}
+},
+{
+"n": {
+"en": "Booking amount received",
+"ar": "استلام مبلغ الحجز"
+},
+"d": 1,
+"o": {
+"en": "Finance",
+"ar": "المالية"
+}
+},
+{
+"n": {
+"en": "Unit status set to Reserved",
+"ar": "تغيير حالة الوحدة إلى محجوزة"
+},
+"d": 1,
+"o": {
+"en": "Sales",
+"ar": "المبيعات"
+}
+},
+{
+"n": {
+"en": "Sale contract signed within 14 days",
+"ar": "توقيع عقد البيع خلال 14 يوماً"
+},
+"d": 14,
+"o": {
+"en": "Legal",
+"ar": "القانونية"
+}
+},
+{
+"n": {
+"en": "Installments entered in the schedule",
+"ar": "إدخال الأقساط في الجدول"
+},
+"d": 15,
+"o": {
+"en": "Finance",
+"ar": "المالية"
+}
+}
+]
+},
+{
+"id": "c_hand",
+"g": "fin",
+"n": {
+"en": "Unit handover",
+"ar": "تسليم وحدة"
+},
+"d": {
+"en": "Hand over a unit that delights the buyer.",
+"ar": "سلّم وحدة تُرضي المشتري."
+},
+"steps": [
+{
+"n": {
+"en": "Final payment / handover payment received",
+"ar": "استلام دفعة التسليم"
+},
+"d": 0,
+"o": {
+"en": "Finance",
+"ar": "المالية"
+}
+},
+{
+"n": {
+"en": "Occupancy certificate available",
+"ar": "توفر شهادة الإشغال"
+},
+"d": 0,
+"o": {
+"en": "Legal",
+"ar": "القانونية"
+}
+},
+{
+"n": {
+"en": "Pre-handover inspection by QA",
+"ar": "فحص الجودة قبل التسليم"
+},
+"d": 3,
+"o": {
+"en": "Quality",
+"ar": "الجودة"
+}
+},
+{
+"n": {
+"en": "Snags fixed and verified",
+"ar": "إصلاح الملاحظات والتحقق منها"
+},
+"d": 10,
+"o": {
+"en": "Contractor",
+"ar": "المقاول"
+}
+},
+{
+"n": {
+"en": "Meters and utility accounts ready",
+"ar": "العدادات وحسابات الخدمات جاهزة"
+},
+"d": 10,
+"o": {
+"en": "Operations",
+"ar": "التشغيل"
+}
+},
+{
+"n": {
+"en": "Handover walk-through with buyer",
+"ar": "جولة التسليم مع المشتري"
+},
+"d": 12,
+"o": {
+"en": "Customer care",
+"ar": "خدمة العملاء"
+}
+},
+{
+"n": {
+"en": "Keys, manuals and warranties handed over",
+"ar": "تسليم المفاتيح والأدلة والضمانات"
+},
+"d": 12,
+"o": {
+"en": "Customer care",
+"ar": "خدمة العملاء"
+}
+},
+{
+"n": {
+"en": "Handover certificate signed",
+"ar": "توقيع شهادة التسليم"
+},
+"d": 12,
+"o": {
+"en": "Customer care",
+"ar": "خدمة العملاء"
+}
+},
+{
+"n": {
+"en": "Title transfer started",
+"ar": "بدء نقل الملكية"
+},
+"d": 14,
+"o": {
+"en": "Legal",
+"ar": "القانونية"
+}
+},
+{
+"n": {
+"en": "Satisfaction call after 30 days",
+"ar": "اتصال رضا بعد 30 يوماً"
+},
+"d": 42,
+"o": {
+"en": "Customer care",
+"ar": "خدمة العملاء"
+}
+}
+]
+},
+{
+"id": "c_permit",
+"g": "build",
+"n": {
+"en": "Permit application",
+"ar": "طلب تصريح"
+},
+"d": {
+"en": "Submit once, get approved.",
+"ar": "قدّم مرة واحدة واحصل على الموافقة."
+},
+"steps": [
+{
+"n": {
+"en": "Confirm required documents with the authority",
+"ar": "تأكيد المستندات المطلوبة مع الجهة"
+},
+"d": 0,
+"o": {
+"en": "Engineering",
+"ar": "الهندسة"
+}
+},
+{
+"n": {
+"en": "Drawings stamped by consultant",
+"ar": "اعتماد المخططات من الاستشاري"
+},
+"d": 5,
+"o": {
+"en": "Consultant",
+"ar": "الاستشاري"
+}
+},
+{
+"n": {
+"en": "Fees calculated and paid",
+"ar": "احتساب الرسوم وسدادها"
+},
+"d": 7,
+"o": {
+"en": "Finance",
+"ar": "المالية"
+}
+},
+{
+"n": {
+"en": "Application submitted (Permits sheet)",
+"ar": "تقديم الطلب (صفحة التصاريح)"
+},
+"d": 8,
+"o": {
+"en": "Engineering",
+"ar": "الهندسة"
+}
+},
+{
+"n": {
+"en": "Answer comments within 3 days",
+"ar": "الرد على الملاحظات خلال 3 أيام"
+},
+"d": 20,
+"o": {
+"en": "Engineering",
+"ar": "الهندسة"
+}
+},
+{
+"n": {
+"en": "Approval received and filed",
+"ar": "استلام الموافقة وحفظها"
+},
+"d": 35,
+"o": {
+"en": "Engineering",
+"ar": "الهندسة"
+}
+}
+]
+}
+],
+"forms": [
+{
+"id": "f_res",
+"g": "sales",
+"n": {
+"en": "Reservation form",
+"ar": "نموذج حجز وحدة"
+},
+"m": "sales",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "UNIT RESERVATION FORM",
+"ar": "نموذج حجز وحدة"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"date",
+"bname",
+"unit",
+"project",
+"list",
+"price",
+"plan",
+"dpa"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "{bname} reserves unit {unit} at {price} under the \"{plan}\" plan. A down payment of {dpa} is due on signing the sale contract within 14 days, after which the reservation lapses.",
+"ar": "يحجز {bname} الوحدة {unit} بسعر {price} وفق خطة \"{plan}\". تستحق دفعة أولى قدرها {dpa} عند توقيع عقد البيع خلال 14 يوماً، وإلا يسقط الحجز."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Buyer",
+"ar": "المشتري"
+},
+{
+"en": "Sales",
+"ar": "المبيعات"
+}
+]
+}
+]
+},
+{
+"id": "f_quote",
+"g": "sales",
+"n": {
+"en": "Sales offer",
+"ar": "عرض سعر وحدة"
+},
+"m": "units",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "SALES OFFER",
+"ar": "عرض سعر"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"project",
+"block",
+"floor",
+"utype",
+"view",
+"area",
+"price"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Thank you for your interest. Unit {id} ({utype}, {area} m², floor {floor}, {view} view) is offered at {price}. Prices and availability may change without notice.",
+"ar": "شكراً لاهتمامك. الوحدة {id} ({utype}، {area} م²، الطابق {floor}، إطلالة {view}) معروضة بسعر {price}. الأسعار والتوفر قابلة للتغيير."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Sales",
+"ar": "المبيعات"
+}
+]
+}
+]
+},
+{
+"id": "f_irec",
+"g": "sales",
+"n": {
+"en": "Installment receipt",
+"ar": "إيصال سداد قسط"
+},
+"m": "inst",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "PAYMENT RECEIPT",
+"ar": "إيصال سداد"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"bname",
+"sale",
+"no",
+"due",
+"amount",
+"paid",
+"balance"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Received from {bname} the sum of {paid} for installment {no} of sale {sale}.",
+"ar": "استلمنا من {bname} مبلغ {paid} عن القسط رقم {no} للبيع رقم {sale}."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Finance",
+"ar": "المالية"
+}
+]
+}
+]
+},
+{
+"id": "f_hand",
+"g": "fin",
+"n": {
+"en": "Handover certificate",
+"ar": "شهادة تسليم"
+},
+"m": "snags",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "HANDOVER CERTIFICATE",
+"ar": "شهادة تسليم وحدة"
+}
+},
+{
+"t": "kv",
+"f": [
+"unit",
+"date",
+"status"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "The buyer confirms receiving unit {unit} with keys, manuals and warranties. Remaining snags, if any, will be fixed within 30 days.",
+"ar": "يقر المشتري باستلام الوحدة {unit} مع المفاتيح والأدلة والضمانات، وتُصلح الملاحظات المتبقية إن وجدت خلال 30 يوماً."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Buyer",
+"ar": "المشتري"
+},
+{
+"en": "Developer",
+"ar": "المطور"
+}
+]
+}
+]
+}
+],
+"dashboard": {
+"kpis": [
+[
+"projects",
+2
+],
+[
+"units",
+1
+],
+[
+"units",
+2
+],
+[
+"sales",
+1
+],
+[
+"inst",
+0
+],
+[
+"inst",
+1
+],
+[
+"costs",
+2
+],
+[
+"sales",
+2
+]
+],
+"charts": [
+{
+"m": "sales",
+"by": "month",
+"n": {
+"en": "Sales value by month",
+"ar": "قيمة المبيعات شهرياً"
+}
+},
+{
+"m": "units",
+"by": "status",
+"a": "count",
+"n": {
+"en": "Units by status",
+"ar": "الوحدات حسب الحالة"
+}
+},
+{
+"m": "costs",
+"by": "cat",
+"t": "bar",
+"n": {
+"en": "Actual cost by category",
+"ar": "التكلفة الفعلية حسب البند"
+}
+},
+{
+"m": "sales",
+"by": "chan",
+"n": {
+"en": "Sales by channel",
+"ar": "المبيعات حسب القناة"
+}
+},
+{
+"m": "inst",
+"by": "month",
+"t": "line",
+"n": {
+"en": "Installments due by month",
+"ar": "الأقساط المستحقة شهرياً"
+}
+},
+{
+"m": "cash",
+"by": "month",
+"t": "column",
+"n": {
+"en": "Net cash flow by month",
+"ar": "صافي التدفق شهرياً"
+}
+}
+]
+}
+}

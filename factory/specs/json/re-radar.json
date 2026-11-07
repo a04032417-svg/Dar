@@ -1,0 +1,3256 @@
+{
+"id": "re-radar",
+"theme": {
+"primary": "#0B3C5D",
+"accent": "#F26419",
+"palette": [
+"#0B3C5D",
+"#F26419",
+"#2F9C95",
+"#F6AE2D",
+"#86BBD8",
+"#C0392B",
+"#55A630",
+"#7B2CBF"
+]
+},
+"title": {
+"en": "Real Estate Market Radar & Investor Pro",
+"ar": "رادار السوق العقاري والمستثمر الاحترافي"
+},
+"subtitle": {
+"en": "Track asking prices, closed deals, rents, new supply, demand and competitors by district - then score opportunities and manage your portfolio",
+"ar": "تابع الأسعار المعروضة والصفقات المنفذة والإيجارات والمعروض الجديد والطلب والمنافسين حسب الحي - ثم قيّم الفرص وأدِر محفظتك"
+},
+"groups": {
+"radar": {
+"en": "Market radar",
+"ar": "رادار السوق"
+},
+"supply": {
+"en": "Supply, demand & competition",
+"ar": "العرض والطلب والمنافسة"
+},
+"invest": {
+"en": "Opportunities & portfolio",
+"ar": "الفرص والمحفظة"
+}
+},
+"lists": {
+"ptype": {
+"n": {
+"en": "Property type",
+"ar": "نوع العقار"
+},
+"items": {
+"en": [
+"Apartment",
+"Villa",
+"Townhouse",
+"Office",
+"Retail shop",
+"Land",
+"Warehouse",
+"Building"
+],
+"ar": [
+"شقة",
+"فيلا",
+"تاون هاوس",
+"مكتب",
+"محل تجاري",
+"أرض",
+"مستودع",
+"عمارة"
+]
+}
+},
+"purpose": {
+"n": {
+"en": "Purpose",
+"ar": "الغرض"
+},
+"items": {
+"en": [
+"Sale",
+"Rent"
+],
+"ar": [
+"بيع",
+"إيجار"
+]
+},
+"colors": [
+"#2E86AB",
+"#F2A541"
+]
+},
+"district": {
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"items": {
+"en": [
+"North District",
+"South District",
+"East District",
+"West District",
+"Downtown",
+"Waterfront",
+"Business Bay",
+"Garden City"
+],
+"ar": [
+"حي الشمال",
+"حي الجنوب",
+"حي الشرق",
+"حي الغرب",
+"وسط المدينة",
+"الواجهة البحرية",
+"حي الأعمال",
+"حي الحدائق"
+]
+}
+},
+"yn": {
+"n": {
+"en": "Yes / No",
+"ar": "نعم / لا"
+},
+"items": {
+"en": [
+"Yes",
+"No"
+],
+"ar": [
+"نعم",
+"لا"
+]
+}
+},
+"src": {
+"n": {
+"en": "Source",
+"ar": "المصدر"
+},
+"items": {
+"en": [
+"Property portal",
+"Agent",
+"Official data",
+"Auction",
+"Site visit",
+"Newspaper"
+],
+"ar": [
+"منصة عقارية",
+"وسيط",
+"بيانات رسمية",
+"مزاد",
+"زيارة ميدانية",
+"صحيفة"
+]
+}
+},
+"lst": {
+"n": {
+"en": "Listing status",
+"ar": "حالة الإعلان"
+},
+"items": {
+"en": [
+"Active",
+"Price reduced",
+"Removed",
+"Sold / let"
+],
+"ar": [
+"نشط",
+"خُفّض السعر",
+"أُزيل",
+"بيع / أُجّر"
+]
+},
+"colors": [
+"#2F9C95",
+"#F26419",
+"#95A5A6",
+"#0B3C5D"
+]
+},
+"sup": {
+"n": {
+"en": "Supply status",
+"ar": "حالة المشروع"
+},
+"items": {
+"en": [
+"Announced",
+"Under construction",
+"Completed"
+],
+"ar": [
+"معلن",
+"تحت الإنشاء",
+"مكتمل"
+]
+},
+"colors": [
+"#86BBD8",
+"#F6AE2D",
+"#55A630"
+]
+},
+"dsrc": {
+"n": {
+"en": "Demand signal",
+"ar": "مؤشر الطلب"
+},
+"items": {
+"en": [
+"Inquiry",
+"Viewing request",
+"Search trend",
+"Waiting list",
+"Auction bids"
+],
+"ar": [
+"استفسار",
+"طلب معاينة",
+"اتجاه البحث",
+"قائمة انتظار",
+"مزايدات"
+]
+}
+},
+"ctype": {
+"n": {
+"en": "Competitor type",
+"ar": "نوع المنافس"
+},
+"items": {
+"en": [
+"Brokerage office",
+"Developer",
+"Property manager",
+"Online portal"
+],
+"ar": [
+"مكتب وساطة",
+"مطور",
+"مدير أملاك",
+"منصة إلكترونية"
+]
+}
+},
+"stage": {
+"n": {
+"en": "Opportunity stage",
+"ar": "مرحلة الفرصة"
+},
+"items": {
+"en": [
+"Sourced",
+"Analysing",
+"Offer made",
+"Due diligence",
+"Acquired",
+"Passed"
+],
+"ar": [
+"مرصودة",
+"قيد التحليل",
+"قُدم عرض",
+"فحص نافٍ للجهالة",
+"تم الشراء",
+"تجاوزناها"
+]
+},
+"colors": [
+"#95A5A6",
+"#86BBD8",
+"#F6AE2D",
+"#7B2CBF",
+"#55A630",
+"#C0392B"
+]
+},
+"risk": {
+"n": {
+"en": "Risk",
+"ar": "المخاطرة"
+},
+"items": {
+"en": [
+"Low",
+"Medium",
+"High"
+],
+"ar": [
+"منخفضة",
+"متوسطة",
+"عالية"
+]
+},
+"colors": [
+"#55A630",
+"#F6AE2D",
+"#C0392B"
+]
+},
+"hold": {
+"n": {
+"en": "Holding status",
+"ar": "حالة الأصل"
+},
+"items": {
+"en": [
+"Owned - let",
+"Owned - vacant",
+"Under renovation",
+"Sold"
+],
+"ar": [
+"مملوك مؤجر",
+"مملوك شاغر",
+"تحت التجديد",
+"مباع"
+]
+},
+"colors": [
+"#55A630",
+"#F26419",
+"#F6AE2D",
+"#95A5A6"
+]
+}
+},
+"modules": [
+{
+"id": "comps",
+"g": "radar",
+"n": {
+"en": "Asking prices (listings)",
+"ar": "الأسعار المعروضة"
+},
+"d": {
+"en": "Listings you track: asking price, price per m², days on market and price cuts - by district and type.",
+"ar": "الإعلانات التي تتابعها: السعر المطلوب وسعر المتر وأيام البقاء في السوق والتخفيضات - حسب الحي والنوع."
+},
+"prefix": "AS",
+"rows": 80,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Record ID",
+"ar": "رقم السجل"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Seen on",
+"ar": "تاريخ الرصد"
+},
+"t": "date"
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "type",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ptype",
+"wts": [
+8,
+4,
+3,
+2,
+2,
+2,
+1,
+1
+]
+},
+{
+"k": "purpose",
+"n": {
+"en": "Purpose",
+"ar": "الغرض"
+},
+"t": "list",
+"l": "purpose",
+"wts": [
+3,
+2
+]
+},
+{
+"k": "area",
+"n": {
+"en": "Area m²",
+"ar": "المساحة م²"
+},
+"t": "int",
+"min": 60,
+"max": 600
+},
+{
+"k": "price",
+"n": {
+"en": "Asking price",
+"ar": "السعر المطلوب"
+},
+"t": "money",
+"min": 250000,
+"max": 4200000,
+"step": 5000,
+"per": [
+"area",
+"4200",
+"11500"
+]
+},
+{
+"k": "ppsqm",
+"n": {
+"en": "Price per m²",
+"ar": "سعر المتر"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR({price}/{area},0)",
+"cf": "scale"
+},
+{
+"k": "dom",
+"n": {
+"en": "Days on market",
+"ar": "أيام في السوق"
+},
+"t": "int",
+"min": 3,
+"max": 240,
+"cf": "scale_r"
+},
+{
+"k": "src",
+"n": {
+"en": "Source",
+"ar": "المصدر"
+},
+"t": "list",
+"l": "src"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "lst",
+"wts": [
+5,
+2,
+1,
+2
+]
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Listings tracked",
+"ar": "الإعلانات المرصودة"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Avg asking per m²",
+"ar": "متوسط السعر المطلوب للمتر"
+},
+"a": "avg",
+"f": "ppsqm",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Avg days on market",
+"ar": "متوسط أيام السوق"
+},
+"a": "avg",
+"f": "dom",
+"fmt": "num"
+},
+{
+"n": {
+"en": "Price-cut share",
+"ar": "نسبة المخفضة"
+},
+"a": "pct",
+"w": [
+[
+"status",
+1
+]
+],
+"fmt": "pct"
+}
+],
+"rep": {
+"date": "date",
+"val": "ppsqm",
+"agg": "avg",
+"by": [
+"district",
+"type"
+],
+"heat": {
+"rows": "district",
+"val": "ppsqm",
+"agg": "avg"
+}
+}
+},
+{
+"id": "deals",
+"g": "radar",
+"n": {
+"en": "Closed transactions",
+"ar": "الصفقات المنفذة"
+},
+"d": {
+"en": "Real deals from official data and agents: the true price per m² that buyers paid.",
+"ar": "الصفقات الفعلية من البيانات الرسمية والوسطاء: سعر المتر الحقيقي الذي دفعه المشترون."
+},
+"prefix": "TX",
+"rows": 70,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Deal ID",
+"ar": "رقم الصفقة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "type",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ptype",
+"wts": [
+8,
+4,
+3,
+2,
+2,
+2,
+1,
+1
+]
+},
+{
+"k": "area",
+"n": {
+"en": "Area m²",
+"ar": "المساحة م²"
+},
+"t": "int",
+"min": 60,
+"max": 600
+},
+{
+"k": "price",
+"n": {
+"en": "Price",
+"ar": "السعر"
+},
+"t": "money",
+"min": 220000,
+"max": 3900000,
+"step": 5000,
+"per": [
+"area",
+"3800",
+"10500"
+]
+},
+{
+"k": "ppsqm",
+"n": {
+"en": "Price per m²",
+"ar": "سعر المتر"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR({price}/{area},0)",
+"cf": "scale"
+},
+{
+"k": "src",
+"n": {
+"en": "Source",
+"ar": "المصدر"
+},
+"t": "list",
+"l": "src"
+},
+{
+"k": "gap",
+"n": {
+"en": "vs. asking average",
+"ar": "مقارنة بمتوسط المعروض"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({ppsqm}/AVERAGEIFS({#comps.ppsqm},{#comps.district},{district},{#comps.type},{type})-1,0)",
+"cf": "scale"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Deals",
+"ar": "الصفقات"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Deal value",
+"ar": "قيمة الصفقات"
+},
+"a": "sum",
+"f": "price",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Avg price per m²",
+"ar": "متوسط سعر المتر"
+},
+"a": "avg",
+"f": "ppsqm",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Avg discount to asking",
+"ar": "متوسط الفرق عن المعروض"
+},
+"a": "avg",
+"f": "gap",
+"fmt": "pct"
+}
+],
+"rep": {
+"date": "date",
+"val": "ppsqm",
+"agg": "avg",
+"by": [
+"district",
+"type"
+],
+"heat": {
+"rows": "district",
+"val": "ppsqm",
+"agg": "avg"
+}
+}
+},
+{
+"id": "rents",
+"g": "radar",
+"n": {
+"en": "Rent index",
+"ar": "مؤشر الإيجارات"
+},
+"d": {
+"en": "Rents by district, type and size - rent per m² and the yield it implies against asking prices.",
+"ar": "الإيجارات حسب الحي والنوع والحجم - إيجار المتر والعائد المتوقع مقارنة بالأسعار المعروضة."
+},
+"prefix": "RI",
+"rows": 70,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Record ID",
+"ar": "رقم السجل"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "type",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ptype",
+"wts": [
+8,
+4,
+3,
+2,
+2,
+0,
+1,
+0
+]
+},
+{
+"k": "beds",
+"n": {
+"en": "Bedrooms",
+"ar": "الغرف"
+},
+"t": "int",
+"min": 0,
+"max": 5
+},
+{
+"k": "area",
+"n": {
+"en": "Area m²",
+"ar": "المساحة م²"
+},
+"t": "int",
+"min": 40,
+"max": 450
+},
+{
+"k": "rent",
+"n": {
+"en": "Annual rent",
+"ar": "الإيجار السنوي"
+},
+"t": "money",
+"min": 15000,
+"max": 220000,
+"step": 500,
+"per": [
+"area",
+"280",
+"820"
+]
+},
+{
+"k": "rsqm",
+"n": {
+"en": "Rent per m²",
+"ar": "إيجار المتر"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR({rent}/{area},0)",
+"cf": "scale"
+},
+{
+"k": "yld",
+"n": {
+"en": "Implied yield",
+"ar": "العائد الضمني"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({rsqm}/AVERAGEIFS({#comps.ppsqm},{#comps.district},{district},{#comps.type},{type}),0)",
+"cf": "scale"
+},
+{
+"k": "src",
+"n": {
+"en": "Source",
+"ar": "المصدر"
+},
+"t": "list",
+"l": "src"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Rent records",
+"ar": "سجلات الإيجار"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Avg rent per m²",
+"ar": "متوسط إيجار المتر"
+},
+"a": "avg",
+"f": "rsqm",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Avg implied yield",
+"ar": "متوسط العائد الضمني"
+},
+"a": "avg",
+"f": "yld",
+"fmt": "pct"
+}
+],
+"rep": {
+"date": "date",
+"val": "rsqm",
+"agg": "avg",
+"by": [
+"district",
+"type"
+],
+"heat": {
+"rows": "district",
+"val": "rsqm",
+"agg": "avg"
+}
+}
+},
+{
+"id": "supply",
+"g": "supply",
+"n": {
+"en": "New supply pipeline",
+"ar": "المعروض الجديد القادم"
+},
+"d": {
+"en": "Projects announced and under construction: units coming, when, at what price and how much is sold.",
+"ar": "المشاريع المعلنة وتحت الإنشاء: الوحدات القادمة ومتى وبأي سعر وكم بيع منها."
+},
+"prefix": "SP",
+"rows": 24,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Project ID",
+"ar": "رقم المشروع"
+},
+"t": "id"
+},
+{
+"k": "name",
+"n": {
+"en": "Project",
+"ar": "المشروع"
+},
+"t": "text",
+"s": {
+"en": [
+"Marina Heights",
+"Garden Walk",
+"City Edge",
+"Royal Park",
+"The Crest",
+"Sunset Bay"
+],
+"ar": [
+"مرتفعات المارينا",
+"ممشى الحدائق",
+"حافة المدينة",
+"المنتزه الملكي",
+"القمة",
+"خليج الغروب"
+]
+}
+},
+{
+"k": "dev",
+"n": {
+"en": "Developer",
+"ar": "المطور"
+},
+"t": "text",
+"s": "company"
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "type",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ptype",
+"wts": [
+8,
+4,
+3,
+1,
+1,
+0,
+0,
+1
+]
+},
+{
+"k": "units",
+"n": {
+"en": "Units",
+"ar": "الوحدات"
+},
+"t": "int",
+"min": 40,
+"max": 600
+},
+{
+"k": "launch",
+"n": {
+"en": "Launch",
+"ar": "الإطلاق"
+},
+"t": "date",
+"past": 500,
+"future": 60
+},
+{
+"k": "done",
+"n": {
+"en": "Completion",
+"ar": "الإنجاز"
+},
+"t": "date",
+"rel": "launch",
+"min": 300,
+"max": 1000,
+"cf": "soon"
+},
+{
+"k": "ppsqm",
+"n": {
+"en": "Launch price per m²",
+"ar": "سعر المتر عند الإطلاق"
+},
+"t": "money",
+"min": 3500,
+"max": 11000,
+"step": 50
+},
+{
+"k": "sold",
+"n": {
+"en": "Sold %",
+"ar": "نسبة المباع"
+},
+"t": "pct",
+"min": 0.05,
+"max": 0.95,
+"cf": "databar"
+},
+{
+"k": "left",
+"n": {
+"en": "Units unsold",
+"ar": "الوحدات غير المباعة"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=ROUND({units}*(1-{sold}),0)"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "sup"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Projects",
+"ar": "المشاريع"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Units coming",
+"ar": "الوحدات القادمة"
+},
+"a": "sum",
+"f": "units"
+},
+{
+"n": {
+"en": "Unsold units",
+"ar": "الوحدات غير المباعة"
+},
+"a": "sum",
+"f": "left"
+},
+{
+"n": {
+"en": "Avg launch price per m²",
+"ar": "متوسط سعر الإطلاق للمتر"
+},
+"a": "avg",
+"f": "ppsqm",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "launch",
+"val": "units",
+"agg": "sum",
+"by": [
+"district",
+"status"
+]
+}
+},
+{
+"id": "demand",
+"g": "supply",
+"n": {
+"en": "Demand signals",
+"ar": "مؤشرات الطلب"
+},
+"d": {
+"en": "Inquiries, viewing requests and searches by district, type and budget - where buyers and tenants are heading.",
+"ar": "الاستفسارات وطلبات المعاينة وعمليات البحث حسب الحي والنوع والميزانية - إلى أين يتجه المشترون والمستأجرون."
+},
+"prefix": "DM",
+"rows": 80,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Record ID",
+"ar": "رقم السجل"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "type",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ptype",
+"wts": [
+8,
+4,
+3,
+2,
+2,
+1,
+1,
+1
+]
+},
+{
+"k": "purpose",
+"n": {
+"en": "Purpose",
+"ar": "الغرض"
+},
+"t": "list",
+"l": "purpose"
+},
+{
+"k": "budget",
+"n": {
+"en": "Budget",
+"ar": "الميزانية"
+},
+"t": "money",
+"min": 30000,
+"max": 3000000,
+"step": 5000
+},
+{
+"k": "sig",
+"n": {
+"en": "Signal",
+"ar": "المؤشر"
+},
+"t": "list",
+"l": "dsrc"
+},
+{
+"k": "count",
+"n": {
+"en": "Count",
+"ar": "العدد"
+},
+"t": "int",
+"min": 1,
+"max": 25,
+"cf": "databar"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Demand signals",
+"ar": "مؤشرات الطلب"
+},
+"a": "sum",
+"f": "count"
+},
+{
+"n": {
+"en": "Records",
+"ar": "السجلات"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Avg budget",
+"ar": "متوسط الميزانية"
+},
+"a": "avg",
+"f": "budget",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "date",
+"val": "count",
+"agg": "sum",
+"by": [
+"district",
+"type",
+"sig"
+],
+"heat": {
+"rows": "district",
+"val": "count",
+"agg": "sum"
+}
+}
+},
+{
+"id": "competitors",
+"g": "supply",
+"n": {
+"en": "Competitors",
+"ar": "المنافسون"
+},
+"d": {
+"en": "Offices, developers and portals in your market: listings, pricing, rating, strengths and weaknesses.",
+"ar": "المكاتب والمطورون والمنصات في سوقك: الإعلانات والتسعير والتقييم ونقاط القوة والضعف."
+},
+"prefix": "CM",
+"rows": 12,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Competitor ID",
+"ar": "رقم المنافس"
+},
+"t": "id"
+},
+{
+"k": "name",
+"n": {
+"en": "Name",
+"ar": "الاسم"
+},
+"t": "text",
+"s": "company"
+},
+{
+"k": "ctype",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ctype"
+},
+{
+"k": "district",
+"n": {
+"en": "Main district",
+"ar": "الحي الرئيسي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "listings",
+"n": {
+"en": "Active listings",
+"ar": "الإعلانات النشطة"
+},
+"t": "int",
+"min": 5,
+"max": 400,
+"cf": "databar"
+},
+{
+"k": "ppsqm",
+"n": {
+"en": "Avg price per m²",
+"ar": "متوسط سعر المتر"
+},
+"t": "money",
+"min": 3500,
+"max": 11000,
+"step": 50
+},
+{
+"k": "rating",
+"n": {
+"en": "Online rating",
+"ar": "التقييم الإلكتروني"
+},
+"t": "num",
+"min": 3.0,
+"max": 5.0
+},
+{
+"k": "strong",
+"n": {
+"en": "Strengths",
+"ar": "نقاط القوة"
+},
+"t": "text",
+"s": {
+"en": [
+"Fast response",
+"Strong brand",
+"Low fees",
+"Exclusive listings",
+"Good photos"
+],
+"ar": [
+"سرعة الرد",
+"علامة قوية",
+"عمولة منخفضة",
+"عروض حصرية",
+"صور احترافية"
+]
+}
+},
+{
+"k": "weak",
+"n": {
+"en": "Weaknesses",
+"ar": "نقاط الضعف"
+},
+"t": "text",
+"s": {
+"en": [
+"Slow follow-up",
+"Outdated listings",
+"No English",
+"Few rentals",
+"Poor reviews"
+],
+"ar": [
+"بطء المتابعة",
+"إعلانات قديمة",
+"لا يدعم الإنجليزية",
+"إيجارات قليلة",
+"تقييمات ضعيفة"
+]
+}
+},
+{
+"k": "checked",
+"n": {
+"en": "Last checked",
+"ar": "آخر مراجعة"
+},
+"t": "date",
+"past": 60,
+"future": 0
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Competitors",
+"ar": "المنافسون"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Their listings",
+"ar": "إعلاناتهم"
+},
+"a": "sum",
+"f": "listings"
+},
+{
+"n": {
+"en": "Avg rating",
+"ar": "متوسط التقييم"
+},
+"a": "avg",
+"f": "rating",
+"fmt": "num"
+}
+],
+"rep": {
+"val": "listings",
+"agg": "sum",
+"by": [
+"ctype",
+"district"
+]
+}
+},
+{
+"id": "scores",
+"g": "radar",
+"n": {
+"en": "District radar scorecard",
+"ar": "لوحة رادار الأحياء"
+},
+"d": {
+"en": "One row per district, calculated from all your data: price, rent, yield, deals, supply, demand and a 0-100 radar score.",
+"ar": "صف لكل حي محسوب من كل بياناتك: السعر والإيجار والعائد والصفقات والمعروض والطلب ودرجة الرادار من 100."
+},
+"prefix": "DS",
+"rows": 8,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Ref",
+"ar": "المرجع"
+},
+"t": "id"
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district",
+"seq": true
+},
+{
+"k": "ask",
+"n": {
+"en": "Avg asking per m²",
+"ar": "متوسط المعروض للمتر"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR(AVERAGEIFS({#comps.ppsqm},{#comps.district},{district}),0)"
+},
+{
+"k": "sold",
+"n": {
+"en": "Avg sold per m²",
+"ar": "متوسط المنفذ للمتر"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR(AVERAGEIFS({#deals.ppsqm},{#deals.district},{district}),0)"
+},
+{
+"k": "rsqm",
+"n": {
+"en": "Avg rent per m²",
+"ar": "متوسط إيجار المتر"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR(AVERAGEIFS({#rents.rsqm},{#rents.district},{district}),0)"
+},
+{
+"k": "yld",
+"n": {
+"en": "Gross yield",
+"ar": "العائد الإجمالي"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({rsqm}/{sold},0)",
+"cf": "scale"
+},
+{
+"k": "tx",
+"n": {
+"en": "Deals",
+"ar": "الصفقات"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=COUNTIF({#deals.district},{district})"
+},
+{
+"k": "dom",
+"n": {
+"en": "Avg days on market",
+"ar": "متوسط أيام السوق"
+},
+"t": "calc",
+"fmt": "num",
+"f": "=IFERROR(AVERAGEIFS({#comps.dom},{#comps.district},{district}),0)",
+"cf": "scale_r"
+},
+{
+"k": "supply",
+"n": {
+"en": "Unsold new units",
+"ar": "وحدات جديدة غير مباعة"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=SUMIFS({#supply.left},{#supply.district},{district})",
+"cf": "scale_r"
+},
+{
+"k": "dem",
+"n": {
+"en": "Demand signals",
+"ar": "مؤشرات الطلب"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=SUMIFS({#demand.count},{#demand.district},{district})",
+"cf": "scale"
+},
+{
+"k": "ratio",
+"n": {
+"en": "Demand per unsold unit",
+"ar": "الطلب لكل وحدة غير مباعة"
+},
+"t": "calc",
+"fmt": "num",
+"f": "=IFERROR({dem}/MAX(1,{supply}),0)",
+"cf": "scale"
+},
+{
+"k": "score",
+"n": {
+"en": "Radar score / 100",
+"ar": "درجة الرادار من 100"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=ROUND(MIN(100,MIN(1,{yld}/0.08)*35+MIN(1,{ratio}/3)*30+MAX(0,1-{dom}/180)*20+MIN(1,{tx}/15)*15),0)",
+"cf": "databar"
+},
+{
+"k": "signal",
+"n": {
+"en": "Signal",
+"ar": "الإشارة"
+},
+"t": "calc",
+"fmt": "text",
+"f": "=IF({score}>=70,{tx:Strong buy zone/منطقة شراء قوية},IF({score}>=50,{tx:Watch closely/راقب عن قرب},{tx:Caution/حذر}))"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Best radar score",
+"ar": "أعلى درجة رادار"
+},
+"a": "max",
+"f": "score"
+},
+{
+"n": {
+"en": "Avg gross yield",
+"ar": "متوسط العائد"
+},
+"a": "avg",
+"f": "yld",
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Unsold new units",
+"ar": "وحدات جديدة غير مباعة"
+},
+"a": "sum",
+"f": "supply"
+}
+],
+"rep": {
+"val": "score",
+"agg": "avg",
+"by": [
+"district"
+]
+}
+},
+{
+"id": "opps",
+"g": "invest",
+"n": {
+"en": "Investment opportunities",
+"ar": "الفرص الاستثمارية"
+},
+"d": {
+"en": "Deals you are considering: discount to market, yield, renovation, a 0-100 score, stage and risk.",
+"ar": "الصفقات التي تدرسها: الخصم عن السوق والعائد والتجديد ودرجة من 100 والمرحلة والمخاطرة."
+},
+"prefix": "OP",
+"rows": 24,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Opportunity ID",
+"ar": "رقم الفرصة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Found",
+"ar": "تاريخ الرصد"
+},
+"t": "date"
+},
+{
+"k": "title",
+"n": {
+"en": "Property",
+"ar": "العقار"
+},
+"t": "text",
+"s": {
+"en": [
+"Distressed villa",
+"Bulk units from developer",
+"Old building to renovate",
+"Bank auction flat",
+"Corner retail",
+"Land near new metro"
+],
+"ar": [
+"فيلا بيع مستعجل",
+"وحدات بالجملة من مطور",
+"مبنى قديم للتجديد",
+"شقة مزاد بنكي",
+"محل على زاوية",
+"أرض قرب المترو الجديد"
+]
+},
+"w": 24
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "type",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ptype"
+},
+{
+"k": "area",
+"n": {
+"en": "Area m²",
+"ar": "المساحة م²"
+},
+"t": "int",
+"min": 70,
+"max": 800
+},
+{
+"k": "ask",
+"n": {
+"en": "Asking price",
+"ar": "السعر المطلوب"
+},
+"t": "money",
+"min": 300000,
+"max": 6000000,
+"step": 10000,
+"per": [
+"area",
+"3300",
+"9500"
+]
+},
+{
+"k": "mv",
+"n": {
+"en": "Market value (radar)",
+"ar": "القيمة السوقية (الرادار)"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=ROUND({area}*IFERROR(AVERAGEIFS({#deals.ppsqm},{#deals.district},{district},{#deals.type},{type}),AVERAGEIFS({#deals.ppsqm},{#deals.district},{district})),-3)"
+},
+{
+"k": "disc",
+"n": {
+"en": "Discount to market",
+"ar": "الخصم عن السوق"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR(1-{ask}/{mv},0)",
+"cf": "scale"
+},
+{
+"k": "rent",
+"n": {
+"en": "Expected rent / year",
+"ar": "الإيجار المتوقع سنوياً"
+},
+"t": "money",
+"min": 20000,
+"max": 420000,
+"step": 1000,
+"per": [
+"ask",
+"0.055",
+"0.095"
+]
+},
+{
+"k": "reno",
+"n": {
+"en": "Renovation",
+"ar": "التجديد"
+},
+"t": "money",
+"min": 0,
+"max": 400000,
+"step": 5000
+},
+{
+"k": "yld",
+"n": {
+"en": "Yield on cost",
+"ar": "العائد على التكلفة"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({rent}/({ask}+{reno}),0)",
+"cf": "scale"
+},
+{
+"k": "score",
+"n": {
+"en": "Deal score / 100",
+"ar": "درجة الصفقة"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=ROUND(MAX(0,MIN(100,MAX(0,{disc})*250+{yld}*450)),0)",
+"cf": "databar"
+},
+{
+"k": "stage",
+"n": {
+"en": "Stage",
+"ar": "المرحلة"
+},
+"t": "list",
+"l": "stage"
+},
+{
+"k": "risk",
+"n": {
+"en": "Risk",
+"ar": "المخاطرة"
+},
+"t": "list",
+"l": "risk"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Opportunities",
+"ar": "الفرص"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Avg discount",
+"ar": "متوسط الخصم"
+},
+"a": "avg",
+"f": "disc",
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Avg yield on cost",
+"ar": "متوسط العائد على التكلفة"
+},
+"a": "avg",
+"f": "yld",
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Best score",
+"ar": "أعلى درجة"
+},
+"a": "max",
+"f": "score"
+}
+],
+"rep": {
+"date": "date",
+"val": "ask",
+"agg": "sum",
+"by": [
+"stage",
+"risk",
+"district"
+]
+}
+},
+{
+"id": "portfolio",
+"g": "invest",
+"n": {
+"en": "My portfolio",
+"ar": "محفظتي"
+},
+"d": {
+"en": "Properties you own: cost, value today, equity, rent, yield on cost, loan and loan-to-value.",
+"ar": "العقارات التي تملكها: التكلفة والقيمة اليوم وحقوق الملكية والإيجار والعائد والتمويل ونسبته."
+},
+"prefix": "PF",
+"rows": 10,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Asset ID",
+"ar": "رقم الأصل"
+},
+"t": "id"
+},
+{
+"k": "title",
+"n": {
+"en": "Property",
+"ar": "العقار"
+},
+"t": "text",
+"s": {
+"en": [
+"Marina flat",
+"Garden villa",
+"Downtown studio",
+"Retail unit",
+"Townhouse"
+],
+"ar": [
+"شقة المارينا",
+"فيلا الحدائق",
+"استوديو وسط المدينة",
+"محل تجاري",
+"تاون هاوس"
+]
+}
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "type",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ptype"
+},
+{
+"k": "bought",
+"n": {
+"en": "Bought on",
+"ar": "تاريخ الشراء"
+},
+"t": "date",
+"past": 2000,
+"future": 0
+},
+{
+"k": "cost",
+"n": {
+"en": "Total cost",
+"ar": "التكلفة الكلية"
+},
+"t": "money",
+"min": 300000,
+"max": 3000000,
+"step": 10000
+},
+{
+"k": "value",
+"n": {
+"en": "Value today",
+"ar": "القيمة اليوم"
+},
+"t": "money",
+"min": 320000,
+"max": 3600000,
+"step": 10000,
+"per": [
+"cost",
+"0.92",
+"1.35"
+]
+},
+{
+"k": "gain",
+"n": {
+"en": "Equity gain",
+"ar": "الربح الرأسمالي"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={value}-{cost}",
+"cf": "scale"
+},
+{
+"k": "rent",
+"n": {
+"en": "Annual rent",
+"ar": "الإيجار السنوي"
+},
+"t": "money",
+"min": 0,
+"max": 220000,
+"step": 1000,
+"per": [
+"cost",
+"0.05",
+"0.085"
+]
+},
+{
+"k": "yoc",
+"n": {
+"en": "Yield on cost",
+"ar": "العائد على التكلفة"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({rent}/{cost},0)",
+"cf": "scale"
+},
+{
+"k": "loan",
+"n": {
+"en": "Loan balance",
+"ar": "رصيد التمويل"
+},
+"t": "money",
+"min": 0,
+"max": 1800000,
+"step": 10000,
+"per": [
+"cost",
+"0",
+"0.6"
+]
+},
+{
+"k": "ltv",
+"n": {
+"en": "Loan to value",
+"ar": "نسبة التمويل للقيمة"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({loan}/{value},0)",
+"cf": "scale_r"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "hold",
+"wts": [
+6,
+1,
+1,
+1
+]
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Portfolio value",
+"ar": "قيمة المحفظة"
+},
+"a": "sum",
+"f": "value",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Equity gain",
+"ar": "الربح الرأسمالي"
+},
+"a": "sum",
+"f": "gain",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Rent income",
+"ar": "دخل الإيجار"
+},
+"a": "sum",
+"f": "rent",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Total debt",
+"ar": "إجمالي التمويل"
+},
+"a": "sum",
+"f": "loan",
+"fmt": "money"
+}
+],
+"rep": {
+"val": "value",
+"agg": "sum",
+"by": [
+"status",
+"district"
+]
+}
+}
+],
+"calculators": [
+{
+"id": "val",
+"g": "radar",
+"n": {
+"en": "Valuation by comparables",
+"ar": "التقييم بالمقارنات"
+},
+"d": {
+"en": "Value any property from five comparable deals with adjustments.",
+"ar": "قيّم أي عقار من خمس صفقات مقارنة مع التعديلات."
+},
+"inputs": [
+{
+"k": "area",
+"n": {
+"en": "Subject area m²",
+"ar": "مساحة العقار م²"
+},
+"fmt": "int",
+"v": 180
+},
+{
+"k": "p1",
+"n": {
+"en": "Deal 1 price per m²",
+"ar": "سعر متر الصفقة 1"
+},
+"fmt": "money",
+"v": 5200
+},
+{
+"k": "p2",
+"n": {
+"en": "Deal 2 price per m²",
+"ar": "سعر متر الصفقة 2"
+},
+"fmt": "money",
+"v": 4900
+},
+{
+"k": "p3",
+"n": {
+"en": "Deal 3 price per m²",
+"ar": "سعر متر الصفقة 3"
+},
+"fmt": "money",
+"v": 5600
+},
+{
+"k": "p4",
+"n": {
+"en": "Deal 4 price per m²",
+"ar": "سعر متر الصفقة 4"
+},
+"fmt": "money",
+"v": 5050
+},
+{
+"k": "p5",
+"n": {
+"en": "Deal 5 price per m²",
+"ar": "سعر متر الصفقة 5"
+},
+"fmt": "money",
+"v": 5400
+},
+{
+"k": "adj",
+"n": {
+"en": "Net adjustment %",
+"ar": "صافي التعديلات %"
+},
+"fmt": "pct",
+"v": 0.02
+}
+],
+"outputs": [
+{
+"k": "med",
+"n": {
+"en": "Median price per m²",
+"ar": "وسيط سعر المتر"
+},
+"fmt": "money",
+"f": "MEDIAN({p1},{p2},{p3},{p4},{p5})"
+},
+{
+"k": "avg",
+"n": {
+"en": "Average price per m²",
+"ar": "متوسط سعر المتر"
+},
+"fmt": "money",
+"f": "AVERAGE({p1},{p2},{p3},{p4},{p5})"
+},
+{
+"k": "value",
+"n": {
+"en": "Market value",
+"ar": "القيمة السوقية"
+},
+"fmt": "money",
+"f": "ROUND({med}*(1+{adj})*{area},-3)",
+"hl": true
+},
+{
+"k": "low",
+"n": {
+"en": "Low (-1 std. dev.)",
+"ar": "الحد الأدنى"
+},
+"fmt": "money",
+"f": "ROUND(({avg}-STDEV({p1},{p2},{p3},{p4},{p5}))*(1+{adj})*{area},-3)"
+},
+{
+"k": "high",
+"n": {
+"en": "High (+1 std. dev.)",
+"ar": "الحد الأعلى"
+},
+"fmt": "money",
+"f": "ROUND(({avg}+STDEV({p1},{p2},{p3},{p4},{p5}))*(1+{adj})*{area},-3)"
+}
+]
+},
+{
+"id": "invest",
+"g": "invest",
+"n": {
+"en": "10-year investment analysis",
+"ar": "تحليل الاستثمار 10 سنوات"
+},
+"d": {
+"en": "Rent, costs, financing, cash flow, value and equity year by year, with cash-on-cash and total return.",
+"ar": "الإيجار والتكاليف والتمويل والتدفق والقيمة وحقوق الملكية سنة بسنة مع العائد النقدي والعائد الكلي."
+},
+"inputs": [
+{
+"k": "price",
+"n": {
+"en": "Purchase price",
+"ar": "سعر الشراء"
+},
+"fmt": "money",
+"v": 1500000
+},
+{
+"k": "fees",
+"n": {
+"en": "Purchase costs %",
+"ar": "تكاليف الشراء %"
+},
+"fmt": "pct",
+"v": 0.05
+},
+{
+"k": "ltv",
+"n": {
+"en": "Financing %",
+"ar": "نسبة التمويل"
+},
+"fmt": "pct",
+"v": 0.6
+},
+{
+"k": "rate",
+"n": {
+"en": "Financing rate",
+"ar": "نسبة التمويل السنوية"
+},
+"fmt": "pct",
+"v": 0.055
+},
+{
+"k": "yrs",
+"n": {
+"en": "Financing years",
+"ar": "سنوات التمويل"
+},
+"fmt": "int",
+"v": 20
+},
+{
+"k": "rent",
+"n": {
+"en": "Year-1 rent",
+"ar": "إيجار السنة الأولى"
+},
+"fmt": "money",
+"v": 105000
+},
+{
+"k": "rg",
+"n": {
+"en": "Rent growth",
+"ar": "نمو الإيجار"
+},
+"fmt": "pct",
+"v": 0.03
+},
+{
+"k": "vac",
+"n": {
+"en": "Vacancy",
+"ar": "الشغور"
+},
+"fmt": "pct",
+"v": 0.05
+},
+{
+"k": "opex",
+"n": {
+"en": "Operating costs % of rent",
+"ar": "التكاليف % من الإيجار"
+},
+"fmt": "pct",
+"v": 0.18
+},
+{
+"k": "ap",
+"n": {
+"en": "Value growth",
+"ar": "نمو القيمة"
+},
+"fmt": "pct",
+"v": 0.03
+}
+],
+"outputs": [
+{
+"k": "cash",
+"n": {
+"en": "Cash invested",
+"ar": "النقد المستثمر"
+},
+"fmt": "money",
+"f": "{price}*(1-{ltv})+{price}*{fees}"
+},
+{
+"k": "ds",
+"n": {
+"en": "Debt service / year",
+"ar": "خدمة الدين سنوياً"
+},
+"fmt": "money",
+"f": "PMT({rate}/12,{yrs}*12,-{price}*{ltv})*12"
+},
+{
+"k": "coc",
+"n": {
+"en": "Year-1 cash-on-cash",
+"ar": "العائد النقدي للسنة الأولى"
+},
+"fmt": "pct",
+"f": "({rent}*(1-{vac})*(1-{opex})-{ds})/{cash}",
+"hl": true
+},
+{
+"k": "cap",
+"n": {
+"en": "Entry cap rate",
+"ar": "معدل الرسملة عند الشراء"
+},
+"fmt": "pct",
+"f": "{rent}*(1-{vac})*(1-{opex})/{price}"
+}
+],
+"table": {
+"title": {
+"en": "Year by year",
+"ar": "سنة بسنة"
+},
+"rows": 10,
+"cols": [
+{
+"k": "noi",
+"n": {
+"en": "Net operating income",
+"ar": "صافي الدخل التشغيلي"
+},
+"fmt": "money",
+"f": "{p:noi}*(1+{rg})",
+"f0": "{rent}*(1-{vac})*(1-{opex})"
+},
+{
+"k": "cf",
+"n": {
+"en": "Cash flow after debt",
+"ar": "التدفق بعد التمويل"
+},
+"fmt": "money",
+"f": "{c:noi}-{ds}",
+"f0": "{c:noi}-{ds}"
+},
+{
+"k": "value",
+"n": {
+"en": "Property value",
+"ar": "قيمة العقار"
+},
+"fmt": "money",
+"f": "{p:value}*(1+{ap})",
+"f0": "{price}*(1+{ap})"
+},
+{
+"k": "loan",
+"n": {
+"en": "Loan balance",
+"ar": "رصيد التمويل"
+},
+"fmt": "money",
+"f": "-PV({rate}/12,MAX(0,{yrs}-{n})*12,{ds}/12)",
+"f0": "-PV({rate}/12,({yrs}-{n})*12,{ds}/12)"
+},
+{
+"k": "equity",
+"n": {
+"en": "Equity",
+"ar": "حقوق الملكية"
+},
+"fmt": "money",
+"f": "{c:value}-{c:loan}",
+"f0": "{c:value}-{c:loan}"
+},
+{
+"k": "ret",
+"n": {
+"en": "Total return on cash",
+"ar": "العائد الكلي على النقد"
+},
+"fmt": "pct",
+"f": "({c:equity}+{c:cf}+{p:cf}-{cash})/{cash}",
+"f0": "({c:equity}+{c:cf}-{cash})/{cash}"
+}
+],
+"chart": {
+"t": "line",
+"cols": [
+"value",
+"equity"
+]
+}
+}
+},
+{
+"id": "flip",
+"g": "invest",
+"n": {
+"en": "Fix & flip profit",
+"ar": "ربح الشراء والتجديد وإعادة البيع"
+},
+"d": {
+"en": "Buy, renovate, hold and sell: profit, ROI and annualised return.",
+"ar": "اشترِ وجدّد واحتفظ وبِع: الربح والعائد والعائد السنوي."
+},
+"inputs": [
+{
+"k": "buy",
+"n": {
+"en": "Purchase price",
+"ar": "سعر الشراء"
+},
+"fmt": "money",
+"v": 700000
+},
+{
+"k": "fees",
+"n": {
+"en": "Purchase costs %",
+"ar": "تكاليف الشراء %"
+},
+"fmt": "pct",
+"v": 0.05
+},
+{
+"k": "reno",
+"n": {
+"en": "Renovation",
+"ar": "التجديد"
+},
+"fmt": "money",
+"v": 120000
+},
+{
+"k": "months",
+"n": {
+"en": "Holding months",
+"ar": "أشهر الاحتفاظ"
+},
+"fmt": "int",
+"v": 8
+},
+{
+"k": "hold",
+"n": {
+"en": "Holding cost / month",
+"ar": "تكلفة الاحتفاظ شهرياً"
+},
+"fmt": "money",
+"v": 3500
+},
+{
+"k": "sell",
+"n": {
+"en": "Sale price",
+"ar": "سعر البيع"
+},
+"fmt": "money",
+"v": 1000000
+},
+{
+"k": "scost",
+"n": {
+"en": "Selling costs %",
+"ar": "تكاليف البيع %"
+},
+"fmt": "pct",
+"v": 0.03
+}
+],
+"outputs": [
+{
+"k": "total",
+"n": {
+"en": "Total invested",
+"ar": "إجمالي الاستثمار"
+},
+"fmt": "money",
+"f": "{buy}*(1+{fees})+{reno}+{months}*{hold}"
+},
+{
+"k": "profit",
+"n": {
+"en": "Net profit",
+"ar": "صافي الربح"
+},
+"fmt": "money",
+"f": "{sell}*(1-{scost})-{total}",
+"hl": true
+},
+{
+"k": "roi",
+"n": {
+"en": "Return on investment",
+"ar": "العائد على الاستثمار"
+},
+"fmt": "pct",
+"f": "IFERROR({profit}/{total},0)"
+},
+{
+"k": "ann",
+"n": {
+"en": "Annualised return",
+"ar": "العائد السنوي"
+},
+"fmt": "pct",
+"f": "IFERROR((1+{roi})^(12/{months})-1,0)"
+},
+{
+"k": "max",
+"n": {
+"en": "Max purchase price for 20% ROI",
+"ar": "أقصى سعر شراء لعائد 20%"
+},
+"fmt": "money",
+"f": "(({sell}*(1-{scost}))/1.2-{reno}-{months}*{hold})/(1+{fees})"
+}
+]
+},
+{
+"id": "absorb",
+"g": "supply",
+"n": {
+"en": "Absorption & months of inventory",
+"ar": "معدل الاستيعاب وأشهر المخزون"
+},
+"d": {
+"en": "Is the district a buyer's or seller's market?",
+"ar": "هل الحي سوق مشترين أم سوق بائعين؟"
+},
+"inputs": [
+{
+"k": "active",
+"n": {
+"en": "Active listings",
+"ar": "الإعلانات النشطة"
+},
+"fmt": "int",
+"v": 240
+},
+{
+"k": "sales",
+"n": {
+"en": "Sales per month",
+"ar": "المبيعات الشهرية"
+},
+"fmt": "int",
+"v": 40
+},
+{
+"k": "pipe",
+"n": {
+"en": "New units coming in 12 months",
+"ar": "الوحدات القادمة خلال 12 شهراً"
+},
+"fmt": "int",
+"v": 300
+}
+],
+"outputs": [
+{
+"k": "moi",
+"n": {
+"en": "Months of inventory",
+"ar": "أشهر المخزون"
+},
+"fmt": "num",
+"f": "IFERROR({active}/{sales},0)",
+"hl": true
+},
+{
+"k": "abs",
+"n": {
+"en": "Monthly absorption rate",
+"ar": "معدل الاستيعاب الشهري"
+},
+"fmt": "pct",
+"f": "IFERROR({sales}/{active},0)"
+},
+{
+"k": "moi12",
+"n": {
+"en": "Months incl. new supply",
+"ar": "الأشهر مع المعروض الجديد"
+},
+"fmt": "num",
+"f": "IFERROR(({active}+{pipe})/{sales},0)"
+},
+{
+"k": "mkt",
+"n": {
+"en": "Market type",
+"ar": "نوع السوق"
+},
+"fmt": "text",
+"f": "IF({moi}<4,{tx:Seller's market/سوق بائعين},IF({moi}<=6,{tx:Balanced/متوازن},{tx:Buyer's market/سوق مشترين}))"
+}
+]
+},
+{
+"id": "quick",
+"g": "radar",
+"n": {
+"en": "Quick yield & multiplier",
+"ar": "العائد والمضاعف السريع"
+},
+"d": {
+"en": "Three numbers every investor checks first.",
+"ar": "ثلاثة أرقام يراجعها كل مستثمر أولاً."
+},
+"inputs": [
+{
+"k": "price",
+"n": {
+"en": "Price",
+"ar": "السعر"
+},
+"fmt": "money",
+"v": 1200000
+},
+{
+"k": "rent",
+"n": {
+"en": "Annual rent",
+"ar": "الإيجار السنوي"
+},
+"fmt": "money",
+"v": 78000
+},
+{
+"k": "area",
+"n": {
+"en": "Area m²",
+"ar": "المساحة م²"
+},
+"fmt": "int",
+"v": 160
+}
+],
+"outputs": [
+{
+"k": "yld",
+"n": {
+"en": "Gross yield",
+"ar": "العائد الإجمالي"
+},
+"fmt": "pct",
+"f": "{rent}/{price}",
+"hl": true
+},
+{
+"k": "mult",
+"n": {
+"en": "Price-to-rent (years)",
+"ar": "مضاعف الإيجار (سنوات)"
+},
+"fmt": "years",
+"f": "{price}/{rent}"
+},
+{
+"k": "ppsqm",
+"n": {
+"en": "Price per m²",
+"ar": "سعر المتر"
+},
+"fmt": "money",
+"f": "{price}/{area}"
+},
+{
+"k": "rsqm",
+"n": {
+"en": "Rent per m²",
+"ar": "إيجار المتر"
+},
+"fmt": "money",
+"f": "{rent}/{area}"
+}
+]
+}
+],
+"checklists": [
+{
+"id": "c_dd",
+"g": "invest",
+"n": {
+"en": "Due diligence",
+"ar": "الفحص النافي للجهالة"
+},
+"d": {
+"en": "Fifteen checks before you buy.",
+"ar": "خمسة عشر فحصاً قبل الشراء."
+},
+"steps": [
+{
+"n": {
+"en": "Title deed and ownership chain",
+"ar": "صك الملكية وتسلسلها"
+},
+"d": 0,
+"o": {
+"en": "Legal",
+"ar": "القانونية"
+}
+},
+{
+"n": {
+"en": "No mortgages, liens or disputes",
+"ar": "خلو العقار من الرهون والقيود والنزاعات"
+},
+"d": 1,
+"o": {
+"en": "Legal",
+"ar": "القانونية"
+}
+},
+{
+"n": {
+"en": "Zoning and permitted use",
+"ar": "الاستخدام المسموح"
+},
+"d": 2,
+"o": {
+"en": "Engineering",
+"ar": "الهندسة"
+}
+},
+{
+"n": {
+"en": "Building permits match what is built",
+"ar": "تطابق رخصة البناء مع المبني"
+},
+"d": 3,
+"o": {
+"en": "Engineering",
+"ar": "الهندسة"
+}
+},
+{
+"n": {
+"en": "Structural and MEP inspection",
+"ar": "فحص الهيكل والأعمال الكهروميكانيكية"
+},
+"d": 5,
+"o": {
+"en": "Engineering",
+"ar": "الهندسة"
+}
+},
+{
+"n": {
+"en": "Outstanding service charges and bills",
+"ar": "رسوم الخدمات والفواتير المستحقة"
+},
+"d": 5,
+"o": {
+"en": "Finance",
+"ar": "المالية"
+}
+},
+{
+"n": {
+"en": "Existing leases and tenant payment history",
+"ar": "العقود القائمة وسجل دفع المستأجرين"
+},
+"d": 6,
+"o": {
+"en": "Finance",
+"ar": "المالية"
+}
+},
+{
+"n": {
+"en": "Market value from the radar (comparables)",
+"ar": "القيمة السوقية من الرادار (المقارنات)"
+},
+"d": 6,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Rent check against the rent index",
+"ar": "مطابقة الإيجار مع مؤشر الإيجارات"
+},
+"d": 6,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "New supply nearby (pipeline sheet)",
+"ar": "المعروض الجديد القريب (صفحة المعروض)"
+},
+"d": 7,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "10-year investment analysis",
+"ar": "تحليل الاستثمار 10 سنوات"
+},
+"d": 8,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Financing offer received",
+"ar": "استلام عرض التمويل"
+},
+"d": 10,
+"o": {
+"en": "Finance",
+"ar": "المالية"
+}
+},
+{
+"n": {
+"en": "Insurance quote",
+"ar": "عرض التأمين"
+},
+"d": 10,
+"o": {
+"en": "Finance",
+"ar": "المالية"
+}
+},
+{
+"n": {
+"en": "Exit plan and resale demand",
+"ar": "خطة الخروج والطلب على إعادة البيع"
+},
+"d": 11,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Investment committee approval",
+"ar": "اعتماد لجنة الاستثمار"
+},
+"d": 12,
+"o": {
+"en": "Management",
+"ar": "الإدارة"
+}
+}
+]
+},
+{
+"id": "c_month",
+"g": "radar",
+"n": {
+"en": "Monthly market radar routine",
+"ar": "روتين الرادار الشهري"
+},
+"d": {
+"en": "Two hours a month to know your market better than anyone.",
+"ar": "ساعتان شهرياً لتعرف سوقك أكثر من أي أحد."
+},
+"steps": [
+{
+"n": {
+"en": "Log 20+ new asking prices across districts",
+"ar": "تسجيل 20 سعراً معروضاً جديداً على الأقل"
+},
+"d": 0,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Download official transactions and add them",
+"ar": "تنزيل الصفقات الرسمية وإضافتها"
+},
+"d": 1,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Add 15+ rent records",
+"ar": "إضافة 15 سجل إيجار على الأقل"
+},
+"d": 1,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Update supply projects and sold %",
+"ar": "تحديث مشاريع المعروض ونسب البيع"
+},
+"d": 2,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Record demand signals from inquiries",
+"ar": "تسجيل مؤشرات الطلب من الاستفسارات"
+},
+"d": 2,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Review competitors' pricing and listings",
+"ar": "مراجعة أسعار وإعلانات المنافسين"
+},
+"d": 3,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Read the district radar scorecard",
+"ar": "قراءة لوحة رادار الأحياء"
+},
+"d": 3,
+"o": {
+"en": "Management",
+"ar": "الإدارة"
+}
+},
+{
+"n": {
+"en": "Share the monthly market report with clients",
+"ar": "مشاركة التقرير الشهري مع العملاء"
+},
+"d": 4,
+"o": {
+"en": "Marketing",
+"ar": "التسويق"
+}
+}
+]
+},
+{
+"id": "c_site",
+"g": "invest",
+"n": {
+"en": "Site visit",
+"ar": "الزيارة الميدانية"
+},
+"d": {
+"en": "What to look at on the ground.",
+"ar": "ما تنظر إليه على أرض الواقع."
+},
+"steps": [
+{
+"n": {
+"en": "Access roads and traffic at peak hours",
+"ar": "الطرق المؤدية والزحام وقت الذروة"
+},
+"d": 0,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Schools, hospitals, shops and mosques nearby",
+"ar": "المدارس والمستشفيات والمحلات والمساجد القريبة"
+},
+"d": 0,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Construction cranes and new projects around",
+"ar": "الرافعات والمشاريع الجديدة حولها"
+},
+"d": 0,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "For-sale / for-rent signs count",
+"ar": "عدد لوحات البيع والإيجار"
+},
+"d": 0,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Condition of neighbouring buildings",
+"ar": "حالة المباني المجاورة"
+},
+"d": 0,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Noise, smells and flooding risk",
+"ar": "الضوضاء والروائح وخطر السيول"
+},
+"d": 0,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Talk to two local agents",
+"ar": "التحدث مع وسيطين محليين"
+},
+"d": 1,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+},
+{
+"n": {
+"en": "Photos and notes into Opportunities",
+"ar": "الصور والملاحظات في صفحة الفرص"
+},
+"d": 1,
+"o": {
+"en": "Analyst",
+"ar": "المحلل"
+}
+}
+]
+}
+],
+"forms": [
+{
+"id": "f_memo",
+"g": "invest",
+"n": {
+"en": "Investment memo",
+"ar": "مذكرة استثمار"
+},
+"m": "opps",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "INVESTMENT MEMO",
+"ar": "مذكرة استثمار"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"title",
+"district",
+"type",
+"area",
+"ask",
+"mv",
+"disc",
+"rent",
+"yld",
+"score",
+"risk",
+"stage"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "We propose acquiring \"{title}\" in {district} at {ask}, a {disc} discount to the market value of {mv} estimated from closed deals. Expected rent of {rent} gives a yield on cost of {yld}. Deal score: {score}/100, risk: {risk}.",
+"ar": "نقترح شراء \"{title}\" في {district} بسعر {ask}، أي بخصم {disc} عن القيمة السوقية المقدرة من الصفقات المنفذة ({mv}). الإيجار المتوقع {rent} يعطي عائداً على التكلفة قدره {yld}. درجة الصفقة: {score} من 100، والمخاطرة: {risk}."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Analyst",
+"ar": "المحلل"
+},
+{
+"en": "Approved by",
+"ar": "اعتمده"
+}
+]
+}
+]
+},
+{
+"id": "f_district",
+"g": "radar",
+"n": {
+"en": "District market report",
+"ar": "تقرير سوق الحي"
+},
+"m": "scores",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "DISTRICT MARKET REPORT",
+"ar": "تقرير سوق الحي"
+}
+},
+{
+"t": "kv",
+"f": [
+"district",
+"ask",
+"sold",
+"rsqm",
+"yld",
+"tx",
+"dom",
+"supply",
+"dem",
+"score",
+"signal"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "{district}: buyers paid on average {sold} per m² against {ask} asked. Rents average {rsqm} per m² ({yld} gross yield). {supply} new units remain unsold while demand signals reached {dem}. Radar score {score}/100 - {signal}.",
+"ar": "{district}: دفع المشترون في المتوسط {sold} للمتر مقابل {ask} معروضاً. متوسط إيجار المتر {rsqm} (عائد إجمالي {yld}). تبقى {supply} وحدة جديدة غير مباعة بينما بلغت مؤشرات الطلب {dem}. درجة الرادار {score} من 100 - {signal}."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Prepared by",
+"ar": "أعده"
+}
+]
+}
+]
+}
+],
+"dashboard": {
+"kpis": [
+[
+"comps",
+1
+],
+[
+"deals",
+2
+],
+[
+"rents",
+1
+],
+[
+"rents",
+2
+],
+[
+"supply",
+2
+],
+[
+"demand",
+0
+],
+[
+"opps",
+0
+],
+[
+"portfolio",
+0
+]
+],
+"charts": [
+{
+"m": "deals",
+"by": "month",
+"a": "avg",
+"v": "ppsqm",
+"t": "line",
+"n": {
+"en": "Sold price per m² by month",
+"ar": "سعر المتر المنفذ شهرياً"
+}
+},
+{
+"m": "demand",
+"by": "district",
+"t": "bar",
+"n": {
+"en": "Demand by district",
+"ar": "الطلب حسب الحي"
+}
+},
+{
+"m": "rents",
+"by": "district",
+"t": "bar",
+"a": "avg",
+"v": "rsqm",
+"n": {
+"en": "Rent per m² by district",
+"ar": "إيجار المتر حسب الحي"
+}
+},
+{
+"m": "supply",
+"by": "status",
+"n": {
+"en": "New supply by status",
+"ar": "المعروض الجديد حسب الحالة"
+}
+},
+{
+"m": "opps",
+"by": "stage",
+"t": "bar",
+"a": "count",
+"n": {
+"en": "Opportunities by stage",
+"ar": "الفرص حسب المرحلة"
+}
+},
+{
+"m": "comps",
+"by": "month",
+"a": "avg",
+"v": "ppsqm",
+"t": "area",
+"n": {
+"en": "Asking price per m² by month",
+"ar": "السعر المطلوب للمتر شهرياً"
+}
+}
+]
+}
+}
