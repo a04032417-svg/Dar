@@ -1,0 +1,4677 @@
+{
+"id": "re-office",
+"theme": {
+"primary": "#0F5E63",
+"accent": "#F2A541"
+},
+"title": {
+"en": "Real Estate Office Pro",
+"ar": "مكتب العقار الاحترافي"
+},
+"subtitle": {
+"en": "Listings, owners, buyers and tenants, viewings, offers, deals, commissions, agents, marketing and finance - one connected system",
+"ar": "العروض والملاك والمشترون والمستأجرون والمعاينات والعروض والصفقات والعمولات والوسطاء والتسويق والمالية - منظومة واحدة مترابطة"
+},
+"groups": {
+"stock": {
+"en": "Property stock & owners",
+"ar": "العقارات والملاك"
+},
+"sales": {
+"en": "Clients & sales pipeline",
+"ar": "العملاء ومسار البيع"
+},
+"money": {
+"en": "Deals, commissions & finance",
+"ar": "الصفقات والعمولات والمالية"
+},
+"team": {
+"en": "Team, marketing & compliance",
+"ar": "الفريق والتسويق والامتثال"
+}
+},
+"lists": {
+"ptype": {
+"n": {
+"en": "Property type",
+"ar": "نوع العقار"
+},
+"items": {
+"en": [
+"Apartment",
+"Villa",
+"Townhouse",
+"Office",
+"Retail shop",
+"Land",
+"Warehouse",
+"Building"
+],
+"ar": [
+"شقة",
+"فيلا",
+"تاون هاوس",
+"مكتب",
+"محل تجاري",
+"أرض",
+"مستودع",
+"عمارة"
+]
+}
+},
+"purpose": {
+"n": {
+"en": "Purpose",
+"ar": "الغرض"
+},
+"items": {
+"en": [
+"Sale",
+"Rent"
+],
+"ar": [
+"بيع",
+"إيجار"
+]
+},
+"colors": [
+"#2E86AB",
+"#F2A541"
+]
+},
+"district": {
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"items": {
+"en": [
+"North District",
+"South District",
+"East District",
+"West District",
+"Downtown",
+"Waterfront",
+"Business Bay",
+"Garden City"
+],
+"ar": [
+"حي الشمال",
+"حي الجنوب",
+"حي الشرق",
+"حي الغرب",
+"وسط المدينة",
+"الواجهة البحرية",
+"حي الأعمال",
+"حي الحدائق"
+]
+}
+},
+"payst": {
+"n": {
+"en": "Payment status",
+"ar": "حالة الدفع"
+},
+"items": {
+"en": [
+"Paid",
+"Partly paid",
+"Unpaid",
+"Overdue"
+],
+"ar": [
+"مدفوع",
+"مدفوع جزئياً",
+"غير مدفوع",
+"متأخر"
+]
+},
+"colors": [
+"#27AE60",
+"#F39C12",
+"#7F8C8D",
+"#C0392B"
+]
+},
+"paym": {
+"n": {
+"en": "Payment method",
+"ar": "طريقة الدفع"
+},
+"items": {
+"en": [
+"Bank transfer",
+"Card",
+"Cash",
+"Cheque",
+"Online"
+],
+"ar": [
+"تحويل بنكي",
+"بطاقة",
+"نقداً",
+"شيك",
+"دفع إلكتروني"
+]
+}
+},
+"priority": {
+"n": {
+"en": "Priority",
+"ar": "الأولوية"
+},
+"items": {
+"en": [
+"Urgent",
+"High",
+"Normal",
+"Low"
+],
+"ar": [
+"عاجل",
+"عالي",
+"عادي",
+"منخفض"
+]
+},
+"colors": [
+"#C0392B",
+"#E67E22",
+"#2E86AB",
+"#7F8C8D"
+]
+},
+"tstatus": {
+"n": {
+"en": "Task status",
+"ar": "حالة المهمة"
+},
+"items": {
+"en": [
+"To do",
+"In progress",
+"Done"
+],
+"ar": [
+"للتنفيذ",
+"قيد التنفيذ",
+"منجز"
+]
+},
+"colors": [
+"#7F8C8D",
+"#F39C12",
+"#27AE60"
+]
+},
+"lstatus": {
+"n": {
+"en": "Listing status",
+"ar": "حالة العرض"
+},
+"items": {
+"en": [
+"Available",
+"Reserved",
+"Under offer",
+"Sold",
+"Rented",
+"Withdrawn"
+],
+"ar": [
+"متاح",
+"محجوز",
+"تحت التفاوض",
+"مباع",
+"مؤجر",
+"مسحوب"
+]
+},
+"colors": [
+"#27AE60",
+"#F39C12",
+"#8E44AD",
+"#2C3E50",
+"#2E86AB",
+"#95A5A6"
+]
+},
+"otype": {
+"n": {
+"en": "Owner type",
+"ar": "نوع المالك"
+},
+"items": {
+"en": [
+"Seller",
+"Landlord",
+"Developer",
+"Investor"
+],
+"ar": [
+"بائع",
+"مؤجر",
+"مطور",
+"مستثمر"
+]
+}
+},
+"mandate": {
+"n": {
+"en": "Mandate",
+"ar": "نوع التفويض"
+},
+"items": {
+"en": [
+"Exclusive",
+"Open",
+"Co-broke"
+],
+"ar": [
+"حصري",
+"مفتوح",
+"مشترك"
+]
+},
+"colors": [
+"#0F5E63",
+"#7F8C8D",
+"#2E86AB"
+]
+},
+"ctype": {
+"n": {
+"en": "Client type",
+"ar": "نوع العميل"
+},
+"items": {
+"en": [
+"Buyer",
+"Tenant",
+"Investor",
+"Company"
+],
+"ar": [
+"مشترٍ",
+"مستأجر",
+"مستثمر",
+"شركة"
+]
+}
+},
+"source": {
+"n": {
+"en": "Lead source",
+"ar": "مصدر العميل"
+},
+"items": {
+"en": [
+"Website",
+"Property portal",
+"Referral",
+"Social media",
+"Walk-in",
+"Signboard",
+"Phone call",
+"Repeat client"
+],
+"ar": [
+"الموقع",
+"منصة عقارية",
+"توصية",
+"شبكات اجتماعية",
+"زيارة المكتب",
+"لوحة إعلانية",
+"اتصال",
+"عميل سابق"
+]
+}
+},
+"stage": {
+"n": {
+"en": "Lead stage",
+"ar": "مرحلة العميل"
+},
+"items": {
+"en": [
+"New",
+"Contacted",
+"Viewing booked",
+"Negotiating",
+"Won",
+"Lost"
+],
+"ar": [
+"جديد",
+"تم التواصل",
+"معاينة محجوزة",
+"تفاوض",
+"تم الإغلاق",
+"خسارة"
+]
+},
+"colors": [
+"#7F8C8D",
+"#2E86AB",
+"#8E44AD",
+"#F39C12",
+"#27AE60",
+"#C0392B"
+]
+},
+"agent": {
+"n": {
+"en": "Agent",
+"ar": "الوسيط"
+},
+"items": {
+"en": [
+"Adam Clarke",
+"Sara Nolan",
+"Omar Haddad",
+"Lina Petrov",
+"Yusuf Kaya"
+],
+"ar": [
+"آدم خالد",
+"سارة ناصر",
+"عمر حداد",
+"لينا سامي",
+"يوسف كايا"
+]
+}
+},
+"arole": {
+"n": {
+"en": "Agent role",
+"ar": "دور الوسيط"
+},
+"items": {
+"en": [
+"Sales manager",
+"Senior agent",
+"Agent",
+"Junior agent"
+],
+"ar": [
+"مدير مبيعات",
+"وسيط أول",
+"وسيط",
+"وسيط مبتدئ"
+]
+}
+},
+"vstatus": {
+"n": {
+"en": "Viewing status",
+"ar": "حالة المعاينة"
+},
+"items": {
+"en": [
+"Scheduled",
+"Done",
+"No-show",
+"Cancelled"
+],
+"ar": [
+"مجدولة",
+"تمت",
+"لم يحضر",
+"ملغاة"
+]
+},
+"colors": [
+"#2E86AB",
+"#27AE60",
+"#C0392B",
+"#95A5A6"
+]
+},
+"outcome": {
+"n": {
+"en": "Viewing outcome",
+"ar": "نتيجة المعاينة"
+},
+"items": {
+"en": [
+"Interested",
+"Thinking",
+"Not interested",
+"Offer made"
+],
+"ar": [
+"مهتم",
+"يفكر",
+"غير مهتم",
+"قدّم عرضاً"
+]
+}
+},
+"ostatus": {
+"n": {
+"en": "Offer status",
+"ar": "حالة العرض المالي"
+},
+"items": {
+"en": [
+"Submitted",
+"Countered",
+"Accepted",
+"Rejected",
+"Expired"
+],
+"ar": [
+"مقدم",
+"عرض مضاد",
+"مقبول",
+"مرفوض",
+"منتهي"
+]
+},
+"colors": [
+"#2E86AB",
+"#F39C12",
+"#27AE60",
+"#C0392B",
+"#95A5A6"
+]
+},
+"dtype": {
+"n": {
+"en": "Deal type",
+"ar": "نوع الصفقة"
+},
+"items": {
+"en": [
+"Sale",
+"Lease",
+"Off-plan sale",
+"Commercial lease"
+],
+"ar": [
+"بيع",
+"تأجير",
+"بيع على الخارطة",
+"تأجير تجاري"
+]
+}
+},
+"channel": {
+"n": {
+"en": "Marketing channel",
+"ar": "قناة التسويق"
+},
+"items": {
+"en": [
+"Property portal",
+"Search ads",
+"Social ads",
+"Outdoor",
+"Open house",
+"Print",
+"Video tour"
+],
+"ar": [
+"منصة عقارية",
+"إعلانات البحث",
+"إعلانات اجتماعية",
+"لوحات خارجية",
+"يوم مفتوح",
+"مطبوعات",
+"جولة فيديو"
+]
+}
+},
+"expcat": {
+"n": {
+"en": "Expense category",
+"ar": "بند المصروف"
+},
+"items": {
+"en": [
+"Office rent",
+"Salaries",
+"Marketing",
+"Utilities",
+"Transport",
+"Licenses & fees",
+"Software",
+"Photography",
+"Other"
+],
+"ar": [
+"إيجار المكتب",
+"رواتب",
+"تسويق",
+"خدمات",
+"مواصلات",
+"رخص ورسوم",
+"برمجيات",
+"تصوير",
+"أخرى"
+]
+}
+},
+"related": {
+"n": {
+"en": "Related to",
+"ar": "مرتبطة بـ"
+},
+"items": {
+"en": [
+"Listing",
+"Lead",
+"Deal",
+"Owner",
+"Office"
+],
+"ar": [
+"عرض",
+"عميل",
+"صفقة",
+"مالك",
+"المكتب"
+]
+}
+},
+"doctype": {
+"n": {
+"en": "Document",
+"ar": "المستند"
+},
+"items": {
+"en": [
+"Commercial registration",
+"Brokerage license",
+"Agent ID card",
+"Advertising permit",
+"Professional insurance",
+"Office lease"
+],
+"ar": [
+"السجل التجاري",
+"رخصة الوساطة",
+"بطاقة الوسيط",
+"تصريح الإعلان",
+"التأمين المهني",
+"عقد إيجار المكتب"
+]
+}
+}
+},
+"modules": [
+{
+"id": "listings",
+"g": "stock",
+"n": {
+"en": "Listings",
+"ar": "العروض العقارية"
+},
+"d": {
+"en": "Every property you market: price, size, price per m², owner, agent, status and expected commission.",
+"ar": "كل عقار تسوّقه: السعر والمساحة وسعر المتر والمالك والوسيط والحالة والعمولة المتوقعة."
+},
+"prefix": "LST",
+"rows": 40,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Listing ID",
+"ar": "رقم العرض"
+},
+"t": "id"
+},
+{
+"k": "listed",
+"n": {
+"en": "Listed on",
+"ar": "تاريخ الإدراج"
+},
+"t": "date"
+},
+{
+"k": "title",
+"n": {
+"en": "Title",
+"ar": "العنوان"
+},
+"t": "text",
+"s": {
+"en": [
+"Sea-view apartment",
+"Family villa with garden",
+"Corner office",
+"Main-road shop",
+"Residential land plot",
+"Modern townhouse",
+"Logistics warehouse",
+"Investment building"
+],
+"ar": [
+"شقة بإطلالة بحرية",
+"فيلا عائلية بحديقة",
+"مكتب على زاوية",
+"محل على شارع رئيسي",
+"أرض سكنية",
+"تاون هاوس حديث",
+"مستودع لوجستي",
+"عمارة استثمارية"
+]
+},
+"w": 26
+},
+{
+"k": "type",
+"n": {
+"en": "Type",
+"ar": "النوع"
+},
+"t": "list",
+"l": "ptype",
+"wts": [
+6,
+4,
+3,
+2,
+2,
+1,
+1,
+1
+]
+},
+{
+"k": "purpose",
+"n": {
+"en": "Purpose",
+"ar": "الغرض"
+},
+"t": "list",
+"l": "purpose"
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "area",
+"n": {
+"en": "Area m²",
+"ar": "المساحة م²"
+},
+"t": "int",
+"min": 80,
+"max": 950
+},
+{
+"k": "beds",
+"n": {
+"en": "Bedrooms",
+"ar": "الغرف"
+},
+"t": "int",
+"min": 0,
+"max": 6
+},
+{
+"k": "price",
+"n": {
+"en": "Price",
+"ar": "السعر"
+},
+"t": "money",
+"min": 120000,
+"max": 3200000,
+"step": 5000,
+"cf": "databar"
+},
+{
+"k": "ppsqm",
+"n": {
+"en": "Price per m²",
+"ar": "سعر المتر"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR({price}/{area},0)"
+},
+{
+"k": "owner",
+"n": {
+"en": "Owner",
+"ar": "المالك"
+},
+"t": "ref",
+"m": "owners"
+},
+{
+"k": "agent",
+"n": {
+"en": "Agent",
+"ar": "الوسيط"
+},
+"t": "list",
+"l": "agent"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "lstatus",
+"wts": [
+6,
+2,
+2,
+3,
+3,
+1
+]
+},
+{
+"k": "dom",
+"n": {
+"en": "Days on market",
+"ar": "أيام في السوق"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=TODAY()-{listed}",
+"cf": "scale_r"
+},
+{
+"k": "comm",
+"n": {
+"en": "Commission %",
+"ar": "نسبة العمولة"
+},
+"t": "pct",
+"min": 0.01,
+"max": 0.025
+},
+{
+"k": "ecomm",
+"n": {
+"en": "Expected commission",
+"ar": "العمولة المتوقعة"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={price}*{comm}"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Active listings",
+"ar": "العروض المتاحة"
+},
+"a": "count",
+"w": [
+[
+"status",
+0
+]
+]
+},
+{
+"n": {
+"en": "Value on market",
+"ar": "قيمة المعروض"
+},
+"a": "sum",
+"f": "price",
+"w": [
+[
+"status",
+0
+]
+],
+"fmt": "money"
+},
+{
+"n": {
+"en": "Avg price per m²",
+"ar": "متوسط سعر المتر"
+},
+"a": "avg",
+"f": "ppsqm",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Expected commission",
+"ar": "العمولة المتوقعة"
+},
+"a": "sum",
+"f": "ecomm",
+"w": [
+[
+"status",
+0
+]
+],
+"fmt": "money"
+}
+],
+"rep": {
+"date": "listed",
+"val": "price",
+"agg": "sum",
+"by": [
+"type",
+"district",
+"status"
+],
+"heat": {
+"rows": "district",
+"val": "ppsqm",
+"agg": "avg"
+}
+}
+},
+{
+"id": "owners",
+"g": "stock",
+"n": {
+"en": "Owners & mandates",
+"ar": "الملاك والتفويضات"
+},
+"d": {
+"en": "Sellers and landlords who trust you: mandate type, dates, and how many of their properties you hold.",
+"ar": "البائعون والمؤجرون الذين وثقوا بك: نوع التفويض وتواريخه وعدد عقاراتهم لديك."
+},
+"prefix": "OWN",
+"rows": 24,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Owner ID",
+"ar": "رقم المالك"
+},
+"t": "id"
+},
+{
+"k": "name",
+"n": {
+"en": "Owner name",
+"ar": "اسم المالك"
+},
+"t": "text",
+"s": "person"
+},
+{
+"k": "phone",
+"n": {
+"en": "Phone",
+"ar": "الجوال"
+},
+"t": "text",
+"s": "phone"
+},
+{
+"k": "email",
+"n": {
+"en": "Email",
+"ar": "البريد"
+},
+"t": "text",
+"s": "email"
+},
+{
+"k": "otype",
+"n": {
+"en": "Owner type",
+"ar": "نوع المالك"
+},
+"t": "list",
+"l": "otype"
+},
+{
+"k": "mandate",
+"n": {
+"en": "Mandate",
+"ar": "التفويض"
+},
+"t": "list",
+"l": "mandate"
+},
+{
+"k": "mstart",
+"n": {
+"en": "Mandate start",
+"ar": "بداية التفويض"
+},
+"t": "date"
+},
+{
+"k": "mend",
+"n": {
+"en": "Mandate end",
+"ar": "نهاية التفويض"
+},
+"t": "date",
+"rel": "mstart",
+"min": 60,
+"max": 365,
+"cf": "soon"
+},
+{
+"k": "props",
+"n": {
+"en": "Listings held",
+"ar": "العروض لدينا"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=COUNTIF({#listings.owner},{id})"
+},
+{
+"k": "value",
+"n": {
+"en": "Value held",
+"ar": "القيمة لدينا"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=SUMIFS({#listings.price},{#listings.owner},{id})"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Owners",
+"ar": "الملاك"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Exclusive mandates",
+"ar": "تفويضات حصرية"
+},
+"a": "count",
+"w": [
+[
+"mandate",
+0
+]
+]
+},
+{
+"n": {
+"en": "Exclusive share",
+"ar": "نسبة الحصري"
+},
+"a": "pct",
+"w": [
+[
+"mandate",
+0
+]
+],
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Value held",
+"ar": "القيمة لدينا"
+},
+"a": "sum",
+"f": "value",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "mstart",
+"by": [
+"otype",
+"mandate"
+]
+}
+},
+{
+"id": "leads",
+"g": "sales",
+"n": {
+"en": "Clients & leads",
+"ar": "العملاء والطلبات"
+},
+"d": {
+"en": "Every buyer, tenant and investor with budget, wishes, source, stage, next follow-up and live matching listings.",
+"ar": "كل مشترٍ ومستأجر ومستثمر بميزانيته ورغبته ومصدره ومرحلته وموعد المتابعة والعروض المطابقة له تلقائياً."
+},
+"prefix": "CL",
+"rows": 45,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Client ID",
+"ar": "رقم العميل"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "name",
+"n": {
+"en": "Client name",
+"ar": "اسم العميل"
+},
+"t": "text",
+"s": "person"
+},
+{
+"k": "phone",
+"n": {
+"en": "Phone",
+"ar": "الجوال"
+},
+"t": "text",
+"s": "phone"
+},
+{
+"k": "ctype",
+"n": {
+"en": "Client type",
+"ar": "نوع العميل"
+},
+"t": "list",
+"l": "ctype"
+},
+{
+"k": "type",
+"n": {
+"en": "Wants",
+"ar": "يريد"
+},
+"t": "list",
+"l": "ptype",
+"wts": [
+6,
+4,
+3,
+2,
+2,
+1,
+1,
+1
+]
+},
+{
+"k": "purpose",
+"n": {
+"en": "Purpose",
+"ar": "الغرض"
+},
+"t": "list",
+"l": "purpose"
+},
+{
+"k": "district",
+"n": {
+"en": "District",
+"ar": "الحي"
+},
+"t": "list",
+"l": "district"
+},
+{
+"k": "budget",
+"n": {
+"en": "Budget",
+"ar": "الميزانية"
+},
+"t": "money",
+"min": 150000,
+"max": 2500000,
+"step": 5000
+},
+{
+"k": "source",
+"n": {
+"en": "Source",
+"ar": "المصدر"
+},
+"t": "list",
+"l": "source"
+},
+{
+"k": "agent",
+"n": {
+"en": "Agent",
+"ar": "الوسيط"
+},
+"t": "list",
+"l": "agent"
+},
+{
+"k": "stage",
+"n": {
+"en": "Stage",
+"ar": "المرحلة"
+},
+"t": "list",
+"l": "stage"
+},
+{
+"k": "next",
+"n": {
+"en": "Next follow-up",
+"ar": "المتابعة القادمة"
+},
+"t": "date",
+"rel": "date",
+"min": 2,
+"max": 40,
+"cf": "overdue"
+},
+{
+"k": "match",
+"n": {
+"en": "Matching listings",
+"ar": "عروض مطابقة"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=COUNTIFS({#listings.type},{type},{#listings.purpose},{purpose},{#listings.price},\"<=\"&{budget}*1.1,{#listings.status},{L:lstatus:0})",
+"cf": "databar"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Clients",
+"ar": "العملاء"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Closed (won)",
+"ar": "تم إغلاقها"
+},
+"a": "count",
+"w": [
+[
+"stage",
+4
+]
+]
+},
+{
+"n": {
+"en": "Conversion rate",
+"ar": "نسبة التحويل"
+},
+"a": "pct",
+"w": [
+[
+"stage",
+4
+]
+],
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Budget in negotiation",
+"ar": "ميزانيات قيد التفاوض"
+},
+"a": "sum",
+"f": "budget",
+"w": [
+[
+"stage",
+3
+]
+],
+"fmt": "money"
+}
+],
+"rep": {
+"date": "date",
+"val": "budget",
+"agg": "sum",
+"by": [
+"source",
+"stage",
+"ctype",
+"agent"
+],
+"heat": {
+"rows": "district",
+"val": "budget",
+"agg": "sum"
+}
+}
+},
+{
+"id": "viewings",
+"g": "sales",
+"n": {
+"en": "Viewings",
+"ar": "المعاينات"
+},
+"d": {
+"en": "Each viewing with client, property, agent, status, outcome and the client's score.",
+"ar": "كل معاينة بالعميل والعقار والوسيط والحالة والنتيجة وتقييم العميل."
+},
+"prefix": "VW",
+"rows": 40,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Viewing ID",
+"ar": "رقم المعاينة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "lead",
+"n": {
+"en": "Client ID",
+"ar": "رقم العميل"
+},
+"t": "ref",
+"m": "leads"
+},
+{
+"k": "cname",
+"n": {
+"en": "Client",
+"ar": "العميل"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@leads.name|lead}"
+},
+{
+"k": "listing",
+"n": {
+"en": "Listing ID",
+"ar": "رقم العرض"
+},
+"t": "ref",
+"m": "listings"
+},
+{
+"k": "ltitle",
+"n": {
+"en": "Property",
+"ar": "العقار"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@listings.title|listing}",
+"w": 24
+},
+{
+"k": "agent",
+"n": {
+"en": "Agent",
+"ar": "الوسيط"
+},
+"t": "list",
+"l": "agent"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "vstatus"
+},
+{
+"k": "outcome",
+"n": {
+"en": "Outcome",
+"ar": "النتيجة"
+},
+"t": "list",
+"l": "outcome"
+},
+{
+"k": "score",
+"n": {
+"en": "Client score 1-5",
+"ar": "تقييم العميل"
+},
+"t": "int",
+"min": 1,
+"max": 5,
+"cf": "scale"
+},
+{
+"k": "notes",
+"n": {
+"en": "Notes",
+"ar": "ملاحظات"
+},
+"t": "text",
+"s": "note"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Viewings",
+"ar": "المعاينات"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Completed",
+"ar": "المنجزة"
+},
+"a": "count",
+"w": [
+[
+"status",
+1
+]
+]
+},
+{
+"n": {
+"en": "Offer rate",
+"ar": "نسبة العروض"
+},
+"a": "pct",
+"w": [
+[
+"outcome",
+3
+]
+],
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Avg score",
+"ar": "متوسط التقييم"
+},
+"a": "avg",
+"f": "score",
+"fmt": "num"
+}
+],
+"rep": {
+"date": "date",
+"by": [
+"status",
+"outcome",
+"agent"
+]
+}
+},
+{
+"id": "offers",
+"g": "sales",
+"n": {
+"en": "Offers & negotiation",
+"ar": "العروض والتفاوض"
+},
+"d": {
+"en": "Offers received on each listing, the gap to asking price, counter-offers and expiry.",
+"ar": "العروض المستلمة على كل عقار والفجوة عن السعر المطلوب والعروض المضادة وتاريخ الانتهاء."
+},
+"prefix": "OF",
+"rows": 30,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Offer ID",
+"ar": "رقم العرض المالي"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "listing",
+"n": {
+"en": "Listing ID",
+"ar": "رقم العرض"
+},
+"t": "ref",
+"m": "listings"
+},
+{
+"k": "lead",
+"n": {
+"en": "Client ID",
+"ar": "رقم العميل"
+},
+"t": "ref",
+"m": "leads"
+},
+{
+"k": "cname",
+"n": {
+"en": "Client",
+"ar": "العميل"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@leads.name|lead}"
+},
+{
+"k": "asking",
+"n": {
+"en": "Asking price",
+"ar": "السعر المطلوب"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={@listings.price|listing}"
+},
+{
+"k": "amount",
+"n": {
+"en": "Offer amount",
+"ar": "قيمة العرض"
+},
+"t": "money",
+"min": 110000,
+"max": 3000000,
+"step": 5000
+},
+{
+"k": "gap",
+"n": {
+"en": "Gap to asking",
+"ar": "الفجوة عن المطلوب"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({amount}/{asking}-1,0)",
+"cf": "scale"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "ostatus"
+},
+{
+"k": "expiry",
+"n": {
+"en": "Valid until",
+"ar": "صالح حتى"
+},
+"t": "date",
+"rel": "date",
+"min": 3,
+"max": 14,
+"cf": "soon"
+},
+{
+"k": "agent",
+"n": {
+"en": "Agent",
+"ar": "الوسيط"
+},
+"t": "list",
+"l": "agent"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Offers",
+"ar": "العروض"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Accepted",
+"ar": "المقبولة"
+},
+"a": "count",
+"w": [
+[
+"status",
+2
+]
+]
+},
+{
+"n": {
+"en": "Acceptance rate",
+"ar": "نسبة القبول"
+},
+"a": "pct",
+"w": [
+[
+"status",
+2
+]
+],
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Value offered",
+"ar": "قيمة العروض"
+},
+"a": "sum",
+"f": "amount",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "date",
+"val": "amount",
+"agg": "sum",
+"by": [
+"status",
+"agent"
+]
+}
+},
+{
+"id": "deals",
+"g": "money",
+"n": {
+"en": "Deals & commissions",
+"ar": "الصفقات والعمولات"
+},
+"d": {
+"en": "Closed deals with value, commission, the agent's split, the office's net and payment status.",
+"ar": "الصفقات المغلقة بالقيمة والعمولة ونصيب الوسيط وصافي المكتب وحالة الدفع."
+},
+"prefix": "DL",
+"rows": 32,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Deal ID",
+"ar": "رقم الصفقة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Closing date",
+"ar": "تاريخ الإغلاق"
+},
+"t": "date"
+},
+{
+"k": "listing",
+"n": {
+"en": "Listing ID",
+"ar": "رقم العرض"
+},
+"t": "ref",
+"m": "listings"
+},
+{
+"k": "lead",
+"n": {
+"en": "Client ID",
+"ar": "رقم العميل"
+},
+"t": "ref",
+"m": "leads"
+},
+{
+"k": "cname",
+"n": {
+"en": "Client",
+"ar": "العميل"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@leads.name|lead}"
+},
+{
+"k": "dtype",
+"n": {
+"en": "Deal type",
+"ar": "نوع الصفقة"
+},
+"t": "list",
+"l": "dtype"
+},
+{
+"k": "value",
+"n": {
+"en": "Deal value",
+"ar": "قيمة الصفقة"
+},
+"t": "money",
+"min": 90000,
+"max": 2600000,
+"step": 5000
+},
+{
+"k": "comm",
+"n": {
+"en": "Commission %",
+"ar": "نسبة العمولة"
+},
+"t": "pct",
+"min": 0.01,
+"max": 0.025
+},
+{
+"k": "commission",
+"n": {
+"en": "Commission",
+"ar": "العمولة"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={value}*{comm}"
+},
+{
+"k": "agent",
+"n": {
+"en": "Agent",
+"ar": "الوسيط"
+},
+"t": "list",
+"l": "agent"
+},
+{
+"k": "split",
+"n": {
+"en": "Agent split %",
+"ar": "نصيب الوسيط %"
+},
+"t": "pct",
+"min": 0.3,
+"max": 0.5
+},
+{
+"k": "ashare",
+"n": {
+"en": "Agent share",
+"ar": "نصيب الوسيط"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={commission}*{split}"
+},
+{
+"k": "net",
+"n": {
+"en": "Office net",
+"ar": "صافي المكتب"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={commission}-{ashare}",
+"cf": "databar"
+},
+{
+"k": "pay",
+"n": {
+"en": "Payment",
+"ar": "الدفع"
+},
+"t": "list",
+"l": "payst"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Deals closed",
+"ar": "صفقات مغلقة"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Deals value",
+"ar": "قيمة الصفقات"
+},
+"a": "sum",
+"f": "value",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Commission",
+"ar": "العمولات"
+},
+"a": "sum",
+"f": "commission",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Office net",
+"ar": "صافي المكتب"
+},
+"a": "sum",
+"f": "net",
+"fmt": "money"
+}
+],
+"rep": {
+"date": "date",
+"val": "commission",
+"agg": "sum",
+"by": [
+"dtype",
+"agent",
+"pay"
+]
+}
+},
+{
+"id": "invoices",
+"g": "money",
+"n": {
+"en": "Invoices & collection",
+"ar": "الفواتير والتحصيل"
+},
+"d": {
+"en": "Commission invoices with tax, due date, amount collected and balance.",
+"ar": "فواتير العمولات بالضريبة وتاريخ الاستحقاق والمبلغ المحصل والمتبقي."
+},
+"prefix": "INV",
+"rows": 30,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Invoice no.",
+"ar": "رقم الفاتورة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Invoice date",
+"ar": "تاريخ الفاتورة"
+},
+"t": "date"
+},
+{
+"k": "deal",
+"n": {
+"en": "Deal ID",
+"ar": "رقم الصفقة"
+},
+"t": "ref",
+"m": "deals"
+},
+{
+"k": "client",
+"n": {
+"en": "Bill to",
+"ar": "العميل"
+},
+"t": "calc",
+"fmt": "text",
+"f": "={@deals.cname|deal}"
+},
+{
+"k": "amount",
+"n": {
+"en": "Amount",
+"ar": "المبلغ"
+},
+"t": "money",
+"min": 2000,
+"max": 60000,
+"step": 100
+},
+{
+"k": "vat",
+"n": {
+"en": "Tax %",
+"ar": "الضريبة %"
+},
+"t": "pct",
+"min": 0.05,
+"max": 0.15
+},
+{
+"k": "tax",
+"n": {
+"en": "Tax",
+"ar": "الضريبة"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={amount}*{vat}"
+},
+{
+"k": "total",
+"n": {
+"en": "Total",
+"ar": "الإجمالي"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={amount}+{tax}"
+},
+{
+"k": "due",
+"n": {
+"en": "Due date",
+"ar": "الاستحقاق"
+},
+"t": "date",
+"rel": "date",
+"min": 7,
+"max": 30,
+"cf": "overdue"
+},
+{
+"k": "paid",
+"n": {
+"en": "Collected",
+"ar": "المحصل"
+},
+"t": "money",
+"min": 0,
+"max": 60000,
+"step": 100,
+"eq": "amount"
+},
+{
+"k": "balance",
+"n": {
+"en": "Balance",
+"ar": "المتبقي"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=MAX(0,{total}-{paid})",
+"cf": "databar"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "payst"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Invoiced",
+"ar": "المفوتر"
+},
+"a": "sum",
+"f": "total",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Collected",
+"ar": "المحصل"
+},
+"a": "sum",
+"f": "paid",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Outstanding",
+"ar": "المتبقي"
+},
+"a": "sum",
+"f": "balance",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Collection rate",
+"ar": "نسبة التحصيل"
+},
+"a": "ratio",
+"f": "paid",
+"f2": "total",
+"fmt": "pct"
+}
+],
+"rep": {
+"date": "date",
+"val": "total",
+"agg": "sum",
+"by": [
+"status"
+]
+}
+},
+{
+"id": "expenses",
+"g": "money",
+"n": {
+"en": "Office expenses",
+"ar": "مصروفات المكتب"
+},
+"d": {
+"en": "Every expense with category, vendor, tax and payment method.",
+"ar": "كل مصروف ببنده ومورده وضريبته وطريقة دفعه."
+},
+"prefix": "EX",
+"rows": 45,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Expense ID",
+"ar": "رقم المصروف"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Date",
+"ar": "التاريخ"
+},
+"t": "date"
+},
+{
+"k": "cat",
+"n": {
+"en": "Category",
+"ar": "البند"
+},
+"t": "list",
+"l": "expcat"
+},
+{
+"k": "desc",
+"n": {
+"en": "Description",
+"ar": "الوصف"
+},
+"t": "text",
+"s": "note"
+},
+{
+"k": "vendor",
+"n": {
+"en": "Vendor",
+"ar": "المورد"
+},
+"t": "text",
+"s": "company"
+},
+{
+"k": "amount",
+"n": {
+"en": "Amount",
+"ar": "المبلغ"
+},
+"t": "money",
+"min": 100,
+"max": 15000,
+"step": 50
+},
+{
+"k": "vat",
+"n": {
+"en": "Tax %",
+"ar": "الضريبة %"
+},
+"t": "pct",
+"min": 0.0,
+"max": 0.15
+},
+{
+"k": "total",
+"n": {
+"en": "Total",
+"ar": "الإجمالي"
+},
+"t": "calc",
+"fmt": "money",
+"f": "={amount}*(1+{vat})",
+"cf": "databar"
+},
+{
+"k": "method",
+"n": {
+"en": "Paid by",
+"ar": "طريقة الدفع"
+},
+"t": "list",
+"l": "paym"
+},
+{
+"k": "ref",
+"n": {
+"en": "Receipt no.",
+"ar": "رقم الإيصال"
+},
+"t": "text",
+"s": "code"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Total spent",
+"ar": "إجمالي المصروف"
+},
+"a": "sum",
+"f": "total",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Marketing spend",
+"ar": "مصروف التسويق"
+},
+"a": "sum",
+"f": "total",
+"w": [
+[
+"cat",
+2
+]
+],
+"fmt": "money"
+},
+{
+"n": {
+"en": "Average expense",
+"ar": "متوسط المصروف"
+},
+"a": "avg",
+"f": "total",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Entries",
+"ar": "القيود"
+},
+"a": "count"
+}
+],
+"rep": {
+"date": "date",
+"val": "total",
+"agg": "sum",
+"by": [
+"cat",
+"method"
+]
+}
+},
+{
+"id": "agents",
+"g": "team",
+"n": {
+"en": "Agents & targets",
+"ar": "الوسطاء والمستهدفات"
+},
+"d": {
+"en": "Each agent's target, deals, commission generated, viewings and achievement - all calculated live.",
+"ar": "مستهدف كل وسيط وصفقاته وعمولاته ومعايناته ونسبة إنجازه - تُحسب تلقائياً."
+},
+"prefix": "AG",
+"rows": 5,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Agent ID",
+"ar": "رقم الوسيط"
+},
+"t": "id"
+},
+{
+"k": "name",
+"n": {
+"en": "Agent",
+"ar": "الوسيط"
+},
+"t": "list",
+"l": "agent",
+"seq": true
+},
+{
+"k": "role",
+"n": {
+"en": "Role",
+"ar": "الدور"
+},
+"t": "list",
+"l": "arole"
+},
+{
+"k": "phone",
+"n": {
+"en": "Phone",
+"ar": "الجوال"
+},
+"t": "text",
+"s": "phone"
+},
+{
+"k": "joined",
+"n": {
+"en": "Joined",
+"ar": "تاريخ الانضمام"
+},
+"t": "date",
+"past": 900,
+"future": 0
+},
+{
+"k": "target",
+"n": {
+"en": "Annual commission target",
+"ar": "المستهدف السنوي"
+},
+"t": "money",
+"min": 60000,
+"max": 240000,
+"step": 5000
+},
+{
+"k": "deals",
+"n": {
+"en": "Deals",
+"ar": "الصفقات"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=COUNTIF({#deals.agent},{name})"
+},
+{
+"k": "gen",
+"n": {
+"en": "Commission generated",
+"ar": "العمولة المحققة"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=SUMIFS({#deals.commission},{#deals.agent},{name})"
+},
+{
+"k": "ach",
+"n": {
+"en": "Achievement",
+"ar": "نسبة الإنجاز"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({gen}/{target},0)",
+"cf": "databar"
+},
+{
+"k": "views",
+"n": {
+"en": "Viewings",
+"ar": "المعاينات"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=COUNTIF({#viewings.agent},{name})"
+},
+{
+"k": "leads",
+"n": {
+"en": "Clients",
+"ar": "العملاء"
+},
+"t": "calc",
+"fmt": "int",
+"f": "=COUNTIF({#leads.agent},{name})"
+},
+{
+"k": "conv",
+"n": {
+"en": "Lead to deal",
+"ar": "تحويل العملاء"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR({deals}/{leads},0)"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Agents",
+"ar": "الوسطاء"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Team target",
+"ar": "مستهدف الفريق"
+},
+"a": "sum",
+"f": "target",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Generated",
+"ar": "المحقق"
+},
+"a": "sum",
+"f": "gen",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Best achievement",
+"ar": "أعلى إنجاز"
+},
+"a": "max",
+"f": "ach",
+"fmt": "pct"
+}
+],
+"rep": {
+"val": "gen",
+"agg": "sum",
+"by": [
+"role"
+]
+}
+},
+{
+"id": "marketing",
+"g": "team",
+"n": {
+"en": "Marketing campaigns",
+"ar": "الحملات التسويقية"
+},
+"d": {
+"en": "Spend, reach, leads, cost per lead, deals and return for every campaign.",
+"ar": "الإنفاق والوصول والعملاء وتكلفة العميل والصفقات والعائد لكل حملة."
+},
+"prefix": "MK",
+"rows": 24,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Campaign ID",
+"ar": "رقم الحملة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Start date",
+"ar": "تاريخ البدء"
+},
+"t": "date"
+},
+{
+"k": "name",
+"n": {
+"en": "Campaign",
+"ar": "الحملة"
+},
+"t": "text",
+"s": {
+"en": [
+"Spring launch",
+"Luxury homes",
+"Weekend open house",
+"New towers",
+"Investors week",
+"Price drop alert"
+],
+"ar": [
+"إطلاق الربيع",
+"المنازل الفاخرة",
+"يوم مفتوح",
+"الأبراج الجديدة",
+"أسبوع المستثمرين",
+"تنبيه تخفيض"
+]
+},
+"w": 20
+},
+{
+"k": "channel",
+"n": {
+"en": "Channel",
+"ar": "القناة"
+},
+"t": "list",
+"l": "channel"
+},
+{
+"k": "listing",
+"n": {
+"en": "Listing ID",
+"ar": "رقم العرض"
+},
+"t": "ref",
+"m": "listings"
+},
+{
+"k": "spend",
+"n": {
+"en": "Spend",
+"ar": "الإنفاق"
+},
+"t": "money",
+"min": 300,
+"max": 9000,
+"step": 50
+},
+{
+"k": "reach",
+"n": {
+"en": "Reach",
+"ar": "الوصول"
+},
+"t": "int",
+"min": 2000,
+"max": 120000
+},
+{
+"k": "leads",
+"n": {
+"en": "Leads",
+"ar": "العملاء"
+},
+"t": "int",
+"min": 2,
+"max": 70
+},
+{
+"k": "cpl",
+"n": {
+"en": "Cost per lead",
+"ar": "تكلفة العميل"
+},
+"t": "calc",
+"fmt": "money",
+"f": "=IFERROR({spend}/{leads},0)",
+"cf": "scale_r"
+},
+{
+"k": "deals",
+"n": {
+"en": "Deals",
+"ar": "الصفقات"
+},
+"t": "int",
+"min": 0,
+"max": 4
+},
+{
+"k": "revenue",
+"n": {
+"en": "Commission earned",
+"ar": "العمولة المحققة"
+},
+"t": "money",
+"min": 0,
+"max": 70000,
+"step": 500
+},
+{
+"k": "roi",
+"n": {
+"en": "ROI",
+"ar": "العائد"
+},
+"t": "calc",
+"fmt": "pct",
+"f": "=IFERROR(({revenue}-{spend})/{spend},0)",
+"cf": "scale"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Spend",
+"ar": "الإنفاق"
+},
+"a": "sum",
+"f": "spend",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Leads generated",
+"ar": "العملاء الناتجون"
+},
+"a": "sum",
+"f": "leads"
+},
+{
+"n": {
+"en": "Avg cost per lead",
+"ar": "متوسط تكلفة العميل"
+},
+"a": "avg",
+"f": "cpl",
+"fmt": "money"
+},
+{
+"n": {
+"en": "Avg ROI",
+"ar": "متوسط العائد"
+},
+"a": "avg",
+"f": "roi",
+"fmt": "pct"
+}
+],
+"rep": {
+"date": "date",
+"val": "spend",
+"agg": "sum",
+"by": [
+"channel"
+]
+}
+},
+{
+"id": "tasks",
+"g": "team",
+"n": {
+"en": "Tasks & follow-ups",
+"ar": "المهام والمتابعات"
+},
+"d": {
+"en": "Every to-do with owner, priority and due date; late items turn red.",
+"ar": "كل مهمة بالمسؤول والأولوية والاستحقاق؛ المتأخر يظهر بالأحمر."
+},
+"prefix": "TS",
+"rows": 35,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Task ID",
+"ar": "رقم المهمة"
+},
+"t": "id"
+},
+{
+"k": "date",
+"n": {
+"en": "Created",
+"ar": "تاريخ الإنشاء"
+},
+"t": "date"
+},
+{
+"k": "task",
+"n": {
+"en": "Task",
+"ar": "المهمة"
+},
+"t": "text",
+"s": {
+"en": [
+"Call back client",
+"Send contract draft",
+"Book photographer",
+"Renew portal ad",
+"Collect documents",
+"Arrange viewing",
+"Update price",
+"Visit owner"
+],
+"ar": [
+"معاودة الاتصال بالعميل",
+"إرسال مسودة العقد",
+"حجز المصور",
+"تجديد إعلان المنصة",
+"جمع المستندات",
+"ترتيب معاينة",
+"تحديث السعر",
+"زيارة المالك"
+]
+},
+"w": 26
+},
+{
+"k": "rel",
+"n": {
+"en": "Related to",
+"ar": "مرتبطة بـ"
+},
+"t": "list",
+"l": "related"
+},
+{
+"k": "agent",
+"n": {
+"en": "Owner",
+"ar": "المسؤول"
+},
+"t": "list",
+"l": "agent"
+},
+{
+"k": "prio",
+"n": {
+"en": "Priority",
+"ar": "الأولوية"
+},
+"t": "list",
+"l": "priority"
+},
+{
+"k": "due",
+"n": {
+"en": "Due date",
+"ar": "الاستحقاق"
+},
+"t": "date",
+"rel": "date",
+"min": 1,
+"max": 25,
+"cf": "overdue"
+},
+{
+"k": "status",
+"n": {
+"en": "Status",
+"ar": "الحالة"
+},
+"t": "list",
+"l": "tstatus"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Open tasks",
+"ar": "مهام مفتوحة"
+},
+"a": "count",
+"w": [
+[
+"status",
+0
+]
+]
+},
+{
+"n": {
+"en": "In progress",
+"ar": "قيد التنفيذ"
+},
+"a": "count",
+"w": [
+[
+"status",
+1
+]
+]
+},
+{
+"n": {
+"en": "Completion",
+"ar": "نسبة الإنجاز"
+},
+"a": "pct",
+"w": [
+[
+"status",
+2
+]
+],
+"fmt": "pct"
+},
+{
+"n": {
+"en": "Urgent",
+"ar": "عاجلة"
+},
+"a": "count",
+"w": [
+[
+"prio",
+0
+]
+]
+}
+],
+"rep": {
+"date": "date",
+"by": [
+"status",
+"prio",
+"agent"
+]
+}
+},
+{
+"id": "licenses",
+"g": "team",
+"n": {
+"en": "Licenses & compliance",
+"ar": "الرخص والامتثال"
+},
+"d": {
+"en": "Licenses, permits and insurance with expiry alerts and renewal cost.",
+"ar": "الرخص والتصاريح والتأمين مع تنبيه الانتهاء وتكلفة التجديد."
+},
+"prefix": "DOC",
+"rows": 6,
+"fields": [
+{
+"k": "id",
+"n": {
+"en": "Ref",
+"ar": "المرجع"
+},
+"t": "id"
+},
+{
+"k": "doc",
+"n": {
+"en": "Document",
+"ar": "المستند"
+},
+"t": "list",
+"l": "doctype",
+"seq": true
+},
+{
+"k": "holder",
+"n": {
+"en": "Holder",
+"ar": "صاحب المستند"
+},
+"t": "text",
+"s": "company"
+},
+{
+"k": "number",
+"n": {
+"en": "Number",
+"ar": "الرقم"
+},
+"t": "text",
+"s": "code"
+},
+{
+"k": "issue",
+"n": {
+"en": "Issued",
+"ar": "تاريخ الإصدار"
+},
+"t": "date",
+"past": 500,
+"future": 0
+},
+{
+"k": "expiry",
+"n": {
+"en": "Expires",
+"ar": "تاريخ الانتهاء"
+},
+"t": "date",
+"rel": "issue",
+"min": 200,
+"max": 700,
+"cf": "soon"
+},
+{
+"k": "cost",
+"n": {
+"en": "Renewal cost",
+"ar": "تكلفة التجديد"
+},
+"t": "money",
+"min": 200,
+"max": 6000,
+"step": 50
+},
+{
+"k": "state",
+"n": {
+"en": "State",
+"ar": "الوضع"
+},
+"t": "calc",
+"fmt": "text",
+"f": "=IF({expiry}<TODAY(),{tx:Expired/منتهي},IF({expiry}<=TODAY()+30,{tx:Renew now/جدّد الآن},{tx:Valid/ساري}))"
+}
+],
+"kpis": [
+{
+"n": {
+"en": "Documents",
+"ar": "المستندات"
+},
+"a": "count"
+},
+{
+"n": {
+"en": "Renewal budget",
+"ar": "ميزانية التجديد"
+},
+"a": "sum",
+"f": "cost",
+"fmt": "money"
+}
+]
+}
+],
+"calculators": [
+{
+"id": "csplit",
+"g": "money",
+"n": {
+"en": "Commission split",
+"ar": "تقسيم العمولة"
+},
+"d": {
+"en": "From deal value to the office's net after tax, agent, team leader and referral shares.",
+"ar": "من قيمة الصفقة إلى صافي المكتب بعد الضريبة ونصيب الوسيط وقائد الفريق والإحالة."
+},
+"inputs": [
+{
+"k": "value",
+"n": {
+"en": "Deal value",
+"ar": "قيمة الصفقة"
+},
+"fmt": "money",
+"v": 850000
+},
+{
+"k": "rate",
+"n": {
+"en": "Commission %",
+"ar": "نسبة العمولة"
+},
+"fmt": "pct",
+"v": 0.025
+},
+{
+"k": "vat",
+"n": {
+"en": "Tax on commission %",
+"ar": "ضريبة العمولة %"
+},
+"fmt": "pct",
+"v": 0.15
+},
+{
+"k": "agent",
+"n": {
+"en": "Agent split %",
+"ar": "نصيب الوسيط %"
+},
+"fmt": "pct",
+"v": 0.4
+},
+{
+"k": "lead",
+"n": {
+"en": "Team leader override %",
+"ar": "نصيب قائد الفريق %"
+},
+"fmt": "pct",
+"v": 0.05
+},
+{
+"k": "ref",
+"n": {
+"en": "Referral fee %",
+"ar": "عمولة الإحالة %"
+},
+"fmt": "pct",
+"v": 0.1
+}
+],
+"outputs": [
+{
+"k": "gross",
+"n": {
+"en": "Gross commission",
+"ar": "العمولة الإجمالية"
+},
+"fmt": "money",
+"f": "{value}*{rate}"
+},
+{
+"k": "tax",
+"n": {
+"en": "Tax to collect",
+"ar": "الضريبة المحصلة"
+},
+"fmt": "money",
+"f": "{gross}*{vat}"
+},
+{
+"k": "inv",
+"n": {
+"en": "Invoice total",
+"ar": "إجمالي الفاتورة"
+},
+"fmt": "money",
+"f": "{gross}+{tax}"
+},
+{
+"k": "refp",
+"n": {
+"en": "Referral fee",
+"ar": "عمولة الإحالة"
+},
+"fmt": "money",
+"f": "{gross}*{ref}"
+},
+{
+"k": "ag",
+"n": {
+"en": "Agent share",
+"ar": "نصيب الوسيط"
+},
+"fmt": "money",
+"f": "({gross}-{refp})*{agent}"
+},
+{
+"k": "tl",
+"n": {
+"en": "Team leader share",
+"ar": "نصيب قائد الفريق"
+},
+"fmt": "money",
+"f": "({gross}-{refp})*{lead}"
+},
+{
+"k": "net",
+"n": {
+"en": "Office net",
+"ar": "صافي المكتب"
+},
+"fmt": "money",
+"f": "{gross}-{refp}-{ag}-{tl}",
+"hl": true
+},
+{
+"k": "netp",
+"n": {
+"en": "Office keeps",
+"ar": "نسبة المكتب"
+},
+"fmt": "pct",
+"f": "IFERROR({net}/{gross},0)"
+}
+]
+},
+{
+"id": "cma",
+"g": "stock",
+"n": {
+"en": "Price estimator (comparables)",
+"ar": "مقدّر السعر بالمقارنات"
+},
+"d": {
+"en": "Estimate a fair asking price from three comparable sales and your adjustments.",
+"ar": "قدّر السعر العادل من ثلاث صفقات مشابهة مع تعديلاتك."
+},
+"inputs": [
+{
+"k": "area",
+"n": {
+"en": "Subject area m²",
+"ar": "مساحة العقار م²"
+},
+"fmt": "int",
+"v": 220
+},
+{
+"k": "p1",
+"n": {
+"en": "Comparable 1 price",
+"ar": "سعر المقارن 1"
+},
+"fmt": "money",
+"v": 900000
+},
+{
+"k": "a1",
+"n": {
+"en": "Comparable 1 area m²",
+"ar": "مساحة المقارن 1"
+},
+"fmt": "int",
+"v": 240
+},
+{
+"k": "p2",
+"n": {
+"en": "Comparable 2 price",
+"ar": "سعر المقارن 2"
+},
+"fmt": "money",
+"v": 780000
+},
+{
+"k": "a2",
+"n": {
+"en": "Comparable 2 area m²",
+"ar": "مساحة المقارن 2"
+},
+"fmt": "int",
+"v": 200
+},
+{
+"k": "p3",
+"n": {
+"en": "Comparable 3 price",
+"ar": "سعر المقارن 3"
+},
+"fmt": "money",
+"v": 1050000
+},
+{
+"k": "a3",
+"n": {
+"en": "Comparable 3 area m²",
+"ar": "مساحة المقارن 3"
+},
+"fmt": "int",
+"v": 265
+},
+{
+"k": "cond",
+"n": {
+"en": "Condition adjustment %",
+"ar": "تعديل الحالة %"
+},
+"fmt": "pct",
+"v": 0.03
+},
+{
+"k": "loc",
+"n": {
+"en": "Location / view adjustment %",
+"ar": "تعديل الموقع والإطلالة %"
+},
+"fmt": "pct",
+"v": 0.02
+},
+{
+"k": "age",
+"n": {
+"en": "Age adjustment %",
+"ar": "تعديل العمر %"
+},
+"fmt": "pct",
+"v": -0.02
+}
+],
+"outputs": [
+{
+"k": "avg",
+"n": {
+"en": "Average price per m²",
+"ar": "متوسط سعر المتر"
+},
+"fmt": "money",
+"f": "AVERAGE({p1}/{a1},{p2}/{a2},{p3}/{a3})"
+},
+{
+"k": "adj",
+"n": {
+"en": "Adjusted price per m²",
+"ar": "سعر المتر المعدّل"
+},
+"fmt": "money",
+"f": "{avg}*(1+{cond}+{loc}+{age})"
+},
+{
+"k": "est",
+"n": {
+"en": "Estimated value",
+"ar": "القيمة التقديرية"
+},
+"fmt": "money",
+"f": "ROUND({adj}*{area},-3)",
+"hl": true
+},
+{
+"k": "low",
+"n": {
+"en": "Quick-sale price (-5%)",
+"ar": "سعر البيع السريع (-5%)"
+},
+"fmt": "money",
+"f": "ROUND({est}*0.95,-3)"
+},
+{
+"k": "high",
+"n": {
+"en": "Ambitious ask (+5%)",
+"ar": "سعر طموح (+5%)"
+},
+"fmt": "money",
+"f": "ROUND({est}*1.05,-3)"
+},
+{
+"k": "spread",
+"n": {
+"en": "Comparables spread",
+"ar": "تباين المقارنات"
+},
+"fmt": "pct",
+"f": "IFERROR((MAX({p1}/{a1},{p2}/{a2},{p3}/{a3})-MIN({p1}/{a1},{p2}/{a2},{p3}/{a3}))/{avg},0)"
+}
+]
+},
+{
+"id": "afford",
+"g": "sales",
+"n": {
+"en": "Buyer affordability",
+"ar": "القدرة الشرائية للعميل"
+},
+"d": {
+"en": "How much a buyer can really afford from income, debts and financing terms.",
+"ar": "كم يستطيع العميل أن يشتري فعلاً حسب دخله والتزاماته وشروط التمويل."
+},
+"inputs": [
+{
+"k": "inc",
+"n": {
+"en": "Monthly income",
+"ar": "الدخل الشهري"
+},
+"fmt": "money",
+"v": 25000
+},
+{
+"k": "debt",
+"n": {
+"en": "Other monthly debts",
+"ar": "التزامات شهرية أخرى"
+},
+"fmt": "money",
+"v": 3000
+},
+{
+"k": "dti",
+"n": {
+"en": "Max debt-to-income %",
+"ar": "أقصى نسبة استقطاع %"
+},
+"fmt": "pct",
+"v": 0.45
+},
+{
+"k": "down",
+"n": {
+"en": "Cash for down payment",
+"ar": "المبلغ المتاح للدفعة الأولى"
+},
+"fmt": "money",
+"v": 200000
+},
+{
+"k": "rate",
+"n": {
+"en": "Annual profit/interest rate",
+"ar": "نسبة التمويل السنوية"
+},
+"fmt": "pct",
+"v": 0.055
+},
+{
+"k": "yrs",
+"n": {
+"en": "Term (years)",
+"ar": "المدة (سنوات)"
+},
+"fmt": "int",
+"v": 25
+}
+],
+"outputs": [
+{
+"k": "pay",
+"n": {
+"en": "Max monthly installment",
+"ar": "أقصى قسط شهري"
+},
+"fmt": "money",
+"f": "MAX(0,{inc}*{dti}-{debt})"
+},
+{
+"k": "loan",
+"n": {
+"en": "Max financing",
+"ar": "أقصى تمويل"
+},
+"fmt": "money",
+"f": "PV({rate}/12,{yrs}*12,-{pay})"
+},
+{
+"k": "price",
+"n": {
+"en": "Max property price",
+"ar": "أقصى سعر للعقار"
+},
+"fmt": "money",
+"f": "ROUND({loan}+{down},-3)",
+"hl": true
+},
+{
+"k": "ltv",
+"n": {
+"en": "Financing share",
+"ar": "نسبة التمويل"
+},
+"fmt": "pct",
+"f": "IFERROR({loan}/{price},0)"
+},
+{
+"k": "tot",
+"n": {
+"en": "Total repaid",
+"ar": "إجمالي المسدد"
+},
+"fmt": "money",
+"f": "{pay}*{yrs}*12"
+}
+]
+},
+{
+"id": "mort",
+"g": "sales",
+"n": {
+"en": "Mortgage & amortization",
+"ar": "التمويل وجدول السداد"
+},
+"d": {
+"en": "Monthly installment and the full repayment schedule with remaining balance.",
+"ar": "القسط الشهري وجدول السداد الكامل بالرصيد المتبقي."
+},
+"inputs": [
+{
+"k": "price",
+"n": {
+"en": "Property price",
+"ar": "سعر العقار"
+},
+"fmt": "money",
+"v": 900000
+},
+{
+"k": "down",
+"n": {
+"en": "Down payment %",
+"ar": "الدفعة الأولى %"
+},
+"fmt": "pct",
+"v": 0.2
+},
+{
+"k": "rate",
+"n": {
+"en": "Annual rate",
+"ar": "النسبة السنوية"
+},
+"fmt": "pct",
+"v": 0.055
+},
+{
+"k": "yrs",
+"n": {
+"en": "Term (years)",
+"ar": "المدة (سنوات)"
+},
+"fmt": "int",
+"v": 20
+}
+],
+"outputs": [
+{
+"k": "loan",
+"n": {
+"en": "Financed amount",
+"ar": "مبلغ التمويل"
+},
+"fmt": "money",
+"f": "{price}*(1-{down})"
+},
+{
+"k": "pmt",
+"n": {
+"en": "Monthly installment",
+"ar": "القسط الشهري"
+},
+"fmt": "money",
+"f": "PMT({rate}/12,{yrs}*12,-{loan})",
+"hl": true
+},
+{
+"k": "tot",
+"n": {
+"en": "Total paid",
+"ar": "إجمالي المدفوع"
+},
+"fmt": "money",
+"f": "{pmt}*{yrs}*12+{price}*{down}"
+},
+{
+"k": "cost",
+"n": {
+"en": "Total financing cost",
+"ar": "تكلفة التمويل"
+},
+"fmt": "money",
+"f": "{pmt}*{yrs}*12-{loan}"
+}
+],
+"table": {
+"title": {
+"en": "Repayment schedule",
+"ar": "جدول السداد"
+},
+"rows": 360,
+"cols": [
+{
+"k": "int",
+"n": {
+"en": "Profit / interest",
+"ar": "الربح / الفائدة"
+},
+"fmt": "money",
+"f": "{p:bal}*{rate}/12",
+"f0": "{loan}*{rate}/12"
+},
+{
+"k": "prin",
+"n": {
+"en": "Principal",
+"ar": "أصل الدين"
+},
+"fmt": "money",
+"f": "{pmt}-{c:int}",
+"f0": "{pmt}-{c:int}"
+},
+{
+"k": "bal",
+"n": {
+"en": "Balance",
+"ar": "الرصيد"
+},
+"fmt": "money",
+"f": "MAX(0,{p:bal}-{c:prin})",
+"f0": "{loan}-{c:prin}"
+}
+],
+"while": "{n}<={yrs}*12",
+"chart": {
+"t": "line",
+"cols": [
+"bal"
+]
+}
+}
+},
+{
+"id": "yield",
+"g": "stock",
+"n": {
+"en": "Rental yield for owners",
+"ar": "العائد الإيجاري للملاك"
+},
+"d": {
+"en": "Gross and net yield, cap rate and payback - the numbers owners ask for.",
+"ar": "العائد الإجمالي والصافي ومعدل الرسملة وسنوات الاسترداد - الأرقام التي يسأل عنها الملاك."
+},
+"inputs": [
+{
+"k": "price",
+"n": {
+"en": "Property value",
+"ar": "قيمة العقار"
+},
+"fmt": "money",
+"v": 1200000
+},
+{
+"k": "rent",
+"n": {
+"en": "Annual rent",
+"ar": "الإيجار السنوي"
+},
+"fmt": "money",
+"v": 84000
+},
+{
+"k": "vac",
+"n": {
+"en": "Vacancy %",
+"ar": "نسبة الشغور %"
+},
+"fmt": "pct",
+"v": 0.05
+},
+{
+"k": "opex",
+"n": {
+"en": "Operating costs % of rent",
+"ar": "التكاليف التشغيلية %"
+},
+"fmt": "pct",
+"v": 0.15
+},
+{
+"k": "fees",
+"n": {
+"en": "Purchase costs %",
+"ar": "تكاليف الشراء %"
+},
+"fmt": "pct",
+"v": 0.05
+}
+],
+"outputs": [
+{
+"k": "gross",
+"n": {
+"en": "Gross yield",
+"ar": "العائد الإجمالي"
+},
+"fmt": "pct",
+"f": "{rent}/{price}"
+},
+{
+"k": "noi",
+"n": {
+"en": "Net operating income",
+"ar": "صافي الدخل التشغيلي"
+},
+"fmt": "money",
+"f": "{rent}*(1-{vac})*(1-{opex})"
+},
+{
+"k": "net",
+"n": {
+"en": "Net yield",
+"ar": "العائد الصافي"
+},
+"fmt": "pct",
+"f": "{noi}/({price}*(1+{fees}))",
+"hl": true
+},
+{
+"k": "cap",
+"n": {
+"en": "Cap rate",
+"ar": "معدل الرسملة"
+},
+"fmt": "pct",
+"f": "{noi}/{price}"
+},
+{
+"k": "pay",
+"n": {
+"en": "Payback (years)",
+"ar": "سنوات الاسترداد"
+},
+"fmt": "years",
+"f": "({price}*(1+{fees}))/{noi}"
+}
+]
+},
+{
+"id": "mroi",
+"g": "team",
+"n": {
+"en": "Marketing budget planner",
+"ar": "مخطط ميزانية التسويق"
+},
+"d": {
+"en": "Turn a budget into leads, viewings, deals and commission before you spend.",
+"ar": "حوّل الميزانية إلى عملاء ومعاينات وصفقات وعمولة قبل أن تنفق."
+},
+"inputs": [
+{
+"k": "bud",
+"n": {
+"en": "Monthly budget",
+"ar": "الميزانية الشهرية"
+},
+"fmt": "money",
+"v": 8000
+},
+{
+"k": "cpl",
+"n": {
+"en": "Expected cost per lead",
+"ar": "تكلفة العميل المتوقعة"
+},
+"fmt": "money",
+"v": 120
+},
+{
+"k": "lv",
+"n": {
+"en": "Lead to viewing %",
+"ar": "من عميل إلى معاينة %"
+},
+"fmt": "pct",
+"v": 0.3
+},
+{
+"k": "vd",
+"n": {
+"en": "Viewing to deal %",
+"ar": "من معاينة إلى صفقة %"
+},
+"fmt": "pct",
+"v": 0.12
+},
+{
+"k": "avg",
+"n": {
+"en": "Average commission per deal",
+"ar": "متوسط العمولة للصفقة"
+},
+"fmt": "money",
+"v": 18000
+}
+],
+"outputs": [
+{
+"k": "leads",
+"n": {
+"en": "Leads",
+"ar": "العملاء"
+},
+"fmt": "int",
+"f": "{bud}/{cpl}"
+},
+{
+"k": "views",
+"n": {
+"en": "Viewings",
+"ar": "المعاينات"
+},
+"fmt": "num",
+"f": "{leads}*{lv}"
+},
+{
+"k": "deals",
+"n": {
+"en": "Deals",
+"ar": "الصفقات"
+},
+"fmt": "num",
+"f": "{views}*{vd}"
+},
+{
+"k": "rev",
+"n": {
+"en": "Commission",
+"ar": "العمولة"
+},
+"fmt": "money",
+"f": "{deals}*{avg}"
+},
+{
+"k": "roi",
+"n": {
+"en": "Return on marketing",
+"ar": "عائد التسويق"
+},
+"fmt": "pct",
+"f": "IFERROR(({rev}-{bud})/{bud},0)",
+"hl": true
+},
+{
+"k": "cpa",
+"n": {
+"en": "Cost per deal",
+"ar": "تكلفة الصفقة"
+},
+"fmt": "money",
+"f": "IFERROR({bud}/{deals},0)"
+}
+]
+},
+{
+"id": "target",
+"g": "team",
+"n": {
+"en": "Agent target planner",
+"ar": "مخطط مستهدف الوسيط"
+},
+"d": {
+"en": "From the income an agent wants to the leads, viewings and deals needed each month.",
+"ar": "من الدخل الذي يريده الوسيط إلى العملاء والمعاينات والصفقات المطلوبة شهرياً."
+},
+"inputs": [
+{
+"k": "inc",
+"n": {
+"en": "Agent annual income goal",
+"ar": "دخل الوسيط السنوي المستهدف"
+},
+"fmt": "money",
+"v": 180000
+},
+{
+"k": "split",
+"n": {
+"en": "Agent split %",
+"ar": "نصيب الوسيط %"
+},
+"fmt": "pct",
+"v": 0.4
+},
+{
+"k": "deal",
+"n": {
+"en": "Average deal value",
+"ar": "متوسط قيمة الصفقة"
+},
+"fmt": "money",
+"v": 750000
+},
+{
+"k": "rate",
+"n": {
+"en": "Commission %",
+"ar": "نسبة العمولة"
+},
+"fmt": "pct",
+"v": 0.02
+},
+{
+"k": "conv",
+"n": {
+"en": "Lead to deal %",
+"ar": "تحويل العميل إلى صفقة %"
+},
+"fmt": "pct",
+"v": 0.04
+},
+{
+"k": "vd",
+"n": {
+"en": "Viewings per deal",
+"ar": "معاينات لكل صفقة"
+},
+"fmt": "int",
+"v": 8
+}
+],
+"outputs": [
+{
+"k": "per",
+"n": {
+"en": "Agent earns per deal",
+"ar": "دخل الوسيط من الصفقة"
+},
+"fmt": "money",
+"f": "{deal}*{rate}*{split}"
+},
+{
+"k": "deals",
+"n": {
+"en": "Deals per year",
+"ar": "صفقات سنوياً"
+},
+"fmt": "num",
+"f": "{inc}/{per}"
+},
+{
+"k": "dm",
+"n": {
+"en": "Deals per month",
+"ar": "صفقات شهرياً"
+},
+"fmt": "num",
+"f": "{deals}/12",
+"hl": true
+},
+{
+"k": "lm",
+"n": {
+"en": "Leads per month",
+"ar": "عملاء شهرياً"
+},
+"fmt": "int",
+"f": "{deals}/{conv}/12"
+},
+{
+"k": "vw",
+"n": {
+"en": "Viewings per week",
+"ar": "معاينات أسبوعياً"
+},
+"fmt": "num",
+"f": "{deals}*{vd}/52"
+},
+{
+"k": "office",
+"n": {
+"en": "Office commission generated",
+"ar": "عمولة المكتب الناتجة"
+},
+"fmt": "money",
+"f": "{deals}*{deal}*{rate}"
+}
+]
+}
+],
+"checklists": [
+{
+"id": "c_list",
+"g": "stock",
+"n": {
+"en": "New listing intake",
+"ar": "استلام عرض جديد"
+},
+"d": {
+"en": "From the owner's first call to a published, well-priced listing.",
+"ar": "من أول اتصال للمالك حتى عرض منشور بسعر صحيح."
+},
+"steps": [
+{
+"n": {
+"en": "Verify ownership documents and owner identity",
+"ar": "تحقق من صك الملكية وهوية المالك"
+},
+"d": 0,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Sign the mandate (exclusive if possible)",
+"ar": "توقيع التفويض (حصري إن أمكن)"
+},
+"d": 1,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Run the price estimator with three comparables",
+"ar": "تشغيل مقدّر السعر بثلاث مقارنات"
+},
+"d": 1,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Agree the asking price and commission in writing",
+"ar": "الاتفاق كتابياً على السعر والعمولة"
+},
+"d": 2,
+"o": {
+"en": "Sales manager",
+"ar": "مدير المبيعات"
+}
+},
+{
+"n": {
+"en": "Measure the property and record all details",
+"ar": "قياس العقار وتسجيل كل التفاصيل"
+},
+"d": 2,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Professional photos and video tour",
+"ar": "تصوير احترافي وجولة فيديو"
+},
+"d": 4,
+"o": {
+"en": "Marketing",
+"ar": "التسويق"
+}
+},
+{
+"n": {
+"en": "Write the listing in two languages",
+"ar": "كتابة العرض بلغتين"
+},
+"d": 5,
+"o": {
+"en": "Marketing",
+"ar": "التسويق"
+}
+},
+{
+"n": {
+"en": "Obtain the advertising permit if required",
+"ar": "استخراج تصريح الإعلان عند الحاجة"
+},
+"d": 5,
+"o": {
+"en": "Admin",
+"ar": "الإدارة"
+}
+},
+{
+"n": {
+"en": "Publish on portals and the website",
+"ar": "النشر على المنصات والموقع"
+},
+"d": 6,
+"o": {
+"en": "Marketing",
+"ar": "التسويق"
+}
+},
+{
+"n": {
+"en": "Send to matching clients (Clients sheet)",
+"ar": "الإرسال للعملاء المطابقين (صفحة العملاء)"
+},
+"d": 6,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Install signboard / key box",
+"ar": "تركيب اللوحة / صندوق المفاتيح"
+},
+"d": 7,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "First feedback report to the owner",
+"ar": "أول تقرير متابعة للمالك"
+},
+"d": 14,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+}
+]
+},
+{
+"id": "c_sale",
+"g": "money",
+"n": {
+"en": "Sale closing",
+"ar": "إغلاق صفقة بيع"
+},
+"d": {
+"en": "Every step from accepted offer to keys and commission collected.",
+"ar": "كل خطوة من قبول العرض حتى تسليم المفاتيح وتحصيل العمولة."
+},
+"steps": [
+{
+"n": {
+"en": "Written acceptance of the offer by the seller",
+"ar": "قبول البائع للعرض كتابياً"
+},
+"d": 0,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Collect the reservation deposit",
+"ar": "تحصيل عربون الحجز"
+},
+"d": 1,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Check title, liens and outstanding fees",
+"ar": "التحقق من الصك والرهون والرسوم المستحقة"
+},
+"d": 3,
+"o": {
+"en": "Admin",
+"ar": "الإدارة"
+}
+},
+{
+"n": {
+"en": "Buyer financing approval",
+"ar": "موافقة تمويل المشتري"
+},
+"d": 10,
+"o": {
+"en": "Client",
+"ar": "العميل"
+}
+},
+{
+"n": {
+"en": "Valuation by the bank",
+"ar": "تقييم البنك"
+},
+"d": 12,
+"o": {
+"en": "Bank",
+"ar": "البنك"
+}
+},
+{
+"n": {
+"en": "Draft and review the sale contract",
+"ar": "إعداد ومراجعة عقد البيع"
+},
+"d": 14,
+"o": {
+"en": "Sales manager",
+"ar": "مدير المبيعات"
+}
+},
+{
+"n": {
+"en": "Final viewing by the buyer",
+"ar": "المعاينة الأخيرة للمشتري"
+},
+"d": 18,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Transfer of ownership at the authority",
+"ar": "نقل الملكية لدى الجهة المختصة"
+},
+"d": 21,
+"o": {
+"en": "Admin",
+"ar": "الإدارة"
+}
+},
+{
+"n": {
+"en": "Issue the commission invoice",
+"ar": "إصدار فاتورة العمولة"
+},
+"d": 21,
+"o": {
+"en": "Accounts",
+"ar": "الحسابات"
+}
+},
+{
+"n": {
+"en": "Hand over keys and meter readings",
+"ar": "تسليم المفاتيح وقراءات العدادات"
+},
+"d": 22,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Collect the commission",
+"ar": "تحصيل العمولة"
+},
+"d": 30,
+"o": {
+"en": "Accounts",
+"ar": "الحسابات"
+}
+},
+{
+"n": {
+"en": "Ask both parties for a review and referral",
+"ar": "طلب تقييم وتوصية من الطرفين"
+},
+"d": 32,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+}
+]
+},
+{
+"id": "c_lease",
+"g": "money",
+"n": {
+"en": "Lease signing",
+"ar": "توقيع عقد إيجار"
+},
+"d": {
+"en": "Tenant screening to move-in, without missing a document.",
+"ar": "من فحص المستأجر حتى السكن دون نسيان مستند."
+},
+"steps": [
+{
+"n": {
+"en": "Verify tenant identity and income",
+"ar": "التحقق من هوية المستأجر ودخله"
+},
+"d": 0,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Check references from previous landlord",
+"ar": "التحقق من المؤجر السابق"
+},
+"d": 1,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Agree rent, payment schedule and deposit",
+"ar": "الاتفاق على الإيجار والدفعات والتأمين"
+},
+"d": 2,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Prepare the lease from the template",
+"ar": "إعداد العقد من النموذج"
+},
+"d": 2,
+"o": {
+"en": "Admin",
+"ar": "الإدارة"
+}
+},
+{
+"n": {
+"en": "Register the lease where required",
+"ar": "توثيق العقد إلكترونياً عند الاشتراط"
+},
+"d": 3,
+"o": {
+"en": "Admin",
+"ar": "الإدارة"
+}
+},
+{
+"n": {
+"en": "Collect first payment and deposit",
+"ar": "تحصيل الدفعة الأولى والتأمين"
+},
+"d": 3,
+"o": {
+"en": "Accounts",
+"ar": "الحسابات"
+}
+},
+{
+"n": {
+"en": "Move-in inspection with photos",
+"ar": "معاينة الاستلام بالصور"
+},
+"d": 4,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Hand over keys and access cards",
+"ar": "تسليم المفاتيح وبطاقات الدخول"
+},
+"d": 4,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Issue commission invoice",
+"ar": "إصدار فاتورة العمولة"
+},
+"d": 4,
+"o": {
+"en": "Accounts",
+"ar": "الحسابات"
+}
+},
+{
+"n": {
+"en": "Set renewal reminder 60 days before expiry",
+"ar": "تذكير التجديد قبل 60 يوماً"
+},
+"d": 5,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+}
+]
+},
+{
+"id": "c_open",
+"g": "team",
+"n": {
+"en": "Open house",
+"ar": "اليوم المفتوح"
+},
+"d": {
+"en": "Plan an open house that produces offers.",
+"ar": "خطط ليوم مفتوح يُنتج عروضاً."
+},
+"steps": [
+{
+"n": {
+"en": "Pick date and time with the owner",
+"ar": "تحديد الموعد مع المالك"
+},
+"d": 0,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Announce on portals and to matching clients",
+"ar": "الإعلان في المنصات وللعملاء المطابقين"
+},
+"d": 2,
+"o": {
+"en": "Marketing",
+"ar": "التسويق"
+}
+},
+{
+"n": {
+"en": "Prepare brochures and price sheet",
+"ar": "تجهيز الكتيبات وورقة الأسعار"
+},
+"d": 4,
+"o": {
+"en": "Marketing",
+"ar": "التسويق"
+}
+},
+{
+"n": {
+"en": "Clean, light and stage the property",
+"ar": "تنظيف وإضاءة وتجهيز العقار"
+},
+"d": 6,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Directional signs on the day",
+"ar": "لوحات إرشادية يوم الحدث"
+},
+"d": 7,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Register every visitor (Clients sheet)",
+"ar": "تسجيل كل زائر (صفحة العملاء)"
+},
+"d": 7,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Follow up every visitor within 24 hours",
+"ar": "متابعة كل زائر خلال 24 ساعة"
+},
+"d": 8,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Report results to the owner",
+"ar": "تقرير النتائج للمالك"
+},
+"d": 9,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+}
+]
+},
+{
+"id": "c_agent",
+"g": "team",
+"n": {
+"en": "New agent onboarding",
+"ar": "تهيئة وسيط جديد"
+},
+"d": {
+"en": "A new agent productive in two weeks.",
+"ar": "وسيط جديد منتج خلال أسبوعين."
+},
+"steps": [
+{
+"n": {
+"en": "Contract and professional license check",
+"ar": "العقد والتحقق من الرخصة المهنية"
+},
+"d": 0,
+"o": {
+"en": "Sales manager",
+"ar": "مدير المبيعات"
+}
+},
+{
+"n": {
+"en": "Add to Agents sheet with annual target",
+"ar": "الإضافة لصفحة الوسطاء بالمستهدف"
+},
+"d": 0,
+"o": {
+"en": "Sales manager",
+"ar": "مدير المبيعات"
+}
+},
+{
+"n": {
+"en": "Accounts on portals and the CRM",
+"ar": "حسابات المنصات والنظام"
+},
+"d": 1,
+"o": {
+"en": "Admin",
+"ar": "الإدارة"
+}
+},
+{
+"n": {
+"en": "Walk through every page of this workbook",
+"ar": "شرح كل صفحات هذا الملف"
+},
+"d": 1,
+"o": {
+"en": "Sales manager",
+"ar": "مدير المبيعات"
+}
+},
+{
+"n": {
+"en": "Shadow three viewings",
+"ar": "مرافقة ثلاث معاينات"
+},
+"d": 4,
+"o": {
+"en": "Senior agent",
+"ar": "وسيط أول"
+}
+},
+{
+"n": {
+"en": "Learn the districts on the market radar",
+"ar": "التعرف على الأحياء ورادار السوق"
+},
+"d": 5,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "First listing intake under supervision",
+"ar": "أول استلام عرض تحت الإشراف"
+},
+"d": 8,
+"o": {
+"en": "Agent",
+"ar": "الوسيط"
+}
+},
+{
+"n": {
+"en": "Review week two results",
+"ar": "مراجعة نتائج الأسبوع الثاني"
+},
+"d": 14,
+"o": {
+"en": "Sales manager",
+"ar": "مدير المبيعات"
+}
+}
+]
+}
+],
+"forms": [
+{
+"id": "f_mandate",
+"g": "stock",
+"n": {
+"en": "Brokerage agreement",
+"ar": "اتفاقية الوساطة"
+},
+"m": "owners",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "BROKERAGE / MARKETING AGREEMENT",
+"ar": "اتفاقية تسويق ووساطة عقارية"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"name",
+"phone",
+"mandate",
+"mstart",
+"mend"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "The owner {name} appoints {S:biz_name} to market his/her properties under a {mandate} mandate from {mstart} until {mend}. The office will publish, show and negotiate in good faith and report regularly. Commission is due on completion of a deal with any client introduced during the mandate.",
+"ar": "يفوّض المالك {name} منشأة {S:biz_name} بتسويق عقاراته بتفويض ({mandate}) من {mstart} حتى {mend}. تلتزم المنشأة بالنشر والعرض والتفاوض بحسن نية ورفع التقارير بانتظام، وتستحق العمولة عند إتمام صفقة مع أي عميل قدّمته خلال مدة التفويض."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Owner",
+"ar": "المالك"
+},
+{
+"en": "For the office",
+"ar": "عن المنشأة"
+}
+]
+}
+]
+},
+{
+"id": "f_view",
+"g": "sales",
+"n": {
+"en": "Viewing confirmation",
+"ar": "تأكيد موعد معاينة"
+},
+"m": "viewings",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "VIEWING CONFIRMATION",
+"ar": "تأكيد موعد معاينة"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"date",
+"cname",
+"ltitle",
+"agent"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Dear {cname}, we confirm your viewing of \"{ltitle}\" on {date} with {agent}. Please bring your ID. Call us on {S:biz_phone} if you need to change the time.",
+"ar": "عزيزنا {cname}، نؤكد موعد معاينتك لعقار \"{ltitle}\" بتاريخ {date} مع {agent}. نرجو إحضار الهوية، وللتعديل اتصل على {S:biz_phone}."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Client",
+"ar": "العميل"
+},
+{
+"en": "Agent",
+"ar": "الوسيط"
+}
+]
+}
+]
+},
+{
+"id": "f_offer",
+"g": "sales",
+"n": {
+"en": "Offer to purchase",
+"ar": "خطاب عرض شراء"
+},
+"m": "offers",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "OFFER TO PURCHASE",
+"ar": "خطاب عرض شراء"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"date",
+"cname",
+"listing",
+"asking",
+"amount",
+"expiry"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "{cname} offers {amount} for listing {listing} (asking {asking}). This offer is valid until {expiry} and is subject to title verification and a sale contract.",
+"ar": "يقدّم {cname} عرضاً بمبلغ {amount} للعقار رقم {listing} (السعر المطلوب {asking}). العرض صالح حتى {expiry} ومشروط بسلامة الصك وتوقيع عقد البيع."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Buyer",
+"ar": "المشتري"
+},
+{
+"en": "Agent",
+"ar": "الوسيط"
+}
+]
+}
+]
+},
+{
+"id": "f_inv",
+"g": "money",
+"n": {
+"en": "Commission invoice",
+"ar": "فاتورة عمولة"
+},
+"m": "invoices",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "TAX INVOICE - COMMISSION",
+"ar": "فاتورة ضريبية - عمولة"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"date",
+"client",
+"deal",
+"amount",
+"tax",
+"total",
+"due"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Commission for deal {deal}. Please pay {total} by {due}. Thank you for choosing {S:biz_name}.",
+"ar": "عمولة الصفقة رقم {deal}. نرجو سداد {total} قبل {due}. شكراً لاختياركم {S:biz_name}."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Accounts",
+"ar": "الحسابات"
+}
+]
+}
+]
+},
+{
+"id": "f_deal",
+"g": "money",
+"n": {
+"en": "Deal summary",
+"ar": "ملخص الصفقة"
+},
+"m": "deals",
+"blocks": [
+{
+"t": "h",
+"x": {
+"en": "DEAL SUMMARY",
+"ar": "ملخص الصفقة"
+}
+},
+{
+"t": "kv",
+"f": [
+"id",
+"date",
+"dtype",
+"cname",
+"listing",
+"value",
+"commission",
+"agent",
+"ashare",
+"net"
+]
+},
+{
+"t": "p",
+"x": {
+"en": "Approved for payment of the agent share ({ashare}) once the commission is collected.",
+"ar": "يعتمد صرف نصيب الوسيط ({ashare}) بعد تحصيل العمولة."
+}
+},
+{
+"t": "sign",
+"x": [
+{
+"en": "Agent",
+"ar": "الوسيط"
+},
+{
+"en": "Sales manager",
+"ar": "مدير المبيعات"
+}
+]
+}
+]
+}
+],
+"dashboard": {
+"kpis": [
+[
+"listings",
+0
+],
+[
+"leads",
+0
+],
+[
+"leads",
+2
+],
+[
+"deals",
+1
+],
+[
+"deals",
+2
+],
+[
+"deals",
+3
+],
+[
+"viewings",
+1
+],
+[
+"invoices",
+2
+]
+],
+"charts": [
+{
+"m": "deals",
+"by": "month",
+"n": {
+"en": "Commission by month",
+"ar": "العمولات شهرياً"
+}
+},
+{
+"m": "leads",
+"by": "source",
+"n": {
+"en": "Clients by source",
+"ar": "العملاء حسب المصدر"
+}
+},
+{
+"m": "listings",
+"by": "district",
+"t": "bar",
+"n": {
+"en": "Value on market by district",
+"ar": "قيمة المعروض حسب الحي"
+}
+},
+{
+"m": "leads",
+"by": "stage",
+"t": "bar",
+"n": {
+"en": "Pipeline by stage",
+"ar": "العملاء حسب المرحلة"
+},
+"a": "count"
+},
+{
+"m": "viewings",
+"by": "month",
+"t": "line",
+"n": {
+"en": "Viewings per month",
+"ar": "المعاينات شهرياً"
+}
+},
+{
+"m": "expenses",
+"by": "cat",
+"n": {
+"en": "Expenses by category",
+"ar": "المصروفات حسب البند"
+}
+}
+]
+}
+}
