@@ -1,16 +1,19 @@
 #!/bin/sh
-# Dar 3.34.9 — the host's one-time steps, run by a temporary cron job (each step runs once; later runs show its saved output).
+# Dar 3.34.10 — the host's one-time steps, run by a temporary cron job (each step runs once; later runs show its saved output).
 #   sh run.sh check                    — reads the live site (nothing changed)
 #   sh run.sh install <key> <sha256>   — the install by the site's own code (backup first; undone by itself if anything fails), then
 #                                        the site's duties once
 # The package's key is given on the command line only; it is never in this repository.
-S=/home/u791571885/ds3349s; R=/home/u791571885/domains/dar.ink/public_html; P=/opt/alt/php83/usr/bin/php
-SRC=https://raw.githubusercontent.com/a04032417-svg/Dar/a9049777f7a818ca0c91d8e9f68f68b5040915c3
+S=/home/u791571885/ds33410s; R=/home/u791571885/domains/dar.ink/public_html; P=/opt/alt/php83/usr/bin/php
+SRC=https://raw.githubusercontent.com/a04032417-svg/Dar/06ef39e822b0ea492a0a11c77b58a2d2b2397f95
 HI=1858e1142005ac3ae0fa8c1fa95075e0359b87021765ef4d46ab35058e465fa8
-ZH=84a7f52fa398424d0ae2a1f3698d6ee0cc34402706e0b24f0a85b9a0e5ea6876
-ENC=7d7974840aef4b57af41ae7601361327131ff3c09badd05579a87e67a0ef9f72
+ZH=f9c775fefc0966a0e724b3242843763733eb9f3a4d7a8d517fe5d5082aadcd37
+ENC=674421e1f860a2709311e60166c9fbea7800736b96dccb1269a4cb504cb73126
+NP=9
 ck() { $P -r 'exit(hash_file("sha256", $argv[1]) === $argv[2] ? 0 : 1);' "$1" "$2" || { echo "hash mismatch: $1"; return 1; }; }
 get() { curl -fsSL --retry 3 --connect-timeout 20 --max-time "$3" -o "$1" "$SRC/$1" && ck "$1" "$2"; }
+# the package travels in parts (the upload route takes ~700 KB at a time); joined, it must be the one hash
+parts() { : > dar.zip.enc; i=1; while [ $i -le $NP ]; do curl -fsSL --retry 3 --connect-timeout 20 --max-time 300 -o "p.$i" "$SRC/dar.zip.enc.$i" || return 1; cat "p.$i" >> dar.zip.enc; rm -f "p.$i"; i=$((i+1)); done; ck dar.zip.enc "$ENC"; }
 mkdir -p $S && cd $S || exit 1
 step=${1:-}; out=$S/$step.out
 case $step in check|install) ;; *) echo "unknown step"; exit 2 ;; esac
@@ -21,7 +24,7 @@ if [ -e "$out" ]; then cat "$out"; exit 0; fi
   if [ "$step" = check ]; then
     get host-install.php "$HI" 120 && $P host-install.php audit "$R"
   else
-    get host-install.php "$HI" 120 && get dar.zip.enc "$ENC" 900 && $P host-install.php install "$R" "$2" "${3:-$ZH}" && $P "$R/dar-sync.php" cron
+    get host-install.php "$HI" 120 && parts && $P host-install.php install "$R" "$2" "${3:-$ZH}" && $P "$R/dar-sync.php" cron
   fi
   echo "exit $?"
 } > "$out" 2>&1
